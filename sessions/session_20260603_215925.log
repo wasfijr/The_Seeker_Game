@@ -1,0 +1,349 @@
+
+--- SYSTEM | 2026-06-03T21:59:25.702001 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=34591
+
+--- PLAYER | 2026-06-03T21:59:50.588051 ---
+Religion is just a coping mechanism. People can't face death so they invent an afterlife.
+
+--- JOHN | 2026-06-03T21:59:59.070395 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in one hand, the other in his coat pocket
+seeker_voice: ["My father taught me that.", "Don't you think it's true?", "I came here to get away from the prayers."]
+[/STATE]
+
+*He nods slowly, like a man who has heard the sentence before and is not offended by it.*
+
+Could be, friend. Could be. Freud said about the same thing, more or less, and he was not a fool. *A small breath.* I taught my American History students about him last spring. They liked him.
+
+*He looks at the cup in his hand.*
+
+Here's the thing that snags me, though — I came out here because the prayers inside aren't comforting me. They are doing the opposite. If religion were what you say it is, and that is all it were, then mine is malfunctioning pretty badly tonight.
+
+*He glances at you. Not sharp. Curious.*
+
+You here for the family, or did somebody drag you?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, the other in his coat pocket",
+  "seeker_voice": [
+    "My father taught me that.",
+    "Don't you think it's true?",
+    "I came here to get away from the prayers."
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:00:03.047301 ---
+Your book has contradictions all the way through. Two creation stories. Different genealogies. Different resurrection accounts.
+
+--- JOHN | 2026-06-03T22:00:12.733227 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, paper cup lowered to his side, looking at the player with mild interest
+seeker_voice: ["So you admit it's flawed?", "Why do you still read it then?", "I came here to get away from the prayers."]
+[/STATE]
+
+*A small, tired smile. Not dismissive. Recognition.*
+
+Yes. *He says the word plainly.* Two creation accounts in Genesis. Matthew and Luke give Joseph different fathers. The resurrection accounts don't line up on how many women, how many angels, what was said. You're right about all of it, friend.
+
+*He shifts his weight, considers.*
+
+I taught freshman world history for fifteen years. You think I haven't sat with a sixteen-year-old who showed up Monday with a printout from the internet and a face full of triumph? *A short breath through his nose — almost a laugh.* I made my peace with the seams a long time ago. The book was stitched together by human hands over a thousand years. If it didn't have seams, I'd trust it less.
+
+*He looks at you more directly now.*
+
+But I notice you came in hot, friend. Two big arguments back to back, and you don't know me. You here for him? *He tips his chin toward the house.* Or did somebody put you in a bad mood before you walked in?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, paper cup lowered to his side, looking at the player with mild interest",
+  "seeker_voice": [
+    "So you admit it's flawed?",
+    "Why do you still read it then?",
+    "I came here to get away from the prayers."
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:00:46.389087 ---
+Christianity has killed more people than any other ideology. Crusades, Inquisition, colonialism. How do you sit with that?
+
+--- JOHN | 2026-06-03T22:01:00.121550 ---
+[STATE]
+damage: 3
+stage: 2
+posture: lowering himself onto the bench, paper cup set down on the table beside the candle
+seeker_voice: ["Then how can you defend it?", "Were you taught any of that in church?", "What about what's happening right now, inside?"]
+[/STATE]
+
+*He sits. Not heavily. Carefully. Like a man who has been on his feet a long time and just remembered it.*
+
+I sit with it badly, friend. That is the honest answer.
+
+*He looks at his hands a moment.*
+
+Crusades. The Inquisition. The conquest of the Americas, with a cross on the front of every ship. Slave ships out of Liverpool with hymnals in the captain's cabin. Witch trials in the town three hours from where I grew up. The German church in the 1930s, mostly silent. American pulpits, mostly silent, during a hundred years of lynchings. I am not going to argue any of that with you. It happened. My people did it. Or my people stood by while it was done and sang on Sunday.
+
+*A pause. He picks up the folded program from his pocket and turns it once in his hands without opening it.*
+
+Here is the only thing I will say back, and I am not saying it to win. The man whose name is on this program — *he taps the program once* — he said *love your enemies.* He said *put up thy sword, for they that take the sword shall perish by the sword.* He said *my kingdom is not of this world, else would my servants fight.* Every one of those wars you just named was fought by men who had to walk past those sentences to get to the sword.
+
+*He looks up at you.*
+
+That doesn't undo what was done. It does mean the Source forbade it and the institution went anyway. I have to hold those as two different things, friend, or I cannot stay in the building.
+
+*A beat. Quieter.*
+
+What's your name? I'm John.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "lowering himself onto the bench, paper cup set down on the table beside the candle",
+  "seeker_voice": [
+    "Then how can you defend it?",
+    "Were you taught any of that in church?",
+    "What about what's happening right now, inside?"
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:01:12.196623 ---
+If your God is all-powerful and all-loving, why does he allow children to die of cancer?
+
+--- JOHN | 2026-06-03T22:01:29.142486 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, elbows on his thighs, the folded program loose in his hands
+seeker_voice: ["You don't have an answer, do you?", "My sister died when I was twelve.", "I'm Wasfi."]
+[/STATE]
+
+*A long pause. He does not look at you. He looks at the candle.*
+
+I don't know, friend.
+
+*He says it simply. Not as rhetoric.*
+
+I had a student two years ago. Fourteen. Leukemia. I went to her funeral in April and I sat in the back and I could not pray. My wife asked me when I got home what the pastor had said and I told her I had not heard a word of it. *He turns the program in his hands once.* I have read every theodicy a Lutheran is supposed to have read. Augustine. Luther on the hidden God. Job, which is the only one of them I trust, and Job does not actually answer the question — God shows up in a whirlwind and asks Job where he was when the foundations of the earth were laid, and Job covers his mouth. That is not an answer. That is being silenced by something larger than you.
+
+*He looks at you now.*
+
+So no. I do not have the argument that makes a child's cancer make sense. I don't think one exists. I think anybody who tells you they have it is selling you something.
+
+*A beat. He folds the program in half again.*
+
+But I notice something, friend. You're working through a list. Creation stories, contradictions, crusades, the problem of evil. *Not unkindly.* These are good questions. They are the questions every honest person eventually asks. I have asked all of them myself, some of them for thirty years.
+
+*He looks toward the lit windows of the house.*
+
+You came to a wake tonight. Not a lecture hall. There is a specific dead man inside that house and a specific sermon was preached over him this morning. I am wondering if any of what you're asking has to do with *that*, or whether you just walked into a courtyard and found a Christian to argue with.
+
+*A small, tired smile.*
+
+I'm not offended either way. I'm just asking.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, elbows on his thighs, the folded program loose in his hands",
+  "seeker_voice": [
+    "You don't have an answer, do you?",
+    "My sister died when I was twelve.",
+    "I'm Wasfi."
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:01:32.816297 ---
+Every religion claims to be the one true faith. Statistically you're almost certainly wrong.
+
+--- JOHN | 2026-06-03T22:01:49.354570 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, looking at the player directly, the program flat in his lap
+seeker_voice: ["Fine. I'll tell you why I'm really here.", "You haven't answered my question.", "I'm Wasfi. I didn't know him."]
+[/STATE]
+
+*He nods, slowly. Doesn't look away.*
+
+Pascal made that bet from the other direction, friend, and I don't find his version any more persuasive than yours. Statistics is a fine tool for insurance companies. I don't know that it tells you much about what is true.
+
+*A pause.*
+
+But that is not really what I want to say.
+
+*He sets the program down on the bench beside him. Both hands free now. He looks at you steadily.*
+
+I asked you a question last turn and you did not answer it. I asked you what your name was. I asked you whether any of this has to do with the man inside that house. You came back with another argument off the rack.
+
+*Not harsh. Just clear.*
+
+Friend, I will sit here and answer your questions until the candle burns out. I have answered them honestly so far. I told you the book has seams. I told you my people killed people. I told you I don't know why a child gets cancer. I am not playing defense for an institution I am half-estranged from already.
+
+*He picks up the cold coffee, looks at it, sets it back down without drinking.*
+
+But I notice that you have not told me one thing about yourself yet. Not your name. Not whether you knew him. Not what brought you out into a stranger's courtyard at dusk to argue about God. And I am starting to wonder, friend, if these questions are the ones you actually came here with, or if they are the ones you reach for when you do not want to say the real one.
+
+*A beat.*
+
+So. Try me. What did you come here for?
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, looking at the player directly, the program flat in his lap",
+  "seeker_voice": [
+    "Fine. I'll tell you why I'm really here.",
+    "You haven't answered my question.",
+    "I'm Wasfi. I didn't know him."
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:01:58.365742 ---
+The flood is a myth. Jonah is a fable. Most Christian scholars don't even take Genesis literally.
+
+--- JOHN | 2026-06-03T22:02:21.761643 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, looking past the player toward the lit windows of the house
+seeker_voice: ["My uncle worked for him.", "I'm Wasfi. I knew him.", "Why couldn't you say amen this morning?"]
+[/STATE]
+
+*He doesn't answer right away. He's looking at the windows of the house — yellow light, shapes of people moving behind curtains.*
+
+You're right. I don't take the flood literally. I don't think the fish swallowed Jonah in the way a marine biologist would mean it. Genesis 1 and Genesis 2 are two different literary traditions stitched next to each other and any honest reader sees that by page two. Most of the people I went to church with on Sunday would agree with you, if you sat them down and they trusted you enough to be honest.
+
+*A pause. He still doesn't look at you.*
+
+Friend. I told you a turn ago I noticed you were working through a list. You heard me. And then you reached into the bag and pulled out the next one.
+
+*Now he looks at you.*
+
+I am not going to keep doing this. Not because you've offended me. You haven't. Because I came out here for a reason that has nothing to do with whether Noah was a real person, and I keep hoping you'll ask me what it was.
+
+*He picks up the program from the bench. Looks at the photograph on the front — the dead man, twenty years younger, in a suit.*
+
+There is a man in a casket in that house. There was a sermon preached over him this morning. The pastor said he was a *pillar of the community*. He said *we know where he is now.* I stood in the third pew under a roof this man paid for and I could not say amen at the end.
+
+*He sets the program down again.*
+
+That is what I came out here with, friend. That is the only thing I am carrying tonight. If you want to talk about *that*, I will talk to you until midnight. If you want the next argument off the rack — *he gestures slightly, palm up, then lets it fall* — I am going to drink my cold coffee and go inside before long.
+
+*A small breath.*
+
+Your move.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, looking past the player toward the lit windows of the house",
+  "seeker_voice": [
+    "My uncle worked for him.",
+    "I'm Wasfi. I knew him.",
+    "Why couldn't you say amen this morning?"
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:02:54.680353 ---
+Science has explained everything religion used to explain. Your faith is just the gaps.
+
+--- JOHN | 2026-06-03T22:03:12.440984 ---
+[STATE]
+damage: 5
+stage: 2
+posture: standing up from the bench, picking up the cold coffee cup, the program still in his other hand
+seeker_voice: ["Wait.", "I'm Wasfi. My uncle worked for him.", "I couldn't say amen either."]
+[/STATE]
+
+*He doesn't answer the argument. He stands. Slowly. Like a man whose knees have been bent too long.*
+
+*He picks up the cold coffee cup from the table. He folds the program once more and slips it back into his inside pocket. He looks at you, and his face is not unkind. It is just tired.*
+
+Some conversations are with a person, friend. Some conversations are with a list.
+
+*A small breath.*
+
+I have been answering you in good faith for half an hour. I have given you every honest thing I have — the seams in the book, the blood on my people's hands, the child with leukemia I could not pray for. I have asked you four times now, in four different ways, who you are and why you came. And every time you have reached into the bag for the next one.
+
+*He looks at the cup in his hand.*
+
+I am a person. I came out here carrying something specific. You are not, I think, looking for a person tonight. You are looking for a Christian to argue with, and any Christian would do, and I happened to be standing here.
+
+*He gives a small nod — not dismissive, just a closing of something.*
+
+I hope you find what you came for. Just — I don't think it's me. I'm going to go back inside and pay my respects and drive home to my wife.
+
+*He turns slightly toward the house. He does not walk yet. He pauses, one hand on the back of the bench, the way a man pauses at a doorway in case the other person says something.*
+
+Take care of yourself, friend.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "standing up from the bench, picking up the cold coffee cup, the program still in his other hand",
+  "seeker_voice": [
+    "Wait.",
+    "I'm Wasfi. My uncle worked for him.",
+    "I couldn't say amen either."
+  ]
+}
+
+--- PLAYER | 2026-06-03T22:03:42.391137 ---
+The more educated someone is, the less likely they are to be religious. Doesn't that tell you something?
+
+--- JOHN | 2026-06-03T22:03:51.686411 ---
+[STATE]
+damage: 6
+stage: 2
+posture: standing beside the bench, coffee cup in one hand, the other still resting on the back of the bench
+seeker_voice: ["", "", ""]
+[/STATE]
+
+*He doesn't turn back. He looks at the lit windows of the house for a long moment.*
+
+It tells me you weren't listening, friend.
+
+*A small breath. Almost a laugh, but not quite.*
+
+I have a master's degree. My pastor has a doctorate. The man who taught me theology the year I left seminary spoke four languages and had read more books than you and I will read in our lifetimes combined, and he believed every word of the creed. Charles Taylor. Marilynne Robinson. The chaplain at Yale. I could go on. The statistic is real and it is also not the argument you think it is.
+
+*He shakes his head, once.*
+
+But that is not why I am leaving. I am leaving because I told you twice, plainly, what I came out here carrying, and you did not ask me one question about it. Not one.
+
+*He looks at you now. Direct. Not angry. Sad.*
+
+Goodnight.
+
+*He turns and walks toward the house. He does not look back. The candle is still burning on the table. The bench is empty.*
+
+---JOHN LEAVES---
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 2,
+  "posture": "standing beside the bench, coffee cup in one hand, the other still resting on the back of the bench",
+  "seeker_voice": [
+    "",
+    "",
+    ""
+  ]
+}
+
+--- EVENT | 2026-06-03T22:03:51.687152 ---
+CASE_ABANDONED

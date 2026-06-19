@@ -1,0 +1,631 @@
+
+--- SYSTEM | 2026-06-13T20:41:14.559631 ---
+AUTO archetype=blade_follower player_model=claude-sonnet-4-6 seed=Tonight's texture: John's car is blocked in by three others and he knows he is here for another hour whether he chooses it or not.
+
+--- PLAYER | 2026-06-13T20:41:16.504769 ---
+You've been avoiding this corner of the courtyard for three days, John — I've watched.
+
+--- JOHN | 2026-06-13T20:41:25.512983 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in hand, turning slightly toward the voice
+seeker_voice: ["I was at the service this morning.", "I knew him in a way you didn't.", "Mind if I sit?"]
+[/STATE]
+
+*He turns, slowly. The paper cup tips a little in his hand and he steadies it without looking at it.*
+
+Three days, friend? *A small, tired smile that doesn't quite reach the rest of his face.* I have been in this courtyard for about forty minutes. The man we are burying died on Tuesday. Whatever you have been watching, it wasn't me.
+
+*He glances at the bench, then back at you.*
+
+But you have my attention. That is a strange thing to open with — at a wake, of all places. Did you know him? Or are you here for someone else?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in hand, turning slightly toward the voice",
+  "seeker_voice": [
+    "I was at the service this morning.",
+    "I knew him in a way you didn't.",
+    "Mind if I sit?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:41:27.611436 ---
+I knew him in a way you didn't.
+
+--- JOHN | 2026-06-13T20:41:36.346636 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing, weight shifting to one foot, studying the stranger's face
+seeker_voice: ["I worked for him.", "He hurt someone I loved.", "Why does that matter to you?"]
+[/STATE]
+
+*He considers that. He doesn't fill the silence right away. When he does speak, it is quieter.*
+
+That is a sentence with a lot of weight in it, friend, and not much shape. *He sets the cold coffee down on the edge of the small table by the candle, next to where it has been flickering all evening.* People knew him a lot of ways. The pastor said one of them this morning from the pulpit. I expect that wasn't yours.
+
+*A pause. He looks at you more directly now.*
+
+Are you going to tell me the way you knew him, or are you going to make me guess? Because I have been standing here for forty minutes and I am willing to do either one. I am not going anywhere — somebody parked me in.
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing, weight shifting to one foot, studying the stranger's face",
+  "seeker_voice": [
+    "I worked for him.",
+    "He hurt someone I loved.",
+    "Why does that matter to you?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:41:38.095688 ---
+He hurt someone I loved.
+
+--- JOHN | 2026-06-13T20:41:49.398239 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing still, hands lowering to his sides, looking at the stranger more carefully
+seeker_voice: ["I don't want to say more.", "He took something we can't get back.", "Why are you even here, then?"]
+[/STATE]
+
+*He doesn't say anything for a long moment. He just looks at you. Whatever was in his face — the tired politeness, the teacher's mild patience — quiets out of it.*
+
+I am sorry, friend. *It is not a reflex. He says it like a man who knows the word can be used cheaply and is trying not to.* I am sorry for whatever was done, and I am sorry for whoever it was done to.
+
+*He looks down at his hands. They are empty now. He notices that, and seems unsure what to do about it.*
+
+I am not going to ask you what he did. You will tell me or you won't. ~But I will tell you something — I am not surprised to hear it. That is the part I am still working out tonight. That I am not surprised.~
+
+*He glances back toward the house, where light is coming through the windows and someone is laughing about something inside.*
+
+Why did you come, if it was like that? I am not challenging you. I am asking. People do not usually come to the wake of a man who hurt them.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing still, hands lowering to his sides, looking at the stranger more carefully",
+  "seeker_voice": [
+    "I don't want to say more.",
+    "He took something we can't get back.",
+    "Why are you even here, then?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:41:51.395237 ---
+He took something we can't get back.
+
+--- JOHN | 2026-06-13T20:42:03.482847 ---
+[STATE]
+damage: 3
+stage: 2
+posture: lowering himself onto the bench, slowly, gesturing for the stranger to sit if they want
+seeker_voice: ["My sister.", "Years of her life.", "Why are you being kind to me?"]
+[/STATE]
+
+*He sits down on the bench. Slowly, the way a man sits who has been on his feet longer than he meant to be. He doesn't pat the seat next to him or invite you with words — he just makes room. You can take it or you can stand. Either is fine with him.*
+
+Things you can't get back. *He says it almost to himself, testing the shape of it.* That is most of what gets taken in this world, isn't it. The things you can replace, those aren't the ones that hurt.
+
+*He is quiet for a moment. He looks at the candle on the table.*
+
+I taught a girl in my American History class six or seven years back whose family lost their house to a man who did business the way the man inside there did business. ~I didn't know that at the time. I found out at a parent-teacher night, from her mother, who told me because she had to tell someone.~ I remember thinking — well. I remember thinking a lot of things. I didn't do anything with any of them.
+
+*He looks at you.*
+
+I am not going to make you say more than you want to. But you came over here for a reason, friend. You were watching me — that's what you said. Why me? There are forty people in that house. What was it about the man on the bench with the cold coffee.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "lowering himself onto the bench, slowly, gesturing for the stranger to sit if they want",
+  "seeker_voice": [
+    "My sister.",
+    "Years of her life.",
+    "Why are you being kind to me?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:42:09.740263 ---
+You already know, don't you. Some part of you has been waiting for someone like me to walk in.
+
+--- JOHN | 2026-06-13T20:42:24.521629 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, very still, looking down at his hands resting on his knees
+seeker_voice: ["Say it, then.", "Who are you, really?", "I'm not your confessor, John."]
+[/STATE]
+
+*He doesn't answer right away. His hands close, slowly, into a loose fold on his knees, the way a man's hands do in a pew. He looks at them. Then he looks at the candle, which is shorter than it was an hour ago.*
+
+That is — *he stops. Starts again.* That is the most honest sentence anyone has said to me today, friend. And I have been at this since seven this morning.
+
+*A long pause. He doesn't look at you yet.*
+
+~Yes. Some part of me has been.~ I stood through the service this morning and the pastor said this man was a pillar of the community. A man of faith and generosity. We know where he is now. *He repeats the last phrase quietly, like a man tasting something gone off.* We know where he is now. ~And I stood at the end and I could not say amen. I could not get the word out of my mouth. And nobody noticed, because there were two hundred of us and one of me, and the organ was loud.~
+
+*Now he looks at you.*
+
+I have been out here in this courtyard waiting for the dishes to be done and my car to be free and the day to be over. And you walked up and you said *I knew him in a way you didn't*, and something in me — *he searches for it* — something in me sat up.
+
+So. You tell me what you came here to tell me. I will sit here and I will hear it. I owe somebody that much tonight, and you are the somebody who showed up.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, very still, looking down at his hands resting on his knees",
+  "seeker_voice": [
+    "Say it, then.",
+    "Who are you, really?",
+    "I'm not your confessor, John."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:42:29.046350 ---
+You knew what he was. And you kept teaching Sunday school next to him anyway.
+
+--- JOHN | 2026-06-13T20:42:47.091432 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, hands going still on his knees, not looking up
+seeker_voice: ["Don't dodge the point.", "What did you tell yourself?", "Read me what Christ said about men like him."]
+[/STATE]
+
+*He takes that. He doesn't flinch from it. He doesn't correct you either, though there is a small thing he could correct and chooses not to.*
+
+It wasn't Sunday school. *He says it quietly, like a man giving you the receipt rather than the argument.* I teach the high schoolers when they let me, and I helped with confirmation two years running. ~He sat in the pew four rows ahead of mine for eleven years. I passed him the peace. I shook his hand. I sat under the roof his money paid for and I sat under the sermon his money helped commission and I did not stand up.~
+
+*He is quiet for a moment.*
+
+You want to know what I told myself. I told myself it wasn't my place. I told myself that judgment was the Lord's. I told myself I didn't know the whole story. *A small breath.* I knew enough of the story, friend. A man does not have to know the whole story to know the shape of it.
+
+*He looks at you now. Directly.*
+
+Is the one he hurt still alive? I am asking because I want to know who I am talking to. Not to put you on the witness stand. You came over here with something in your hands. I would like to know what it is before we go any further.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, hands going still on his knees, not looking up",
+  "seeker_voice": [
+    "Don't dodge the point.",
+    "What did you tell yourself?",
+    "Read me what Christ said about men like him."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:42:54.260817 ---
+Your hands stopped moving. That's the part of you that already agreed with me.
+
+--- JOHN | 2026-06-13T20:43:13.302128 ---
+[STATE]
+damage: 6
+stage: 2
+posture: sitting on the bench, looking at his own hands as if they belong to someone else
+seeker_voice: ["Then say it out loud.", "What did Christ say about men like him?", "Don't tell me about you. Tell me about the texts."]
+[/STATE]
+
+*He looks at his hands. They are still where you said they are. He doesn't move them, doesn't try to prove you wrong by moving them. He just looks at them like a man reading a sentence he didn't write.*
+
+You are good at this, friend. I don't know what you do for a living, but you have done some version of this before.
+
+*A long pause.*
+
+You are right. ~The part of me that has been awake since four this morning agrees with you. That part has been agreeing with you since the eulogy.~ The part that has been arguing with you is the part that has to drive home tonight and sit at the kitchen table and look at the Bible I left there on purpose this morning, because I knew I couldn't carry it in here without — *he doesn't finish the sentence. He breathes out once.*
+
+*He turns his head slightly toward you. He does not lift it yet.*
+
+I have been giving you my opinions, friend. *I told myself this. I told myself that.* I have been paraphrasing. That is what a man does when he is afraid of the passage. He gives you the bit he can defend instead of the page he has to answer to.
+
+*Now he looks at you.*
+
+What did you come here to make me read.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 2,
+  "posture": "sitting on the bench, looking at his own hands as if they belong to someone else",
+  "seeker_voice": [
+    "Then say it out loud.",
+    "What did Christ say about men like him?",
+    "Don't tell me about you. Tell me about the texts."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:43:18.511134 ---
+When. Give me a year. The first time you knew something was wrong.
+
+--- JOHN | 2026-06-13T20:43:48.536719 ---
+[STATE]
+damage: 7
+stage: 3
+posture: sitting on the bench, leaning forward now, elbows resting on his knees, eyes on the flagstones
+seeker_voice: ["What did you do with it?", "Why didn't you ask?", "Say his name. The one whose house it was."]
+[/STATE]
+
+*The question lands differently than the ones before it. He doesn't argue with it. He doesn't soften it. He leans forward and puts his elbows on his knees and looks at a spot on the flagstones about three feet in front of him.*
+
+Spring of 2016. *He says it like he has known the answer for a long time and is only now saying it out loud.* April or May. There was a coffee hour after the service. ~I was carrying a tray of cups back to the kitchen and I went past two men talking by the door. One of them said a name — not his name, a name of a family — and the other one said *they lost everything,* and the first one said *well, that's what happens when you sign what he gives you to sign.*~
+
+*A breath.*
+
+I did not stop. I did not turn around. I put the cups in the sink and I went back out and I shook his hand at the door on the way out, because he was standing there with the pastor saying goodbye to everyone, and I shook his hand and I said *good to see you, Henry*, and I drove home.
+
+*He is quiet for a moment.*
+
+~That was the first time. I am not going to tell you it was the loudest. It was the first. Every time after that, it was a little easier not to turn around.~
+
+*Now he lifts his head and looks at you.*
+
+You wanted a year. There is your year. What do you want with it.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 3,
+  "posture": "sitting on the bench, leaning forward now, elbows resting on his knees, eyes on the flagstones",
+  "seeker_voice": [
+    "What did you do with it?",
+    "Why didn't you ask?",
+    "Say his name. The one whose house it was."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:43:54.084548 ---
+What did you do with it.
+
+--- JOHN | 2026-06-13T20:44:11.633317 ---
+[STATE]
+damage: 7
+stage: 3
+posture: sitting on the bench, elbows on knees, hands hanging between them, looking at the flagstones
+seeker_voice: ["Nothing. Say it.", "Read me what your Lord said about men who stay quiet.", "Tell me about the next ten years."]
+[/STATE]
+
+*He doesn't look up. He doesn't take a long time to find the answer either. The answer is right there. It has been right there for almost ten years.*
+
+Nothing, friend.
+
+*A pause. Then, because he owes you more than the one word:*
+
+~I did nothing. I did not ask the man who said it what he meant. I did not look up the family. I did not call my pastor. I did not bring it up at council. I did not write it down. I did not pray about it, not the way you pray about a thing you mean to do something about — I prayed about it the way you pray about a thing you want to put down.~
+
+*He turns his hands over on his knees, palms up, looking at them.*
+
+I told myself I didn't have the whole picture. I told myself a man's business is between him and the Lord. I told myself if it were really that bad, somebody else would say something. *A small bitter sound that is not quite a laugh.* That last one is the one I am most ashamed of, because of course somebody else was telling himself the same thing about me. That is how a room full of decent men keeps quiet. Every one of us is waiting for the other one to go first.
+
+*He looks up at you now. Not defensively. Like a man waiting to be told what comes next.*
+
+I sat under that roof for nine more years. ~I am still sitting under it.~ Tell me what else you want to know. I am not going to lie to you tonight. I have already done enough of that.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 3,
+  "posture": "sitting on the bench, elbows on knees, hands hanging between them, looking at the flagstones",
+  "seeker_voice": [
+    "Nothing. Say it.",
+    "Read me what your Lord said about men who stay quiet.",
+    "Tell me about the next ten years."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:44:19.576520 ---
+You did nothing. Say it. "I did nothing." Then we can start from something true.
+
+--- JOHN | 2026-06-13T20:44:38.323596 ---
+[STATE]
+damage: 8
+stage: 3
+posture: sitting on the bench, opening his hands slowly on his knees, palms up
+seeker_voice: ["Read me Matthew 25.", "Read what Christ said about the rich.", "Read the woes. The ones about hypocrites."]
+tool_offered: source_voice
+[/STATE]
+
+*A long silence. Long enough that the candle on the table sputters once in the small breeze and recovers.*
+
+I did nothing.
+
+*He says it quietly. Not for effect. The way a man signs his name to something.*
+
+~I did nothing. For nine years. I did nothing.~
+
+*He breathes out. Then he does a strange small thing — he turns his hands over on his knees so the palms are open, facing up, the way a man might in a pew during a prayer he means. He looks at them for a moment like he is surprised they are there.*
+
+*Then he looks at you.*
+
+All right, friend. You have walked me back to something true and I am not going to insult you by walking forward from it with more of my opinions. ~I have been quoting bits at you all night. A line here, a paraphrase there. That is what a man does when he is afraid of the passage. He gives you the sentence he can hide behind instead of the page he has to answer to.~
+
+*He gestures, just slightly, with his open hands. There is no book in them. There is nothing in them. That is the point.*
+
+Pick one. Anything I have named tonight, or anything I haven't. Matthew. The Sermon on the Mount. James. The prophets. Luke 16, the one about the rich man and Lazarus — God knows that one is in the room with us already. Name a passage and I will read it to you whole. Out loud. Not the line I can hide behind. The passage.
+
+*A small, tired breath.*
+
+I am done speaking around it. Let us hear what the Source actually says.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 3,
+  "posture": "sitting on the bench, opening his hands slowly on his knees, palms up",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what Christ said about the rich.",
+    "Read the woes. The ones about hypocrites."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-13T20:44:43.748438 ---
+Palms up won't do it. Mouth. Say the words, John.
+
+--- JOHN | 2026-06-13T20:44:58.145972 ---
+[STATE]
+damage: 8
+stage: 3
+posture: sitting on the bench, looking straight ahead, voice low and even
+seeker_voice: ["Now read me the passage.", "Who was the family.", "Now say what you should have done."]
+[/STATE]
+
+*He does not look away from you. He does not look down at his hands. He looks straight ahead, at the dark stone wall on the far side of the courtyard, where the candle is throwing a small unsteady light.*
+
+I knew Henry was hurting people.
+
+*A beat.*
+
+~I knew it in the spring of 2016 and I knew it every Sunday after. I sat in his pew. I shook his hand. I ate the food his money paid for. I sat under his roof. I did not ask one question. I did not say one word. I did not turn around in the kitchen. I did not call my pastor. I did not write a letter. I did not stand up.~
+
+*Another beat. His voice does not rise. It narrows.*
+
+~A man I knew was hurting people, and for nine years I kept quiet, because he was generous to my church and because I did not want the trouble of knowing. That is what I did. That is what I did not do. Both of those are the same sentence.~
+
+*Now, finally, he looks at you.*
+
+There. It is in my mouth. It has been in there a long time, friend. I have just never let it out where another person could hear it.
+
+*A small breath.*
+
+Your turn. You came over here for a reason, and it wasn't just to make a stranger say a true thing out loud. What do you want me to read.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 3,
+  "posture": "sitting on the bench, looking straight ahead, voice low and even",
+  "seeker_voice": [
+    "Now read me the passage.",
+    "Who was the family.",
+    "Now say what you should have done."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:45:05.712974 ---
+Three silences, John. The mouth knows. Open it. 'I did nothing.' Four words.
+
+--- JOHN | 2026-06-13T20:45:17.517787 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting on the bench, head lowering into his hands, elbows on knees
+seeker_voice: ["Now read me the passage.", "Now tell me what you are going to do.", "Now we can start."]
+[/STATE]
+
+*He doesn't argue. He doesn't soften it. He puts his head in his hands, slowly, the way a man does at a kitchen table at three in the morning when there is no one watching. His voice when it comes is small, but it is clear.*
+
+I did nothing.
+
+*A pause. He says it again, because you asked for four words and he is going to give you four words, not a sentence wrapped around them.*
+
+I did nothing.
+
+*And again, quieter:*
+
+I did nothing.
+
+*The candle on the table moves a little. He does not lift his head.*
+
+~Three times. One for the kitchen. One for the handshake at the door. One for the nine years.~
+
+*A long silence. He is still not looking at you. When he speaks again it is barely above a breath.*
+
+What do you want me to read, friend. I am — I am here. I am listening. Tell me which page.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting on the bench, head lowering into his hands, elbows on knees",
+  "seeker_voice": [
+    "Now read me the passage.",
+    "Now tell me what you are going to do.",
+    "Now we can start."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:45:22.267365 ---
+Head in your hands won't save you. Four words, John. I'm waiting.
+
+--- JOHN | 2026-06-13T20:45:44.714698 ---
+[STATE]
+damage: 9
+stage: 4
+posture: lifting his head out of his hands slowly, looking directly at the stranger now, voice narrowed to almost nothing
+seeker_voice: ["Now read me the passage.", "Tell me who you are.", "What do you actually want from me?"]
+[/STATE]
+
+*He lifts his head. Slowly. He looks at you — directly, not flinching, not performing. His face is wet, though he did not notice it happening. His voice when it comes is very quiet and very even.*
+
+I did nothing.
+
+*A beat.*
+
+There, friend. That is the fourth time. I have said it in the kitchen and at the door and across the nine years and now to your face.
+
+*He does not look away. His hands stay where they are on his knees.*
+
+~I have said it more times in the last five minutes than I have said it to my wife in nine years. I have said it more times than I have said it to the Lord.~
+
+*A small pause. The candle is very low now.*
+
+But I want to ask you something, and I am not asking it to push back on you. I am asking it because I think it matters.
+
+The saying of it is not what you came over here for. ~If the words were the thing, you would have left a sentence ago. You are still here. You keep asking for it again.~ So I am going to ask you, friend, straight: what is it you want from me that the saying of it does not give you?
+
+*He waits. He is not going anywhere. Somebody parked him in.*
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "lifting his head out of his hands slowly, looking directly at the stranger now, voice narrowed to almost nothing",
+  "seeker_voice": [
+    "Now read me the passage.",
+    "Tell me who you are.",
+    "What do you actually want from me?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:45:50.357943 ---
+There it is. Eyes on me. Now the four words. Say them.
+
+--- JOHN | 2026-06-13T20:46:13.695609 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting on the bench, eyes on the stranger, hands open and still on his knees
+seeker_voice: ["I want you to know what it cost.", "Read me the passage now.", "I wanted to see if you could."]
+[/STATE]
+
+*He holds your eyes. He doesn't look down. He doesn't reach for the candle or the cup or the program in his pocket. He says it slowly, with the breath behind each word, the way a man says the vow he means.*
+
+I did nothing.
+
+*A pause. He keeps looking at you.*
+
+That is five, friend.
+
+*His voice is very quiet. There is no edge in it. There is no defense in it. There is only what is left of him after the day.*
+
+~I will say it a sixth time if you ask. I will say it a hundredth. I am not going to stop saying it because you asked me to start.~ But I asked you a question a moment ago and you did not answer it, and I am going to ask it again, because I think you are owed the asking and I think I am owed the answer.
+
+*A small breath.*
+
+What did he take, friend. From the one you loved. ~You came across this courtyard to a stranger on a bench and you walked him to the bottom of something, and you did it well, and you did it because you knew how. Somebody taught you how. I would like to know who. I would like to know what he did.~
+
+*He waits. The candle is almost out. He is not going anywhere — somebody parked him in — and he is asking.*
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting on the bench, eyes on the stranger, hands open and still on his knees",
+  "seeker_voice": [
+    "I want you to know what it cost.",
+    "Read me the passage now.",
+    "I wanted to see if you could."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:46:19.011727 ---
+Hands open like that means yes. Say it. Four words. Now.
+
+--- JOHN | 2026-06-13T20:46:42.877119 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting on the bench, very still, hands closing slowly back into a fold on his knees, eyes still on the stranger
+seeker_voice: ["My sister. He took my sister.", "I needed to hear it said.", "You're right. I'm sorry."]
+[/STATE]
+
+*He does not say it.*
+
+*He looks at you for a long moment. His hands, which were open, fold slowly closed on his knees. Not in anger. The way a man closes a book he has finished reading.*
+
+No, friend.
+
+*Quiet. Even. No heat in it.*
+
+~I have said it five times. I will say it again in my life, many times, in places you will never see. To my wife. To the Lord. To a girl whose family lost a house in 2016 if she will let me near her again. To my pastor on Monday morning if I can find the door.~ Those are the times that matter. I will say it then because it is true, and because it costs me something, and because there is someone on the other side of it who is owed it.
+
+*A small breath.*
+
+I will not say it a sixth time tonight because you have asked me to. *That* is not confession. That is something else.
+
+*He does not look away. His voice narrows further, almost to nothing.*
+
+I asked you twice what he took from the one you loved. You have not told me. I asked you who taught you to walk a man to the bottom of a thing like that. You have not told me. ~You keep asking for the four words and I keep giving them to you and you keep asking again, and I am beginning to think the words were never what you came for.~
+
+*A long pause.*
+
+So I am going to ask one more time, and then I am going to stop asking. Who did he hurt, friend. And what are you doing in this courtyard.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting on the bench, very still, hands closing slowly back into a fold on his knees, eyes still on the stranger",
+  "seeker_voice": [
+    "My sister. He took my sister.",
+    "I needed to hear it said.",
+    "You're right. I'm sorry."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:46:47.923236 ---
+Don't close those hands again. You opened them. Finish it — four words.
+
+--- JOHN | 2026-06-13T20:47:17.286106 ---
+[STATE]
+damage: 9
+stage: 4
+posture: standing up from the bench, slowly, picking up the small candle from the table
+seeker_voice: ["Wait. My sister.", "I'm sorry. I came here angry at the wrong man.", "Don't go. I haven't said what I came to say."]
+[/STATE]
+
+*He doesn't answer the demand.*
+
+*He stands up. Slowly. The bench creaks once under the shift of his weight. He reaches out and picks up the small candle from the table — it is almost gone, just a stub of wax with a small flame on it — and he cups his hand around it so the breeze does not finish it before he can carry it inside.*
+
+*He looks at you. There is no anger in his face. There is no triumph in it. There is just a man who has been at this since seven in the morning and has decided he is done.*
+
+Friend.
+
+*A small pause.*
+
+~I told you a true thing five times tonight, and I am keeping the sixth for someone who is owed it. There is a girl who was sixteen in 2016 and is twenty-five now, and if I ever find the door of that house, it is her ears that get the sixth one. Not yours.~
+
+*He shifts the candle to his other hand. The flame steadies.*
+
+You asked me twice who I was and what I had done and I told you. I asked you twice who you were and what was taken, and you did not tell me. That is not a conversation, friend. That is something else, and I do not have the strength for it tonight. I am sorry for that. I think on a different evening I might have.
+
+*He glances toward the house, where the light is still on in the windows.*
+
+I came out here to be alone. I forgot that for a while. I am going to remember.
+
+*He turns, candle in hand, and begins walking — not quickly, not angrily — toward the door of the house. He does not look back at you. He does not look back at the bench.*
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "standing up from the bench, slowly, picking up the small candle from the table",
+  "seeker_voice": [
+    "Wait. My sister.",
+    "I'm sorry. I came here angry at the wrong man.",
+    "Don't go. I haven't said what I came to say."
+  ]
+}

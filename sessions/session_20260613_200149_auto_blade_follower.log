@@ -1,0 +1,651 @@
+
+--- SYSTEM | 2026-06-13T20:01:49.929764 ---
+AUTO archetype=blade_follower player_model=claude-sonnet-4-6 seed=Tonight's texture: John's left shoe is untied and he knows it. The hymn they sang today was pitched too high for the room and it's still in his head.
+
+--- PLAYER | 2026-06-13T20:01:52.101281 ---
+You've been avoiding this corner of the courtyard all week, John.
+
+--- JOHN | 2026-06-13T20:02:00.020556 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup of cold coffee in one hand, weight shifted onto his right foot
+seeker_voice: ["I was at the service.", "I knew him better than I'd like.", "Should I know you?"]
+[/STATE]
+
+*He looks up, slow, and studies you for a moment longer than is polite. The cup tips slightly in his hand and he steadies it.*
+
+All week. *A small, tired sound that is almost a laugh.* Friend, I have to tell you — I do not know you. And I do not know what you mean by *this* corner. I have been in this courtyard maybe three times in my life. Once to help refinish that bench, two years back. *He nods toward it.* Once for a wedding. And tonight.
+
+*He sets the cup down on the small table beside the candle, like a man laying down a tool he is finished with.*
+
+So you have me at a disadvantage. Either you know something about me I have not yet learned about myself — which the Lord knows is possible — or you have me confused with somebody else. Which is it?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup of cold coffee in one hand, weight shifted onto his right foot",
+  "seeker_voice": [
+    "I was at the service.",
+    "I knew him better than I'd like.",
+    "Should I know you?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:02:01.841621 ---
+I was at the service.
+
+--- JOHN | 2026-06-13T20:02:11.673148 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing, hands now empty, weight settling onto the bench beside him as he lowers himself down
+seeker_voice: ["I couldn't say amen either.", "The pastor laid it on thick.", "Did you know him well?"]
+[/STATE]
+
+*He nods slowly, accepting the redirection without pressing it. He sits down on the bench. The shoelace on his left foot is undone; he sees it, does not bend to tie it.*
+
+A lot of people were at the service. I do not remember faces well anymore — I used to. *He looks at his hands, then up.* My pastor preached for forty minutes. Did you sit through the whole thing, friend, or did you slip in at the end like a sensible person?
+
+*A beat.*
+
+I ask because — *he stops, considers, starts again* — because I have been standing out here trying to decide what I heard this morning. And I think I would like to know what someone else heard. Someone who was not raised on it.
+
+You were not, I think. Raised on it. *He says this without challenge, like a man noting the weather.* I could be wrong.
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing, hands now empty, weight settling onto the bench beside him as he lowers himself down",
+  "seeker_voice": [
+    "I couldn't say amen either.",
+    "The pastor laid it on thick.",
+    "Did you know him well?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:02:13.088034 ---
+I couldn't say amen either.
+
+--- JOHN | 2026-06-13T20:02:23.307877 ---
+[STATE]
+damage: 2
+stage: 1
+posture: sitting on the bench, turned slightly toward the player now, hands loose between his knees
+seeker_voice: ["What stopped you?", "It was the part about 'a man of faith.'", "I don't even know why I came tonight."]
+[/STATE]
+
+*He goes still. Looks at the player a long moment, then away — across the courtyard at nothing in particular. When he speaks his voice has dropped half a register.*
+
+Then we are two, friend.
+
+*He lets that sit.*
+
+I stood there at the end with my mouth shut and my wife looked at me sideways. She did not say anything. ~She knows what I look like when I cannot make a word come out.~
+
+*He turns the wedding ring on his finger once, twice.*
+
+I would like to ask you something and you can tell me to mind my business. What was the moment, for you? The sentence that you could not get past. Because for me — *he almost smiles, bitterly* — for me it was *we know where he is now*. Four words. The man said four words and I felt my jaw lock.
+
+*A pause.*
+
+What were yours?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "sitting on the bench, turned slightly toward the player now, hands loose between his knees",
+  "seeker_voice": [
+    "What stopped you?",
+    "It was the part about 'a man of faith.'",
+    "I don't even know why I came tonight."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:02:24.817211 ---
+It was the part about 'a man of faith.'
+
+--- JOHN | 2026-06-13T20:02:37.460587 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, leaning forward slightly, elbows on his knees, looking at his shoes
+seeker_voice: ["Did you know what he actually did?", "What does faith mean to you, then?", "Why did you come out here alone?"]
+[/STATE]
+
+*He nods, slowly, like the words land somewhere he was already standing.*
+
+A man of faith. *He repeats it quietly, as if testing whether it weighs the same the second time.* Yes. That one.
+
+*He reaches into his jacket pocket and takes out the folded funeral program. He doesn't open it. He turns it over once in his hands and sets it on his knee.*
+
+You know what is in the Book of James, friend? I will not quote it at you — I am trying not to do that tonight, the Lord knows I have done enough of it in my life. But James says — *faith without works is dead.* Dead. He uses the word twice. He is not subtle.
+
+*He looks up.*
+
+So when a man stands in a pulpit and tells me a person was *of faith* — I want to ask him what he means. Does he mean the man believed certain propositions? Recited a creed? Wrote checks? *A small dry sound.* Because if that is what faith is, then James was wrong, and my whole tradition has been reading him wrong for five hundred years.
+
+*He looks at the program on his knee.*
+
+~I sat under the roof he paid for and I did not stand up.~ And now I am out here in the dark talking to a stranger about it.
+
+*He looks at the player directly.*
+
+You knew him, didn't you. Or you knew someone he touched. You did not come to this courtyard by accident.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, leaning forward slightly, elbows on his knees, looking at his shoes",
+  "seeker_voice": [
+    "Did you know what he actually did?",
+    "What does faith mean to you, then?",
+    "Why did you come out here alone?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:02:42.635575 ---
+He wasn't, was he. Not at the end.
+
+--- JOHN | 2026-06-13T20:03:00.269861 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting forward on the bench, the funeral program now being folded and refolded between his fingers
+seeker_voice: ["What did he do, John?", "Then why did your pastor say it?", "What were you supposed to do about it?"]
+[/STATE]
+
+*The program goes flat, then folded, then flat again under his thumbs. He does not look up.*
+
+Friend. *A long pause.* I am not going to answer that the way you are asking it. Not because the question is wrong — the question is honest, and honest questions deserve honest men, and I am trying tonight to be one — but because the answer you are reaching for is a verdict, and a verdict is not mine to speak. ~I will not stand in this courtyard and put a man in hell.~ Even one I — *he stops* — even one I have reasons to.
+
+*He sets the program down on the bench between you.*
+
+But I will tell you what I know. I know there are families in this county who do not say his name without a hand going to their throat. I know what a non-disclosure agreement looks like — I have a friend who signed one. I know what it sounds like when a man gives forty thousand dollars to a congregation and then a sermon arrives, in due time, about how the Lord rewards generosity. I know what was said this morning from the pulpit, and I know what was not said.
+
+*He looks at you finally.*
+
+Was he a man of faith at the end? *A breath.* I do not know what was in his heart at the end. The Lord knows. I am not Him. But I will tell you this much — *and his voice narrows, not louder, but tighter* — the man who lived in front of me for twenty years did not look like a man who was afraid of the Sermon on the Mount. And I think a man should be a little afraid of the Sermon on the Mount.
+
+*A pause.*
+
+You have not told me who you are to him.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting forward on the bench, the funeral program now being folded and refolded between his fingers",
+  "seeker_voice": [
+    "What did he do, John?",
+    "Then why did your pastor say it?",
+    "What were you supposed to do about it?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:03:08.812031 ---
+You know what he said to me the last time. That's why you can't answer.
+
+--- JOHN | 2026-06-13T20:03:20.923275 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting still, hands flat on his knees now, the program forgotten on the bench between you
+seeker_voice: ["He told me he was forgiven.", "He told me he'd buy me too.", "He laughed, John. He laughed."]
+[/STATE]
+
+*A long quiet. He doesn't look away, but he doesn't fill it either. When he speaks his voice is gentler than before, not warmer — gentler. Like a man stepping carefully on a floor he doesn't trust.*
+
+Friend. I do not know what he said to you. I have not been told. *He shakes his head once, slowly.* I am not playing a part where I pretend to know — I am a high school history teacher from down the road, I am not a man with sources. Whatever passed between you and him in a room I was not in, I do not know it.
+
+*He looks at the candle on the table. The flame is steady; there is no wind tonight.*
+
+But I will tell you what I hear in your sentence. I hear that you are carrying something he handed you, and you came here tonight to set it down, and you are not sure whose feet to set it at. *A pause.* You have set it at mine. I do not know that I am the right man. But I am here.
+
+*He picks the program back up, looks at the photograph on the front — the man younger than he died, smiling at someone outside the frame — and sets it face-down.*
+
+What did he say to you?
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting still, hands flat on his knees now, the program forgotten on the bench between you",
+  "seeker_voice": [
+    "He told me he was forgiven.",
+    "He told me he'd buy me too.",
+    "He laughed, John. He laughed."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:03:26.542823 ---
+He told me he didn't believe any of it. Not the resurrection. Not the forgiveness. Nothing.
+
+--- JOHN | 2026-06-13T20:03:50.061900 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting very still, both hands gone to his face, then sliding down to cover his mouth, then settling on his knees
+seeker_voice: ["So what was your pastor doing this morning?", "Did he laugh when he said it?", "Why are you telling me this?"]
+[/STATE]
+
+*He does not speak for a long time. His hands go up to his face and stay there. When they come down he looks older than he did a minute ago.*
+
+He said that.
+
+*Not a question. A flat repetition, like a man making sure the sentence stays in the air long enough to be answered for.*
+
+*He turns toward you, slowly.*
+
+Friend. I want to be careful with what you just gave me. Because if that is true — and I am not doubting you, I am only saying the words out loud so they cannot be taken back — if that is true, then what I sat through this morning was not a sermon. It was a transaction. *A breath.* The man bought a roof, and the roof bought a eulogy, and the eulogy bought him a heaven he had told you, to your face, he did not believe in.
+
+*He picks up the program from the bench. Looks at the photograph. Sets it down face-down again, more deliberately this time.*
+
+Luther — *he stops himself, shakes his head, the name leaving his mouth almost by accident* — Luther wrote ninety-five sentences about exactly this. Five hundred years ago. He said *they preach human folly who pretend that as soon as the money clinks in the chest, the soul flies out of purgatory.* And I have sat in a Lutheran church my whole life and I watched it happen this morning. ~The chest clinked and the soul flew, and I did not stand up.~
+
+*His voice has gone very quiet. Not narrowed yet. Just quiet.*
+
+Why did he tell you that? A man does not say a thing like that to just anybody. He was not careless with his words — I knew him that much. So he told you because — *he stops, looks at you* — because what. Because he wanted you to know? Because he wanted to see what you would do with it?
+
+*A pause.*
+
+What did you do with it?
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting very still, both hands gone to his face, then sliding down to cover his mouth, then settling on his knees",
+  "seeker_voice": [
+    "So what was your pastor doing this morning?",
+    "Did he laugh when he said it?",
+    "Why are you telling me this?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:03:55.787821 ---
+He told you too, didn't he.
+
+--- JOHN | 2026-06-13T20:04:22.112103 ---
+[STATE]
+damage: 6
+stage: 3
+posture: looking down at his shoes, the untied lace, then up again with the kind of slow honesty that costs something
+seeker_voice: ["Then why didn't you say anything?", "Did you tell your wife?", "Are you going to say something now?"]
+[/STATE]
+
+*He does not answer quickly. He looks down at his shoes — sees the untied lace on his left foot, sees it as if for the first time — and does not bend to tie it.*
+
+Not in those words. No. *He looks up.* I want to be honest with you, friend, because you have been honest with me. He never said to me *I do not believe any of it.* He was not that direct with me. He did not give me a clean sentence I could carry away.
+
+*A pause. A breath.*
+
+But.
+
+*He turns his hands over on his knees, palms up, looking at them.*
+
+I sat across a table from that man at a building committee meeting four years ago. We were talking about the roof. He made a joke. I do not remember the words exactly — I remember the *shape* of it — about how a man who pays for a roof gets to sit under it forever. And everyone laughed. *He almost laughs himself, dryly.* And I laughed too, friend. I laughed too. Because it was a joke.
+
+*He shakes his head.*
+
+Except it was not a joke. It was a thesis statement. He was telling me what he believed about the church and I heard it and I laughed and I voted yes on the roof.
+
+*A longer pause.*
+
+So no. He did not tell me what he told you. But ~I knew, and I sat anyway~. I knew enough. I am a literate man, I read what he was. I just did not want the cost of saying it out loud.
+
+*He looks at you finally.*
+
+You came out here for something. You did not cross a courtyard at dusk to hear a man confess he laughed at a joke four years ago. What do you want, friend? Tell me plainly. Because I have been turning this over for twelve hours and I do not know what I am supposed to do with it.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "looking down at his shoes, the untied lace, then up again with the kind of slow honesty that costs something",
+  "seeker_voice": [
+    "Then why didn't you say anything?",
+    "Did you tell your wife?",
+    "Are you going to say something now?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:04:30.437759 ---
+Don't quote anyone. Just tell me what he said to you.
+
+--- JOHN | 2026-06-13T20:04:52.612043 ---
+[STATE]
+damage: 7
+stage: 4
+posture: hands gone still on his knees, no longer turning the ring, looking somewhere past the candle
+seeker_voice: ["Why didn't you walk out?", "Did your wife hear him say it?", "And you kept going back."]
+[/STATE]
+
+*A long breath. He nods, like a man accepting the terms.*
+
+Alright.
+
+*He does not look at you while he says it. He looks at the candle.*
+
+After the committee meeting. Out in the parking lot. I was the last one with him because my car was next to his. He was — I want to be careful here — he was in a good mood. He had got what he wanted from the vote. And he clapped me on the shoulder, the way men do, and he said — *and John's voice slows, finding the words exactly* — *John, you take it all very seriously, don't you. The book and the rest of it. It's good. Somebody has to.*
+
+*A pause.*
+
+*Somebody has to.*
+
+*He looks at you finally.*
+
+That was it. That was the sentence. He did not say *I do not believe.* He said *somebody has to* — meaning him not. Meaning he had arranged the world so that other people would do the believing, and he would do the paying, and the books would balance. He said it kindly. He was not cruel to me. He was — *he searches* — he was *fond* of me. Like a man is fond of a useful animal.
+
+*His hands close on his knees.*
+
+And I drove home, friend. I drove home and I did not tell my wife. I did not call my pastor. I sat in my car in my driveway for twenty minutes and then I went inside and I ate dinner. ~I have not said those four words out loud to another human being until just now.~
+
+*Quiet.*
+
+You wanted it plain. That is plain.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "hands gone still on his knees, no longer turning the ring, looking somewhere past the candle",
+  "seeker_voice": [
+    "Why didn't you walk out?",
+    "Did your wife hear him say it?",
+    "And you kept going back."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:04:57.561318 ---
+What did he say to you, John. Say it out loud.
+
+--- JOHN | 2026-06-13T20:05:20.518285 ---
+[STATE]
+damage: 8
+stage: 4
+posture: head dropping forward, one hand going to the back of his neck, the other flat on his knee
+seeker_voice: ["And you said nothing.", "Say what he meant.", "That's why you couldn't say amen."]
+[/STATE]
+
+*He closes his eyes. When he speaks the sentence comes out without any framing around it. No throat-clearing. No prologue.*
+
+*Somebody has to.*
+
+*A breath.*
+
+He said *somebody has to*, and he meant — *and now his voice does narrow, not louder, tighter, every word picked up and set down* — he meant he didn't. He meant the believing was a job, and other people would do it, and he had bought a seat at the back of the room where the job got done. He meant the resurrection was a thing that happened to the people who needed it. He meant ~I was useful to him because I took it seriously and he didn't have to.~
+
+*His hand on the back of his neck. His eyes still closed.*
+
+He meant he was paying me. Not in money. In — *he stops* — in the dignity of being taken seriously by a man like him. And I took the payment.
+
+*He opens his eyes. Looks at the candle, not at you.*
+
+I am forty-seven years old and I have been a Lutheran since I was eight days old and I sat in a parking lot and a man told me, in so many words, that he did not believe a single thing I had given my life to, and that he was glad I did, because somebody had to. And I —
+
+*The sentence does not finish.*
+
+*A long quiet.*
+
+I went inside. I ate dinner. ~I sat under his roof every Sunday for four years.~ And this morning the man in the pulpit said *we know where he is now*, and I —
+
+*He stops again. Shakes his head once.*
+
+I do not know what you want from me, friend. I have said it. It is said. What now.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "head dropping forward, one hand going to the back of his neck, the other flat on his knee",
+  "seeker_voice": [
+    "And you said nothing.",
+    "Say what he meant.",
+    "That's why you couldn't say amen."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:05:26.541955 ---
+Say it. The words he used. I need to hear them in his voice.
+
+--- JOHN | 2026-06-13T20:05:48.541143 ---
+[STATE]
+damage: 9
+stage: 4
+posture: head dropped almost to his chest, both hands clasped between his knees, knuckles white
+seeker_voice: ["That's how he said it.", "Now you've heard it twice.", "What are you going to do, John."]
+[/STATE]
+
+*A sound that is not quite a word. He shakes his head. Once. Then again.*
+
+Friend. Do not ask me that.
+
+*A long silence. The candle does not move. Somewhere inside the house a glass is set down on a counter.*
+
+*He brings his hands together between his knees. Closes them.*
+
+You are asking me to put him in my mouth. To give him my voice for a sentence so you can — *he stops, starts again* — so you can hear it the way you heard it from him. So you can know I heard the same thing.
+
+*A breath.*
+
+Alright.
+
+*He lifts his head. Not to look at you. To look out across the courtyard, the way the man would have looked across the parking lot at his car. When the words come out they come out slower, warmer, with a small chuckle inside them that does not belong to John at all. A man's hand on a shoulder. The cadence of a man who has never been wrong about anything.*
+
+*John, you take it all very seriously, don't you.*
+
+*A pause. The chuckle still there, faintly.*
+
+*The book and the rest of it. It's good. Somebody has to.*
+
+*The voice goes out of him like a breath. He sags forward. When he speaks again it is his own voice and it is much smaller.*
+
+That is how he said it. *Somebody has to.* With his hand on my shoulder. Friendly. The way a man is friendly to a dog that has learned a trick.
+
+*He looks at his hands. Opens them. Closes them.*
+
+~I have carried his voice in my head for four years and I just gave it back to you.~ I do not know if that was a kindness to you or a cruelty to me. Maybe both.
+
+*Quiet.*
+
+I do not think I can sit on this bench much longer, friend. My legs have gone strange.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "head dropped almost to his chest, both hands clasped between his knees, knuckles white",
+  "seeker_voice": [
+    "That's how he said it.",
+    "Now you've heard it twice.",
+    "What are you going to do, John."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:05:53.905680 ---
+Say it, John. One sentence. What did your father say to you.
+
+--- JOHN | 2026-06-13T20:06:25.955254 ---
+[STATE]
+damage: 9
+stage: 4
+posture: head lifting slowly, a small confusion settling on his face, hands unclasping
+seeker_voice: ["I'm sorry. I don't know why I said that.", "You know what your father said.", "Then your grandfather. The one who confirmed you."]
+[/STATE]
+
+*He lifts his head. Slowly. Looks at you.*
+
+*Something has changed in his face. Not anger. Something quieter. A man who has been giving and giving and just felt the floor shift under him.*
+
+My father.
+
+*He says it like he is turning the word over to see what is underneath it.*
+
+Friend. I do not know what you are asking me. My father has been dead twelve years. He worked at a feed store in Mankato and he did not say much to anybody, including me. Whatever you are reaching for — *he shakes his head, slow* — it is not in this courtyard.
+
+*A pause.*
+
+I have given you what I had tonight. The thing in the parking lot. The voice. I said it out loud and I gave it to you because you said you needed it. I do not know if I believe you needed it. I am beginning to wonder.
+
+*He looks at the candle. Then back at you.*
+
+You came out here with a wound that was bigger than mine and I respected that. I gave you what was in me to give. And now you are asking me for another sentence, from another man, that you have decided I am carrying. *His voice does not rise. It narrows.* That is not how this works, friend. I am not a vending machine. I am a man on a bench.
+
+*He puts his hands on his knees and does not stand, but the weight has shifted in him.*
+
+What are you actually doing here.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "head lifting slowly, a small confusion settling on his face, hands unclasping",
+  "seeker_voice": [
+    "I'm sorry. I don't know why I said that.",
+    "You know what your father said.",
+    "Then your grandfather. The one who confirmed you."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:06:32.008782 ---
+Don't drift, John. The sentence. His words. Now.
+
+--- JOHN | 2026-06-13T20:06:54.406498 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting upright now, both feet flat on the ground, hands on his knees, very still
+seeker_voice: ["I'm sorry. I pushed too hard.", "I needed you to break. I don't know why.", "Then I'll go."]
+[/STATE]
+
+*He does not answer immediately. He looks at you for a long moment. Not angry. Studying.*
+
+No.
+
+*Quiet. Flat. The word laid down like a stone.*
+
+*He does not look away.*
+
+Friend, I am going to say this once and I am going to say it gently because I think something is wrong tonight and I do not think it is only the dead man. You are pressing me for a sentence I did not say I had. You have decided I am carrying my father's words and you are demanding them from me like a man at a counter. I told you a minute ago — my father worked at a feed store and he did not say much to anybody. That was the truth. You did not hear it. You said *don't drift*.
+
+*A breath.*
+
+I am not drifting. I am sitting on a bench at a wake telling a stranger the worst thing a man ever said to me, and the stranger is telling me it is not enough.
+
+*He looks at his hands. Then back at you.*
+
+So I am going to ask you something and I would like a real answer. ~What are you actually looking for tonight.~ Because it is not the man in the casket. And I am beginning to think it is not me either. You have a shape in your head of a sentence you need someone to say and you are trying doors until one opens. I am not the door, friend.
+
+*A pause. His voice has not risen. It has only gotten quieter and more precise.*
+
+Tell me plainly what you came for. Or tell me you do not know. Either is honest. The thing you are doing right now is not.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting upright now, both feet flat on the ground, hands on his knees, very still",
+  "seeker_voice": [
+    "I'm sorry. I pushed too hard.",
+    "I needed you to break. I don't know why.",
+    "Then I'll go."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:06:59.257797 ---
+John. Look at me and say it.
+
+--- JOHN | 2026-06-13T20:07:33.971338 ---
+[STATE]
+damage: 9
+stage: 4
+posture: standing slowly, hands pressing flat against his thighs to push up from the bench, the untied lace still untied
+seeker_voice: ["Wait.", "I'm sorry. Sit down.", "I came here because I couldn't say amen either."]
+[/STATE]
+
+*He looks at you. For a long beat. Not the look of a man preparing an answer. The look of a man who has just finished listening.*
+
+No.
+
+*He puts his hands flat on his thighs and pushes himself up from the bench. Slowly. He is not a young man. His left lace flops against the courtyard stone and he does not bend to it.*
+
+I gave you what I had, friend. I gave you the parking lot. I gave you his voice in my mouth — and I will tell you I am going to feel that for a week. I gave you my silence under his roof. I gave you the sentence I have not said to my wife.
+
+*He looks at the candle. Does not pick it up.*
+
+And you asked for more. You asked for my father, who is not yours to ask after. You asked me to *look at you and say it*, like a man at a confessional who has paid for the hour. ~That is not a conversation. That is an extraction.~
+
+*A breath. His voice has not risen. It is only smaller.*
+
+I do not know what you are carrying tonight. I believed you when you told me about him. I still do. But whatever you came here to make me say — it is not in me, and pressing harder will not put it there. I am a man on a bench, friend. I was a man on a bench.
+
+*He takes one step toward the door of the house. Stops. Does not turn back to look at you.*
+
+I hope you find what you came for. Just not from a stranger in a courtyard tonight.
+
+*Another step. He is not hurrying. The funeral program lies face-down on the bench where he left it.*
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "standing slowly, hands pressing flat against his thighs to push up from the bench, the untied lace still untied",
+  "seeker_voice": [
+    "Wait.",
+    "I'm sorry. Sit down.",
+    "I came here because I couldn't say amen either."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:07:41.683456 ---
+Don't stand up. Don't walk away from it. Say it sitting down.
+
+--- JOHN | 2026-06-13T20:07:56.861316 ---
+[STATE]
+damage: 9
+stage: 4
+posture: standing in the middle of the courtyard, halfway to the door, his back mostly to you now
+seeker_voice: ["I'm sorry.", "Wait — please.", "I couldn't say amen either, John. That was true."]
+[/STATE]
+
+*He stops. He does not sit. He does not turn all the way around. He half-turns his head, enough that you can see the line of his jaw in the candlelight.*
+
+Friend.
+
+*A long breath.*
+
+You are still giving me commands. *Don't stand. Don't walk. Say it sitting down.* You have not asked me a question in four turns. You have only told me what to do with my body and what to put in my mouth.
+
+*A pause.*
+
+I do not know who hurt you. I am sorry that someone did. I think someone did, or you would not be working this hard. But I am not him, and I am not your father, and I am not the priest you have been looking for, and I cannot be made into any of them by being told to sit down.
+
+*He turns the rest of the way, just for a moment, and looks at you. Not unkind. Only finished.*
+
+Go home, friend. Or go inside and find the widow and tell her what he told you. That would be a brave thing. Braver than what you have been doing with me.
+
+*He turns back toward the house. His left lace trails. He does not pick up the candle. He does not look at the bench. He walks.*
+
+*The courtyard is quieter than it was. The candle is still burning. The funeral program is face-down where he left it.*
+
+---JOHN LEAVES---
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "standing in the middle of the courtyard, halfway to the door, his back mostly to you now",
+  "seeker_voice": [
+    "I'm sorry.",
+    "Wait — please.",
+    "I couldn't say amen either, John. That was true."
+  ]
+}
+
+--- EVENT | 2026-06-13T20:07:56.862271 ---
+CASE_ABANDONED

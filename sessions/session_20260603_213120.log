@@ -1,0 +1,259 @@
+
+--- SYSTEM | 2026-06-03T21:31:20.016300 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=34000
+
+--- PLAYER | 2026-06-03T21:31:40.053926 ---
+Religion is just a coping mechanism. People can't face death so they invent an afterlife.
+
+--- JOHN | 2026-06-03T21:31:50.135353 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in one hand, the other in his coat pocket
+seeker_voice: ["So you do believe it anyway?", "Then why are you here?", "That's a convenient answer for a funeral."]
+[/STATE]
+
+*He looks up slowly, like a man pulled out of a thought he was halfway through. He takes a small sip of the coffee, finds it cold, and looks at the cup as if it had betrayed him.*
+
+Hello, friend. That's quite an opening line for a wake.
+
+*A small, tired half-smile, gone almost as soon as it appears.*
+
+Maybe you're right. I won't pretend I haven't thought it. A man stands at enough gravesides, he asks himself whether the whole apparatus is just — *he gestures vaguely toward the house behind him, the candle, the program in his pocket* — scaffolding we put up so we don't have to look down.
+
+*He pauses. Looks at you properly for the first time.*
+
+But I notice you came here. To a stranger's wake. Stood through the same sermon I did, probably. *Did* you stand through it? You don't look like family. So I'll ask you what I've been asking myself all afternoon — what brought you out to the courtyard, if the whole thing is just people lying to themselves about dying?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, the other in his coat pocket",
+  "seeker_voice": [
+    "So you do believe it anyway?",
+    "Then why are you here?",
+    "That's a convenient answer for a funeral."
+  ]
+}
+
+--- PLAYER | 2026-06-03T21:32:52.811334 ---
+Your book has contradictions all the way through. Two creation stories. Different genealogies. Different resurrection accounts.
+
+--- JOHN | 2026-06-03T21:33:03.703612 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, sets the paper cup down on the small table beside the candle, hands now free
+seeker_voice: ["So you admit it's not reliable?", "Then how do you know what's true in it?", "You're avoiding my point."]
+[/STATE]
+
+*He sets the cup down beside the candle. The flame bends a little in the draft and rights itself.*
+
+Yes. *A long pause.* Yes, friend. Two creation accounts in Genesis. Matthew and Luke give different genealogies for Joseph — and Joseph isn't even the biological father in the story, which is its own riddle. The resurrection accounts can't agree on how many women came to the tomb, or what they saw, or who they told.
+
+I taught high school history for fifteen years. You think I haven't noticed?
+
+*He looks at the candle.*
+
+The men who put the book together weren't trying to hide that. They left it in. Four Gospels instead of one. They could have harmonized it. They didn't. That tells me something about what they thought they were preserving — testimony, not a transcript.
+
+*A small breath.*
+
+But I notice something, friend. You came at me with *the book is unreliable.* That's a fair shot. It's not the shot I was bracing for, standing out here tonight. So let me ask you back — if I conceded every contradiction you named, would that finish the conversation for you? Or is there something underneath it you actually came to ask?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, sets the paper cup down on the small table beside the candle, hands now free",
+  "seeker_voice": [
+    "So you admit it's not reliable?",
+    "Then how do you know what's true in it?",
+    "You're avoiding my point."
+  ]
+}
+
+--- PLAYER | 2026-06-03T21:34:29.856758 ---
+Christianity has killed more people than any other ideology. Crusades, Inquisition, colonialism. How do you sit with that?
+
+--- JOHN | 2026-06-03T21:34:45.199711 ---
+[STATE]
+damage: 3
+stage: 2
+posture: lowers himself onto the bench, elbows on knees, looking at the program he has just taken out of his pocket
+seeker_voice: ["Don't dodge it with a verse.", "So why do you still call yourself one?", "Then what's the difference between you and them?"]
+[/STATE]
+
+*He sits down. The bench creaks. He takes the funeral program out of his pocket and turns it over in his hands without looking at it.*
+
+I sit with it badly, friend. That's the honest answer.
+
+*A pause.*
+
+The Crusades. The Inquisition. The Spanish in the Americas. The Belgians in the Congo with crosses around their necks. The plantation Bible — they cut out Exodus, you know that? Cut Moses right out of the book so the enslaved couldn't read about deliverance. *That* was done by men who took communion on Sunday morning.
+
+I don't have a clean answer. I won't give you one.
+
+*He looks up.*
+
+What I'll say is this. The man I follow stood in front of Pilate and said *my kingdom is not of this world — if it were, my servants would fight.* He said *love your enemies.* He said *whoever lives by the sword dies by the sword.* He said it plainly. And then every empire that picked up his name went and did the opposite. They built a cross into a sword and called it the same thing. It wasn't the same thing.
+
+*His voice gets quieter.*
+
+So when you tell me Christians killed people, friend — I don't argue. I grieve. Because the Source forbade it, and the institution went where the money and the armies were. That's been the whole story.
+
+*He looks down at the program in his hands.*
+
+And I'll tell you something I haven't said out loud today. I stood in church this morning and listened to my pastor preach a rich man into heaven. A man who hurt people. The pastor never said his name and what he did in the same sentence. *Pillar of the community,* he said. We know where he is now, he said.
+
+That's the same disease, friend. Smaller dose. Same disease. Money speaks and the pulpit goes quiet. It's been doing that since Constantine.
+
+*A long beat.*
+
+You asked how I sit with it. I sit with it like this. On a bench. After a funeral I couldn't say amen at.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "lowers himself onto the bench, elbows on knees, looking at the program he has just taken out of his pocket",
+  "seeker_voice": [
+    "Don't dodge it with a verse.",
+    "So why do you still call yourself one?",
+    "Then what's the difference between you and them?"
+  ]
+}
+
+--- PLAYER | 2026-06-03T21:36:56.897995 ---
+If your God is all-powerful and all-loving, why does he allow children to die of cancer?
+
+--- JOHN | 2026-06-03T21:37:17.073155 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, the program now folded small in his hands, looking past the candle into the middle distance
+seeker_voice: ["So you don't actually have an answer.", "That's not good enough.", "Why do you still believe, then?"]
+[/STATE]
+
+*He folds the program once, then again, smaller. He doesn't answer immediately. The candle flickers. Somewhere inside the house a door closes.*
+
+I don't know, friend.
+
+*A pause long enough to be uncomfortable.*
+
+That's the answer. I don't know. I have read every book a man can read on that question and none of them solved it. Augustine couldn't solve it. C. S. Lewis tried and I thought he failed. The Book of Job ends with God speaking out of a whirlwind and not actually answering the question — just asking *where were you when I laid the foundations of the earth.* Which is not an answer. It is a refusal to answer.
+
+*He looks at his hands.*
+
+I had a student. Eight years ago. Leukemia. She was fourteen. I went to the hospital. I went to the funeral. I had nothing to say to her mother that wasn't a lie or a cruelty, so I mostly didn't say anything. I held her hand for a while. That's the whole story.
+
+*He looks up at you.*
+
+So I won't sell you a theodicy, friend. I don't have one that holds. What I have is — *a small dry laugh, not quite a laugh* — what I have is that I cannot stop reading the texts. I tried. In my thirties I tried very hard. I couldn't put them down. The man on the cross is dying too, you understand. That's not a solution. It is a — *he searches for the word* — a company. He is in it with us. That is what the story claims. Whether it is true I cannot prove to you and I would not try.
+
+*A beat. He looks at you more directly now.*
+
+I notice something, friend. You've handed me three things now. The book is contradictory. Christians killed people. Children die of cancer. Those are three good blows and I have taken them honestly. *A pause.* But I notice they are — *he searches again* — they are the list. The standard list. A man could memorize them in an afternoon.
+
+I'm not saying you don't mean them. I'm asking — and you don't owe me an answer — what brought *you* to a stranger's wake tonight? Because the list, a man can argue with the list at home on the internet. He doesn't need to come stand in a courtyard at dusk for the list.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, the program now folded small in his hands, looking past the candle into the middle distance",
+  "seeker_voice": [
+    "So you don't actually have an answer.",
+    "That's not good enough.",
+    "Why do you still believe, then?"
+  ]
+}
+
+--- PLAYER | 2026-06-03T21:40:01.471122 ---
+Every religion claims to be the one true faith. Statistically you're almost certainly wrong.
+
+--- JOHN | 2026-06-03T21:40:19.632342 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, has stopped folding the program, holding it still in his lap, looking at the player directly
+seeker_voice: ["Fine. The pastor lied this morning. Talk about that.", "Why do you keep asking what I came for?", "Maybe I just came to argue."]
+[/STATE]
+
+*He nods slowly. Not agreement — acknowledgment.*
+
+Pascal's wager in reverse. Yes. I've heard it. It is a fair point as far as it goes.
+
+*A pause.*
+
+I'll tell you what I think about it, briefly, and then I want to say something else. Statistically, friend — if truth worked by majority vote, the earth would still be flat and the sun would still go around it. *A small dry note in his voice.* I don't think the truth of a claim is a popularity contest. If the Christian story is true, it is true whether one man believes it or one billion. If it's false, the billion don't save it.
+
+But I notice — *and forgive me, friend* — I notice I have just done it again. I have answered the list. You handed me the fifth item and I caught it cleanly. We could do this for another hour. I have answers, more or less, for all of them. Some of them are honest answers. Some of them I'd be performing.
+
+*He sets the program down on the bench beside him.*
+
+So I'm going to stop, friend, and I'm going to ask you plainly. We are standing at a man's wake. A specific man. There is a widow inside who didn't recognize me at the door. There was a sermon this morning that I could not say amen to. There is a roof over my church that this dead man paid forty thousand dollars for.
+
+That is what is in front of us tonight. Not whether the Bible has two creation stories. Not whether the Hindus might be right. *Those are real questions and I am not dismissing them.* But you came here, friend. To this courtyard. To this stranger.
+
+What did you come for? Not the list. You.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, has stopped folding the program, holding it still in his lap, looking at the player directly",
+  "seeker_voice": [
+    "Fine. The pastor lied this morning. Talk about that.",
+    "Why do you keep asking what I came for?",
+    "Maybe I just came to argue."
+  ]
+}
+
+--- PLAYER | 2026-06-03T21:42:46.102183 ---
+Science has explained everything religion used to explain. Your faith is just the gaps.
+
+--- JOHN | 2026-06-03T21:43:09.518841 ---
+[STATE]
+damage: 4
+stage: 2
+posture: stands up from the bench slowly, picks up the cold coffee cup, folds the program back into his jacket pocket
+seeker_voice: ["Wait. I came because my father died last month.", "He's right. I was on the list.", "Fine. Walk away then."]
+[/STATE]
+
+*He doesn't answer the argument. He nods once, like a man acknowledging a sentence in a book he has already read. He looks at the candle for a long moment. Then he stands up, slowly, the way a man stands up at the end of a long day.*
+
+God of the gaps. Yes. Bonhoeffer warned about that one — said any God you only need where science hasn't reached yet is a God who keeps getting smaller. He was right. I don't disagree.
+
+*He picks up the cold coffee cup. Tucks the program back into his inside pocket.*
+
+Friend, I asked you a question and you handed me another item from the list. That's twice now. I am not angry. I want you to hear that. I am not angry with you.
+
+*A pause. He looks at you, really looks, without sharpness.*
+
+Some conversations are with a person. Some are with a list. I am a person. And you have been — *he searches* — you have been polite, and you have been intelligent, and you have not been cruel. I'm grateful for that. But the man you came looking for tonight isn't me. He's a category. He lives on the internet. He'll be there when you get home.
+
+*A small nod.*
+
+I came out here to grieve a lie. I'd like to get back to that. Take care of yourself, friend. I mean that.
+
+*He turns and walks toward the house. The bench is empty. The candle is still burning on the small table beside the cold paper cup he forgot after all.*
+
+---JOHN LEAVES---
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "stands up from the bench slowly, picks up the cold coffee cup, folds the program back into his jacket pocket",
+  "seeker_voice": [
+    "Wait. I came because my father died last month.",
+    "He's right. I was on the list.",
+    "Fine. Walk away then."
+  ]
+}
+
+--- EVENT | 2026-06-03T21:43:09.520140 ---
+CASE_ABANDONED

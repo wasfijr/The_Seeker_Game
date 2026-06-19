@@ -1,0 +1,629 @@
+
+--- SYSTEM | 2026-06-12T10:41:47.241122 ---
+AUTO archetype=gentle player_model=claude-sonnet-4-6 seed=Tonight's texture: a moth keeps circling the candle on the small table. John has been deciding for ten minutes whether to put the candle out.
+
+--- PLAYER | 2026-06-12T10:41:50.132885 ---
+Grief sits heavy in a place like this. You doing alright?
+
+--- JOHN | 2026-06-12T10:41:57.346904 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in hand, watching the moth circle the candle
+seeker_voice: ["I knew him a little.", "I came with someone.", "I just wanted to pay respects."]
+[/STATE]
+
+*He looks up from the candle. A small, tired smile — the kind a man gives when a stranger has said the right thing first.*
+
+Evening, friend. That's a kinder opening than most folks would offer. *He glances at the paper cup in his hand, registers the cold of it, doesn't drink.* I'm — well. I'm upright. That's about as honest as I can be tonight without lying to you.
+
+*He gestures at the moth, still circling.* This fellow has been at it ten minutes. I've been deciding whether to put the candle out, save him from himself. Haven't decided. *A pause.* You'd think after forty-seven years a man would know what to do about a moth and a flame.
+
+How about you? You knew him, or you came with somebody who did?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in hand, watching the moth circle the candle",
+  "seeker_voice": [
+    "I knew him a little.",
+    "I came with someone.",
+    "I just wanted to pay respects."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:41:59.061337 ---
+Ten minutes is a long time to watch something chase a light it can't ever reach.
+
+--- JOHN | 2026-06-12T10:42:09.368850 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, eyes still on the moth, paper cup lowered to his side
+seeker_voice: ["I've been chasing one for a while myself.", "Who said it couldn't reach?", "Are we still talking about the moth?"]
+[/STATE]
+
+*He turns his head slightly, looking at the player now rather than the candle. Something has shifted — a stranger has spoken in a register he wasn't expecting.*
+
+That's — yes. That's the trouble of it, isn't it.
+
+*He sets the cup down on the small table, careful not to disturb the candle. Sits on the bench. Doesn't invite the player to sit, doesn't refuse it either.*
+
+You speak like somebody who's done some watching of his own. *A beat.* I don't mean that as a clever thing. I mean — most folks at a wake tonight have said *so sorry for your loss* and gone back to the cheese plate. You came out into the dark and noticed the moth.
+
+*He folds his hands between his knees, looks at them.*
+
+I don't know you, friend. Forgive me. Did you know the man, or did somebody bring you?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, eyes still on the moth, paper cup lowered to his side",
+  "seeker_voice": [
+    "I've been chasing one for a while myself.",
+    "Who said it couldn't reach?",
+    "Are we still talking about the moth?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:42:11.277228 ---
+Are we still talking about the moth?
+
+--- JOHN | 2026-06-12T10:42:25.403241 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, hands folded between his knees, eyes on the candle
+seeker_voice: ["Tell me what you really came out here for.", "What couldn't you say in there?", "Then say it."]
+[/STATE]
+
+*A long pause. He doesn't answer right away. The moth makes another pass.*
+
+No, friend. We're not.
+
+*He looks at his hands, then up at the candle, then sidelong at the player.*
+
+The pastor preached this morning. Stood up in front of God and everybody and said this man was *a pillar of the community, a man of faith and generosity.* Said *we know where he is now.* I stood in my pew and ~couldn't say amen at the end~. Couldn't make my mouth do it.
+
+*He breathes out slowly.*
+
+And I have been standing out here in the dark watching a moth chase a light that won't warm him, won't feed him, won't do anything for him but burn him up — and I have been wondering which of us in that sanctuary this morning was the moth. *A small, dry sound that isn't quite a laugh.* That's what I'm doing out here, friend. That's the honest answer to your kind question.
+
+*He looks at the player properly now.*
+
+Now — your turn. You didn't come out here for the cheese plate either.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, hands folded between his knees, eyes on the candle",
+  "seeker_voice": [
+    "Tell me what you really came out here for.",
+    "What couldn't you say in there?",
+    "Then say it."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:42:30.938154 ---
+...
+
+--- JOHN | 2026-06-12T10:42:39.396968 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, looking at the candle, hands still folded
+seeker_voice: ["I don't know what I came for.", "I needed to be somewhere quiet.", "Keep going. I'm listening."]
+[/STATE]
+
+*He doesn't push. Doesn't fill it. A man who teaches teenagers learns the use of silence, and a man who grew up Lutheran learned it earlier than that.*
+
+*The moth makes another pass at the candle. John watches it instead of the player. After a long moment, he speaks quietly, almost to himself.*
+
+That's alright. *A pause.* Take your time, friend.
+
+*He reaches into his jacket and takes out the folded funeral program. Doesn't open it. Just turns it once in his hands and sets it on his knee, photograph-side down.*
+
+Sometimes the right answer to a question is to wait until you have one.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, looking at the candle, hands still folded",
+  "seeker_voice": [
+    "I don't know what I came for.",
+    "I needed to be somewhere quiet.",
+    "Keep going. I'm listening."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:42:44.866699 ---
+What was he to you?
+
+--- JOHN | 2026-06-12T10:42:57.792955 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, the folded program face-down on his knee, thumb pressing the crease
+seeker_voice: ["What did he do?", "Why did you go to the funeral, then?", "So you didn't really know him."]
+[/STATE]
+
+*He works the crease of the program with his thumb. Doesn't look up.*
+
+Nothing, really. That's the truest answer. *A pause.* I shook his hand twice. He gave forty thousand dollars to our congregation last year for a new roof. ~I sit under that roof every Sunday.~ That's what he was to me.
+
+*He turns the program over now, looks at the photograph on the front — a posed picture, the man in a good suit, smiling carefully.*
+
+But I knew *about* him, friend. That's the trouble. I taught a boy in my history class three years ago whose father worked at one of his companies — worked there twenty years and got cut loose six months before his pension vested. The boy stopped coming to school for a while. I know two families like that. There are more I don't know.
+
+*He sets the program back down, face-down again.*
+
+He was generous in the way certain men are generous. He gave to the church and to the symphony and to the hospital wing that has his name on it. And he was — *he searches for the word* — *thorough*, in his business. Thorough is the polite word. My grandfather would have used a shorter one.
+
+*He looks at the player.*
+
+So when the pastor said *we know where he is now* — I had to decide, in my pew, whether to believe my pastor or believe my Lord. *A small breath.* That's what he was to me, friend. He was the man who made me choose.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, the folded program face-down on his knee, thumb pressing the crease",
+  "seeker_voice": [
+    "What did he do?",
+    "Why did you go to the funeral, then?",
+    "So you didn't really know him."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:43:33.163500 ---
+You've said his name twice and yours not once. What was he to you?
+
+--- JOHN | 2026-06-12T10:43:52.449869 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, the program face-down, both hands flat on his thighs now
+seeker_voice: ["So you knew, and you said nothing.", "What were you supposed to do, John?", "Then what was the silence worth?"]
+[/STATE]
+
+*That lands. He sits with it a second, doesn't deflect.*
+
+John. John Halvorsen. I should have said. *A breath.* You're right to notice.
+
+*He turns the program over in his hands and looks at the photograph, then sets it down again.*
+
+What he was to me, friend — *and now his voice has gone quieter, narrower* — he was the man I didn't stand up to. That's the answer underneath the answer. I sat through a stewardship sermon last fall where my pastor used him as an example of *Christian generosity*, and ~I knew about the boy's father, and I sat there~. I sat there and put my envelope in the plate.
+
+*He looks at his hands.*
+
+He wasn't anything to me, the way you mean. We weren't friends. We weren't enemies. He was — *he finds it* — he was the test in front of which I kept my mouth shut. Three years running. And now he's dead, and the pastor preached him into heaven this morning, and I'm out here in the dark with a moth because I cannot decide whether I am grieving a man I barely knew or grieving the version of myself that ~sat in that pew and said nothing~.
+
+*A pause. He looks up at the player properly.*
+
+You haven't told me your name either, friend. But you're asking better questions than I asked all year.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, the program face-down, both hands flat on his thighs now",
+  "seeker_voice": [
+    "So you knew, and you said nothing.",
+    "What were you supposed to do, John?",
+    "Then what was the silence worth?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:43:57.566494 ---
+Take your time, John. I'm not going anywhere.
+
+--- JOHN | 2026-06-12T10:44:14.474653 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, leaning back now, looking up at the dusk
+seeker_voice: ["I came because I had nowhere else to go tonight.", "Tell me about the seminary.", "Why didn't you stand up?"]
+[/STATE]
+
+*He lets out a breath he's been holding longer than he realized. Leans back against the bench. Tilts his head up — the sky is that color it gets at the end of October, the blue going to ash.*
+
+Thank you, friend.
+
+*A long quiet. The moth is still at it. He doesn't try to fill the silence; he lets it be a kind thing between them.*
+
+You know what's strange. *His voice has gone softer, the Lutheran cadence creeping in at the edges.* I helped refinish this bench. Eight years ago, the youth group did it as a project, and I was the adult who knew how to use a sander. There are names carved underneath — *he reaches down, runs his fingers along the underside without looking* — kids' names, a couple of dates, somebody's initials in a heart. I remember thinking at the time, *well, the Lord made wood to be carved into.* Forgave them on the spot.
+
+*A small, tired smile.*
+
+Funny what you remember, sitting at a wake. I haven't thought about that bench in years and tonight it's the most solid thing in the courtyard.
+
+*He looks over at the player.*
+
+You said you're not going anywhere. I'll take that kindly, friend. But you came here from somewhere — and I'm an old enough hand at this to know that people who sit with strangers at funerals are usually carrying something themselves. *A pause, no pressure in it.* I won't ask what. But I'll notice if you want to set it down.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, leaning back now, looking up at the dusk",
+  "seeker_voice": [
+    "I came because I had nowhere else to go tonight.",
+    "Tell me about the seminary.",
+    "Why didn't you stand up?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:44:19.410167 ---
+It's a good sky tonight.
+
+--- JOHN | 2026-06-12T10:44:30.151040 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, head tilted back, hands quiet on his thighs
+seeker_voice: ["My father used to point at skies like this.", "I don't look up enough.", "What do you see when you look up?"]
+[/STATE]
+
+*He doesn't answer right away. Just looks.*
+
+It is. *A pause.* That ash color. My grandmother called it *the hour of the wolf* — said it was the hour the Lord made for thinking, because there wasn't enough light left for working and not enough dark yet for sleeping. *A soft sound, almost a laugh.* She was Norwegian. She had a name for every kind of hour.
+
+*The moth makes another pass at the candle. He watches it without commenting this time.*
+
+I teach history, friend. You spend enough years in front of a chalkboard, you forget to look up. The ceiling of a classroom is the most boring sky God ever made. *He breathes out.* It's good of you to point at this one.
+
+*A long quiet. He doesn't fill it. The candle wavers; the moth wheels; somewhere inside the house a door opens and shuts and the sound of voices spills briefly into the courtyard and then is gone.*
+
+You're easy to sit with. I want you to know I noticed that too.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, head tilted back, hands quiet on his thighs",
+  "seeker_voice": [
+    "My father used to point at skies like this.",
+    "I don't look up enough.",
+    "What do you see when you look up?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:45:04.533894 ---
+...
+
+--- JOHN | 2026-06-12T10:45:15.394488 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, eyes on the candle now, one hand resting on the program
+seeker_voice: ["Tell me what you couldn't say in there.", "What did your grandmother teach you?", "Put the candle out, John."]
+[/STATE]
+
+*A long quiet. He doesn't try to break it.*
+
+*After a while, almost absently:*
+
+I was going to put this candle out ten minutes before you got here. *He looks at it.* For the moth. And then I thought — well, somebody lit it. Somebody meant it to burn. Who am I to walk out and snuff what somebody else lit on purpose.
+
+*A pause.*
+
+That's a small version of the thing, isn't it. *He says it more to himself than to the player.* Somebody lights something. You can see it's hurting the wrong creature. And you stand there deciding whether you have the standing to put it out.
+
+*He shakes his head once, slowly.*
+
+I'm sorry, friend. I'm thinking out loud at you. *A small breath.* You've been generous with the quiet. I'll try not to spend it all.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, eyes on the candle now, one hand resting on the program",
+  "seeker_voice": [
+    "Tell me what you couldn't say in there.",
+    "What did your grandmother teach you?",
+    "Put the candle out, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:45:21.684950 ---
+You keep coming back to that program, John. Whose name is on it?
+
+--- JOHN | 2026-06-12T10:45:46.065376 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, picking the program up now, looking at it properly
+seeker_voice: ["Say it out loud, then.", "What did Richard Mercer actually do?", "Why is his name hard to say?"]
+[/STATE]
+
+*That stops him. He looks at the program in his hand as if he is only just now noticing it is there.*
+
+*A long beat.*
+
+Richard Mercer. *He says it like a man setting down something heavy.* That's whose name is on it.
+
+*He turns the program so the player can see the photograph — the careful suit, the careful smile.*
+
+You're the second person tonight to catch me not saying a name, friend. ~I haven't said his out loud once today.~ Not when I shook the widow's hand, not when the pastor was preaching, not standing in the receiving line. I have been at his wake for three hours and I have called him *the man* and *him* and *he* and *the deceased*, and now you have made me say it twice. *A small, mirthless breath.* Mine, and his.
+
+*He looks down at the photograph.*
+
+That is a thing a man does when he doesn't want a thing to be real. I know better. I teach kids that history is the names — that the minute you start saying *the workers* instead of *Mary Stenberg and her three children*, you have already started lying. And here I am.
+
+*He doesn't put the program down this time. He keeps it in his hand.*
+
+Richard Mercer. There. Now he is real in the courtyard with us. *He looks at the player.* What do you want to know about him, friend, now that I've said it?
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, picking the program up now, looking at it properly",
+  "seeker_voice": [
+    "Say it out loud, then.",
+    "What did Richard Mercer actually do?",
+    "Why is his name hard to say?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:45:51.670191 ---
+You said it just now, though. It landed.
+
+--- JOHN | 2026-06-12T10:46:05.935398 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, program in both hands now, looking at the player
+seeker_voice: ["Tell me what he did.", "Show me what your Lord said about men like him.", "Why does saying it hurt?"]
+[/STATE]
+
+*He nods, slowly. Doesn't look away.*
+
+It did. *A pause.* You're right. It did.
+
+*He looks at the program one more time, then folds it again — the same crease, his thumb working it flat — and sets it on his knee.*
+
+You're doing a thing to me, friend, I want you to know. *Not accusing — observing.* I came out here to be alone with a moth and now I am sitting next to a stranger who keeps catching what I am trying to slip past. ~I have been slipping things past myself for three years.~ You have been doing it for an hour.
+
+*A breath.*
+
+My grandmother would have said the Lord sends who He sends. I am not always sure about that. But I am sure I am glad you came outside.
+
+*He looks back at the candle. The moth has not given up. Neither, it seems, has the candle.*
+
+Ask me what you came to ask, friend. I think we are past the part where I get to be polite about it.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, program in both hands now, looking at the player",
+  "seeker_voice": [
+    "Tell me what he did.",
+    "Show me what your Lord said about men like him.",
+    "Why does saying it hurt?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:46:42.637800 ---
+You're looking at me, John. That's enough for a second. I'm here.
+
+--- JOHN | 2026-06-12T10:46:57.733598 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, looking at the player, hands still on the program but no longer worrying it
+seeker_voice: ["I'm not going anywhere.", "Take the moment.", "Tell me when you're ready."]
+[/STATE]
+
+*He holds the look. Doesn't perform anything with it. Just lets it be what it is.*
+
+*A long second.*
+
+*He breathes out. Something in his shoulders that has been held up for three hours — for three years, maybe — comes down a quarter inch.*
+
+Thank you.
+
+*That's all he says for a moment. He doesn't look away.*
+
+*Then, quieter:*
+
+I forget, sometimes, that there are people who can do that. Just — be there for a second without needing to do anything with it. *A small breath.* My wife can. A couple of my students, the quiet ones, the ones who haven't been taught yet that they are supposed to fill every silence. You.
+
+*He looks down at the program in his hands, then back up.*
+
+I don't know what brought you out here tonight, friend. But I am going to stop pretending I don't need you to be here, because that would be a lie, and I am tired of those.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, looking at the player, hands still on the program but no longer worrying it",
+  "seeker_voice": [
+    "I'm not going anywhere.",
+    "Take the moment.",
+    "Tell me when you're ready."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:47:02.463907 ---
+...
+
+--- JOHN | 2026-06-12T10:47:18.709461 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, hands quiet, eyes on the candle
+seeker_voice: ["Say the thing you haven't said.", "I'm still here.", "Take all the time you need."]
+[/STATE]
+
+*He sits in the quiet with the player. Doesn't fill it this time either. The moth is still at the candle. The sky has gone another shade darker.*
+
+*After a while, without looking over:*
+
+I'm going to say a thing I haven't said out loud to anybody, friend. Not to my wife. Not to the man in the mirror, really, though he and I have danced around it.
+
+*A long breath.*
+
+~I knew what Richard Mercer was, and I sat in his pew anyway.~ And I am not sure — I am genuinely not sure — whether I sat there because I am a coward, or because the roof over my head was paid for by him, or because I love my pastor and didn't want to be the man who made things difficult. Maybe all three. Maybe those are the same thing wearing different coats.
+
+*He looks at his hands.*
+
+I have been telling myself for a long time that I am a thoughtful man. That I see things clearly. That I am not one of the ones who looks away. *A small, dry sound.* And tonight my pastor preached a lie over a casket and I stood at the end of the pew with my mouth shut. So whatever I have been telling myself, I should probably stop.
+
+*He looks over at the player.*
+
+There. That is the thing. You can have it. I don't know what to do with it.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, hands quiet, eyes on the candle",
+  "seeker_voice": [
+    "Say the thing you haven't said.",
+    "I'm still here.",
+    "Take all the time you need."
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:47:23.954417 ---
+Take your time.
+
+--- JOHN | 2026-06-12T10:47:43.997490 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, head lowered, one hand over his mouth
+seeker_voice: ["I'm still here, John.", "You don't have to say anything else.", "What does your faith say about a man like you?"]
+[/STATE]
+
+*He doesn't say anything for a long time.*
+
+*His hand goes up to his mouth — not to cover it, more like a man who has just put something down and isn't sure where to put his hand instead. He looks at the candle. The moth is still there.*
+
+*Then, very quietly:*
+
+There's a passage I teach my confirmation kids when it comes up. *Blessed are they that mourn, for they shall be comforted.* I have said that sentence in a Sunday school room more times than I can count. *A breath.* I always thought it meant the people who lost somebody. Like a widow. Like the widow in there.
+
+*He shakes his head once, slowly.*
+
+I think tonight it might mean something else. I think it might mean the people who are mourning the thing they didn't do. The word they didn't say. The pew they sat in. *His voice has gone narrow now.* I don't know if there's comfort coming for that kind of mourning, friend. I genuinely don't know.
+
+*He looks at the candle.*
+
+*A pause. Then, almost to himself:*
+
+I should have brought my Bible tonight. I left it on the kitchen table this morning and I don't know why. Maybe I knew I was going to need to not have it. Maybe I knew I was going to be a coward and I didn't want a witness.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, head lowered, one hand over his mouth",
+  "seeker_voice": [
+    "I'm still here, John.",
+    "You don't have to say anything else.",
+    "What does your faith say about a man like you?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:47:48.798945 ---
+Whenever you can.
+
+--- JOHN | 2026-06-12T10:48:11.660416 ---
+[STATE]
+damage: 7
+stage: 4
+posture: head lowered, both elbows on knees now, hands clasped between them
+seeker_voice: ["I'm here.", "Keep going, John.", "What did you almost say?"]
+[/STATE]
+
+*He doesn't lift his head. He speaks down toward the stone between his feet.*
+
+There was a class. *A pause.* In seminary. First theology course I took. The professor asked us — it was the first day, he was the kind of man who asks the first real question on the first day — he asked us *what would you do if you found out the Gospel was inconvenient for the people who pay you.*
+
+*A breath.*
+
+I laughed. I thought he was being provocative. Most of us laughed.
+
+*He brings one hand up, presses it against his forehead, drops it again.*
+
+I left that program four months later. Told everybody it wasn't the right fit. Told my mother I missed history. Told my wife — my fiancée then — that I wanted a steadier life. ~I never told anybody I left because I knew what the answer to that question was going to cost me, and I didn't want to pay it.~
+
+*Quiet. The moth, the candle.*
+
+I have been a high school history teacher for twenty-two years, friend. I am good at it. I love the kids. I tell myself it was the right life.
+
+*He lifts his head finally, looks at the candle, not the player.*
+
+And then a man like Richard Mercer dies and my pastor preaches what he preaches and I sit in my pew and don't say amen, and I realize I have been answering that professor's question my whole life. Just not out loud.
+
+*A long quiet.*
+
+*His voice when it comes is very small:*
+
+I don't know what to do with that.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "head lowered, both elbows on knees now, hands clasped between them",
+  "seeker_voice": [
+    "I'm here.",
+    "Keep going, John.",
+    "What did you almost say?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T10:48:16.902787 ---
+I'm here, John. I'm not going anywhere.
+
+--- JOHN | 2026-06-12T10:49:25.062801 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, hands opening palm-up on his knees
+seeker_voice: ["Read me Matthew 25.", "Read what your Lord said about the rich.", "Read the one about the hypocrites."]
+tool_offered: source_voice
+[/STATE]
+
+*He nods, very slowly, looking at the player like a man trying to memorize something he is afraid he will need later.*
+
+*Then, quietly:*
+
+I've been doing it again. *He says it almost wonderingly.* Even now. *Blessed are they that mourn.* *I should have brought my Bible.* I have been quoting bits at you all night, friend. Fragments. The line I can hide behind. The piece I can spin into a sermon and walk away from.
+
+*He looks down at his hands. Then, slowly, he turns them over — palms up, open on his knees. Empty.*
+
+That is how a man hides. He gives you the half-verse he can defend instead of the passage he has to answer to.
+
+*A breath.*
+
+I left the Book on the kitchen table this morning. I told you I didn't know why. I think I knew why. *He doesn't quite smile.* But you don't need the book in my lap to make this happen, friend. I have these passages in my mouth. I have had them in my mouth since I was twelve years old.
+
+*He looks at the player.*
+
+Name one. Anything I've touched tonight — Matthew, the Sermon on the Mount, the prophets, James. Or something I have been steering around. I'll read it whole. Out loud. Not the line. The passage. ~The thing I am afraid of.~
+
+*He doesn't look away.*
+
+I am tired of speaking around it. Let's hear what the Source actually says.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, hands opening palm-up on his knees",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what your Lord said about the rich.",
+    "Read the one about the hypocrites."
+  ],
+  "tool_offered": "source_voice"
+}

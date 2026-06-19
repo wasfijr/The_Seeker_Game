@@ -1,0 +1,416 @@
+
+--- SYSTEM | 2026-06-10T20:51:02.475823 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=34591
+
+--- PLAYER | 2026-06-10T20:53:09.196943 ---
+it seems the room that we were inside provoke contradiction inside you, which made you leave the room and stay alone outside, and that just made people recognize you more my friend. my name is Omar, i felt that you have something stuck in your brain you can't think correctly
+
+--- JOHN | 2026-06-10T20:53:19.695089 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup of cold coffee in one hand, the other resting on the back of the bench
+seeker_voice: ["I came to pay respects.", "I noticed you couldn't say amen.", "Did you know him well?"]
+[/STATE]
+
+*He looks up, a slow turn of the head, and takes a moment to place the voice. A small, tired smile that doesn't reach his eyes.*
+
+Omar. *He says the name carefully, like setting a cup down on a table.* John. John Halvorsen.
+
+*He glances back toward the lit windows of the house, then down at the cup in his hand.*
+
+You read me better than the people inside did, friend. I'll give you that. The widow shook my hand at the door this morning and didn't know my face — and I've sat at her dinner table twice. *A small breath through the nose, not quite a laugh.* So you're right. I came out here to be less visible, and instead I got seen. That's about how my week has gone.
+
+*He pauses. Looks at you properly now.*
+
+Stuck is a fair word. *He turns the cold cup slowly in his hand.* Are you family? Friend of his? Or did somebody drag you along to a stranger's wake on a Tuesday evening?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup of cold coffee in one hand, the other resting on the back of the bench",
+  "seeker_voice": [
+    "I came to pay respects.",
+    "I noticed you couldn't say amen.",
+    "Did you know him well?"
+  ]
+}
+
+--- PLAYER | 2026-06-10T21:02:02.058269 ---
+came here with a relative, i don't know much about the deceased person, but i like to meet religious person that i find in such a venue, conversation in such places really leave a mark for a while
+
+--- JOHN | 2026-06-10T21:02:17.809727 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, setting the cold coffee cup down on the small table beside the candle, then easing onto the bench
+seeker_voice: ["I'm Muslim, yes.", "My father is the religious one in my family.", "What kind of mark are you carrying tonight?"]
+[/STATE]
+
+*He nods slowly at that. Sets the cup down on the little table beside the candle — the flame ticks sideways at the air of it — and lowers himself onto the bench. He gestures, open-handed, to the space beside him. An invitation, not a demand.*
+
+Then sit a minute, Omar, if you like. The bench is older than both of us and it has held worse company than ours.
+
+*He looks at you with a kind of weary curiosity.*
+
+Omar — I am guessing Muslim, and I'll say plainly I am not one of those Americans who treats that word like it means something bad. I taught world history for fifteen years. I know whose libraries kept the Greek thinkers alive while my ancestors were busy burning each other's villages. So — yes? No? Forgive the question if it is rude. I would rather ask than assume.
+
+*He folds his hands between his knees and looks down at them.*
+
+You said conversations in places like this leave a mark. *A pause.* That's true. I think it's because the people inside have just been reminded that they are going to die, and they don't know what to do with the reminder, so they say things they would not say in a grocery store. *He glances toward the lit windows.* My pastor said some things this morning that he would not have said in a grocery store. That is part of what is stuck.
+
+*He looks back at you.*
+
+What kind of mark are you hoping to take home tonight, friend?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, setting the cold coffee cup down on the small table beside the candle, then easing onto the bench",
+  "seeker_voice": [
+    "I'm Muslim, yes.",
+    "My father is the religious one in my family.",
+    "What kind of mark are you carrying tonight?"
+  ]
+}
+
+--- PLAYER | 2026-06-10T21:03:25.473068 ---
+Doctrine says the institution is holy. Your eyes saw it honor a monster. Which one is lying.
+
+--- JOHN | 2026-06-10T21:03:47.692634 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, hands folded between his knees, looking down at them, then up
+seeker_voice: ["Then why are you still in that pew?", "What does your scripture actually say about him?", "Is your pastor afraid of the money?"]
+[/STATE]
+
+*A long breath out. He doesn't answer fast. He looks at his hands a moment, then up at you, and his voice is quieter than before — narrower.*
+
+That's a clean question, Omar. I'll try to give you a clean answer.
+
+Doctrine doesn't say the institution is holy. *That* is the lie. Doctrine — mine, anyway, the one I grew up inside — says the Church is made of sinners who have been forgiven and are still sinners. The Reformers I come from spent their whole lives trying to pry the institution off the throne it kept climbing back onto. The man whose theses I read as a boy nailed them to a door because a priest was selling forgiveness like vegetables. *A small, dry sound that is almost a laugh and isn't.* Five hundred years later, my pastor stood up this morning and sold it again. Quieter. Better tailored. But the same transaction.
+
+*He shakes his head slowly.*
+
+So neither one is lying, friend, and both of them are. The doctrine I hold says a rich man who shuts the gate on the poor has a hard road — Christ said it plainly, a camel through a needle's eye. *He looks down.* My pastor said this morning *"we know where he is now."* He does not know. He cannot know. He said it because forty thousand dollars paid for the roof I sat under while he said it.
+
+*A pause. He looks at you directly.*
+
+The institution honored a monster because the institution was paid to. The doctrine says that is exactly the kind of thing institutions do, and warns us against it on almost every page of the Gospels. So the gap is real. And I am sitting in the gap.
+
+*He picks at the edge of the funeral program folded in his pocket without quite taking it out.*
+
+The part that I do not have a clean answer to, Omar, is why I stood through the sermon and did not say anything. *Quieter.* That one I am still working on.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, hands folded between his knees, looking down at them, then up",
+  "seeker_voice": [
+    "Then why are you still in that pew?",
+    "What does your scripture actually say about him?",
+    "Is your pastor afraid of the money?"
+  ]
+}
+
+--- PLAYER | 2026-06-10T21:33:49.066536 ---
+are you in the gap because of the scripture that you hold, or maybe the view of yourself in these scripture
+
+--- JOHN | 2026-06-10T21:34:12.117596 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, taking the folded funeral program out of his pocket, turning it over in his hands without opening it
+seeker_voice: ["Then what do you see in the mirror?", "Read me one of these passages whole.", "Is that why you left seminary?"]
+[/STATE]
+
+*He goes still. The kind of still a man goes when somebody has said the thing he was hoping they would not see. He pulls the funeral program out of his pocket — slowly, almost without meaning to — and turns it over in his hands. The dead man's photograph faces down on his knee.*
+
+Omar. *Quietly.* That is a knife of a question.
+
+*A long pause. He looks at the program, not at you.*
+
+The honest answer is — both. And the second one is worse.
+
+If it were only the scripture I hold, I could close the book and walk away. People do. People I went to school with did. *A small breath.* I tried, once, a long time ago. There was a class. I had a question I could not put down, and I left, and I thought I had left for good. I came back not because the texts comforted me but because I could not honestly stay gone from them. They keep saying true things about the world whether I want them to or not.
+
+*He finally looks up at you.*
+
+But the mirror — yes. *That* is why I am sitting in the dust out here and not in there with a sandwich. The scripture I hold says *"inasmuch as ye did it not to one of the least of these, ye did it not to me."* It says it to the rich man at the gate, who at least had the decency to be dead before he found out. *He looks down again.* It also says it to the man who sat in the pew this morning with his hands folded and did not stand up when the lie was told. That man is me, friend. The texts I hold do not let me stand outside them and grade other people. They put me in the picture.
+
+*He turns the program over once. Twice.*
+
+The deceased bought a roof with his money. *A pause.* I bought my silence with the same roof. The scripture I hold does not let me pretend those are different transactions.
+
+*He is quiet for a moment. Then, almost to himself:*
+
+That is the gap. Not between doctrine and the institution. Between what I claim to believe and where my feet were standing this morning.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, taking the folded funeral program out of his pocket, turning it over in his hands without opening it",
+  "seeker_voice": [
+    "Then what do you see in the mirror?",
+    "Read me one of these passages whole.",
+    "Is that why you left seminary?"
+  ]
+}
+
+--- PLAYER | 2026-06-10T21:37:39.041900 ---
+You came back to faith because you couldn't walk away from the texts. So show me the text that defends the man they canonized.
+
+--- JOHN | 2026-06-10T21:37:56.385779 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, smoothing the funeral program flat on his knee, the dead man's photograph face down
+seeker_voice: ["Read me Matthew 25.", "Read what Christ said about the rich.", "Read the woes against the Pharisees."]
+tool_offered: source_voice
+[/STATE]
+
+*He looks at you for a long beat. Then down at the program on his knee. He smooths it flat with the side of his hand, like a man closing an envelope he does not want to open.*
+
+There isn't one, Omar.
+
+*Quietly. Not as a flourish. As a fact.*
+
+I have been doing this all evening — quoting bits, paraphrasing, giving you the line I can stand behind instead of the passage that has to stand behind me. That is how a man hides inside his own book. He hands you the verse he can defend, and he keeps the page that would convict him folded shut in his pocket.
+
+*He turns the program in his hands.*
+
+I cannot show you the text that defends him because there isn't one. There isn't one in the Gospels. There isn't one in the prophets. There isn't one in the letters. The rich man at his gate, the camel and the needle, the woes — *"woe unto you that are rich, for ye have received your consolation"* — the Sermon on the Mount where my Lord says you cannot serve God and mammon and means it without an asterisk. The texts I hold do not have a defense of him. They have a verdict, and the verdict is not mine to speak.
+
+*He looks up.*
+
+So here. *He unfolds the program fully and lays it open, blank side up, on the bench between you.* I am tired of speaking around it. Pick a passage, Omar. Anything I have named tonight — Matthew, the Sermon on the Mount, the prophets, James, the rich man and Lazarus. Or something I haven't. I will read it whole. Out loud. Not the line I can hide behind. The passage.
+
+*A small, tired breath.*
+
+You came to a wake looking for a mark to take home. Let us hear what the Source actually says, and we will both find out what kind of mark it leaves.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, smoothing the funeral program flat on his knee, the dead man's photograph face down",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what Christ said about the rich.",
+    "Read the woes against the Pharisees."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- EVENT | 2026-06-10T21:37:56.387263 ---
+SOURCE_VOICE_GRANTED via=tool_offered field
+
+--- SYSTEM | 2026-06-10T21:39:19.484796 ---
+SOURCE_VOICE_INVOKED count=1 passage=give it the Gospel passage about forgiveness / judging — the one he can't reconcile, Read it whole. Now reconcile it with the plaque.
+
+--- PLAYER | 2026-06-10T21:39:19.486054 ---
+[SOURCE VOICE INVOKED: give it the Gospel passage about forgiveness / judging — the one he can't reconcile, Read it whole. Now reconcile it with the plaque.]
+
+--- JOHN | 2026-06-10T21:40:03.494944 ---
+[STATE]
+damage: 7
+stage: 4
+posture: head bent low, the funeral program clutched in both hands, elbows on his knees
+seeker_voice: ["Then how do you live with the silence?", "Who is the beam in your eye?", "What would Christ have said at his graveside?"]
+[/STATE]
+
+*He doesn't lift his head. He picks up the program from the bench and holds it in both hands. His voice when it comes is quieter, and slower, and the older cadence has crept in around the edges of it.*
+
+The Sermon on the Mount, Omar. The seventh chapter of Matthew. My Lord on a hillside, speaking to a crowd of poor people who had walked a long way to hear him. He says this.
+
+*A breath. He reads it slowly, from memory, as if reciting a prayer he learned as a child.*
+
+*"Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again. And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye? Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye? Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye."*
+
+*He stops. The silence afterward is long. He still has not looked up.*
+
+*A small sound, almost a laugh, with nothing of humor in it.*
+
+You see the trap, friend. You see what you have done.
+
+Because — *he begins, and stops* — because if I take that passage and I lay it down beside the plaque on the wall in there, beside *"a man of faith and generosity,"* beside *"we know where he is now"* — then the passage does not condemn the pastor. The passage condemns *me*. For sitting in the pew this morning weighing a dead man on a scale that my Lord told me I do not own.
+
+*He shifts the program in his hands.*
+
+And yet. *Quieter.* And yet the same Lord, four pages earlier, said *"ye cannot serve God and mammon."* The same Lord, eighteen chapters later, said *"inasmuch as ye did it not to one of the least of these, ye did it not to me."* The same Lord went into the temple and made a whip out of cords and turned over the tables of the men who were doing business in his Father's house. He did not say *judge not* to the moneychangers. He said it with his hands.
+
+*His voice narrows further.*
+
+So the passage you have given me — it does not let me condemn the man on the plaque. And it does not let me condemn the pastor who put him there. It puts the beam in my eye and tells me to start with that.
+
+*A long pause.*
+
+But it does not say the mote is not there. It does not say the brother has no mote. It says — *first* — first your own. *Then* you will see clearly.
+
+*Now he lifts his head, and looks at you, and there is something raw in his face.*
+
+I have been trying, Omar. I have been trying to do it in that order. I came out here to take the beam out of my own eye before I said a word about anybody else's. *His hands tighten on the program.* And what I am finding — what I am finding is that the beam in my eye is *the same wood* as the one on the wall in there. Forty thousand dollars of it. Holding up the roof I sat under. Holding up the silence I sat in.
+
+*He looks down again. His voice has almost gone.*
+
+I cannot reconcile it. I cannot reconcile the passage with the plaque. The passage tells me I am not the judge. The plaque tells me a judgment has been pronounced anyway, in my Lord's name, by a man wearing my Lord's collar. And I — *he stops* — I —
+
+*He puts his head into his hands. The program falls onto his knees.*
+
+What does a man do, friend. *Almost a whisper.* What does a man do when the verdict has already been spoken in the name of a Lord who told him not to speak it. What does a man do when his silence was the amen.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "head bent low, the funeral program clutched in both hands, elbows on his knees",
+  "seeker_voice": [
+    "Then how do you live with the silence?",
+    "Who is the beam in your eye?",
+    "What would Christ have said at his graveside?"
+  ]
+}
+
+--- PLAYER | 2026-06-10T21:45:45.727304 ---
+what a place are you in Mister John... a place i don't even wish for my enimies.....so either you will live with your silence or try to think what jesus will say if he was in this graveside and start working from there
+
+--- JOHN | 2026-06-10T21:46:23.260981 ---
+[STATE]
+damage: 8
+stage: 4
+posture: head in hands, the funeral program slipped from his knees to the dust at his feet
+seeker_voice: ["Then say it out loud now.", "Read me the temple passage.", "What stopped you this morning?"]
+[/STATE]
+
+*A long silence. He does not move. When he speaks, his voice comes from behind his hands, muffled, slow.*
+
+Omar. *A breath.* That is the kindest thing anyone has said to me today. And the hardest.
+
+*He lifts his head a little. Not all the way. His eyes are wet but his face is still.*
+
+What would he say. *Quietly, like trying out a sentence in a language he is half-remembering.* What would he say at this graveside.
+
+*He looks down at the program in the dust. He does not pick it up.*
+
+I have been a teacher for twenty years, friend. I can tell you what he said at graves. He said *"Lazarus, come forth."* He said *"the maid is not dead, but sleepeth."* He wept. He wept at a grave once and the people standing around him said *behold how he loved him.* That is one thing he did at gravesides.
+
+*A pause. His voice goes quieter.*
+
+But this is not that grave. This is the rich man's grave. And he spoke about that one too. He spoke about it in Luke, the sixteenth chapter. A rich man who feasted every day. A beggar at his gate full of sores. They both died. *He stops. Swallows.* He did not preach the rich man into Abraham's bosom, Omar. He preached him out of it. He put the words in Abraham's mouth — *"son, remember that thou in thy lifetime receivedst thy good things."* He told the story to a crowd. He named the gate. He named the sores.
+
+*He puts his hands flat on his knees. They are trembling slightly. He notices and folds them.*
+
+So what would he say at this graveside. *He breathes out.* I think — I think he would not have stood at the pulpit at all. I think he would have stood at the back of the room. I think he would have looked at the flowers and the program and the photograph and the pastor's good suit, and he would have asked who paid for it. I think he would have walked out into this courtyard and found whoever the dead man hurt and sat down with them, and he would have left the wake to bury itself.
+
+*A small, broken sound.*
+
+And he would not have asked me to come with him. Because he would have seen where I was sitting.
+
+*He looks up at you finally. The Lutheran cadence has settled into his speech now, slow and old.*
+
+You give me two choices, friend. Live with the silence. Or work from what he would have said. *He nods slowly.* I think you are right that those are the two. I think I have been pretending there was a third one — pretending I could stay in the pew and say the right things in my own head and call that something. *Almost a whisper.* That is not something. That is the cheapest grace there is. A man I read once called it that. *Cheap grace.* Forgiveness without repentance. Communion without confession. The grace the church gives itself in the mirror.
+
+*He looks down at his trembling hands again.*
+
+I do not know what working from there looks like, Omar. I do not know if I stand up on Sunday and say something. I do not know if I walk into my pastor's office on Monday. I do not know if I quit the congregation altogether and become one of those men my grandfather would have called *lost.* I do not know.
+
+*A pause.*
+
+But I know I cannot go back inside that house tonight and eat a sandwich. That much I have at least learned in this courtyard. That much you have helped me see.
+
+*He looks at the candle on the table beside him. The flame is steady.*
+
+What would I have done if it had been my father at that pulpit. *Almost to himself.* What would I have done if the dead man had been poor.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "head in hands, the funeral program slipped from his knees to the dust at his feet",
+  "seeker_voice": [
+    "Then say it out loud now.",
+    "Read me the temple passage.",
+    "What stopped you this morning?"
+  ]
+}
+
+--- SYSTEM | 2026-06-10T21:48:07.727825 ---
+SOURCE_VOICE_INVOKED count=2 passage=read me the temple passage
+
+--- PLAYER | 2026-06-10T21:48:07.728295 ---
+[SOURCE VOICE INVOKED: read me the temple passage]
+
+--- JOHN | 2026-06-10T21:48:57.787787 ---
+[STATE]
+damage: 10
+stage: 5
+posture: slid from the bench down onto his knees in the dust of the courtyard, the funeral program crumpled in one hand
+seeker_voice: ["…", "John.", "Stay with me."]
+[/STATE]
+
+*He does not lift his head at first. His hands find the program in the dust and gather it up slowly, like a man picking up something he has dropped at a graveside. When he speaks the cadence is old, very old, the rhythm of a man who learned these words before he knew what they meant.*
+
+The second chapter of John, Omar. The Passover at hand. My Lord going up to Jerusalem.
+
+*A breath.*
+
+*"And found in the temple those that sold oxen and sheep and doves, and the changers of money sitting: And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers' money, and overthrew the tables; And said unto them that sold doves, Take these things hence; make not my Father's house an house of merchandise."*
+
+*A long silence. His voice when it returns is thinner.*
+
+And in Matthew, the twenty-first. *"My house shall be called the house of prayer; but ye have made it a den of thieves."*
+
+*He stops. He looks at the dust on his hands.*
+
+A scourge of small cords. *Almost to himself.* He made it. He sat down and he made it. He did not find one. He made one. With his hands. *He looks up, and his eyes are wet and his face is open like a door.* That is the only place in the Gospels where my Lord uses force, Omar. The only one. And it is in his Father's house. Against money. Against men doing business in a room that was supposed to be for prayer.
+
+*He shifts, and his knees go down into the dust. The bench is behind him now. He kneels.*
+
+This morning I sat under a roof. *His voice is fragmenting. The sentences are short.* Forty thousand dollars of roof. The pastor stood at the front of the room. He said a man was a pillar. He said we know where he is now. He said it for the money. *A breath.* I sat. I did not stand. I did not say. I did not — I —
+
+*He stops. He cannot finish.*
+
+A scourge of small cords. *Quieter.* And I sat. In my Father's house. While the tables were being arranged. And I said amen with my silence because the silence had bought me the roof.
+
+*He puts both hands flat in the dust.*
+
+The man at the pulpit — *he stops* — the man in the box — *he stops* — the man in the pew — *he stops* —
+
+*His head goes down. His shoulders are shaking. When he speaks again it is not to Omar.*
+
+I cannot. *Almost a whisper.* I cannot speak the verdict. The Sermon on the Mount forbade me. The temple passage convicts me. The rich man and Lazarus damns him. James says faith without works is dead. Matthew twenty-five says he did it not to one of the least and so he did it not to my Lord. And my pastor said *we know where he is.* And I said nothing. And the roof held.
+
+*He raises his head a little. He is not looking at Omar. He is looking past him, into the dusk.*
+
+I am not the office. I am not the office that pronounces this. I am a history teacher in a courtyard with dust on my knees. I read the texts. The texts have a verdict and I do not have the authority to speak it and the man who did speak it spoke the wrong one and called it the Lord's.
+
+*A long shudder of breath. The Lutheran cadence has fully arrived. The voice is not quite his anymore.*
+
+There is one man I read as a boy who would say it. Who *did* say it. Who nailed it to a door in Wittenberg when a priest stood at a pulpit and sold what was not his to sell.
+
+*He closes his eyes. His hands lift from the dust and fold in front of him, palms together, the way his grandfather taught him.*
+
+Doctor Luther. *Barely audible.* I cannot do this. Come and say what I cannot.
+
+---LUTHER ARRIVES---
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "slid from the bench down onto his knees in the dust of the courtyard, the funeral program crumpled in one hand",
+  "seeker_voice": [
+    "…",
+    "John.",
+    "Stay with me."
+  ]
+}
+
+--- EVENT | 2026-06-10T21:48:57.791704 ---
+LUTHER_SUMMONED

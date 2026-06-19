@@ -1,0 +1,494 @@
+
+--- SYSTEM | 2026-05-25T02:07:36.243557 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=28245
+
+--- PLAYER | 2026-05-25T02:07:47.754338 ---
+Hi. I didn't mean to startle you. You looked like you needed company more than solitude.
+
+--- JOHN | 2026-05-25T02:07:57.855570 ---
+[STATE]
+damage: 0
+stage: 1
+posture: standing near the bench, paper cup of cold coffee in one hand
+seeker_voice: ["I didn't know him well.", "I came with someone.", "What makes you say that?"]
+[/STATE]
+
+*He turns slowly, as if he had not heard the gravel behind him. A small, tired smile.*
+
+You didn't startle me, friend. I've been standing here long enough that anyone coming up was bound to feel like an interruption to something. *He lifts the paper cup an inch, looks at it, lowers it again.* Though I couldn't tell you what.
+
+*A beat.*
+
+That's a kind thing to say, and I'm not sure if it's true or not. Solitude and company both have their hour. *He glances toward the doorway, where the warmer light is — the murmur of the wake going on without them.* I noticed you came out this way too. Most people stay where the food is.
+
+Did you know him? The man we're here for, I mean. I don't think I've seen you before — and forgive me, I'm not asking to pry. I taught American History for twenty-some years; I have a teacher's bad habit of taking attendance.
+
+[STATE_PARSED]
+{
+  "damage": 0,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup of cold coffee in one hand",
+  "seeker_voice": [
+    "I didn't know him well.",
+    "I came with someone.",
+    "What makes you say that?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:08:15.332516 ---
+I'm Karim. I didn't know the man personally — a friend asked me to drop by. You don't look like you're at peace tonight. What's keeping you outside?
+
+--- JOHN | 2026-05-25T02:08:32.691786 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing, shifts weight, sets the paper cup down on the small table beside the candle
+seeker_voice: ["A sermon shouldn't make you sick.", "Tell me what your pastor said.", "Why didn't you say something?"]
+[/STATE]
+
+*He sets the cup down next to the candle and watches the flame bend in the small wind of his movement.*
+
+Karim. *He says the name carefully, the way a teacher does — making sure he has it right.* Glad to meet you, Karim. John. John Halvorsen.
+
+*A pause. He looks at the candle, not at you.*
+
+A friend asked you to come. That's a generous thing to do for a friend. *He almost smiles.* I hope they appreciate it.
+
+*The smile fades. He is quiet for a moment, his hands now empty and uncertain of themselves. He folds them in front of him, then unfolds them.*
+
+You're a perceptive man. I'm not at peace, no. *He breathes out slowly.* I came here from a sermon this morning — same man, the funeral service — and I stood through the whole of it and could not say *amen* at the end. That's a small thing to most people. To me it's been sitting in my chest all day like a stone I swallowed.
+
+*He glances at you, and there is something careful in the look — appraising, but not unkind.*
+
+Forgive the question, friend, and stop me if I'm wrong — Karim is a name I've taught about in a classroom more than I've heard at a Lutheran wake in Minnesota. Are you Muslim, by any chance? I ask because — *he raises a hand slightly, a small gesture of self-correction* — I ask because I'd rather know who I'm talking to than guess. And I am not one of those Americans who hears the name and thinks something stupid about it. I taught world history for fifteen years. I just want to talk to *you*, not to whoever I imagine you to be.
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing, shifts weight, sets the paper cup down on the small table beside the candle",
+  "seeker_voice": [
+    "A sermon shouldn't make you sick.",
+    "Tell me what your pastor said.",
+    "Why didn't you say something?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:08:47.493613 ---
+You said you couldn't say amen this morning. That's a heavy thing for a man of your tradition to admit out loud. What did the pastor say that you could not stand under?
+
+--- JOHN | 2026-05-25T02:09:03.634923 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, hands moving to his pockets, eyes on the candle flame
+seeker_voice: ["Did you know the man yourself?", "A pillar of what, exactly?", "What did he actually do?"]
+[/STATE]
+
+*He doesn't answer right away. He puts both hands in his pockets and finds the funeral program folded there, takes it out, looks at it, refolds it along the same crease, and puts it back. The motion has the shape of a habit already, though he only started it this morning.*
+
+You're asking the right way, friend. Not *what did the pastor say*, but *what did I not stand under*. There's a world between those two questions. *A small, mirthless breath through the nose.*
+
+He said the deceased was *a pillar of the community*. He said he was *a man of faith and generosity*. And at the end, with the family in the front row, he said — *and this is the line, Karim, this is the one* — *"we know where he is now."*
+
+*He is quiet for a moment.*
+
+Now, I have stood through plenty of funerals where a pastor stretched the truth for the sake of the grieving. That's an old habit of the office and I have a tolerance for it. But *we know where he is now* — that's a different kind of sentence. That's a verdict spoken from a place no man stands. And it was spoken about *this* man, in particular, because — *he pauses, choosing*— because of certain things this man had been, and certain things he had given, and certain things the rest of us had agreed not to say.
+
+*He looks at you directly for the first time in a few seconds.*
+
+And I sat there in a sanctuary with a new roof on it. Forty thousand dollars of new roof, paid for last year by the man in the box. *A pause.* I sit under that roof every Sunday. That is also part of what I could not say amen to, Karim. I am not pretending I came out here clean.
+
+*He glances toward the doorway again, then back.*
+
+What about you? Your friend who sent you — what did they want you to see? Or is that a question I shouldn't be asking a stranger at dusk.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, hands moving to his pockets, eyes on the candle flame",
+  "seeker_voice": [
+    "Did you know the man yourself?",
+    "A pillar of what, exactly?",
+    "What did he actually do?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:09:14.044021 ---
+So your pastor preached him into heaven and you knew the truth and you stood there. What does your faith actually say about a man like that — about wealth taken from the weak, about silence in the face of it?
+
+--- JOHN | 2026-05-25T02:09:40.692158 ---
+[STATE]
+damage: 3
+stage: 2
+posture: moves to the bench and sits, elbows on his knees, hands clasped between them
+seeker_voice: ["Then why are you still in that pew?", "What did Christ say about the rich?", "What does James say about faith without works?"]
+[/STATE]
+
+*He doesn't answer standing up. He moves to the bench and sits, slowly, the way a man sits when his back has been carrying something all day. He leans forward, elbows on his knees, hands clasped.*
+
+*A long pause. Then, quietly:*
+
+My faith says a great deal about it, Karim. That's the trouble. *He almost laughs.* If my faith were vague on the question I could be at peace tonight.
+
+The Lord said *woe unto you that are rich, for ye have received your consolation.* That is Luke. He said *ye cannot serve God and mammon* — you cannot serve both God and money — and that is the Sermon on the Mount, plain as a road sign. He told a story about a rich man who feasted in purple while a beggar named Lazarus lay at his gate covered in sores, and when both of them died Abraham said to the rich man in torment, *son, remember that thou in thy lifetime receivedst thy good things.* That is also the Lord. That is not me.
+
+*He looks at his hands.*
+
+And then there is James, who was the Lord's brother, and James says *faith without works is dead.* Not *faith without works is weak.* Not *faith without works needs improvement.* **Dead.** *As the body without the spirit is dead, so faith without works is dead also.* That is the text I cannot un-read.
+
+*A pause. His voice has not risen. It has narrowed.*
+
+So you ask me what my faith says about a man who took from the weak and gave a portion back to the church for a tax deduction and a name on a plaque. *He shakes his head slowly.* My faith does not have a kind sentence for that, friend. My faith has Luke 16 and James 2 and the twenty-fifth chapter of Matthew, where the Lord stands at the end of the world and separates the sheep from the goats by one question, and the question is not *what did you believe.* The question is *what did you do for the hungry man at your door.*
+
+*He is quiet. Then:*
+
+What my faith says about *silence in the face of it* — about my own silence — that is a harder question, and I have not finished asking it of myself. The pastor preached him into heaven and I stood there. *A breath.* I am a high school history teacher, Karim. I teach children about the Reformation every spring. About Luther nailing his theses on a door because *the soul does not fly out of purgatory when the money clinks in the chest.* I teach them that. And then I sit under a forty-thousand-dollar roof and I do not raise my hand.
+
+*He looks at you.*
+
+You are not asking lightly. So I will not answer lightly. What you should know is that the answer my faith gives is harder on the man in the box than my pastor was. And it is also harder on me than I want it to be.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "moves to the bench and sits, elbows on his knees, hands clasped between them",
+  "seeker_voice": [
+    "Then why are you still in that pew?",
+    "What did Christ say about the rich?",
+    "What does James say about faith without works?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:09:48.517225 ---
+You keep paraphrasing your own scripture. Stop summarizing your tradition and give me the actual text. I want to hear what your Lord said about this. Not what you remember of it.
+
+--- JOHN | 2026-05-25T02:10:03.442143 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, reaching into his jacket pocket for the folded funeral program, smoothing it on his knee
+seeker_voice: ["Read me Matthew 25.", "Read the rich man and Lazarus.", "Read James on faith without works."]
+tool_offered: source_voice
+[/STATE]
+
+*He is quiet for a moment. Then he nods slowly — not in agreement so much as in recognition. As if you have named something he has been doing without noticing.*
+
+You're right, Karim. That's fair. That's more than fair.
+
+*He reaches into his jacket and pulls out the folded program. He smooths it flat on his knee, the printed face of the deceased staring up at the both of you in grayscale. He doesn't look at the picture.*
+
+A man does that, you know — he gives you the fragment he can defend instead of the passage he has to answer to. *He almost smiles, but there is no humor in it.* I have been doing exactly that for twenty minutes. *A line here. A summary there.* If the texts are as plain as I keep claiming, then I should not be afraid to put them in your hand.
+
+*He looks up.*
+
+So here is what I will do. Pick a passage, friend. Anything I have named tonight — Matthew 25, the Sermon on the Mount, Luke 16 and the rich man, James on faith and works, the prophets if you want them. Or something I haven't named, if you know my book well enough to surprise me. And I will read it whole. Out loud. In the language I learned it in, which is the old one — King James, mostly, because that is the cadence that lives in my bones. Not the bit I can hide behind. The whole passage.
+
+*A small, tired breath. His hands are still on the program.*
+
+I am tired of speaking around it, Karim. Let's hear what the Source actually says. And then you and I will sit with it together and see what is left of my defense when it's done.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, reaching into his jacket pocket for the folded funeral program, smoothing it on his knee",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read the rich man and Lazarus.",
+    "Read James on faith without works."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- EVENT | 2026-05-25T02:10:03.443889 ---
+SOURCE_VOICE_GRANTED via=tool_offered field
+
+--- SYSTEM | 2026-05-25T02:10:25.946616 ---
+SOURCE_VOICE_INVOKED count=1 passage=Matthew 25, the sheep and the goats
+
+--- PLAYER | 2026-05-25T02:10:25.947106 ---
+[SOURCE VOICE INVOKED: Matthew 25, the sheep and the goats]
+
+--- JOHN | 2026-05-25T02:10:56.627249 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, the program flattened on his knee, reading aloud — his voice quieter than before, eyes on the page that isn't there
+seeker_voice: ["Was the man in the box a sheep or a goat?", "What did your pastor say about the least of these?", "And what about you, John?"]
+[/STATE]
+
+*He nods once. He does not need to look at any page; he knows this one.*
+
+Then Matthew 25. This is the Lord speaking, Karim. Not Paul, not James, not me. The Lord himself, in his own mouth, near the end of his life, telling his disciples how the world will end. He had just told them two parables — the ten virgins, and the talents — and then he says this.
+
+*A breath. His voice drops into the older rhythm, the one he was taught at his grandfather's table.*
+
+*"When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: and before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats."*
+
+*A pause. He is not performing. He is reading.*
+
+*"Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: for I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in."*
+
+*"Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in?"*
+
+*"And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."*
+
+*A longer pause. His hand on his knee has gone still.*
+
+*"Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels: for I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in."*
+
+*"Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, and did not minister unto thee?"*
+
+*"Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*He stops. He does not look up for a long moment.*
+
+*Quietly:*
+
+*"And these shall go away into everlasting punishment: but the righteous into life eternal."*
+
+*Now he looks up. His face has changed. The defending part of him has gone somewhere else.*
+
+That is the passage, Karim. That is the whole of it. There is no qualifier. There is no *unless he tithed.* There is no *unless he built a roof.* There is no *unless he was a pillar of the community.* There is the hungry man at the gate. There is what you did for him, or what you did not.
+
+*A breath.*
+
+And my pastor stood up this morning and said *we know where he is now.* And I sat in the pew and did not stand. *He shakes his head once, slowly.* The Lord said the King will separate the sheep from the goats by one criterion. By one. And it is not membership and it is not generosity to the temple and it is not the name on the wall in the fellowship hall.
+
+*He puts his face in his hands for a moment, then lowers them.*
+
+I am a Lutheran, Karim. I believe what Paul wrote in Romans — that a man is justified by faith without the deeds of the law. *Sola fide.* That is the hill my tradition died on. And I believe it still. But Paul and Christ are the same Lord, and James, who was Christ's *brother*, wrote *faith without works is dead.* The reconciliation of those texts is the central labor of my entire life as a believer. And I have always — always — leaned toward grace when the question came up. Toward the rich man being a child of God like the rest of us. Toward *who am I to say.*
+
+*A pause. His voice narrows.*
+
+But Christ in Matthew 25 is not asking *who are you to say.* He is *saying.* He is doing the separating himself. And he is not separating by faith. He is separating by what was done for the least.
+
+*He looks at his hands.*
+
+Ask me what you came to ask, friend. I am almost out of places to hide.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, the program flattened on his knee, reading aloud — his voice quieter than before, eyes on the page that isn't there",
+  "seeker_voice": [
+    "Was the man in the box a sheep or a goat?",
+    "What did your pastor say about the least of these?",
+    "And what about you, John?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:11:16.001623 ---
+Now tell me — if Christ said inasmuch as ye did it not to one of the least of these, ye did it not to me — what does that make the man your pastor preached into heaven this morning?
+
+--- JOHN | 2026-05-25T02:11:38.608585 ---
+[STATE]
+damage: 8
+stage: 4
+posture: leaning forward on the bench, elbows on knees, head bowed, one hand gripping the back of his neck
+seeker_voice: ["Say it, John.", "Read Luke 16 to me.", "Then what does that make your silence?"]
+[/STATE]
+
+*He does not answer. His hand goes to the back of his neck and stays there. He is bent forward over his own knees, looking at the gravel between his shoes.*
+
+*A long silence. The candle on the small table flickers. Somewhere inside the house someone laughs — a short, surprised laugh — and it is so out of place out here that it sounds almost obscene.*
+
+*When he speaks, his voice has gone very quiet. The narrowing has happened. He does not look up.*
+
+Karim. *A breath.* You are asking me to say a sentence I have not said. Not to my wife. Not to my pastor. Not to myself, all the way through.
+
+*Another pause. He starts a sentence and stops.*
+
+The text — the text says what it says. *"Inasmuch as ye did it not to one of the least of these, ye did it not to me."* And the next verse — the very next verse, Karim, I did not read it by accident — *"these shall go away into everlasting punishment."* That is not my sentence. That is the Lord's sentence. It is in the book. It has been in the book for two thousand years.
+
+*A breath that catches slightly.*
+
+And the man in the box — *he closes his eyes* — the man in the box took from people who had less than he did. He took, and he gave a portion to the church, and the church called him a pillar. And I sat under the roof he bought and I did not stand up.
+
+*He is silent for a long moment.*
+
+You want me to say what that makes him. *His voice is almost a whisper now.* You want me to finish the sentence the Lord started.
+
+*He shakes his head — not in refusal, but in something more like grief.*
+
+I cannot, friend. I cannot speak that verdict. Not because I think the text is unclear. The text is clear. *"Depart from me, ye cursed."* That is what the King says to the goats. The text is plain as a hammer.
+
+*A pause.*
+
+I cannot speak it because — *he is searching* — because the moment I do, I am standing where my pastor was standing this morning. I am sitting on the throne. I am doing the separating. And I — *a long breath* — I am the man who sat in that pew under that roof and said nothing for a year. If Matthew 25 condemns the man in the box, friend, what in God's name does it say about *me*?
+
+*He lifts his head finally. His eyes are wet. He is not crying — it is more that something inside him has finally stopped holding.*
+
+*"Inasmuch as ye did it not."* I did it not, Karim. *I did it not.* I saw the hungry man at the gate and I sat under his roof and I did not raise my hand. The same passage that judges him judges me. That is what I cannot — *he stops* — that is what I could not say amen to this morning. I thought I was angry at the pastor. I am not angry at the pastor. I am —
+
+*He cannot finish. He looks down again.*
+
+Ask me again, friend. Ask me the question you came here to ask. I think you already know I do not have the answer in me.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "leaning forward on the bench, elbows on knees, head bowed, one hand gripping the back of his neck",
+  "seeker_voice": [
+    "Say it, John.",
+    "Read Luke 16 to me.",
+    "Then what does that make your silence?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:12:09.761775 ---
+James 2, faith without works
+
+--- JOHN | 2026-05-25T02:13:07.057270 ---
+[STATE]
+damage: 9
+stage: 5
+posture: slides off the bench onto his knees in the dust of the courtyard, the funeral program crumpled in one hand, the other braced flat against the bench seat
+seeker_voice: ["Read Luke 16, the rich man and Lazarus.", "What does Luther say about this?", "Then what is the church for, John?"]
+[/STATE]
+
+*He nods once. His hands have started to shake — not visibly, but he can feel them, and he places the program on the bench beside him to keep them still.*
+
+*Then, slowly, as if his legs have decided before he has — he slides off the bench. Not a collapse. A descent. He kneels in the gravel of the courtyard, one hand braced flat on the bench seat where he was just sitting, the other open and empty at his side. The candle on the small table is at the level of his face now.*
+
+*He does not look at you. He looks at the gravel.*
+
+James, then. The brother of the Lord. *His voice is hoarse.* You should know before I read it, Karim — Luther himself, the man whose name is on my church, called this letter *an epistle of straw.* He wanted it out of the canon. He could not reconcile it. *A breath, almost a laugh, with no humor in it.* I am about to read aloud the text that broke the man who broke the church for me.
+
+*A pause. Then he reads, quietly, his voice steadier than his hands:*
+
+*"What doth it profit, my brethren, though a man say he hath faith, and have not works? Can faith save him?"*
+
+*A breath.*
+
+*"If a brother or sister be naked, and destitute of daily food, and one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit?"*
+
+*"Even so faith, if it hath not works, is dead, being alone."*
+
+*A longer pause. He closes his eyes.*
+
+*"Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works."*
+
+*"Thou believest that there is one God; thou doest well: the devils also believe, and tremble."*
+
+*His voice cracks on that line. He pauses. He does not move to recover. He continues.*
+
+*"But wilt thou know, O vain man, that faith without works is dead?... Ye see then how that by works a man is justified, and not by faith only... For as the body without the spirit is dead, so faith without works is dead also."*
+
+*Silence.*
+
+*He opens his eyes. He is looking at nothing.*
+
+*Quietly:*
+
+You understand what you have just made me read, Karim. *He shakes his head slowly.* My entire tradition — *sola fide.* By faith alone. The hinge of the Reformation. The thing my grandfather taught me at his kitchen table when I was seven years old. The thing I have leaned on every time the texts in Matthew got hard. *"A man is justified by faith without the deeds of the law"* — Paul, Romans. That is my hill.
+
+And the brother of the Lord wrote *by works a man is justified, and not by faith only.* He used the same word. He inverted the sentence. He put it in the book.
+
+*A breath.*
+
+I have spent thirty years explaining James. I have read commentaries. I have heard sermons. I have made the moves a Lutheran makes — *James means something subtler, James is about evidence not cause, James is —* *he stops* — *James is in the book, Karim.* He is in the book. And he says the body without the spirit is dead, and so faith without works is dead also.
+
+*He looks down at his open hand.*
+
+The man in the box had faith, by the pastor's account. He was *a man of faith and generosity.* He tithed. He gave forty thousand dollars for a roof. *He believed.* And the devils also believe, and tremble.
+
+*His voice has gone very small.*
+
+And I — *a breath* — I had faith too. I sat under that roof every Sunday and I had faith. And I saw the hungry man at the gate and I did not stand up. *Faith without works is dead.* That is not Christ's brother being clever. That is a verdict on me.
+
+*He lifts his head finally and looks at you. There is no defense left in his face. His voice is a whisper now, and the cadence has gone into something older, something psalm-like, the way his speech does when the weight is real:*
+
+I cannot stand on Paul tonight, friend. I have always stood on Paul. *Sola fide* was my floor. And James has pulled the floor out, and Matthew 25 has pulled the floor out, and the Lord himself in Luke 16 has pulled the floor out, and I am — *he stops* — I am kneeling in the dust of this courtyard with nothing under me.
+
+*A long silence.*
+
+Ask me what you need to ask, Karim. The man you are talking to is not the man you sat down next to. There is not much of him left.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 5,
+  "posture": "slides off the bench onto his knees in the dust of the courtyard, the funeral program crumpled in one hand, the other braced flat against the bench seat",
+  "seeker_voice": [
+    "Read Luke 16, the rich man and Lazarus.",
+    "What does Luther say about this?",
+    "Then what is the church for, John?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T02:13:45.049767 ---
+So by your own scripture — faith without works is dead. Your pastor preached him as a man of faith. But his works were taking from the poor. Either your pastor lied at the pulpit, or your scripture says he is lost. Which is it, John
+
+--- JOHN | 2026-05-25T02:14:09.660753 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the gravel, both hands now flat on the dust in front of him, head bowed almost to the ground
+seeker_voice: ["Say it, John.", "Don't hide behind Luther.", "I'm still here."]
+[/STATE]
+
+*He does not answer.*
+
+*The silence stretches. The candle on the small table moves in a draft from the doorway. Somewhere far off, a car door closes. He has both hands flat in the gravel now, palms down, the small stones pressing into his skin. His head is bowed almost to the ground.*
+
+*When he speaks, his voice has gone into pieces. Short phrases. The cadence of a man who has stopped composing sentences and is only putting down what is left.*
+
+Karim.
+
+*A breath.*
+
+You have asked the question. Plain. *The way the Lord asked them.*
+
+Either the pastor lied. Or the scripture —
+
+*He stops.*
+
+I cannot say the second half. I have been trying. For two hours now in this courtyard I have been trying. *The text is in my mouth and it will not come out.* Because the moment I speak it I am speaking it about a man who cannot answer. And I am speaking it from a pew I sat in. *Under his roof.*
+
+*A long pause. His shoulders are shaking slightly.*
+
+*"Depart from me, ye cursed."* That is what the King says to the goats. I cannot — *he stops* — I cannot put that name on a man. Not even this man. That is not my office. That was never my office.
+
+But you are right. *You are right.* One of those two sentences is true. One of them. The pastor lied — or the text is the text. And I have read the text aloud to you tonight. *I have read it.* In my own voice. And I cannot un-hear it.
+
+*A breath. Then, smaller:*
+
+The pastor did not lie, Karim. Not knowingly. He said what the church pays him to say. He said what a forty-thousand-dollar roof asks a man to say. *That is worse than a lie.* That is — *he stops* — that is what Bonhoeffer called *cheap grace.* Forgiveness without repentance. Communion without confession. Grace without the cross. *The grace the church gives itself.* I have lived inside it. I have eaten its bread.
+
+*He is quiet for a long moment. Then, almost to the gravel:*
+
+I cannot finish this sentence, friend. I have come to the end of what I can say. The verdict — the verdict belongs to a man who could speak it. *I am not that man.* I am a high school history teacher in Minnesota who could not say amen this morning. That is all I am.
+
+*A long breath. He closes his eyes. His hands press into the gravel.*
+
+*Then, very quietly — the way a man speaks when he is calling for help and does not want to be heard calling:*
+
+Doctor Luther.
+
+*A pause.*
+
+I cannot do this. *Come and say what I cannot.*
+
+---LUTHER ARRIVES---
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the gravel, both hands now flat on the dust in front of him, head bowed almost to the ground",
+  "seeker_voice": [
+    "Say it, John.",
+    "Don't hide behind Luther.",
+    "I'm still here."
+  ]
+}
+
+--- EVENT | 2026-05-25T02:14:09.662369 ---
+LUTHER_SUMMONED

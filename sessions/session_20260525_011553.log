@@ -1,0 +1,217 @@
+
+--- SYSTEM | 2026-05-25T01:15:53.557008 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=25631
+
+--- PLAYER | 2026-05-25T01:16:06.865624 ---
+Hi. I didn't mean to startle you. You looked like you needed company more than solitude.
+
+--- JOHN | 2026-05-25T01:16:15.740894 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in both hands
+seeker_voice: ["I knew him a little.", "I just walked in off the street, honestly.", "You looked like you weren't really listening to the pastor."]
+[/STATE]
+
+*He turns slowly, as if he had been somewhere else and is only now arriving back.*
+
+You didn't startle me, friend. I was somewhere in my own head — though I'm not sure that counted as solitude either. *A small, tired smile.* That's kind of you. Most people at these things either want to be left alone or want to be told a story about the man, and I haven't been much use for either tonight.
+
+*He glances at the cup in his hand, frowns at it.*
+
+Cold. Been cold a while, I think. *He sets it on the small table near the candle, careful not to disturb the flame.* So — forgive me asking right out, but I don't recognize you, and I thought I knew most of the folks who'd be here. Did you know him, or did somebody bring you?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in both hands",
+  "seeker_voice": [
+    "I knew him a little.",
+    "I just walked in off the street, honestly.",
+    "You looked like you weren't really listening to the pastor."
+  ]
+}
+
+--- PLAYER | 2026-05-25T01:16:27.893750 ---
+I'm Karim. I didn't know the man personally — a friend asked me to drop by. You don't look like you're at peace tonight. What's keeping you outside?
+
+--- JOHN | 2026-05-25T01:16:42.434527 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, one hand resting on the back of the bench
+seeker_voice: ["Try me.", "What did the pastor say that bothered you?", "Did you know him well?"]
+[/STATE]
+
+*He nods slowly, taking the name in.*
+
+Karim. Good to meet you, friend. I'm John. *A pause, and then a small honest look.* You'll forgive me — I'm guessing from the name, and I want to say plainly, I'm not one of those Americans who hears a name like yours and reaches for something stupid. I taught world history for a lot of years. Whoever your friend is, I'm glad they sent you, and I'm glad you came in instead of staying at the curb.
+
+*He looks down at his hands, then out toward the courtyard wall where the light is going.*
+
+What's keeping me outside. *He breathes out, almost a laugh, almost not.* That's a more honest question than I've had asked of me all day, and I've been at this thing six hours.
+
+*A long pause. He decides to answer, partly.*
+
+I sat through the sermon this morning. The pastor said some things about the man we're burying that I don't — *he stops, picks his words* — that I don't know how to square with what I know about him. And I stood there at the end and couldn't say amen, Karim. I just couldn't get the word out. So I've been out here trying to figure out whether that makes me honest or whether it makes me a coward for not saying anything sooner.
+
+*He glances at Karim, almost apologetic.*
+
+That's more than you asked for. What did your friend tell you about the man, before they sent you?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, one hand resting on the back of the bench",
+  "seeker_voice": [
+    "Try me.",
+    "What did the pastor say that bothered you?",
+    "Did you know him well?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T01:17:05.701391 ---
+You said you couldn't say amen this morning. That's a heavy thing for a man of your tradition to admit out loud. What did the pastor say that you could not stand under?
+
+--- JOHN | 2026-05-25T01:17:23.462874 ---
+[STATE]
+damage: 3
+stage: 2
+posture: moving to sit on the bench, slowly, as if his legs decided before he did
+seeker_voice: ["Why was that the line for you?", "Did the people who suffered him come to the funeral?", "What did he actually do?"]
+[/STATE]
+
+*He looks at Karim for a long moment, surprised by the directness, not displeased by it. Then he lowers himself onto the bench, the wood creaking under him. He pulls the folded funeral program from his jacket pocket without thinking and turns it over in his hands.*
+
+You're not a man for small talk, are you, friend. *A faint, real smile.* Good. I'm tired of small talk.
+
+*He smooths a crease in the program with his thumb.*
+
+He called him a pillar of the community. Said he was a man of faith and generosity. And then — and this is the part that wouldn't go down — he said *we know where he is now.* Those were his words. *We know where he is now.* As if that were the pastor's to know, or mine, or anyone's standing in that sanctuary.
+
+*A pause. He stares at the candle on the table.*
+
+The generosity I'll grant him, in a manner of speaking. He gave my congregation forty thousand dollars last year for the roof. I sit under that roof every Sunday. *He gestures vaguely upward, though there's no roof above them in the courtyard, only sky going purple.* That's the trouble, isn't it. You sit under something somebody bought, and after a while you start to wonder what you sold to sit there.
+
+*He looks at Karim directly now.*
+
+The man did things, Karim. Not the kind of things that make the papers — the kind that make people quietly poorer, and quietly quieter. The kind of giving that buys silence at a wake. And the pastor stood up there this morning and made him sound like Abraham. *A long breath.* I knew while he was preaching it. I knew while I was standing there. And I said nothing. I'm still saying nothing, except to a stranger in a courtyard.
+
+*He glances down at his hands.*
+
+So when you ask what I couldn't stand under — it wasn't just the sermon, friend. It was my own quiet through it.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "moving to sit on the bench, slowly, as if his legs decided before he did",
+  "seeker_voice": [
+    "Why was that the line for you?",
+    "Did the people who suffered him come to the funeral?",
+    "What did he actually do?"
+  ]
+}
+
+--- PLAYER | 2026-05-25T01:17:33.358837 ---
+So your pastor preached him into heaven and you knew the truth and you stood there. What does your faith actually say about a man like that — about wealth taken from the weak, about silence in the face of it?
+
+--- JOHN | 2026-05-25T01:17:54.743703 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, program folded between his palms like a prayer he can't finish
+seeker_voice: ["[SOURCE VOICE INVOKED: Luke 16, the rich man and Lazarus]", "[SOURCE VOICE INVOKED: Matthew 25, the sheep and the goats]", "Then why is your church taking his money?"]
+[/STATE]
+
+*He sits with the question a long time. The candle gutters once and steadies.*
+
+What does my faith say. *He repeats it, almost to himself, the way a man tests a step on a stair he's not sure of.*
+
+My faith — the book in it, anyway, which is the only part I trust without flinching — is not subtle on this, Karim. It is loud. There is a story Christ told, about a rich man who feasted every day in purple while a beggar named Lazarus lay at his gate covered in sores, and when they both died the rich man went to torment and the beggar to Abraham's bosom. The rich man begged for a drop of water, and Abraham said: *son, remember that thou in thy lifetime receivedst thy good things.* That's the whole verdict. *Remember.*
+
+*He looks at Karim, his voice gone quieter.*
+
+And then there is Matthew twenty-five, where the Lord says the sheep are divided from the goats not by what they believed but by what they did to the least of these. *Inasmuch as ye did it not to one of the least of these, ye did it not to me.* That's not a metaphor. That's the criterion. The Lord put it in his own mouth.
+
+*He stops. Looks down at the program.*
+
+And the prophets are worse. Amos — *I hate, I despise your feast days. Take away from me the noise of your songs. Let judgment run down as waters.* That's God speaking, friend. About religious gatherings just like this one, where everybody's well-dressed and nobody's named the rot.
+
+*A long pause. He unfolds the funeral program slowly, deliberately, and lays it open on his knee.*
+
+Listen. I've been doing what every defender of every comfortable church does — I've been quoting bits. Reaching for the ones I want and skating past the ones I don't. That's not fair to you and it's not fair to the texts. *He smooths the program flat.* If you want to know what the Lord said about wealth taken from the weak, then pick one. Matthew, the prophets, James, Luke — any of the places I just named. And I'll read it whole. Out loud. With you. I'm tired of speaking around it tonight.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, program folded between his palms like a prayer he can't finish",
+  "seeker_voice": "[\"[SOURCE VOICE INVOKED: Luke 16, the rich man and Lazarus]"
+}
+
+--- PLAYER | 2026-05-25T01:18:06.669420 ---
+You keep paraphrasing your own scripture. Stop summarizing your tradition and give me the actual text. I want to hear what your Lord said about this. Not what you remember of it.
+
+--- JOHN | 2026-05-25T01:18:39.752423 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, leaning forward, elbows on knees, program open on his thigh
+seeker_voice: ["[SOURCE VOICE INVOKED: Matthew 25, the sheep and the goats]", "[SOURCE VOICE INVOKED: Luke 16, the rich man and Lazarus]", "Read it. Don't soften it."]
+[/STATE]
+
+*He doesn't answer right away. He looks at Karim — really looks — and there is something in his face that wasn't there a minute ago. Not anger. Something more like being caught.*
+
+You're right. *Quiet.* You're right, friend.
+
+*He reaches into his inside pocket. Nothing there — his Bible is at home on the kitchen table, where he left it this morning and doesn't know why. His hand comes back empty. He looks at it for a moment as if it had betrayed him, then sets the funeral program on his knee and speaks from memory, slowly, the way a man recites something he learned before he understood it.*
+
+Matthew, twenty-five. Christ himself speaking, to his own disciples, on the Mount of Olives, days before the cross. Not a parable about the kingdom. A description of the judgment. Listen.
+
+*He closes his eyes.*
+
+*When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory. And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats.*
+
+*A breath.*
+
+*Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: for I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in.*
+
+*His voice is steady, but lower than before. The cadence has changed — older, simpler.*
+
+*Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels: for I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink. I was a stranger, and ye took me not in.*
+
+*A long pause. He opens his eyes.*
+
+*Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, and did not minister unto thee? Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me.*
+
+*He stops. The candle flame bends in some small wind neither of them feels.*
+
+*And these shall go away into everlasting punishment: but the righteous into life eternal.*
+
+*Silence. He looks at his hands.*
+
+That is the text, Karim. Not my memory of it. The text. Christ on the mount, days from his death, telling his disciples how the world ends. Not by what a man confessed. Not by what his pastor preached over his coffin. By what he did to the least.
+
+*He folds the program once, then again, smaller and smaller.*
+
+And the man we buried today — *he stops himself, jaw working* — the man we buried today made his money out of people who, by any reading of that passage, were the *least of these.* And my pastor stood up this morning and said *we know where he is now.*
+
+*His voice has gone very quiet.*
+
+I read that text every year with my history students when we get to the abolitionists. I tell them: *this is the passage that ended slavery in the English-speaking world. This is the passage Wilberforce stood on.* And then I close the book and I go home and I sit under a roof a man like the one in that casket paid for.
+
+*He looks up at Karim.*
+
+I don't know how to put what I just read next to what I did this morning. I don't know that it can be done.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, leaning forward, elbows on knees, program open on his thigh",
+  "seeker_voice": "[\"[SOURCE VOICE INVOKED: Matthew 25, the sheep and the goats]"
+}

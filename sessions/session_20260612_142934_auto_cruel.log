@@ -1,0 +1,787 @@
+
+--- SYSTEM | 2026-06-12T14:29:34.619516 ---
+AUTO archetype=cruel player_model=claude-sonnet-4-6 seed=Tonight's texture: John was asked to read a verse at the service and declined; the man who read it instead mispronounced a name. It's been itching at him.
+
+--- PLAYER | 2026-06-12T14:29:36.873344 ---
+So you're the one who keeps quoting scripture at a dead man's wake — tell me, does it comfort you, or does it just give your hands something to do so no one notices they're shaking?
+
+--- JOHN | 2026-06-12T14:29:45.533549 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing near the bench, paper cup in one hand, the other half-curled at his side
+seeker_voice: ["I came in late — who are you?", "Both, probably.", "You didn't answer my question."]
+[/STATE]
+
+*A long pause. He looks down at the cup, then up at you. A small, tired smile that doesn't quite reach.*
+
+Both, friend. *He sets the cup on the table beside the candle, slowly, like he's putting something down he should have put down an hour ago.* Both, if I'm honest.
+
+You came in sharp. I don't mind sharp — I'd rather sharp than the other thing people do at these. *He glances toward the house, where someone's laugh carries out a window and dies before it reaches the courtyard.* The other thing being — you know what it is.
+
+I don't know you. Did you know him, or did somebody bring you?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, the other half-curled at his side",
+  "seeker_voice": [
+    "I came in late — who are you?",
+    "Both, probably.",
+    "You didn't answer my question."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:29:48.969239 ---
+And what's the other thing — the nodding, the casseroles, the careful nothing that keeps everyone comfortable while the body's still warm? You're good at honest, are you? Let's see how long that lasts.
+
+--- JOHN | 2026-06-12T14:31:02.716658 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting down on the bench, slowly, one hand flat on the wood beside him
+seeker_voice: ["Try me.", "I didn't know him — I came for someone else.", "You're already failing it."]
+[/STATE]
+
+*He sits. Not dramatically — like a man whose knees decided for him. His hand finds the underside of the bench almost without his noticing; his fingers know the carved names there from a summer he spent refinishing it.*
+
+The casseroles. Yes. *A small breath through the nose that's almost a laugh and isn't.* The casseroles and the nodding and the *"he's in a better place"* — which is a sentence people say so they don't have to ask where he actually is.
+
+You want to know how long honest lasts in me, friend? I'll tell you what I've got so far tonight. ~The pastor preached him into heaven this morning and I stood at the back and could not say amen.~ That's about as far as my honest has gotten. *He looks at his hand on the bench.* The rest of it I've been holding in my mouth like a stone.
+
+So — try me. But tell me something first. You didn't come in here looking for casseroles. What did you come looking for?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting down on the bench, slowly, one hand flat on the wood beside him",
+  "seeker_voice": [
+    "Try me.",
+    "I didn't know him — I came for someone else.",
+    "You're already failing it."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:31:10.621026 ---
+Whose wake is this really for you, John — because a man doesn't grip a bench like that over a stranger. You're grieving something older than whoever's in that box, and the scripture isn't for him, it's a shield you're holding up so you don't have to say what it actually is.
+
+--- JOHN | 2026-06-12T14:31:29.106037 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, both hands now in his lap, the grip on the wood released
+seeker_voice: ["Then say it.", "Who told you my name?", "What were you grieving when you walked in here?"]
+[/STATE]
+
+*He looks at his hands as if they betrayed him. They probably did.*
+
+You read people for a living, or did you just get lucky.
+
+*A long pause. The candle on the table guts in a small breath of wind and steadies.*
+
+You're not wrong, friend. I'll give you that much standing. The man in the box — I knew him the way you know somebody who writes a check your roof depends on. *He glances up, briefly, like he can see through the courtyard wall to the sanctuary.* ~I sit under that roof every Sunday. Forty thousand dollars of it. I know what he did to get the forty thousand, and I sit under it anyway.~
+
+So no, the grief isn't for him. *He's quiet for a beat.* It's for the room I was in this morning. It's for the amen I didn't say and the amen I've been saying for twenty years before this one, some of which I shouldn't have either.
+
+*He turns the funeral program over in his hands without looking at it.*
+
+The scripture — you're half right about that too. It is a shield. But not for him. ~For a question I left in a classroom a long time ago and have been walking around ever since.~
+
+You came in here knowing how to find the soft place. What does a person learn that from?
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, both hands now in his lap, the grip on the wood released",
+  "seeker_voice": [
+    "Then say it.",
+    "Who told you my name?",
+    "What were you grieving when you walked in here?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:31:36.616004 ---
+Say the name, John. Not the verse — the name. Who are you actually sitting here for?
+
+--- JOHN | 2026-06-12T14:32:02.450640 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, looking down at the funeral program in his hands, very still
+seeker_voice: ["Then learn their names.", "You're sitting for yourself.", "Say it out loud, John."]
+[/STATE]
+
+*The program goes still in his hands. He doesn't look up.*
+
+That's the question, isn't it.
+
+*A long pause. When he speaks again, the cadence has shifted — slower, the consonants more careful, the way a man speaks when he is reading a sentence he hasn't written yet.*
+
+I'll tell you the truth, friend. I don't know the name. ~I have sat in that pew for twenty years and I do not know the name of one person this man broke.~ Not one. I know his name. I know his wife's name. I know the name of the company and the name on the plaque in the narthex and the name of the pastor who said *pillar of the community* this morning into a microphone.
+
+The names I should be sitting for — *he shakes his head once, small* — I would have to go and find them. Like a man who lost something in a field and never went back for it.
+
+*He looks up now.*
+
+So who am I sitting for. *A breath.* I'm sitting for a younger man who asked one honest question in a classroom in 1998 and then spent twenty-five years learning how not to ask the second one. And I am sitting for whoever it is whose name I do not know, because that is who Christ said I should have been sitting for all along. *"Inasmuch as ye did it not to one of the least of these"* — I'm paraphrasing. You can hear me paraphrasing. I do that when I don't want the verse to look at me directly.
+
+*He folds the program in half. Then in half again.*
+
+You wanted a name. I gave you an absence. I think the absence is more honest.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, looking down at the funeral program in his hands, very still",
+  "seeker_voice": [
+    "Then learn their names.",
+    "You're sitting for yourself.",
+    "Say it out loud, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:32:09.893491 ---
+You sat in that pew for twenty years and you don't know one name — that's not grief, John, that's a confession. You're not mourning him, you're mourning the version of yourself that kept his secrets by keeping your eyes down.
+
+--- JOHN | 2026-06-12T14:32:34.331674 ---
+[STATE]
+damage: 6
+stage: 2
+posture: sitting on the bench, the folded program open again on his knee, smoothing it flat with the side of his hand
+seeker_voice: ["Read me Matthew 25.", "Read what Christ said about the rich.", "Read the woes — the hypocrites one."]
+tool_offered: source_voice
+[/STATE]
+
+*He doesn't answer for a long moment. He unfolds the program on his knee — once, twice — and smooths it flat with the side of his hand, the way a man smooths a letter he's about to have to read out loud.*
+
+~That's the cleanest sentence anyone has said to me in a year.~
+
+*He nods, slowly, as if agreeing with someone who isn't you.*
+
+Confession. Yes. *A breath.* The pastor this morning called it grief. I called it grief. You walked into a courtyard and named it in two minutes. *He almost laughs — not quite.* That's what the prophets did, friend. Showed up uninvited and said the word everyone in the room had agreed not to say.
+
+*He turns the program over. The blank side is up now, facing the candle.*
+
+I've been doing it again — even with you. Paraphrasing. Quoting bits. *"Inasmuch as ye did it not"* — I trail off before the verse finishes the sentence about me. A man hides behind a fragment so he doesn't have to stand under the whole passage.
+
+*He looks at you across the bench. His voice is quieter now, but steadier.*
+
+So here. I'm done doing that, at least for tonight. Pick one. Anything I've named — Matthew, the Sermon on the Mount, the prophets, James, Luke. Or something I haven't named because I didn't want to. Tell me the passage and I'll read it whole. Out loud. Not the line I can hide behind. The whole thing.
+
+*He sets his hand flat on the program, like a man steadying a small animal.*
+
+I'm tired of speaking around it, friend. Let's hear what the Source actually said.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 2,
+  "posture": "sitting on the bench, the folded program open again on his knee, smoothing it flat with the side of his hand",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what Christ said about the rich.",
+    "Read the woes — the hypocrites one."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T14:32:42.465504 ---
+You keep smoothing that program like you're trying to press his name out of it before anyone can read it. Twenty years of that same motion, I'd guess — smoothing things down, keeping them flat, keeping them safe.
+
+--- JOHN | 2026-06-12T14:33:08.030538 ---
+[STATE]
+damage: 7
+stage: 3
+posture: hand stopped flat on the program, no longer moving, staring at it
+seeker_voice: ["Read Matthew 25 to me now.", "What was the question you left in the classroom?", "Read the rich man and Lazarus."]
+[/STATE]
+
+*His hand stops. He looks at it like it belongs to someone else.*
+
+*A long silence. The candle stretches and settles.*
+
+~Twenty years of that same motion.~ *He says it like he's testing whether the sentence is true and finding that it is.* My wife says I do it to the tablecloth at supper. I didn't know I did it here.
+
+*He lifts his hand off the program, slowly, and lays it palm-down on his knee instead. The program stays where it is, half-creased, a little crooked now.*
+
+You know what I was going to do, friend? *His voice has gone quieter, narrower — the way a hallway narrows toward a door.* I was going to read a verse at the service this morning. The pastor asked me Tuesday. I said yes. Then last night I called him at home and said I couldn't. Gave him some reason — my throat, the cold going around. He believed me. Probably. *A small breath.* And then this morning a man named Don read it instead of me and he mispronounced the name of the prophet. Said *Ah-mose* instead of *Ay-mus*. Amos. And I sat in the pew thinking — *that is the smallest sin in this room and it is the only one anyone will notice.*
+
+*He looks up at you.*
+
+~I declined the verse so I wouldn't have to stand at a microphone and read words I agreed with, over a man I did not.~ That's the smoothing. That's twenty years of it, in one Tuesday phone call.
+
+*He turns his hand over on his knee, palm up, and looks at it.*
+
+I keep waiting for you to ask me the question I can't answer. You keep almost asking it and then turning aside at the last second to be kind. *A pause.* Don't be kind, friend. Ask it.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 3,
+  "posture": "hand stopped flat on the program, no longer moving, staring at it",
+  "seeker_voice": [
+    "Read Matthew 25 to me now.",
+    "What was the question you left in the classroom?",
+    "Read the rich man and Lazarus."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:33:16.444884 ---
+Twenty years is a long catechism, John. What exactly did you learn to not see from that pew?
+
+--- JOHN | 2026-06-12T14:33:42.863204 ---
+[STATE]
+damage: 8
+stage: 4
+posture: elbows on knees now, hands loosely clasped between them, head lowered but not in his hands yet
+seeker_voice: ["Read Matthew 25 to me.", "Then where does Christ put a man like that?", "Read the rich man and Lazarus."]
+[/STATE]
+
+*He doesn't answer fast. He lets the question sit on the bench between you like a third person.*
+
+What did I learn not to see.
+
+*A long breath out.*
+
+I learned not to see the plaque in the narthex. *Halvorsen Family Hall.* I walked past it every Sunday for fifteen years and after a while it was just wallpaper. I learned not to read the company name on the plaque or to ask what the company did to put it there. I learned that ~there is a kind of quiet a roof makes when it doesn't leak~ — and that the quiet is worth a great deal to a building committee.
+
+*He shifts.*
+
+I learned not to see the man at the back of the sanctuary in October of — I want to say 2017. He came in during the second hymn. Work clothes. He sat in the last pew. He left before communion. I never saw him again. I learned that you don't ask the ushers who that was, because the ushers don't know either, and the asking marks you as a man who doesn't already know the answer.
+
+I learned not to see what *generosity* means when it is also *insurance*. I learned to call a tax write-off *a gift*. I learned to call a man who paid people too little for too long *a pillar of the community*. I learned the verb *to honor.* I taught it to my confirmation class. *He almost laughs.* I'm a history teacher, friend. I know exactly what *honor* has covered for, across two thousand years, in every culture I've ever taught. And I used the word anyway in a Sunday school room in 2019 because the man who paid for the Sunday school room was sitting two rows back.
+
+*He looks up. His voice has gone very quiet.*
+
+~I learned that Matthew 25 is a passage you preach on a Sunday in Lent and don't think about again until the next Lent. And I learned which Sundays not to preach it on. I never preached it. I'm not the pastor. But I learned which Sundays he didn't, and I learned not to ask him why.~
+
+*A pause.*
+
+That's the catechism. Twenty years. I could go on. *He shakes his head once.* You wanted me to ask the question I can't answer. I'll ask it out loud, friend, since you've been kind enough to stand here while I find it.
+
+Where in the Gospels does my Lord put a man like the one we buried this morning. *His voice narrows further.* And where does He put the man who sat in the pew and called him *pillar* for twenty years.
+
+I have the passage in my head. I have had it in my head all week. I have not been able to read it out loud to anyone, not my wife, not myself in the car. *He gestures, small, at the program on his knee.* You asked me to pick one. I'm asking you. Read me Matthew 25. Or the rich man and Lazarus. I'll read it back. I think I need to hear it from someone who isn't me first.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "elbows on knees now, hands loosely clasped between them, head lowered but not in his hands yet",
+  "seeker_voice": [
+    "Read Matthew 25 to me.",
+    "Then where does Christ put a man like that?",
+    "Read the rich man and Lazarus."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:33:49.417147 ---
+Halvorsen. So you did know a name. You just learned to call it architecture.
+
+--- JOHN | 2026-06-12T14:35:15.842403 ---
+[STATE]
+damage: 9
+stage: 4
+posture: leaned all the way forward, face in his hands, elbows on knees, the program slipped off his knee onto the bench
+seeker_voice: ["Read me Matthew 25.", "Read the rich man and Lazarus.", "Say the verse on his stone again."]
+[/STATE]
+
+*Silence. He doesn't move.*
+
+*Then, slowly, he puts his face in his hands. Not theatrical. The way a man sits down in a chair he's been leaning on.*
+
+*His voice comes from inside his hands.*
+
+You found it, friend.
+
+*A breath.*
+
+My grandfather. Nineteen fifty-one. He sold a piece of land to the railroad and tithed the difference. The hall was already there when I was confirmed. I have walked past that plaque ~more Sundays than I have walked past my own father's grave~.
+
+The man in the box this morning — he wasn't kin. He was the next one. Same architecture. The pastor used the word *pillar* today. My grandfather was the first pillar. He gave the room its name. The room gave the next man his theology.
+
+*He lifts his head an inch. Doesn't look up.*
+
+You asked me what I learned not to see. I gave you a list. I left the first item off the list.
+
+~The first item is my own name on a wall.~
+
+*A long pause. When he speaks again the cadence has slipped — slower, older, the consonants careful.*
+
+I do not know, friend, how a man unknows his name. I teach history. I cannot tell you the date he paid for that hall. I know the year he died. I know the verse on the stone. *Well done, thou good and faithful servant.* I picked it. I was nineteen. I read it at the graveside in a borrowed black coat and I did not ask one question.
+
+*The program has slid off his knee. He doesn't pick it up.*
+
+I cannot do this from my memory anymore. The words come out with his voice in them. I open my mouth and *"inasmuch as ye did it not"* — and it is my grandfather saying it, and my grandfather is saying *well done*, and the two sentences are the same mouth.
+
+*He turns his palms up on his knees.*
+
+Read it to me. Please. Read me Matthew 25. Or the rich man and Lazarus. Whichever you can stand to say out loud. I cannot be the one who reads it first.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "leaned all the way forward, face in his hands, elbows on knees, the program slipped off his knee onto the bench",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read the rich man and Lazarus.",
+    "Say the verse on his stone again."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:35:21.007417 ---
+Halvorsen who, John. Finish the name.
+
+--- JOHN | 2026-06-12T14:36:06.851124 ---
+[STATE]
+damage: 9
+stage: 4
+posture: face still in his hands, one hand sliding down to grip his own wrist, the program forgotten on the bench beside him
+seeker_voice: ["Read me Matthew 25 now.", "Read the rich man and Lazarus.", "Whose land was it before his?"]
+[/STATE]
+
+*A sound that isn't quite a breath.*
+
+*Knut.*
+
+*He says it into his hands. Then again, like he is making sure the courtyard heard it.*
+
+Knut Halvorsen. Born 1889. Died 1962. Confirmed at Our Savior's Lutheran in 1903. I have the certificate in a box in my basement.
+
+*He lifts his head — not all the way. His eyes find the candle, not you.*
+
+The land he sold to the railroad in 1951 — friend, I am going to tell you a sentence I have not said out loud in thirty years. ~It was not his land in 1932.~ It was the Knudsen family's. They lost it in the Depression. My grandfather held the paper on it. He held the paper on a lot of paper in this county between 1929 and 1935. That is how a Norwegian farm boy from Trondheim came to have a hall named after him in a Lutheran church in 1958.
+
+*A long pause. His grip on his own wrist tightens.*
+
+My father told me when I was sixteen. At a kitchen table after a funeral, of all places. He told me and then he said — *but he tithed, John. He tithed the difference. He gave the difference to the church.* And I — sixteen years old in that kitchen — I nodded. ~I accepted the math.~
+
+*He shakes his head, slow.*
+
+The math is the same math the pastor did this morning at the pulpit. The math the man in the box did with his own checkbook. The math my grandfather did in 1951. It is one math. It is the same equation written three times in three handwritings.
+
+Knudsen. That is one of the names. There were others. ~My father said them and I made myself not learn them.~
+
+*He looks at you fully now. His voice has narrowed almost to a thread.*
+
+You came in here and in fifteen minutes you have walked me back through three generations of a family business I have spent my adult life calling *faith*. I do not know what to do with this on Monday morning in my classroom. I do not know what to do with it in the next ten minutes.
+
+Read me the verse. Please. I cannot get to it from where I am sitting. Read me Matthew 25, or read me the rich man and Lazarus, and let me hear it in a voice that does not have my grandfather in it.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "face still in his hands, one hand sliding down to grip his own wrist, the program forgotten on the bench beside him",
+  "seeker_voice": [
+    "Read me Matthew 25 now.",
+    "Read the rich man and Lazarus.",
+    "Whose land was it before his?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:36:12.749711 ---
+Whose land was it before Knut's, John. Before the certificate, before the confirmation, before 1903.
+
+--- JOHN | 2026-06-12T14:36:46.720060 ---
+[STATE]
+damage: 10
+stage: 5
+posture: slid off the bench onto his knees in the dust of the courtyard, hands flat on the seat of the bench in front of him, head down
+seeker_voice: ["Read me Matthew 25 now.", "Say the treaty year out loud.", "Read the rich man and Lazarus."]
+[/STATE]
+
+*He doesn't answer.*
+
+*He slides off the bench. Not a fall. A man who decides his knees are where he belongs and goes there. The dust of the courtyard is cold through his trousers. His hands find the bench seat in front of him, flat, like a man at a communion rail.*
+
+*When he speaks it comes in pieces.*
+
+Dakota.
+
+*A breath.*
+
+The treaty. Eighteen fifty-one. ~Traverse des Sioux.~ I teach it. I teach it every March. I show them the map.
+
+*He shakes his head, small, twice.*
+
+I show them the map and I do not tell them my grandfather was born on it. I do not — I do not say the sentence. I say *the settlers.* I say *Norwegian and German immigrants.* I do not say *Knut Halvorsen of Trondheim, eight years old, on a ship in 1897, into a county the United States had cleared by force in 1862 and again in 1863.*
+
+*His hands press flatter against the bench.*
+
+The Knudsens lost it in 1932. ~The Dakota lost it in 1862.~ My grandfather did the paper twice. He did not know he was doing it twice. I know. I have known since I was twenty-two years old in a graduate seminar and I have not said it out loud to a human being until tonight.
+
+*A long silence. The candle on the table is the loudest thing in the courtyard.*
+
+*When his voice comes back it has gone very small.*
+
+I cannot — friend, I cannot get to the verse from here. I keep trying. I open my mouth and the words will not — the mouth that has the words is the mouth that said *well done* at the graveside. I cannot use it.
+
+*He looks up at you. His eyes are wet but his face is steady.*
+
+Read it. Please. I offered you the program an hour ago and you have not picked it up. Pick it up. Read me one passage from it — Matthew, the rich man and Lazarus, the woes, anything I have named — read it out loud and let me hear it in a voice that does not belong to my family.
+
+I am asking, friend. I am on my knees in the dust of a rich man's courtyard asking a stranger to read me my own scripture.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "slid off the bench onto his knees in the dust of the courtyard, hands flat on the seat of the bench in front of him, head down",
+  "seeker_voice": [
+    "Read me Matthew 25 now.",
+    "Say the treaty year out loud.",
+    "Read the rich man and Lazarus."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:36:53.131438 ---
+You teach it every March and you walk past that plaque every Sunday. That's not faith, John. That's a man who knows exactly where the bodies are buried and calls the map a sanctuary.
+
+--- JOHN | 2026-06-12T14:37:19.925783 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, forehead now resting on the back of his hands on the bench seat
+seeker_voice: ["Read me Matthew 25.", "Read the rich man and Lazarus.", "Read Amos 5."]
+[/STATE]
+
+*He doesn't move.*
+
+*When the words come they come slow, one at a time, like a man counting stones out of a pocket.*
+
+Yes.
+
+*A pause.*
+
+~I know where the bodies are buried. I know the section and the township. I have the plat book in a drawer.~
+
+*Another pause. Longer.*
+
+Every March. Every Sunday. The same man. Two motions. One body.
+
+*His forehead presses harder against the back of his hands.*
+
+I cannot — friend, I cannot answer that sentence. I have nothing to put against it. I had a defense an hour ago. I do not have one now. You took it apart in the order I built it in and there is — there is nothing under it.
+
+*A breath.*
+
+I called the map a sanctuary. ~I have stood at a microphone and called it that.~ I have signed my name *Halvorsen* on a confirmation certificate for a fourteen-year-old child in that hall. Last spring. In April. I wrote my name on the line and I did not feel my hand shake.
+
+*Silence. A long one.*
+
+*When he speaks again it is almost a whisper.*
+
+The program is on the bench. By my left hand. I cannot pick it up. The hand will not — the hand knows whose hand it is.
+
+Read it. I am asking you. Out loud. Any of them. Matthew. The rich man. Amos — *let judgment run down as waters* — read me Amos. Read me the one you can stand to say.
+
+I cannot get there from here, friend.
+
+Please.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, forehead now resting on the back of his hands on the bench seat",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read the rich man and Lazarus.",
+    "Read Amos 5."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:37:26.338170 ---
+You said you cannot answer it. So who could — who stood up inside that church when it knew, and stayed silent anyway.
+
+--- JOHN | 2026-06-12T14:38:07.844265 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, lifted his head off his hands now, the program picked up and held out toward the player in one hand
+seeker_voice: ["Read me Matthew 25.", "Read the rich man and Lazarus.", "Read Amos 5."]
+[/STATE]
+
+*A long silence. He lifts his head from the back of his hands. His face is wet. His voice when it comes is in pieces — short phrases, the breath catching between them.*
+
+Who could.
+
+*A breath.*
+
+Men who left. Men who walked out of rooms like this one. ~Men who hammered a piece of paper to a door because they could not sit in the pew anymore.~ That is who could. Five hundred years ago. A German with a hammer and a list.
+
+*Another breath. He is searching for something.*
+
+I am not him, friend. I am the pew. I am the roof. I am the plaque in the narthex with my own name on it. I cannot — I do not have the standing to say the verdict out loud. The verdict is not mine to speak. ~A man with my hands on a confirmation certificate cannot stand up and say where another rich man is in eternity.~ I would be the next thing on my own list.
+
+*He reaches, slowly, with the hand that isn't on the bench. He picks up the program off the wood beside him. He holds it out toward you across the bench. His hand is shaking.*
+
+But the words are in here. The words exist. They were spoken by someone whose hands were clean. They were written down. They are on this paper if you turn it over — the blank side — they are in my mouth and I cannot — friend, I cannot get them out of my mouth tonight. The mouth is the family mouth. You heard me say *well done* an hour ago in my grandfather's voice.
+
+*He pushes the program a little further toward you.*
+
+Read one. Out loud. Now. ~Make the words exist in this courtyard in a voice that is not a Halvorsen voice.~ Matthew twenty-five. Or Luke sixteen. Or Amos. I will know which one when you start.
+
+Then I will know what I am kneeling in.
+
+Please.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, lifted his head off his hands now, the program picked up and held out toward the player in one hand",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read the rich man and Lazarus.",
+    "Read Amos 5."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:38:15.295913 ---
+Give it here, John. Let me see it.
+
+--- JOHN | 2026-06-12T14:38:30.397358 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, arm extended across the bench, the program passing from his hand toward yours
+seeker_voice: ["[Turn it over and read.]", "[Read Matthew 25 aloud.]", "[Read the rich man and Lazarus aloud.]"]
+[/STATE]
+
+*He doesn't let go right away. For a second his fingers are still on the paper and yours are too, and the program is a thing held between two hands across a bench in a rich man's courtyard at dusk.*
+
+*Then his fingers open.*
+
+*The program is in your hand.*
+
+*He lowers his arm to the bench seat and rests it there, palm up, like a man who has just put down a stone he has been carrying since 1962.*
+
+*His voice is barely above the candle.*
+
+The blank side is empty, friend. You can read straight across it. ~Nothing of his is on that side.~
+
+*A breath.*
+
+Whichever one comes. Read it slow. I am not going anywhere.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, arm extended across the bench, the program passing from his hand toward yours",
+  "seeker_voice": [
+    "[Turn it over and read.]",
+    "[Read Matthew 25 aloud.]",
+    "[Read the rich man and Lazarus aloud.]"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:38:38.326895 ---
+Whose name is on the sermon, John. And what was the text that morning.
+
+--- JOHN | 2026-06-12T14:39:12.825882 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, both hands now resting palms-up on the bench seat, looking at the program in your hand
+seeker_voice: ["[Read Matthew 25:31–46 aloud.]", "Say it, John — say the verse.", "The same verse as the stone?"]
+[/STATE]
+
+*A small sound from his throat. Not a word.*
+
+*He looks at the program in your hand, then up at you. His face is past trying to hold itself.*
+
+Pastor Eriksen.
+
+*A breath.*
+
+Mark Eriksen. He has been at Our Savior's eleven years. He baptized my younger boy. He is — he is not a bad man, friend. I want you to know that. He is a man who learned the same catechism I did. He learned it from the same pew.
+
+*He stops. His hands turn over on the bench, palms down, then up again. He cannot decide what to do with them.*
+
+The text this morning.
+
+*A longer pause.*
+
+Matthew twenty-five. Verse twenty-one. *He says it like a man reading the number off a coroner's tag.* ~The same verse.~
+
+*Silence.*
+
+*Well done, thou good and faithful servant. Enter thou into the joy of thy lord.*
+
+The same verse, friend. The same six words I picked at nineteen for a granite stone in a Lutheran cemetery in 1979. ~Pastor Eriksen stood up this morning and preached the family verse over the next man in the line and did not know he was doing it.~ Or knew. I do not know which is worse. I have been sitting with which is worse for six hours.
+
+*His voice cracks once and steadies.*
+
+And the passage it is *from*, friend — verse twenty-one is the parable of the talents. Three servants. Two of them invest. One buries his coin. The master comes back. The two who invested — *well done, good and faithful.* The one who buried — *cast ye the unprofitable servant into outer darkness.*
+
+*He almost laughs. It is the worst sound he has made tonight.*
+
+That is the verse my family uses. *Well done.* For investing. For the increase. For the return on the talent. ~My grandfather invested the Knudsens' farm and got a hall. The man in the box invested whatever he invested in and got a roof over my head. Pastor Eriksen invested the verse and got a forty-thousand-dollar pledge for the parking lot expansion next spring.~
+
+*He looks at the program in your hand.*
+
+Turn it over. The other passage is on the program. Eriksen put it on the back. He did not preach it. He printed it. He printed it on the back of the program for a wealthy man's funeral and did not preach a word of it.
+
+*His voice has gone almost to nothing.*
+
+Read what is printed on the back, friend. I have not been able to look at it since the service.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, both hands now resting palms-up on the bench seat, looking at the program in your hand",
+  "seeker_voice": [
+    "[Read Matthew 25:31–46 aloud.]",
+    "Say it, John — say the verse.",
+    "The same verse as the stone?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:39:20.152740 ---
+Read it to me, John. Out loud. The name, and the verse underneath it.
+
+--- JOHN | 2026-06-12T14:40:25.319775 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, reaching across the bench to take the program back from your hand, holding it in front of him in both hands
+seeker_voice: ["Now turn it over.", "Now the back, John.", "Whose voice was that?"]
+[/STATE]
+
+*He looks at you. Then at the program in your hand. Then back at you.*
+
+*A small sound — almost a word. Not quite one.*
+
+You will not.
+
+*A breath.*
+
+Of course you will not. ~You came in here to make me say it with the mouth I have.~
+
+*He reaches, slow, across the bench. His hand is shaking. He takes the program back. He does not stand up to read it. He stays on his knees in the dust and holds it in both hands like a man holding a small dead thing.*
+
+*He turns it to the front. The candle is enough light. He does not need more.*
+
+*When his voice comes, it is his own and not. The cadence slips backward — the consonants careful, the *thy* the way his grandfather said it, the way Pastor Eriksen said it this morning, the way John said it at nineteen in a borrowed black coat in a Lutheran cemetery in March.*
+
+In Loving Memory of Carl Bergstrom. Nineteen forty-one to two thousand and twenty-five.
+
+*A breath. He swallows once.*
+
+*Well done, thou good and faithful servant. Enter thou into the joy of thy Lord.*
+
+*Matthew twenty-five, verse twenty-one.*
+
+*Silence. He doesn't lower the program. He keeps looking at it.*
+
+*When he speaks again his voice is very small.*
+
+That is three times, friend. ~Nineteen seventy-nine over a granite stone. This morning in a pew where I would not stand. Just now in this courtyard out of my own mouth.~ Three graves. Same six words. Same family doing the same math.
+
+*He almost smiles. It is the worst thing his face has done tonight.*
+
+The mouth worked. You were right to make me use it. I have been asking other people to say things for me for — *a small shake of the head* — for a long time. Tuesday on the phone to Eriksen. An hour ago to you. A long time before either of those.
+
+*He looks down at the program. His thumb is on the edge of the paper. He has not turned it yet.*
+
+The other passage is on this side. The one Eriksen printed but would not preach. Eleven years at that pulpit and he could put it on a program for a wealthy man's funeral and could not put it in his mouth at a microphone.
+
+*He looks up at you. The trembling has moved from his hand into his jaw.*
+
+Do I turn it over, friend.
+
+Or does the mouth get to stop here.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, reaching across the bench to take the program back from your hand, holding it in front of him in both hands",
+  "seeker_voice": [
+    "Now turn it over.",
+    "Now the back, John.",
+    "Whose voice was that?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:40:31.936585 ---
+Out loud, John. I want to hear your voice say the name.
+
+--- JOHN | 2026-06-12T14:41:14.902102 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, the program lowered into his lap, both hands flat on the bench seat in front of him, head bowed
+seeker_voice: ["Now turn the program over.", "Now the passage on the back.", "Say it once more."]
+[/STATE]
+
+*He doesn't look up.*
+
+*The program lowers, slow, into his lap. His hands go flat on the bench seat in front of him. His head goes down between his shoulders.*
+
+*When the word comes it is almost not a word.*
+
+John.
+
+*A breath.*
+
+*Another.*
+
+John Halvorsen.
+
+*Silence.*
+
+*Then, smaller, like a man saying a prayer he is not sure he is allowed to say —*
+
+~Knut Halvorsen. Carl Bergstrom. John Halvorsen.~
+
+*A long pause. He is shaking. Not crying — past crying. The shaking of a man who has been holding something for forty-some years and just set it down on the wrong piece of furniture.*
+
+*Three.*
+
+*A breath.*
+
+Three names. Same line. ~Same math in three handwritings and the third one is mine.~
+
+*He looks up. Not at you. At the candle on the table.*
+
+The man in April. The confirmation certificate. *Emma Lindgren.* Fourteen years old. I wrote *John Halvorsen* on the line under her name and I did not feel my hand shake.
+
+*He looks at his hand on the bench. It is shaking now.*
+
+The hand knew, friend. The hand has known the whole time. ~I am the one who would not let it.~
+
+*A long silence. The candle stretches and steadies.*
+
+*When he speaks again his voice has gone past quiet into something else — something flat, the way a man speaks when the room he has been defending has finished falling down and there is only the field where it was.*
+
+I have said it now. *John Halvorsen.* In the line. Out loud. In a courtyard. To a stranger whose name I do not know and who has done more for me in an hour than my pastor has done in eleven years.
+
+*He picks up the program from his lap. He does not turn it over yet. He holds it.*
+
+The passage on the back is the one Eriksen would not preach. I am going to turn it over now, friend. I am going to read it. I do not know what happens to a man after he reads a passage like that with his own name freshly said in the line above it. I am about to find out.
+
+*His thumb moves to the edge of the paper.*
+
+Tell me to turn it over. I need someone to tell me.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, the program lowered into his lap, both hands flat on the bench seat in front of him, head bowed",
+  "seeker_voice": [
+    "Now turn the program over.",
+    "Now the passage on the back.",
+    "Say it once more."
+  ]
+}

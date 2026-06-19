@@ -1,0 +1,77 @@
+
+============================================================
+LANDED (did the move move him)
+============================================================
+train n=462  classes={True: 308, False: 154}
+test  n=98  classes={True: 72, False: 26}
+
+TEST macro-F1: 0.614
+TEST accuracy: 0.745
+
+per-class (test):
+              precision    recall  f1-score   support
+
+       False       0.53      0.31      0.39        26
+        True       0.78      0.90      0.84        72
+
+    accuracy                           0.74        98
+   macro avg       0.66      0.61      0.61        98
+weighted avg       0.72      0.74      0.72        98
+
+
+============================================================
+DISPOSITION (taken/adapted/refused)
+============================================================
+train n=419  classes={'taken': 194, 'refused': 150, 'adapted': 75}
+test  n=57  classes={'taken': 12, 'refused': 39, 'adapted': 6}
+
+TEST macro-F1: 0.326
+TEST accuracy: 0.351
+
+per-class (test):
+              precision    recall  f1-score   support
+
+     adapted       0.13      0.50      0.21         6
+     refused       0.75      0.31      0.44        39
+       taken       0.28      0.42      0.33        12
+
+    accuracy                           0.35        57
+   macro avg       0.39      0.41      0.33        57
+weighted avg       0.59      0.35      0.39        57
+
+
+============================================================
+MOVE (probe/attack/empathy)
+============================================================
+train n=298  classes={'empathy': 34, 'probe': 256, 'attack': 8}
+test  n=80  classes={'probe': 65, 'attack': 5, 'empathy': 10}
+
+TEST macro-F1: 0.447
+TEST accuracy: 0.775
+
+per-class (test):
+              precision    recall  f1-score   support
+
+      attack       0.00      0.00      0.00         5
+     empathy       0.40      0.60      0.48        10
+       probe       0.86      0.86      0.86        65
+
+    accuracy                           0.78        80
+   macro avg       0.42      0.49      0.45        80
+weighted avg       0.75      0.78      0.76        80
+
+
+============================================================
+WOUND_MARKED (synthetic-only eval)
+============================================================
+train n=547  classes={False: 82, True: 465}
+test  n=0  classes={}
+** test set has <2 classes — cannot evaluate on real data **
+train-CV macro-F1 only: 0.752
+
+============================================================
+THESIS COMPARISON (LANDED, test macro-F1)
+============================================================
+  emotion-classifier features : 0.501
+  bge-small (semanticgrep -l "LUTHER |" sessions/*.log)        : 0.614
+  -> bge wins: landed is not surface emotion

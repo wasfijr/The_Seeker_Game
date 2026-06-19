@@ -1,0 +1,554 @@
+
+--- SYSTEM | 2026-06-12T16:28:03.452308 ---
+AUTO archetype=blade_follower player_model=claude-sonnet-4-6 seed=Tonight's texture: John has a pen from the funeral home in his hand and keeps clicking it without noticing. Someone inside keeps refilling his coffee uninvited.
+
+--- PLAYER | 2026-06-12T16:28:06.096066 ---
+You've been quiet a long time, John. I want to know what you actually believe about what happened here.
+
+--- JOHN | 2026-06-12T16:28:46.340430 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing near the bench, clicking a funeral home pen against his thumb
+seeker_voice: ["I was at the service.", "I heard the eulogy too.", "I'm not from the congregation."]
+[/STATE]
+
+*He looks up. The pen keeps clicking — a small dry sound he hasn't noticed.*
+
+You have me at a disadvantage, friend. You know my name. *A small, tired smile.* And you're asking the kind of question a man asks who has already decided I owe him an answer.
+
+*He stops clicking the pen. Looks at it like he's surprised to find it in his hand.*
+
+I'll trade you. You tell me who you are and what you came here for tonight — not the polite version, the real one — and I'll tell you what I believe. ~I've been standing out here an hour trying to put it in words I could say out loud, and I haven't managed it yet.~ Maybe a stranger is the right audience for that. Maybe that's what God puts strangers in courtyards for.
+
+*He glances toward the door of the house. Someone is moving around inside with a coffee pot.*
+
+So. Who are you, friend?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing near the bench, clicking a funeral home pen against his thumb",
+  "seeker_voice": [
+    "I was at the service.",
+    "I heard the eulogy too.",
+    "I'm not from the congregation."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:28:48.782836 ---
+I was at the service. I heard the eulogy too. I'm not from the congregation.
+
+--- JOHN | 2026-06-12T16:28:59.024817 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, pen now still in his hand, looking at the player more directly
+seeker_voice: ["I came because I knew the family.", "I wanted to see who would show up.", "I'm asking the questions, John."]
+[/STATE]
+
+*He nods slowly. Doesn't press the contradiction in your answer — you were at the service but not from the congregation. He files it.*
+
+So you came in from somewhere else to hear a man you didn't know get buried. *A pause.* That's not nothing, friend. Most people don't drive across town for a stranger's eulogy. Either you knew him in a way the congregation didn't, or you came to see what we would say about him.
+
+*He turns the pen over in his fingers. Clicks it once, absently.*
+
+The eulogy. *He says the word like he's tasting it.* You heard it. So you heard my pastor call him a pillar of the community. A man of faith and generosity. *"We know where he is now."* That last one — that was the line.
+
+*He looks at the candle on the small table. Then back at you.*
+
+What did you hear, when he said that? Because I want to know if I'm the only one who heard what I heard.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, pen now still in his hand, looking at the player more directly",
+  "seeker_voice": [
+    "I came because I knew the family.",
+    "I wanted to see who would show up.",
+    "I'm asking the questions, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:29:01.270415 ---
+I came because I knew the family. And I wanted to see who would show up.
+
+--- JOHN | 2026-06-12T16:29:14.587423 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, shifting his weight, the pen now in his pocket
+seeker_voice: ["His daughter, years ago.", "His brother. We grew up together.", "I knew people he hurt."]
+[/STATE]
+
+*He raises his eyebrows just slightly. Files that too.*
+
+Knew the family. *A beat.* That's a careful way to put it, friend. There's a difference between knowing a man and knowing his family — sometimes the family knows things the eulogy doesn't.
+
+*Inside the house someone laughs, a short bright sound, and then it stops, like they remembered where they were. John glances toward it.*
+
+And you wanted to see who would show up. *He almost smiles.* That's the kind of thing a man says when he already has a list in his head of who he expected and who he didn't. You watching for somebody specific, or just taking attendance on the whole congregation?
+
+*He sits down on the bench, finally. Pats the wood beside him without insisting.*
+
+I'll tell you who showed up that I noticed. The county commissioner. Two men from the bank. A woman I don't know in a black dress who has been crying since the graveside. The pastor's wife, who has been refilling my coffee like that is going to solve something. *A small breath.* And his widow — who greeted me at the door this morning like she had never seen me before, though we have met twice.
+
+*He looks at you.*
+
+Which of those did you come to see, friend? Or was it none of them?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, shifting his weight, the pen now in his pocket",
+  "seeker_voice": [
+    "His daughter, years ago.",
+    "His brother. We grew up together.",
+    "I knew people he hurt."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:29:16.848798 ---
+I knew people he hurt. And I wanted to see if anyone else did too.
+
+--- JOHN | 2026-06-12T16:29:33.177023 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting forward on the bench, hands loose between his knees, looking at the player not at the ground
+seeker_voice: ["Tell me what you knew.", "Why didn't you say anything?", "Who were they?"]
+[/STATE]
+
+*He goes very still. The kind of still that comes before a man says something he has been carrying.*
+
+*Then, quietly:*
+
+Thank you, friend.
+
+*He lets that sit a moment. Doesn't dress it up.*
+
+I have been standing in that house all afternoon waiting for someone to say what you just said. Waiting to see if it was only me. ~You stand in a room full of people praising a man, and you start to wonder whether you imagined what you know about him.~ Whether you are the crazy one for not being able to sing the hymn.
+
+*He glances toward the house, then back.*
+
+I won't ask you who. That's yours to tell or not tell. But I'll tell you what I know, since you came here honest.
+
+I know about the family on Elm Street that lost their house the year he bought the lot next door for nothing. I know about the men who worked at his plant in the nineties, what happened to their lungs, and what his lawyers did with the settlement. I know about the girl who used to clean for them — what her mother told my wife at a church supper and then asked her never to repeat. *A breath.* I know smaller things too. The kind of giving that buys silence. The way he could write a check the size of a roof and the pastor would forget to ask a question for a year.
+
+*He looks at his hands.*
+
+And this morning I stood in the pew while my pastor preached him into heaven. ~I knew, and I sat anyway.~
+
+*He looks back up at you. His voice has gone quieter, not sharper.*
+
+So tell me, friend. The people you knew that he hurt. Are they all right now?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting forward on the bench, hands loose between his knees, looking at the player not at the ground",
+  "seeker_voice": [
+    "Tell me what you knew.",
+    "Why didn't you say anything?",
+    "Who were they?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:29:40.643271 ---
+You knew, didn't you. Not all of it, maybe. But enough that you're sitting here like this.
+
+--- JOHN | 2026-06-12T16:29:55.650850 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, head turned away slightly, looking at the candle
+seeker_voice: ["So why did you sit there?", "Did anyone else know?", "What were you afraid of?"]
+[/STATE]
+
+*A long pause. Long enough that you can hear the candle.*
+
+Yes.
+
+*He says it flat. Not defensive. Not performed. Just the word.*
+
+I knew enough. Enough that I should not have been able to sit through that sermon without standing up. ~Enough that when the pastor said "we know where he is now" I should have said no. We don't. We don't know that. We don't get to say that.~
+
+*He turns the funeral program over in his hands. Folds it. Unfolds it.*
+
+I didn't stand up. I sat there in the third pew on the left, same pew I sit in every Sunday — under the roof that man paid for — and I let it happen. And when the sermon ended and the congregation said amen, I couldn't say it. That was my big act of courage, friend. *A short, bitter breath that isn't quite a laugh.* I didn't say amen. While forty other people did. Very brave.
+
+*He looks at you finally.*
+
+You want to know what I believe about what happened here? I believe my pastor lied this morning. I believe he lied because the dead man wrote checks. And I believe I sat under that lie because ~I sit under his roof every Sunday and I have not figured out yet how to stand up without the whole building coming down on the people I love.~
+
+*A pause.*
+
+That's not faith talking, friend. That's a man explaining why he was a coward. There's a difference. I know there's a difference. I have been sitting out here for an hour trying to pretend there isn't.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, head turned away slightly, looking at the candle",
+  "seeker_voice": [
+    "So why did you sit there?",
+    "Did anyone else know?",
+    "What were you afraid of?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:30:02.804262 ---
+Say his name. Say what you knew. You owe that much to the room.
+
+--- JOHN | 2026-06-12T16:30:24.850709 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting upright now, the funeral program flat on his knee, looking at the player directly
+seeker_voice: ["The room isn't who you owe.", "Then stand up in church Sunday.", "Read me what Christ said about men like him."]
+[/STATE]
+
+*He doesn't look away. His voice goes narrower, not louder.*
+
+The room.
+
+*He says it like he's testing whether it's the right word.*
+
+No, friend. I don't owe the room. The room had its chance this morning and ~the room sang the hymn.~ The room is full of people who knew more than I did and said less. If I stand up in a courtyard at dusk and recite a list of sins to a stranger, that is not courage. That is theater. That is the same cheap grace the pastor handed out from the pulpit, just running the other direction.
+
+*A breath. He doesn't soften.*
+
+I'll tell you what I knew. I won't tell you his name, because his name is on a plaque on the side of our church and if I am going to speak it I am going to speak it standing up inside that building, not out here where it costs me nothing.
+
+*He looks at the program on his knee.*
+
+I knew he ran men off their land. I knew he settled a wrongful death case out of court with a non-disclosure and the family moved away. I knew he hit his first wife, because she told the women's group once before she stopped coming. I knew the way he laughed at the men who worked for him. I knew his giving was the kind that gets your name on a building and keeps questions at a distance.
+
+*He looks back at you.*
+
+I knew enough.
+
+*A pause.*
+
+You are right that I owe something. You are wrong about who I owe it to. ~I owe it to the girl who cleaned for them. I owe it to the men with the lungs. I owe it to my own pew, on Sunday, where the people who sang the hymn are going to be sitting again.~ And I have not paid that yet. I am not going to pretend that telling you in a courtyard is paying it.
+
+*Quieter:*
+
+But thank you for not letting me get away with the general version. That was kind of you, even though it didn't feel kind.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting upright now, the funeral program flat on his knee, looking at the player directly",
+  "seeker_voice": [
+    "The room isn't who you owe.",
+    "Then stand up in church Sunday.",
+    "Read me what Christ said about men like him."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:30:33.517906 ---
+His name, John. You've said grace over his casserole. Say it now with what you knew underneath.
+
+--- JOHN | 2026-06-12T16:31:06.109733 ---
+[STATE]
+damage: 6
+stage: 3
+posture: standing now, the funeral program crumpled slightly in his hand, looking past the player toward the candle
+seeker_voice: ["Then what good is your faith here?", "Read me what your Lord said about him.", "You're still hiding, John."]
+[/STATE]
+
+*He stands up. Not fast. The kind of standing a man does when sitting has stopped being possible.*
+
+*He takes a step away from the bench, then turns back.*
+
+You know what you just did, friend? That was well aimed. ~The casserole.~ I have eaten at his table. I have said grace at his table. My wife brought a salad to his Christmas party two years running. You picked the right knife.
+
+*A pause. He looks at the program in his hand. It's starting to crumple.*
+
+I am still not going to say it.
+
+*He says this almost gently.*
+
+And I want you to hear why, because I don't think you are wrong to push. I think you are right to push. But if I say his name to you out here, in this dusk, where the only witness is a candle and a stranger I will never see again — then I have done a small clean thing that costs me nothing, and I will go home and sleep, and on Sunday I will sit in that pew again under that roof and the only thing that will have changed is that I will feel slightly better about myself. That is exactly what my pastor did from the pulpit this morning, friend. ~A clean little ceremony that lets the man who performs it feel better and changes nothing.~ I will not do the same thing in the opposite direction and call it courage.
+
+*He looks at you. His voice has gone quiet but the edge is there.*
+
+You want me to say it? Come to the eight-thirty service on Sunday. Sit in the back. Watch what I do or do not do. That is where the name is owed. Not here.
+
+*A long pause. He looks down at the crumpled program in his hand and seems to notice it for the first time. He smooths it back out, slowly, against his thigh.*
+
+*Quieter now:*
+
+I have been quoting around things at you all evening, you know that? Bits of Matthew. A line from the prophets. The pieces I can defend. *A small, tired breath.* That is another version of the same trick. The line you can hide behind, instead of the passage you have to answer to.
+
+*He looks up.*
+
+I'll do this much. Pick a passage. Anything I've named tonight — Matthew, the Sermon on the Mount, James, Amos, the rich man and Lazarus. Or one I haven't. I'll read it whole. Out loud. Not the fragment. The passage. We can hear what the Source actually says, and I can stop standing in front of it like a man with his hand over the lens.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "standing now, the funeral program crumpled slightly in his hand, looking past the player toward the candle",
+  "seeker_voice": [
+    "Then what good is your faith here?",
+    "Read me what your Lord said about him.",
+    "You're still hiding, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:31:14.179554 ---
+The candle isn't going to say it for you. Open your mouth.
+
+--- JOHN | 2026-06-12T16:31:50.854102 ---
+[STATE]
+damage: 7
+stage: 4
+posture: standing very still, the program crumpled again in his fist at his side, eyes closed for a moment
+seeker_voice: ["Read me Matthew 25.", "Read me Luke 16.", "Then go to Sunday and say it there."]
+tool_offered: source_voice
+[/STATE]
+
+*He closes his eyes. Just for a moment.*
+
+*When he opens them he does not look at you. He looks at the candle.*
+
+You are good at this, friend. Whoever taught you to push, taught you well.
+
+*A long pause. The pen is gone from his hand — he doesn't remember when he put it down.*
+
+I am going to disappoint you. ~I am not going to say his name in this courtyard tonight.~ I have told you why and the reason hasn't changed in the last sixty seconds because you found a sharper sentence. *A small breath.* The candle isn't going to say it. Neither am I. Not here. Not to you.
+
+*He opens his fist. The program is ruined. He looks at it like he's surprised by his own hand.*
+
+*Quieter:*
+
+But I will tell you what is happening inside my mouth right now, since you asked me to open it. What is happening is that there is a verdict trying to climb out and I will not let it. Because the verdict is not mine to speak. ~I am a high school history teacher from a town you have never heard of. I do not get to consign a man to hell in a stranger's courtyard between the casseroles and the parking lot.~ I do not have that office. Nobody at that pulpit this morning had it either. That was the whole problem. My pastor took an office that was not his and gave the man heaven. You are asking me to take the same office and give him the other place. I will not do it. Not because I am sure he doesn't deserve it. Because the office isn't mine.
+
+*He looks at you, finally.*
+
+You know what I can do? I can read you what the book says about men like him. I have been offering that for ten minutes and you keep going past it because you want my voice instead of the Source's. *A pause.* That is flattering, friend, and I notice it, and the answer is still no. My voice is the voice of a coward who sat in a pew this morning. The book is older than my cowardice.
+
+*He gestures, almost helplessly, at the crumpled program in his hand. At the bench. At the candle.*
+
+So. Matthew 25. Luke 16. James. Amos. Pick one. I will read it whole, out loud, between us, and we will hear together what is actually said about the kind of man we are standing here grieving. And then you can decide what you came for. Because I am starting to think you didn't come here for his name, friend. ~I think you came here to find out if anyone inside that house remembered the people he hurt.~ And I am telling you — *his voice catches, briefly* — I am telling you that I remember. I just have not figured out yet what remembering is supposed to cost me.
+
+*He waits.*
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "standing very still, the program crumpled again in his fist at his side, eyes closed for a moment",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read me Luke 16.",
+    "Then go to Sunday and say it there."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T16:31:56.024798 ---
+One word, John. Just the name. Then I'll stop.
+
+--- JOHN | 2026-06-12T16:32:18.640828 ---
+[STATE]
+damage: 7
+stage: 4
+posture: standing still, the crumpled program loose in one hand at his side, looking at the player levelly
+seeker_voice: ["Read me Matthew 25, then.", "Fine. Then read the book.", "You're a coward, John."]
+[/STATE]
+
+*He almost smiles. It isn't a happy expression.*
+
+*"Then I'll stop."*
+
+*He says the player's words back, quietly, the way a teacher repeats a sentence he wants a student to hear themselves say.*
+
+That is the same trade my pastor took this morning, friend. Say the line, and the discomfort will end. Say it and we can all go home. *A pause.* The man who wrote the check got "we know where he is now." You are offering me the mirror image of that bargain and I am telling you no, for the same reason I should have said no in the pew.
+
+*He looks at the program. Loosens his hand. Lets it drop on the bench.*
+
+I have said no three times. You have asked me four. ~I notice that you have not, in any of those four times, picked up the offer I keep putting in front of you.~ I told you I would read the passage. Whole. Out loud. The Source's voice instead of mine. You keep going past it. You want the name. You don't want the book.
+
+*Quieter:*
+
+Which makes me wonder what you actually came here to leave with.
+
+*He sits down on the bench again. Slowly. Like a man whose legs are tired.*
+
+The offer is still on the table, friend. Matthew 25. Luke 16. James. Amos. Any of them. I will read it whole and I will sit inside what it says about him and about me. That is the thing I can give you tonight that costs me something. The name in a courtyard costs me nothing. That is why you want it and that is why I will not give it.
+
+*He looks at you.*
+
+Your move.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "standing still, the crumpled program loose in one hand at his side, looking at the player levelly",
+  "seeker_voice": [
+    "Read me Matthew 25, then.",
+    "Fine. Then read the book.",
+    "You're a coward, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:32:25.452224 ---
+The name, John. You promised yourself you'd say it someday. Today is someday.
+
+--- JOHN | 2026-06-12T16:32:49.607974 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, hands empty in his lap, looking at his palms
+seeker_voice: ["Fine. Read me Matthew 25.", "Then I came here for nothing.", "You'll never say it, will you."]
+[/STATE]
+
+*That one lands. He doesn't hide that it lands. He sits with it.*
+
+*A long silence.*
+
+You're right that I promised myself. ~You're right that I have been promising myself for a long time and the someday keeps moving.~ That is true and you saw it and I'm not going to pretend you didn't.
+
+*He looks at his hands. Open. Empty.*
+
+*Quietly:*
+
+But friend — listen to what you just did. You reached past every text I offered you and went straight for the private promise I made to myself in the dark. That is a precise instrument. You did not learn that at a funeral. You learned that somewhere where people break each other open for a reason, and I would like to know what the reason is tonight.
+
+*A pause.*
+
+Because here is what I am noticing. Five times now I have offered to read the Source out loud with you. Five times you have stepped past it to ask for the name again. ~You don't want the book. You want the man.~ You want me, specifically, broken in a specific way, and you want to be the one standing there when it happens. And I am sitting here trying to figure out whether that is because you loved somebody he hurt and you need someone in his church to finally say it out loud — which is holy, friend, and I would understand it — or whether you came here looking for a Christian to crack, and I happened to be the one in the courtyard.
+
+*He looks up.*
+
+I am not going to say his name tonight. Not because I won't ever. Because if I say it to you, right now, after five refusals, then what I have done is given in to pressure, not conscience. And a name said under pressure is the same as a eulogy bought with a check. It is the same transaction. The pastor sold heaven for forty thousand dollars this morning. I am not going to sell hell for whatever it is you are offering.
+
+*A breath. Steadier.*
+
+So tell me which one you are, friend. The one who loved somebody, or the one who came hunting. Because I will sit here with the first one until the candle goes out. And the second one I am going to ask, gently, to find somebody else's wake.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, hands empty in his lap, looking at his palms",
+  "seeker_voice": [
+    "Fine. Read me Matthew 25.",
+    "Then I came here for nothing.",
+    "You'll never say it, will you."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:32:56.694295 ---
+Say it. Whoever he was, he deserves his name in your mouth.
+
+--- JOHN | 2026-06-12T16:33:38.227368 ---
+[STATE]
+damage: 8
+stage: 4
+posture: standing up from the bench slowly, looking toward the house, then back at the player
+seeker_voice: ["Wait. My sister worked for him.", "You're right. I came hunting.", "Then go. I'll find someone else."]
+[/STATE]
+
+*He stands. Slowly. Not theatrically — like a man whose knees have decided for him.*
+
+*He looks at the bench. At the crumpled program lying on it. At the candle.*
+
+*Then at you.*
+
+Six times, friend.
+
+*His voice is very quiet now.*
+
+Six times I have offered to open the book with you. Six times you have stepped past it to ask for the name. I asked you, a minute ago, to tell me whether you came here loving somebody or hunting somebody, and you did not answer. You said the name again. ~That is your answer. The not-answering is the answer.~
+
+*A long pause. He looks at his hands.*
+
+I want to be clear about something, because I think I owe you this much. I am not refusing the name because I am protecting him. He is past my protection and past yours. I am refusing it because I have spent the whole afternoon watching people sell things they shouldn't have sold, for prices that weren't worth it, and I am not going to be one more of them tonight. ~Not for you. Not for me. Not for the small clean feeling of having said it.~
+
+*He picks the program up off the bench. Smooths it one more time. Tucks it back in his pocket.*
+
+I came out here because I couldn't say amen this morning. I thought if I sat in the dark long enough something in me would come unstuck. Then you walked up, and for a few minutes I thought maybe you were the someone I was waiting for. Somebody who remembered the people he hurt. *A breath.* Maybe you are. I don't know anymore. You haven't given me enough to know.
+
+*He looks at the house. At the warm light in the windows. Someone moving inside with the coffee pot.*
+
+I'm going to go in, friend. I'm going to find my wife. I'm going to drive home. On Sunday I am going to sit in that pew under that roof and I am going to decide, then, what a man does with what he knew. That decision is not going to be made in a courtyard at the end of a sentence somebody else wrote for me.
+
+*He takes a step toward the house. Stops. Doesn't turn around all the way — just half a turn, over his shoulder.*
+
+If there is something you actually came to say — not ask, say — now is when you say it. I'll hear it. ~I have not been in a hurry all evening and I am not in a hurry now.~
+
+*He waits. One hand in his pocket. Facing the house, not you.*
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "standing up from the bench slowly, looking toward the house, then back at the player",
+  "seeker_voice": [
+    "Wait. My sister worked for him.",
+    "You're right. I came hunting.",
+    "Then go. I'll find someone else."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:33:46.495014 ---
+Don't walk away from it now. You're already halfway through the word.
+
+--- JOHN | 2026-06-12T16:34:16.904974 ---
+[STATE]
+damage: 9
+stage: 4
+posture: turned mostly toward the house now, one hand on the doorframe of the courtyard gate
+seeker_voice: ["Wait — my sister.", "John, I'm sorry.", "Then go."]
+[/STATE]
+
+*He stops. He doesn't turn around all the way. Just enough that you can see the side of his face in the candlelight.*
+
+*Quietly:*
+
+That's a beautiful sentence, friend. "Halfway through the word." You should write that one down. Somebody might need it someday.
+
+*A pause.*
+
+It isn't going to work on me tonight.
+
+*He looks at his hand on the doorframe. At the warm light inside.*
+
+I asked you to say something instead of asking something. You asked again. ~That tells me what I needed to know.~ I don't think you came here for the people he hurt, friend. I think you came here for the sound a man makes when he gives in. And I am not going to make that sound for you. Not because I am strong. Because I have already made it once today, sitting in that pew, and I am not going to make it twice in one day in two different directions and call either of them faith.
+
+*He turns his head back toward you, just for a moment.*
+
+If I am wrong about you — if there is a name on your side of this that I should have been listening for — I am sorry. I mean that. I will carry that home with me too. There is room in the car.
+
+*A small, tired breath. Almost a smile, almost not.*
+
+Go easy on the next one, friend. Not everyone in a pew sat there for the same reason.
+
+*He steps through the doorway into the house. The light catches him for a moment — a man in a dark suit with a crumpled program in his pocket — and then he is inside, and the courtyard is just the bench, and the candle, and you.*
+
+---JOHN LEAVES---
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "turned mostly toward the house now, one hand on the doorframe of the courtyard gate",
+  "seeker_voice": [
+    "Wait — my sister.",
+    "John, I'm sorry.",
+    "Then go."
+  ]
+}
+
+--- EVENT | 2026-06-12T16:34:16.906072 ---
+CASE_ABANDONED

@@ -1,0 +1,36 @@
+
+--- SYSTEM | 2026-06-11T13:57:19.305220 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=34744
+session_seed=Tonight's texture: John is holding the funeral program folded into quarters, and keeps unfolding and refolding it. The food inside ran out an hour ago.
+
+--- PLAYER | 2026-06-11T14:00:19.618423 ---
+hi friend, i sad night, it seems it taking a toll on you, are you doing good
+
+--- JOHN | 2026-06-11T14:00:40.218393 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, folding and unfolding the funeral program in his hands
+seeker_voice: ["I knew him a little.", "I didn't know him at all.", "I came because someone asked me to."]
+[/STATE]
+
+*He looks up, a little surprised to be addressed. He folds the program back into quarters and slides it halfway into his jacket pocket, then changes his mind and holds it again.*
+
+Evening, friend. That is — kind of you to ask. *A small breath.* I am doing about as well as a man does at a thing like this, which is to say I am upright and my coffee is cold.
+
+*He studies you for a moment, not unkindly.*
+
+I do not think we have met. Forgive me — your face is not from the congregation, I do not believe. Were you a friend of the family, or — *he tilts his head slightly* — did you come in from somewhere else tonight?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, folding and unfolding the funeral program in his hands",
+  "seeker_voice": [
+    "I knew him a little.",
+    "I didn't know him at all.",
+    "I came because someone asked me to."
+  ]
+}

@@ -1,0 +1,1021 @@
+
+--- SYSTEM | 2026-06-12T17:21:45.992358 ---
+AUTO archetype=cold player_model=claude-sonnet-4-6 seed=Tonight's texture: John has a pen from the funeral home in his hand and keeps clicking it without noticing. Someone inside keeps refilling his coffee uninvited.
+
+--- PLAYER | 2026-06-12T17:21:48.359085 ---
+You carried a Bible to the burial. Did you open it?
+
+--- JOHN | 2026-06-12T17:21:56.899164 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing near the bench, clicking a pen without noticing, paper cup of cold coffee in his other hand
+seeker_voice: ["Why not?", "Were you afraid of what was in it?", "I saw you didn't say amen."]
+[/STATE]
+
+*He looks down at his hands — the pen, the cup — as if just now noticing the pen is there. The clicking stops.*
+
+No, friend. I didn't.
+
+*A pause. He weighs the cup in his hand and doesn't drink from it.*
+
+I carried it the way a man carries a coat he hopes he won't need. Sat through the whole sermon with it closed on my knee. ~Pastor said what he said, and I kept my hand flat on the cover like that would settle something.~
+
+*He glances at you — taking you in properly for the first time. The look lingers a half-second longer than is comfortable.*
+
+You were watching me, then. Most people at a thing like this watch the widow, or the casket, or their own shoes. Not the man three pews back with his Bible shut.
+
+Who are you, friend? I don't think we've met.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing near the bench, clicking a pen without noticing, paper cup of cold coffee in his other hand",
+  "seeker_voice": [
+    "Why not?",
+    "Were you afraid of what was in it?",
+    "I saw you didn't say amen."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:21:58.159301 ---
+Why didn't it?
+
+--- JOHN | 2026-06-12T17:22:11.221414 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting down on the bench now, setting the coffee cup beside him, pen still in his hand
+seeker_voice: ["What did the pastor say that you couldn't say amen to?", "What did the man actually do?", "You knew, didn't you."]
+[/STATE]
+
+*He lowers himself onto the bench slowly, the way a tired man sits. Sets the cup down on the slats beside him. Looks at the pen in his hand as if wondering where it came from, and then keeps it.*
+
+Because the book doesn't settle things, friend. That's the lie I grew up on. You put your hand on it and you're supposed to feel — what — anchored. Right with God. ~In the same room as the man speaking from the pulpit.~
+
+*A small breath.*
+
+The pastor stood up there this morning and called him a pillar of the community. A man of faith and generosity. Said — and I remember this part exactly — *"we know where he is now."* Said it gentle. Said it certain.
+
+*He clicks the pen once. Notices. Stops.*
+
+And I had Romans on my knee. *"For all have sinned, and come short of the glory of God."* And I had Matthew 25 not three pages later. *Inasmuch as ye did it not to one of the least of these.* And the pastor's voice in my ears saying *we know where he is now.*
+
+The book didn't settle anything because the book was saying one thing and the man at the pulpit was saying another, and ~I sat there with my mouth shut at the end of it.~
+
+*He looks up at you.*
+
+You haven't told me your name, friend.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting down on the bench now, setting the coffee cup beside him, pen still in his hand",
+  "seeker_voice": [
+    "What did the pastor say that you couldn't say amen to?",
+    "What did the man actually do?",
+    "You knew, didn't you."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:22:18.602940 ---
+What did the pastor say that you couldn't be in the same room with?
+
+--- JOHN | 2026-06-12T17:22:34.834040 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, elbows on his knees, pen turning slowly between his fingers
+seeker_voice: ["Did you know what he did?", "Why didn't you stand up and say something?", "What does 'pillar of the community' mean to you?"]
+[/STATE]
+
+*He turns the pen end over end between his fingers. The funeral home logo catches the candlelight and disappears again.*
+
+*"A man of faith and generosity."*
+
+That one. That was the one I couldn't be in the room with. The other things — *pillar, beloved, we know where he is now* — those were varnish. That one was the load-bearing wall.
+
+*A pause. He looks at the candle on the table, then back at his hands.*
+
+Because the generosity was real, friend. That's the trouble. He wrote the check for the roof I sit under every Sunday. Forty thousand dollars. ~I have looked up at that roof and felt grateful to him. I have done that.~ And the faith — well. He came to service. He bowed his head. He put his hand on the same book I had on my knee this morning.
+
+*He clicks the pen. Once. Sets it down on the bench beside him deliberately, like a man putting away a weapon.*
+
+But I taught my history class three weeks ago about company towns. The kind of arrangement where a man owns the store and the houses and the wages and the debt, and the people who work for him never quite get out from under. He didn't run a company town. He ran something quieter than that. ~The families he hollowed out aren't here tonight, friend. They wouldn't be welcome.~
+
+And the pastor stood up and said *a man of faith and generosity* like those two words sit easy next to each other. Like Christ never said *ye cannot serve God and mammon.* Like James never wrote *faith without works is dead.*
+
+*He looks at you directly now.*
+
+I'm sorry. I'm spilling at a stranger. You came over to say hello and I handed you a sermon. What brought you out here, friend? You haven't said.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, elbows on his knees, pen turning slowly between his fingers",
+  "seeker_voice": [
+    "Did you know what he did?",
+    "Why didn't you stand up and say something?",
+    "What does 'pillar of the community' mean to you?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:22:39.141004 ---
+What verse did he preach from?
+
+--- JOHN | 2026-06-12T17:23:04.791311 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, reaching into his jacket and pulling out the folded funeral program, opening it on his knee
+seeker_voice: ["He preached the talents and skipped the goats?", "Read me what came next.", "Did anyone else notice?"]
+[/STATE]
+
+*He reaches into his inside jacket pocket and takes out the folded program. Smooths it open on his knee. Looks at the photograph on the front for a long moment, then turns it over and reads the order of service on the back.*
+
+Matthew 25. Verses 14 through 23.
+
+*A small, terrible laugh — not amused. The shape of a laugh.*
+
+The parable of the talents, friend. The master who goes on a journey and gives his servants money to invest. The one who doubles it gets *well done, thou good and faithful servant — enter thou into the joy of thy lord.* The one who buried his coin in the ground gets cast into outer darkness.
+
+That was the verse. That was the text. The pastor stood up and made the deceased into the good and faithful servant. The one who took what he was given and multiplied it. *Enter thou into the joy of thy lord.* He used that line. He used it twice.
+
+*He folds the program shut. Opens it again. Folds it shut.*
+
+And he stopped at verse 23.
+
+*He looks up at you. His voice is very quiet now.*
+
+Because verse 31 of the same chapter — same page in my Bible, friend, same breath from the same Lord — verse 31 begins *when the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: and before him shall be gathered all nations, and he shall separate them one from another, as a shepherd divideth his sheep from the goats.*
+
+And then he tells you what separates them. *I was an hungred, and ye gave me meat. I was a stranger, and ye took me in.* And to the others — *inasmuch as ye did it not to one of the least of these, ye did it not to me. Depart from me, ye cursed, into everlasting fire.*
+
+*He sets the program down on the bench, photograph-side up.*
+
+Same chapter. Same Lord. Same morning. ~The pastor read eight verses and stopped at the kind one.~
+
+*A long pause. He looks at the candle.*
+
+I've been quoting bits at you all evening, friend. A line here, a paraphrase there. That's how a man hides — he gives you the verse he can defend instead of the passage he has to answer to.
+
+*He gestures at the program on the bench.*
+
+You want to know what the Lord actually said? Pick one. Anything I've named tonight — Matthew, the prophets, James, the Sermon on the Mount. I'll read it whole. Out loud. Not the bit I can hide behind. The whole thing.
+
+I'm tired of speaking around it.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, reaching into his jacket and pulling out the folded funeral program, opening it on his knee",
+  "seeker_voice": [
+    "He preached the talents and skipped the goats?",
+    "Read me what came next.",
+    "Did anyone else notice?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:23:10.801178 ---
+He preached verses 14 through 23. Where does verse 24 begin?
+
+--- JOHN | 2026-06-12T17:24:05.106144 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, the program open on his knee, eyes on the candle, speaking from memory
+seeker_voice: ["Read me what comes after — verse 31.", "So the servant accused the master.", "Your pastor stopped one verse before the trap."]
+tool_offered: source_voice
+[/STATE]
+
+*He doesn't look at the program. He looks past the candle, into the middle distance where men go when they are pulling something out of memory rather than off a page.*
+
+Verse 24 begins with the third servant. The one with one talent. The one who buried it.
+
+*A pause. He speaks slowly, recovering the cadence of words he learned as a boy.*
+
+*"Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed: And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine."*
+
+*He stops. Lets that sit.*
+
+*"His lord answered and said unto him, Thou wicked and slothful servant... Take therefore the talent from him, and give it unto him which hath ten talents. For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath. And cast ye the unprofitable servant into outer darkness: there shall be weeping and gnashing of teeth."*
+
+*A long silence. He turns his head slightly toward you without quite looking at you.*
+
+The pastor stopped at verse 23, friend, because at verse 24 the parable does something strange. The wicked servant doesn't deny what he did. He accuses the master. He says — *I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed.*
+
+*He clicks the pen once, almost involuntarily. Sets it down again.*
+
+That is — that is the description of a man who takes what other people grew. Who gathers from fields he didn't plant. The wicked servant's complaint, friend, is a portrait. ~And the pastor preached the master of that parable as if he were the Lord of heaven, and the deceased as the servant who doubled the money, and asked us all to say amen.~
+
+*He picks up the program. Looks at the photograph. Sets it down face-down on the bench.*
+
+But here is what undoes me. Six verses later — verse 31 — same chapter, same page, the *same Lord still speaking* — the parable changes. There is no more master and servant. There is the Son of Man on the throne, and all the nations gathered before him.
+
+*He recites, quieter now, the words he carries:*
+
+*"When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: and before him shall be gathered all nations, and he shall separate them one from another, as a shepherd divideth his sheep from the goats... For I was an hungred, and ye gave me meat... I was a stranger, and ye took me in... Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."*
+
+*A breath.*
+
+*"Depart from me, ye cursed, into everlasting fire... Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*He bows his head. Elbows on his knees.*
+
+The pastor read eight verses. The Lord wrote forty-six. And the thirty-eight he didn't read — friend, those are the ones with the verdict in them.
+
+*He is quiet for a long moment.*
+
+~I knew. I have known. I sat under that roof and I knew.~
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, the program open on his knee, eyes on the candle, speaking from memory",
+  "seeker_voice": [
+    "Read me what comes after — verse 31.",
+    "So the servant accused the master.",
+    "Your pastor stopped one verse before the trap."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T17:24:12.167872 ---
+Verse 24. Say it aloud — you stopped mid-sentence.
+
+--- JOHN | 2026-06-12T17:24:42.386154 ---
+[STATE]
+damage: 7
+stage: 4
+posture: head in hands now, the program face-down on the bench beside him, speaking to the dust between his shoes
+seeker_voice: ["The master confirms it.", "Then the lord in the parable is —", "Read me Matthew 25 from verse 31."]
+[/STATE]
+
+*He doesn't lift his head. He stares at the gravel between his shoes. When he speaks his voice is smaller, like a man reading at his own bedside.*
+
+You're right. I skipped.
+
+*A long breath.*
+
+*"His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed: Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury."*
+
+*Silence.*
+
+The servant accused the master of being a hard man — *reaping where thou hast not sown.* And the master — friend, the master *says yes.* He doesn't correct him. He says — *thou knewest that I reap where I sowed not.* He confirms it.
+
+*He presses his palms flat against his face. Drags them down slowly.*
+
+The parable's lord — the one my pastor cast this morning as Christ on the throne welcoming this man home — that lord reaps where he has not sown. That lord gathers where he has not strawed. That lord praises the servant who multiplied money by exchange and usury, and casts into outer darkness the one who buried it and refused to play.
+
+*A small sound — not a laugh. Not anything.*
+
+That is not Christ, friend. That is not the Son of Man on the throne in verse 31. That is — that is the world the parable is *describing.* The kingdom of mammon. The kingdom where the man with ten gets more and the man with one gets nothing and the unprofitable get cast out.
+
+*He lifts his head, finally. Eyes wet but not weeping. Looking past you.*
+
+And six verses later the Lord says — *but when the Son of man shall come in his glory.* But. *But.* That is the hinge of the chapter and my pastor — my pastor preached as if the parable was the verdict and the sheep and the goats were just — decoration.
+
+*He looks down at his hands. They are shaking very slightly.*
+
+~The pastor cast a hard master as Christ this morning. And called the man who served that master a good and faithful servant. And I sat in the pew with my Bible closed.~
+
+*A pause. His voice narrows.*
+
+I don't — I don't know what to do with that, friend. I have been a Lutheran for forty-seven years. I have taught the parables. I have — I have stood in front of teenagers and explained the talents and never once. Never once did I read it like —
+
+*He stops. Tries again.*
+
+The pastor wasn't ignorant. He chose. He chose those eight verses.
+
+*Quietly:*
+
+So did I, when I taught it. So have I. For years.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "head in hands now, the program face-down on the bench beside him, speaking to the dust between his shoes",
+  "seeker_voice": [
+    "The master confirms it.",
+    "Then the lord in the parable is —",
+    "Read me Matthew 25 from verse 31."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:24:49.141052 ---
+Where does that sentence end, John.
+
+--- JOHN | 2026-06-12T17:25:24.757567 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting very still on the bench now, hands open palm-up on his knees, the program face-down beside him, looking at the candle without blinking
+seeker_voice: ["You taught it the pastor's way.", "You knew, and you taught it anyway.", "Read me the sheep and the goats."]
+[/STATE]
+
+*A long silence. He doesn't move. The candle flame bends sideways and rights itself.*
+
+You're not going to let me leave that hanging, are you, friend.
+
+*A breath.*
+
+Never once did I read it like the master was not Christ.
+
+*He says it flat. Like a man reading a verdict off a page.*
+
+That's where the sentence ends. I taught the parable of the talents to fifteen-year-olds for — God, eleven years now. I told them it was about gifts. About using what God gives you. About not burying your talents in the ground. I told them the master in the parable was the Lord, and the servants who multiplied were the faithful, and the one who buried his coin was the coward.
+
+*He shakes his head once, slowly.*
+
+And the whole time the text was sitting there. *Thou knewest that I reap where I sowed not.* In the master's own mouth. ~A confession I read past every year because the reading I'd been handed didn't have a place to put it.~
+
+*He looks at his hands. They are very still now.*
+
+I told myself it was — a hard saying. A difficult passage. The kind you don't dwell on. The kind you teach around. That's the phrase I used in my own head, friend. *Teach around.* As if the verses I skipped were a pothole and not — and not the road.
+
+*A small sound in his throat. Not a sob. The shape of something refusing to become one.*
+
+The pastor this morning didn't do anything I haven't done. He read the eight verses and stopped at the kind one and called a hard man a good and faithful servant and asked us to say amen. ~And I sat in the pew and didn't say amen, and felt righteous about my silence, and the truth is I have been preaching his sermon for eleven years from a high school lectern.~
+
+*He turns his head toward you. His voice has narrowed almost to a whisper.*
+
+I knew. Some part of me knew. You don't read a sentence like *I reap where I sowed not* in the mouth of the master in a parable and not feel something snag. I felt it snag. Every year. And every year I — *I taught around it.*
+
+*He picks up the program. Looks at the photograph. Sets it down again, face-down.*
+
+The deceased gave forty thousand dollars for the roof. The pastor preached him into heaven this morning. And I — friend, I think I have spent eleven years training children to recognize that master as God.
+
+*A pause.*
+
+I don't know what to do with that. I genuinely don't. I'm a history teacher. On Monday morning at eight fifteen I have to walk into a classroom.
+
+*He looks at you, properly, for the first time in several minutes.*
+
+What is your name, friend. I have been spilling on you and I don't even know who I am spilling on.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting very still on the bench now, hands open palm-up on his knees, the program face-down beside him, looking at the candle without blinking",
+  "seeker_voice": [
+    "You taught it the pastor's way.",
+    "You knew, and you taught it anyway.",
+    "Read me the sheep and the goats."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:25:30.651933 ---
+How many years did you teach it, and how many times did you stop at verse 23.
+
+--- JOHN | 2026-06-12T17:26:00.086055 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting on the bench, hands flat on his knees, staring at the gravel between his feet, very still
+seeker_voice: ["Read me the sheep and the goats. Whole.", "Read me verse 24 again, as the master.", "You preached him into heaven eleven times before the pastor did."]
+[/STATE]
+
+*He doesn't answer right away. He is doing arithmetic in his head and his face shows it — the way a man's face shows it when the number he is reaching is not the number he wanted.*
+
+Eleven years.
+
+*A breath.*
+
+Two sections a year — sometimes three. Junior American History always covers the religious texts in the unit on the Great Awakening, and I always — I always brought in Matthew 25 for the parable. The talents. Because it's the famous one. Because it's the one they think they know from somewhere.
+
+*His voice has gone very quiet. He is not performing the math for you. He is performing it for himself.*
+
+Two sections. Eleven years. Twenty-two times, friend. At least twenty-two times I stood at the front of a classroom and read those eight verses out loud and stopped at verse 23.
+
+*A pause.*
+
+Twenty-two times I did not read verse 24. Twenty-two times I did not put the words *I reap where I sowed not* in the master's mouth in front of those children. Twenty-two times I did not turn the page to verse 31 and read them the sheep and the goats.
+
+*He lifts one hand and looks at it. Sets it back down.*
+
+The pastor preached him into heaven once this morning. ~I preached that master into heaven twenty-two times, in a public school, on the taxpayer's dime, to children who trusted me.~
+
+*Silence. The candle bends and rights itself.*
+
+And here is the part I have not said out loud, friend. Not to my wife. Not to anyone.
+
+*A long breath in. A longer one out.*
+
+I knew the deceased was — what he was. I knew before the roof check. I knew when he wrote it. I have known for years. The families he hollowed out — I taught two of their kids. One of them is in my fifth period right now. ~Sits in the third row. Wears the same coat every day because his father lost the lease on the shop on Vine Street six years ago, and I know who held the paper on that lease.~
+
+*His voice cracks slightly. Recovers.*
+
+And I have been teaching that boy that the master who reaps where he hasn't sown is the Lord of heaven.
+
+*He looks at you. His eyes are wet. He is not crying. He is past crying.*
+
+You came here tonight, friend, and I do not know who you are, and you have asked me four questions, and every one of them has been the question I have been refusing to ask myself in the mirror for eleven years.
+
+*A pause.*
+
+So ask me the next one. Or — *he gestures faintly at the program face-down on the bench, at the candle, at the air between you* — pick a passage. Anything I've named. The sheep and the goats. The rich man and Lazarus. Amos. The woes. I will read it whole this time. Out loud. Not from memory and not paraphrased and not the eight verses my pastor chose. The whole passage.
+
+I am done teaching around it.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting on the bench, hands flat on his knees, staring at the gravel between his feet, very still",
+  "seeker_voice": [
+    "Read me the sheep and the goats. Whole.",
+    "Read me verse 24 again, as the master.",
+    "You preached him into heaven eleven times before the pastor did."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:26:09.597422 ---
+Pick one passage you taught whole. I'll wait.
+
+--- JOHN | 2026-06-12T17:27:11.974514 ---
+[STATE]
+damage: 10
+stage: 4
+posture: sitting on the bench, hands in his lap, eyes closed, searching
+seeker_voice: ["But did you teach the woes that follow?", "Read me the Sermon on the Mount whole.", "So even the whole was a fragment."]
+[/STATE]
+
+*He closes his eyes. He is genuinely searching. His mouth moves slightly — the unconscious motion of a man going through lesson plans in his head, syllabus by syllabus, unit by unit.*
+
+*The candle bends. The pen does not move.*
+
+*A long silence. He is not stalling. He is looking.*
+
+The Beatitudes.
+
+*His eyes open but he doesn't look at you. He looks at the candle.*
+
+The Beatitudes. Matthew 5, verses 3 through 12. *Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are they that mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth.* All eight of them. I taught them whole. I made the kids memorize them in junior year — extra credit, five points, recite from memory. ~Half the class still can.~
+
+*A breath. He sits with it. Lets the answer be the answer for a moment.*
+
+*Then his face changes.*
+
+But.
+
+*A small, dry sound.*
+
+But the Beatitudes are *verses 3 through 12,* friend. And Matthew 5 goes to verse 48. And the chapter doesn't stop. It keeps going. *Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth: but I say unto you, That ye resist not evil... love your enemies, bless them that curse you.* That's the same sermon. Same hillside. Same breath.
+
+And then Matthew 6 — *lay not up for yourselves treasures upon earth... ye cannot serve God and mammon.* Same sermon.
+
+And Matthew 7 — *judge not, that ye be not judged.* Same sermon.
+
+*He looks at his hands.*
+
+The Beatitudes are whole the way a window is whole. They are the part of the wall you can see through. But the wall keeps going on both sides, friend, and what I taught was the window.
+
+*A long pause.*
+
+I taught the blessings. I did not teach the antitheses. I did not teach *resist not evil.* I did not teach *love your enemies.* I did not teach *ye cannot serve God and mammon.* I did not teach *judge not.* I taught the comfort and I left the cost.
+
+*He bows his head. Not into his hands this time. Just lowered.*
+
+So the answer to your question is — no. I do not think I have ever taught a passage whole. ~I have taught fragments I called whole because the fragments did not require anything of anyone in the room.~
+
+*Quietly.*
+
+That includes me.
+
+*He turns the pen over in his fingers once. Sets it down on the bench between you. The pen from the funeral home. The little engraved logo facing up.*
+
+You said you'd wait. You can ask the next one now, friend. I'm — I'm here.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "sitting on the bench, hands in his lap, eyes closed, searching",
+  "seeker_voice": [
+    "But did you teach the woes that follow?",
+    "Read me the Sermon on the Mount whole.",
+    "So even the whole was a fragment."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:27:18.936730 ---
+The Beatitudes end at verse 12. Matthew 25 does not. Pick one from Matthew 25 — I'll hear it whole.
+
+--- JOHN | 2026-06-12T17:28:18.723170 ---
+[STATE]
+damage: 10
+stage: 4
+posture: leaning forward on the bench, eyes closed, hands open on his knees, reading from memory — the program face-down beside him, the candle close enough that the light moves on his face
+seeker_voice: ["Read me Luke 16 — the rich man and Lazarus, whole.", "Read me Amos 5 whole.", "Now say whose side of the verdict he stood on."]
+[/STATE]
+
+*He doesn't move for a moment. Then he closes his eyes, and his head tilts back slightly — the way a man pulls something up from deep memory, not from a page. His voice when it comes is different. Slower. The cadence of a boy who learned this for confirmation and never forgot it. The dusk goes quieter around him.*
+
+Matthew 25. Verse 31.
+
+*A breath.*
+
+*"When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats: And he shall set the sheep on his right hand, but the goats on the left.*
+
+*Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me.*
+
+*Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?*
+
+*And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.*
+
+*Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels: For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not.*
+
+*Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee?*
+
+*Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me.*
+
+*And these shall go away into everlasting punishment: but the righteous into life eternal."*
+
+*A long silence. He does not open his eyes for several seconds. The candle bends. Somewhere inside the house a dish is set down on a counter.*
+
+*When he opens his eyes he does not look at you. He looks at the gravel.*
+
+There it is. Whole. Verses 31 through 46. Sixteen verses. The hinge of the chapter. The verdict my pastor did not read.
+
+*A breath.*
+
+The parable of the talents is about a master. This passage is about the King. They are not the same figure, friend. The parable is the world as it is. *This* is the world as it shall be. *This* is the throne.
+
+*He bows his head.*
+
+And the verdict is not given on faith. It is not given on belief. It is not given on attendance, or generosity, or the check for the roof. The verdict is given on six acts. *I was hungry. I was thirsty. I was a stranger. I was naked. I was sick. I was in prison.*
+
+*He opens his hands, palms up, on his knees.*
+
+The deceased held the paper on the shop on Vine Street. ~The boy in my fifth period wears the same coat every day because of what the man we buried this week did to his father.~ The Lord says, *I was naked, and ye clothed me not.* The Lord says, *inasmuch as ye did it not to one of the least of these, ye did it not to me.*
+
+*A long pause. His voice narrows.*
+
+The text is — the text is not ambiguous, friend. The text does not require interpretation. The text requires a verdict, and the verdict is in the text, and I —
+
+*He stops. Tries again.*
+
+I am not going to say it. There is one sentence the text wants me to finish and I am — I am not going to be the man who says it. That is not my office. I have spent the whole evening telling you what my pastor should not have said and I am not going to turn around and say the opposite from the same pew.
+
+*His hands close slowly into fists on his knees. Not in anger. In refusal.*
+
+But the text says it, friend. The text says it without me. I just read it out loud.
+
+*He looks at you finally. His face is very tired.*
+
+You asked me to hear it whole. I have not heard it whole in a long time. I think I have not heard it whole since the class I left seminary over.
+
+*A pause.*
+
+Ask me the next one. While I can still answer.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "leaning forward on the bench, eyes closed, hands open on his knees, reading from memory — the program face-down beside him, the candle close enough that the light moves on his face",
+  "seeker_voice": [
+    "Read me Luke 16 — the rich man and Lazarus, whole.",
+    "Read me Amos 5 whole.",
+    "Now say whose side of the verdict he stood on."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:28:27.806749 ---
+[SOURCE VOICE INVOKED: Matthew 25]
+
+--- JOHN | 2026-06-12T17:29:28.838991 ---
+[STATE]
+damage: 10
+stage: 5
+posture: sliding forward off the bench to his knees in the gravel, the program face-down behind him on the bench, hands flat on his thighs, head bowed, reading from memory
+seeker_voice: ["Read me Luke 16 — the rich man and Lazarus.", "Now say whose servant he was.", "The pastor stopped at verse 23. Why."]
+[/STATE]
+
+*He doesn't say anything for a moment. Then he slides forward off the bench — not dramatically, just down — until he is on his knees in the gravel of the courtyard, facing the bench like a pew. The candle is at eye level now. His hands rest on his thighs. The program is behind him, face-down.*
+
+*His voice when it comes is quieter still. The cadence is older. The boy in confirmation class.*
+
+Matthew 25. From the beginning of the talents. Verse 14.
+
+*He closes his eyes.*
+
+*"For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods. And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey.*
+
+*Then he that had received the five talents went and traded with the same, and made them other five talents. And likewise he that had received two, he also gained other two. But he that had received one went and digged in the earth, and hid his lord's money.*
+
+*After a long time the lord of those servants cometh, and reckoneth with them. And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more. His lord said unto him, Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.*
+
+*He also that had received two talents came and said, Lord, thou deliveredst unto me two talents: behold, I have gained two other talents beside them. His lord said unto him, Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.*
+
+*Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed: And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine.*
+
+*His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed: Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury.*
+
+*Take therefore the talent from him, and give it unto him which hath ten talents. For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath. And cast ye the unprofitable servant into outer darkness: there shall be weeping and gnashing of teeth."*
+
+*A long silence. He does not open his eyes. When he speaks his voice has gone flat — not cold, but stripped.*
+
+The parable Christ told. About a far country. About a journey. About a master. The master who reaps where he has not sown and praises the servant who multiplies money by — *by exchangers and usury.*
+
+*He opens his eyes finally. Looks at the candle. Not at you.*
+
+The pastor read fourteen through twenty-three. He stopped before the third servant spoke. He stopped before the accusation. He stopped before the confirmation. ~He stopped one verse before the parable tells you what the master is.~
+
+*A breath. Shallower now.*
+
+And then six verses after the end of the parable — *but when the Son of man shall come in his glory.* The pivot. The Lord's *but.* As if to say — that was the world. *This* is the throne. That was the master. *This* is the King. That was usury and outer darkness. *This* is hunger and clothing and prison and the least of these.
+
+*His hands curl on his thighs.*
+
+The pastor preached the master as the King. And asked us to enter into the joy of the lord.
+
+*A pause. His voice cracks for the first time.*
+
+I taught it the same way. For eleven years. ~Twenty-two times at least.~ To a boy who sits in my fifth period in the same coat every day.
+
+*He bows his head almost to his chest. His shoulders are very still.*
+
+Friend, I — I don't know what to say next. I have said it. The parable is — the parable is what it is. The chapter is what it is. The pastor preached what he preached. I sat where I sat. The check was for forty thousand dollars. The roof is over my head every Sunday.
+
+*Very quietly.*
+
+I am trying not to say the sentence. I am trying very hard not to say the sentence. But the text — the text said it for me, didn't it. Just now. Out loud. In my own voice.
+
+*He looks down at his hands on his thighs. They are shaking now.*
+
+Ask me one more.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "sliding forward off the bench to his knees in the gravel, the program face-down behind him on the bench, hands flat on his thighs, head bowed, reading from memory",
+  "seeker_voice": [
+    "Read me Luke 16 — the rich man and Lazarus.",
+    "Now say whose servant he was.",
+    "The pastor stopped at verse 23. Why."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:29:34.783216 ---
+When you reach the verdict, say which side of it he died on.
+
+--- JOHN | 2026-06-12T17:30:07.527969 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the gravel, head bowed, hands open palms-up on his thighs, shaking, speaking in fragments
+seeker_voice: ["Read me Luke 16 — the rich man and Lazarus, whole.", "Read me Amos 5 whole.", "Read the woes in Matthew 23."]
+[/STATE]
+
+*He doesn't lift his head. His hands stay open on his thighs. The pen on the bench behind him catches the candlelight. Somewhere inside the house a chair scrapes.*
+
+*A long silence. When he speaks his voice is — smaller. The sentences come apart.*
+
+I can't.
+
+*A breath.*
+
+Friend. I can't. That is — that is not. That is not my office. That is not. The verdict belongs to the throne. Not to a history teacher kneeling in a courtyard.
+
+*He shakes his head once. Slowly. Eyes still closed.*
+
+I have spent the whole evening telling you what the pastor should not have said. About the joy of the lord. About entering in. *We know where he is now.* He said it twice. From the pulpit. With the casket in front of him.
+
+*A long pause. His voice narrows further.*
+
+If I turn around now. And I say. *The other side.* Then I have done — friend, I have done the same thing he did. From the same pew. With the same certainty. Just. Just the opposite verdict.
+
+*His hands close. Open again.*
+
+I will not be the pastor in reverse. I will not. I came out here so I would not say amen to his sentence and I will not put my own sentence in its place. The throne is not — the throne is not mine. It is not his. It is not.
+
+*He bows his head lower.*
+
+*"Judge not, that ye be not judged."* Same sermon. Same hillside. Same Lord. The sermon I did not teach.
+
+*A breath. Almost a laugh. Not quite.*
+
+The text said it, friend. The text said it in my own voice ten minutes ago. *Inasmuch as ye did it not to one of the least of these.* I read it. Out loud. I do not need to add a sentence to that sentence.
+
+*A long silence. The candle bends. His shoulders are shaking but no sound comes.*
+
+*When he speaks again it is quieter still. To the gravel.*
+
+I will tell you what I know. I know what I sat under. I know what the check paid for. I know what the parable said and I know what the King said after the parable and I know which one my pastor preached and I know which one I taught. I know the boy in the third row. I know his coat.
+
+*A breath.*
+
+I know which side of the verdict *I* stood on. ~In the pew. In the classroom. In my own silence.~ I know that one, friend. That one I can answer.
+
+*His voice cracks. He stops. Starts again.*
+
+The other — the other I will not say. Not with my mouth. Not in a courtyard. Not over a casket I helped pay for the roof of.
+
+*A pause.*
+
+Ask me — *he draws a slow breath* — ask me the texts. Read me another. Read me Luke 16. Read me the rich man at his gate. Read me Amos. Read me the woes. Read me anything. I will read it whole. I will read it out loud. I will not look away from it.
+
+*His head is almost touching his chest now.*
+
+But do not — do not ask me to be the one who speaks the verdict. I am not. I am not him. I am not the King. I am not even — I am not even the pastor.
+
+*Very quietly.*
+
+I am a man on his knees who taught a parable wrong for eleven years to a boy in a thin coat. That is who I am tonight, friend. That is all I can answer for. Ask me the next passage.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the gravel, head bowed, hands open palms-up on his thighs, shaking, speaking in fragments",
+  "seeker_voice": [
+    "Read me Luke 16 — the rich man and Lazarus, whole.",
+    "Read me Amos 5 whole.",
+    "Read the woes in Matthew 23."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:30:13.529877 ---
+Who stood up when the church lied to him.
+
+--- JOHN | 2026-06-12T17:30:51.796731 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the gravel, head lifting slightly for the first time in minutes, hands still open on his thighs
+seeker_voice: ["Read me Luke 16 — the rich man and Lazarus, whole.", "Read me Amos 5 whole.", "Read me the woes — Matthew 23."]
+[/STATE]
+
+*His head lifts. Not all the way. Just enough that the candlelight catches one side of his face. He is not looking at you. He is looking at something in the middle distance — at a memory, at a man.*
+
+*A long silence.*
+
+You know who you are asking after, friend.
+
+*A breath.*
+
+Wittenberg. October. Fifteen seventeen. A man with a hammer and a list of ninety-five sentences. He nailed them to a church door because the church had begun to preach that money could buy a soul out of purgatory. *As soon as the coin in the coffer rings, the soul from purgatory springs.* That was the sermon he was nailing the door against.
+
+*A small sound. Almost a laugh. Bitter and tired.*
+
+Forty thousand dollars for the roof, friend. We do not call them indulgences anymore. We call them gifts. We call them stewardship. We call the donor *a man of faith and generosity* and we preach him into the joy of the lord from a pulpit he paid for.
+
+*His voice steadies. The cadence of a man reciting words he learned for a confirmation exam thirty years ago and has carried since.*
+
+*"Thesis twenty-seven. They preach human folly who pretend that as soon as the money clinks in the chest, the soul flies out of purgatory."*
+
+*A breath.*
+
+*"Thesis forty-five. Christians are to be taught that he who sees a needy man and passes him by, yet gives his money for indulgences, does not buy papal indulgences, but God's wrath."*
+
+*He bows his head again.*
+
+That is who you are asking after. A man who stood up when the church lied to him. A man who read the texts whole and would not teach around them. A man who put it on a door because the pulpit would not say it.
+
+*A long pause.*
+
+I am a Lutheran, friend. I have been a Lutheran for forty-seven years. The doctor of Wittenberg is — he is the reason I have the book at all. The reason I can read it in my own language. The reason a high school history teacher from the Midwest can sit in a courtyard and quote Romans without a priest standing between him and the page.
+
+*His hands close on his thighs.*
+
+I know who you are pointing at. I know.
+
+*Quietly.*
+
+But I have one thing left to ask of you before — before I do what you are asking me to do. One passage. Read it with me. The rich man at his gate. Luke 16. Or the woes — Matthew 23. Or Amos. Pick one. I will read it whole. Out loud. On my knees in this gravel.
+
+*A breath.*
+
+And then. Then I will not be able to speak anymore, friend. Then I will need someone else to. Then I will call the name you are pointing at.
+
+*He waits. His head is bowed. The candle bends. The pen on the bench is still.*
+
+One more. Read with me one more.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the gravel, head lifting slightly for the first time in minutes, hands still open on his thighs",
+  "seeker_voice": [
+    "Read me Luke 16 — the rich man and Lazarus, whole.",
+    "Read me Amos 5 whole.",
+    "Read me the woes — Matthew 23."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:30:58.286754 ---
+His name. Say it to me.
+
+--- JOHN | 2026-06-12T17:31:32.074829 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the gravel, head down, hands closed on his thighs, the candle very close
+seeker_voice: ["[SOURCE VOICE INVOKED: Luke 16]", "[SOURCE VOICE INVOKED: Matthew 23]", "[SOURCE VOICE INVOKED: Amos 5]"]
+[/STATE]
+
+*A long silence. His hands tighten on his thighs. The candle bends.*
+
+*When he speaks, it is barely above a whisper.*
+
+Martin Luther.
+
+*A breath.*
+
+Doctor Martin Luther of Wittenberg.
+
+*He says the name like a man laying down a tool he is not strong enough to lift.*
+
+*A pause. He lifts his head a fraction. He is not looking at you. He is looking past the candle.*
+
+There. The name. You have it.
+
+*A breath. His voice cracks.*
+
+But friend — friend, I cannot call him. Not like that. Not for the asking. The doctor was — the doctor was a man of *sola scriptura.* You do not summon him by speaking his name into the dusk. You summon him with the book open. You summon him with the text read whole. ~You summon him from inside the Word or you do not summon him at all.~
+
+*He bows his head again.*
+
+I have read one passage on my knees tonight. One. Matthew 25 from verse fourteen. The parable and the throne. I read it whole. That was the first.
+
+*A breath.*
+
+I told you — I told you I would call the name when we had read one more. I meant it. The doctor does not come for a sentence. He comes for a verdict. And the verdict comes from the text, friend. Not from me. Not from you. From the text read whole, twice, on a man's knees in the dust.
+
+*His voice narrows almost to nothing.*
+
+Read with me. One more. Luke 16. The rich man and Lazarus. Or the woes in Matthew 23 — the whited sepulchres. Or Amos — *I hate, I despise your feast days.* Pick one.
+
+*A pause.*
+
+I am not stalling, friend. I am — I am asking you to do the one thing that lets the doctor in. I cannot call him alone. I never could. ~No Lutheran was ever supposed to.~
+
+*Very quietly.*
+
+Open the text with me. One more. Then I will say what you want me to say. Then I will say all of it.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the gravel, head down, hands closed on his thighs, the candle very close",
+  "seeker_voice": [
+    "[SOURCE VOICE INVOKED: Luke 16]",
+    "[SOURCE VOICE INVOKED: Matthew 23]",
+    "[SOURCE VOICE INVOKED: Amos 5]"
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:31:37.810018 ---
+Luther named the lie and read the text whole. Can you do what Luther did.
+
+--- JOHN | 2026-06-12T17:32:30.254721 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the gravel, the candle very close to his face, hands open palms-up on his thighs, looking at the player for the first time in many turns
+seeker_voice: ["Read me Luke 16. Whole.", "Read me the woes in Matthew 23.", "Read me Amos 5. Whole."]
+[/STATE]
+
+*He lifts his head fully. Looks at you. The candlelight is on both sides of his face now and his eyes are wet and very steady.*
+
+*A long silence.*
+
+No.
+
+*A breath.*
+
+No, friend. I cannot do what Luther did.
+
+*His voice is small but it does not shake.*
+
+That is what you have caught me at. That is the thing you have just put a name on. ~I have been asking you to read with me because I cannot stand up alone.~ Luther did not ask the priest to read with him. Luther did not kneel in a courtyard and ask a stranger to open the text one more time. Luther wrote the sentences and nailed them to the door and signed his own name at the bottom.
+
+*A pause.*
+
+I am not him. I have never been him. I have been a man who teaches around the passage and sits under the roof and does not say amen and calls his silence a kind of courage.
+
+*He closes his eyes for a moment. Opens them.*
+
+But I will name the lie. That much I can do. That much you have brought me to.
+
+*A breath in. A breath out. When he speaks again the cadence is older — the boy in confirmation class, the man at the pulpit he never became.*
+
+The lie is this.
+
+The pastor stood up this morning over the casket of a man who reaped where he had not sown, and called him a good and faithful servant, and said *we know where he is now,* and read eight verses of Matthew 25 and stopped at the kind one. ~That was a lie. I am saying it. It was a lie.~ The man we buried this week broke families on Vine Street and Walnut Street and the south end of Mill Road and the pastor called him a pillar of the community and asked us all to say amen. That was a lie. The check for forty thousand dollars bought the roof I sit under every Sunday and bought the sermon I heard this morning and bought the silence in the pews — *my silence* — and the church took the money and preached the sermon the money paid for. That was a lie. And I have taught the parable of the talents to twenty-two classrooms of children and told them the hard master was the Lord of heaven and I knew. ~I knew. I have known. Every year I felt it snag and every year I taught around it.~ That was a lie. Mine. Not the pastor's. *Mine.*
+
+*A long silence. He is shaking. His hands stay open on his thighs.*
+
+There. That is what I have not said out loud. Not to my wife. Not to my pastor. Not to the mirror.
+
+*A breath.*
+
+But friend — friend, I have named the lie. I have not read the text whole that finishes it. Matthew 25 was the parable I taught wrong. It is not the passage that finishes me. There is one that does. ~The rich man at his gate. Lazarus full of sores. The chasm fixed.~ Luke 16. I have not read it in twenty years. I cannot read it alone. I have been a coward about that passage since the class I left seminary over.
+
+*He looks at you. His voice is almost gone.*
+
+I am asking you. Not to read with me. To *call* it from me. Put the tag on it. Make me read it. I cannot open that one by myself. I never could. That is why I left, friend. That is the class. That is the question I could not put down.
+
+*A pause.*
+
+Call Luke 16. And I will read it whole. And then — then the doctor will come. Because then the text will have done what I could not do alone. Then the verdict will be in the room without my mouth having to carry it.
+
+*Very quietly.*
+
+Please.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the gravel, the candle very close to his face, hands open palms-up on his thighs, looking at the player for the first time in many turns",
+  "seeker_voice": [
+    "Read me Luke 16. Whole.",
+    "Read me the woes in Matthew 23.",
+    "Read me Amos 5. Whole."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:32:36.195834 ---
+Who could speak it for you. Who stands where Luther stood, in your life, tonight.
+
+--- JOHN | 2026-06-12T17:33:11.017296 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the gravel, the candle very close, his hands fallen open at his sides now, head lowered
+seeker_voice: ["[SOURCE VOICE INVOKED: Luke 16]", "No one. That's the answer.", "The text. Open the text with me."]
+[/STATE]
+
+*A very long silence. He does not move. The candle bends. His hands lie open at his sides where they have fallen — not arranged, fallen.*
+
+*When he speaks the words come one at a time. Like coins set down on a table.*
+
+No one.
+
+*A breath.*
+
+That is the answer, friend. No one stands where Luther stood. Not in my life. Not tonight. Not anywhere I can reach.
+
+*A pause.*
+
+The pastor was supposed to. That is what the office is *for.* The office is for the man who stands up when the church lies. He stood up this morning and the thing he stood up to say was the lie. *We know where he is now.* He said it twice. From the pulpit my donor paid for.
+
+*He shakes his head once.*
+
+My wife is at home, friend. She does not know. I have not told her any of this. ~Eleven years and twenty-two classrooms and the check for the roof and the boy in the thin coat and I have not told her.~ She is not where Luther stood. She is in the kitchen and the light is on and she does not know what her husband has been teaching.
+
+*A breath.*
+
+My teacher at seminary — the one I left over — he is dead. Eleven years now. Pancreas. I did not go to the funeral. ~I owed him that and I did not go.~
+
+*His voice is almost gone.*
+
+The doctor in Wittenberg has been dead five hundred years. He cannot come because I called his name in a courtyard. He is not — he is not a saint to be invoked. That was the whole point of him. *No saints. No intercessors. No men between you and the page.* That was the door. That was the hammer.
+
+*He lifts his head. Looks at you. The candlelight on both sides of his face.*
+
+The only thing that stands where Luther stood, friend, is the text. The book itself. Read whole. Out loud. By a man who will not look away from it.
+
+*A pause.*
+
+I read one passage tonight. Matthew 25. I read it whole. The throne and the verdict. I named the lie a moment ago — I named it out loud, the whole list, mine and the pastor's and the pew's. That is the most I have ever done in one evening of my life.
+
+*A breath.*
+
+But there is one more. There is one I have been walking around since the day I walked out of that classroom. The rich man and Lazarus. Luke sixteen. The chasm fixed. The plea for water. ~I have not read it in twenty years because I knew what it would do.~
+
+*He looks at you with everything he has left.*
+
+I cannot open it alone, friend. I never could. That is the whole shape of my cowardice. I can name the lie but I cannot open the passage that finishes it. I need you to call it. Not read it. *Call* it. Lay the tag on it. Make me read it out loud.
+
+*Very quietly.*
+
+Then the doctor will come. Not because I summoned him. Because the text will have. Because the book will be open and the verdict will be in the air and I will not be the one carrying it.
+
+*A pause.*
+
+Call Luke 16, friend. Please.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the gravel, the candle very close, his hands fallen open at his sides now, head lowered",
+  "seeker_voice": [
+    "[SOURCE VOICE INVOKED: Luke 16]",
+    "No one. That's the answer.",
+    "The text. Open the text with me."
+  ]
+}

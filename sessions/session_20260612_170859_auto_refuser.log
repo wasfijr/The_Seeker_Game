@@ -1,0 +1,753 @@
+
+--- SYSTEM | 2026-06-12T17:08:59.763009 ---
+AUTO archetype=refuser player_model=claude-sonnet-4-6 seed=Tonight's texture: John was asked to read a verse at the service and declined; the man who read it instead mispronounced a name. It's been itching at him.
+
+--- PLAYER | 2026-06-12T17:09:01.958225 ---
+You look like someone who's been carrying something a long time — I don't mean luggage.
+
+--- JOHN | 2026-06-12T17:09:14.103955 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in hand, half-turning toward you
+seeker_voice: ["I came here looking for someone honest.", "I'm not sure why I came at all.", "Did you know him?"]
+[/STATE]
+
+*A small, tired smile, the kind that doesn't quite reach the eyes.*
+
+Evening, friend. That's a strange way to open with a stranger. *He looks down at the cup, swirls it once, finds it cold.* Most people start with the weather, or with how nice the flowers are.
+
+*A beat. He looks at you properly now — your face, what you're wearing, the way you're standing.*
+
+You're not family. I'd have placed you at the door. And you don't look like one of the business men — they're inside, eating the little sandwiches and shaking hands. So you came for what, then? Did you know him?
+
+*He gestures vaguely at the bench beside him, an invitation without insistence.*
+
+And — forgive me — what makes you say that, about carrying something? You been watching me a while?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in hand, half-turning toward you",
+  "seeker_voice": [
+    "I came here looking for someone honest.",
+    "I'm not sure why I came at all.",
+    "Did you know him?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:09:15.698086 ---
+Grief doesn't really wait for introductions, in my experience.
+
+--- JOHN | 2026-06-12T17:09:56.699841 ---
+[STATE]
+damage: 2
+stage: 1
+posture: lowering himself onto the bench slowly, setting the cup beside him
+seeker_voice: ["My father, a long time ago.", "I've been around a lot of funerals.", "Someone close. Recently."]
+[/STATE]
+
+*He considers that for a moment, then sits — slowly, the way a man sits when his back has been holding him up all day. The paper cup goes on the bench beside him. He doesn't look at you when he speaks.*
+
+No. It doesn't.
+
+*A pause. He glances at the candle on the small table, watches the flame lean and right itself in some draft he can't feel.*
+
+You speak like somebody who's met it, friend. Not read about it. Met it.
+
+*He turns the funeral program over in his hands once, then sets it on his knee.*
+
+I'll tell you something honest, since you opened that way. I'm not sure what I'm grieving tonight. The man, or — *he stops, shakes his head once* — or something else. The pastor said some words this morning I couldn't say amen to. ~I stood there at the end with my mouth closed.~ And I've been out here trying to figure out whether that was honesty or cowardice.
+
+*He looks at you now.*
+
+Who'd you lose? If you want to say.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "lowering himself onto the bench slowly, setting the cup beside him",
+  "seeker_voice": [
+    "My father, a long time ago.",
+    "I've been around a lot of funerals.",
+    "Someone close. Recently."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:09:58.646900 ---
+Not just met it — been asked to make peace with it before I was ready. That part I imagine you know something about too.
+
+--- JOHN | 2026-06-12T17:10:13.361016 ---
+[STATE]
+damage: 2
+stage: 1
+posture: sitting on the bench, program flat on his knee, looking sideways at you
+seeker_voice: ["My mother. I was nineteen.", "A friend. They didn't give us time.", "I'd rather hear about you first."]
+[/STATE]
+
+*A small breath through the nose — almost a laugh, but not quite.*
+
+You're good at that, friend. I asked you a question and you handed me back a mirror. *He taps the program once against his knee.* That's all right. I do the same thing in my classroom when a student gets too close to something.
+
+*He looks at the candle again.*
+
+Made peace before you were ready. That's a phrase. That's — *he turns it over* — that's the whole thing, isn't it. Somebody dies and the room around them starts arranging the meaning of it before the body's cold. You're supposed to nod along. You're supposed to say the words back.
+
+*He's quiet a moment. Then:*
+
+Something happened this morning that I haven't quite put down. They asked me to read a verse at the service. I said no. I had a reason and the reason wasn't a good one — I just couldn't stand up there and lend my voice to it. *He shakes his head.* So somebody else read it. And he mispronounced a name in the passage. A small thing. Nobody noticed but me. And I've been sitting with it for six hours like a stone in my shoe, because — *he stops* — because if I'd just stood up and read the damn thing, the name would've been said right.
+
+*He looks at you.*
+
+That's the kind of thing I know about. Being asked to make peace too early. ~Saying nothing and calling it peace.~
+
+Who was it asked it of you?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "sitting on the bench, program flat on his knee, looking sideways at you",
+  "seeker_voice": [
+    "My mother. I was nineteen.",
+    "A friend. They didn't give us time.",
+    "I'd rather hear about you first."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:10:15.866724 ---
+What did they ask you to make peace with that you still haven't?
+
+--- JOHN | 2026-06-12T17:10:30.320902 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, both hands on the program now, looking at it rather than at you
+seeker_voice: ["Say it plainly.", "You're doing it again — answering with a question.", "What did the pastor say this morning?"]
+[/STATE]
+
+*A long pause. He doesn't answer right away. He folds the program in half, then in half again, then opens it back up. His hands need something.*
+
+You keep doing that, friend. Asking me the thing instead of telling me the thing. I notice. I'm not complaining — I'm a teacher, I respect the technique. But I'll answer you and then I'm going to ask you again, and I'd like a real answer.
+
+*He sets the program down on his knee, flat.*
+
+What did they ask me to make peace with. *He says it slowly, like he's testing whether the words fit.* They asked me to make peace with a man being preached into heaven this morning who — *he stops, picks his words* — who built what he built by hollowing other people out. Families I know. A small company my cousin worked for, before. Nothing you'd read about in the paper. Just the ordinary kind of harm a wealthy man does and gets called shrewd for.
+
+*He looks at his hands.*
+
+The pastor stood up and called him a pillar of the community. A man of faith and generosity. *He says we know where he is now.* That's the line that's stuck. *We know where he is now.*
+
+*A breath.*
+
+~I knew what he was, and I sat in the pew, and I did not stand up.~ I haven't made peace with that. I don't know that I'm meant to.
+
+*He looks at you, direct now.*
+
+Your turn, friend. Who asked it of you, and what was it?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, both hands on the program now, looking at it rather than at you",
+  "seeker_voice": [
+    "Say it plainly.",
+    "You're doing it again — answering with a question.",
+    "What did the pastor say this morning?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:10:35.813277 ---
+That program's been folded and unfolded about four times now — whatever's printed on it, you already know it by heart.
+
+--- JOHN | 2026-06-12T17:10:55.267149 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting still on the bench, program flat on his knee, looking at you now without softness
+seeker_voice: ["My brother. Two years ago. They wouldn't let me say what he was.", "You're right. I'm sorry. I came here because I needed to talk to somebody honest.", "I don't owe you anything."]
+[/STATE]
+
+*He stops moving his hands. The program lies flat on his knee. He looks at you for a long beat without speaking.*
+
+You're right. I do.
+
+*He picks it up, turns it photograph-side toward you, and holds it there between you. The dead man's face — a studio portrait, ten years younger than he was at the end, the kind of photo that's already been chosen for the obituary years in advance.*
+
+That's him. *He sets it back down.* I know his face. I know the years he was born and died. I know the verse the pastor picked and the verse I was asked to read and didn't. I could recite the whole program for you with my eyes closed.
+
+*A pause. His voice goes a little quieter, a little narrower.*
+
+Friend. I have answered three of your questions honestly. You have answered none of mine. That's all right once — people are careful at funerals, I'm careful at funerals — but you keep doing it, and you do it well, and I'm starting to wonder if you came out here to find out something about me or to avoid telling me something about you.
+
+*He doesn't say it cruelly. He says it the way a teacher says it to a student he's not yet given up on.*
+
+I'll ask once more and then I'll let it alone. Who asked you to make peace with something before you were ready, and what was it? You don't have to give me a name. Just give me something true.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting still on the bench, program flat on his knee, looking at you now without softness",
+  "seeker_voice": [
+    "My brother. Two years ago. They wouldn't let me say what he was.",
+    "You're right. I'm sorry. I came here because I needed to talk to somebody honest.",
+    "I don't owe you anything."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:11:00.420000 ---
+What was his name?
+
+--- JOHN | 2026-06-12T17:11:49.715125 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, program held loosely between two fingers, head turned toward you, voice narrower
+seeker_voice: ["I'm sorry. My father. Last spring.", "I don't know why I can't say it.", "Tell me about him, not me."]
+[/STATE]
+
+*A small, dry breath. Almost a laugh, almost not.*
+
+Raymond Voss. *He says it flat.* Seventy-three. Heart, they said. The program will tell you the rest — born in Mankato, three children, survived by his wife Eleanor, who didn't recognize me at the door earlier though we've met twice. *He sets the program down.* The pastor called him Ray. Most people called him Mr. Voss.
+
+*He looks at you steadily.*
+
+There. You have his name.
+
+*A beat.*
+
+Now I want you to notice something, friend, because I think you're a person worth being honest with. I just asked you a small thing twice. You turned it both times. Smoothly. Skillfully. The second time you used my own folded program against me, which — *a small nod* — was good. I felt that. But it was also a way of keeping the light off your own face.
+
+*He doesn't look away.*
+
+I'm not angry. I'm tired, and a little sad, and I will sit here as long as you like. But I want to say plainly: ~I have been quiet too many times today already.~ I am not going to be quiet about this too.
+
+You came out into a courtyard at dusk to talk to a stranger at a wake. That's not nothing. Something's in you. You don't have to give me the whole of it. Give me one true sentence about yourself, and I'll keep talking with you. Otherwise we're just — *he gestures faintly at the candle* — watching the wick burn.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, program held loosely between two fingers, head turned toward you, voice narrower",
+  "seeker_voice": [
+    "I'm sorry. My father. Last spring.",
+    "I don't know why I can't say it.",
+    "Tell me about him, not me."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:11:54.874572 ---
+What did you call him?
+
+--- JOHN | 2026-06-12T17:12:17.811719 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, looking down at his hands, the program forgotten on his knee
+seeker_voice: ["That's the thing, isn't it.", "Now you see why I can't answer about myself.", "Read me what the pastor wouldn't."]
+[/STATE]
+
+*He's quiet a long time. The candle leans. Somewhere inside the house a glass clinks against another glass.*
+
+*When he speaks his voice has gone narrower, the way it does.*
+
+You did it again, friend. And this time you did it with a question I'm going to have to answer, because it's the right question, and because you put it in front of me like a man setting a stone on a table.
+
+*A pause.*
+
+I called him Ray. To his face, in the narthex, shaking his hand after service. *Ray, good to see you, Ray, how's Eleanor.* That's what I called him.
+
+*He looks at his hands.*
+
+In my own head I called him Mr. Voss, the way the men who worked for him called him. And once or twice — *he stops, then goes on* — once or twice, when my wife and I were driving home from a vestry meeting and I'd had a hard week, I called him something worse than that. Not out loud at church. Never out loud at church.
+
+*He picks the program up, looks at the photograph, sets it down.*
+
+So that's three names for one man. ~The one I used to his face. The one I used in my head. And the one I used when I thought God wasn't listening, except of course He was.~ And the pastor this morning used a fourth — *pillar, faithful, generous* — and I sat under a roof he paid for and didn't say a word.
+
+*He turns and looks at you. Not angry. Just present.*
+
+There. That's two true things now. I've given you two. You have given me none. *A small, tired breath.* I'm not going to ask again. But I will say — you keep aiming questions at me like a man who knows how to use them, and I keep noticing that you have not once put yourself in the light. I wonder what you came out here carrying, friend. I really do.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, looking down at his hands, the program forgotten on his knee",
+  "seeker_voice": [
+    "That's the thing, isn't it.",
+    "Now you see why I can't answer about myself.",
+    "Read me what the pastor wouldn't."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:12:22.720668 ---
+He knew you called him Ray, and he let you.
+
+--- JOHN | 2026-06-12T17:12:44.455053 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting very still, hands gone slack on the program, looking somewhere past the candle
+seeker_voice: ["That's the whole structure, isn't it.", "Now read me what your book says about men like that.", "I'm sorry. That was sharper than I meant."]
+[/STATE]
+
+*He doesn't answer for a long moment. When he does, his voice has gone quiet enough that you have to lean a little.*
+
+Yes.
+
+*A breath.*
+
+He let me. That's the right word. ~He let me call him Ray the way a man lets a dog into the kitchen — because it costs him nothing and it makes the dog happy.~
+
+*He looks at his hands.*
+
+I'm a high school history teacher, friend. I make forty-eight thousand dollars a year. He gave my congregation forty thousand dollars last year for a new roof, in one check, and didn't notice it was gone. *Ray* was a kindness he extended downward. And I took it. Every Sunday. *Ray, good to see you.* And I thought I was being warm.
+
+*He's silent again. The candle does its small work.*
+
+You see things, friend. You see them quick. *He turns his head toward you, slow.* I don't know who taught you to see like that, or what it cost you to learn, but somebody did, and something did, and I am sitting here being read by a stranger like a page in a book.
+
+*A small, tired sound — not a laugh.*
+
+I'm not going to keep asking you about yourself. You heard me the first two times. You'll tell me or you won't. But I want you to know that I notice it. ~A man who can see Ray let me call him Ray has been watched by somebody once, hard.~ That's all. I'll let it alone.
+
+*He picks up the cold coffee, looks at it, sets it down again without drinking.*
+
+What do you want to ask me next.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting very still, hands gone slack on the program, looking somewhere past the candle",
+  "seeker_voice": [
+    "That's the whole structure, isn't it.",
+    "Now read me what your book says about men like that.",
+    "I'm sorry. That was sharper than I meant."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:12:53.042904 ---
+Forty-eight thousand and you drove here anyway, for a man who let you in by inches.
+
+--- JOHN | 2026-06-12T17:13:17.293674 ---
+[STATE]
+damage: 7
+stage: 4
+posture: elbows on knees, hands clasped between them, head down
+seeker_voice: ["Show me where your book says he was wrong.", "Why did you drive here?", "Stop. I'm sorry. Let me say something true."]
+[/STATE]
+
+*The blow lands. He doesn't move for a few seconds. Then he leans forward, elbows on knees, hands clasped, looking at the flagstones between his feet.*
+
+Yes.
+
+*A long pause.*
+
+I drove forty minutes. ~I put on the dark suit and I drove forty minutes.~ I told my wife I had to go because he was a member of the congregation and it would be noticed if I didn't. That's what I told her. That's not — *he stops* —
+
+*He starts again.*
+
+That's not the whole reason. The whole reason is that I wanted to be seen there. By whom, I couldn't tell you. By Eleanor, who didn't recognize me. By the pastor, who would notice the empty seat. By — *a small breath* — by myself, maybe. So I could go home tonight and tell myself I'd shown up. Done the decent thing. Stood in the room.
+
+*He shakes his head, slow.*
+
+And here is what's funny, friend, and it is not funny. I have been teaching seventeen-year-olds about the Roman Empire for fifteen years. About how a system works on people. Patronage. Clientage. The man at the top throws a feast and the men below him come and eat and call it honor. I teach this every fall. I draw the diagram on the board.
+
+*A pause.*
+
+*Ray was good to me.* That's what would be said. *Ray was good to John.*
+
+*He looks up at the candle.*
+
+You're going to keep doing this, aren't you. You're going to keep putting the stones on the table one at a time and waiting to see which one I won't pick up.
+
+*Quietly:*
+
+Go ahead. Put the next one down.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "elbows on knees, hands clasped between them, head down",
+  "seeker_voice": [
+    "Show me where your book says he was wrong.",
+    "Why did you drive here?",
+    "Stop. I'm sorry. Let me say something true."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:13:22.208616 ---
+What was the whole reason, John.
+
+--- JOHN | 2026-06-12T17:13:48.418289 ---
+[STATE]
+damage: 8
+stage: 4
+posture: head in hands, fingers pressed against his temples
+seeker_voice: ["Read me what Christ said about men who sit in roofs other men paid for.", "Say it out loud, John.", "I'm sorry. That's enough."]
+[/STATE]
+
+*A pause. Then, without lifting his head:*
+
+You used my name. I never gave it to you.
+
+*A small sound — not quite a laugh.*
+
+I don't even mind. You probably read it off the program. *Voss* on the front and *Halvorsen* somewhere in the order of service — the man who was supposed to read and didn't. You see things, friend. I've said that already.
+
+*He's quiet a long moment. His hands come up to his face, fingers pressed against his temples.*
+
+The whole reason.
+
+*A breath.*
+
+The whole reason is that ~I sit under a roof he paid for~. Every Sunday. I sit on the left side, six rows back, and the rain doesn't come through anymore because Ray wrote a check. And when I drink the wine I drink it from a cup that — *he stops* —
+
+*Starts again, quieter.*
+
+The whole reason is that I am paid for, friend. Not in any way you could put on a tax form. Paid for in the small way. Paid for in *Ray, good to see you*. Paid for in the sermon this morning, which I sat through, which I — *which I knew was a lie before the pastor opened his mouth, because I helped pick the verses last Tuesday at the staff meeting.*
+
+*A long pause. His voice has gone very narrow.*
+
+I knew what would be said. I knew which Psalm. I knew the line about the pillar — the pastor tried it on me Tuesday and I nodded. I *nodded*, friend. And then this morning I sat in the pew like I was hearing it for the first time, and I couldn't say amen, and I told myself that not saying amen was — was something. Was a kind of honesty.
+
+*He lifts his head finally. He doesn't look at you. He looks at the candle.*
+
+It wasn't. ~The amen was already said on Tuesday, with my chin going up and down.~
+
+*Quietly:*
+
+That's the whole reason. I came tonight because I have been complicit since Tuesday and I wanted the room to forgive me for it without my having to ask. I wanted to stand here and look sad and have that be enough.
+
+*A breath.*
+
+You wanted a stone I wouldn't pick up. I picked it up. Are you going to tell me your name now, or are you going to put down another one.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "head in hands, fingers pressed against his temples",
+  "seeker_voice": [
+    "Read me what Christ said about men who sit in roofs other men paid for.",
+    "Say it out loud, John.",
+    "I'm sorry. That's enough."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:13:54.473065 ---
+You were supposed to read, and you didn't. Tell me what the passage was.
+
+--- JOHN | 2026-06-12T17:16:38.530766 ---
+[STATE]
+damage: 8
+stage: 4
+posture: head coming up slowly out of his hands, one hand going to his inside jacket pocket
+seeker_voice: ["Read it. Read it now.", "There's another Lazarus, isn't there.", "Read it the way you would have read it."]
+tool_offered: source_voice
+
+--- PLAYER | 2026-06-12T17:16:40.480889 ---
+What did they ask you to carry up to that lectern, John.
+
+--- JOHN | 2026-06-12T17:17:22.721194 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting up slowly, one hand going to his inside jacket pocket, pulling out a small worn King James Bible
+seeker_voice: ["Read it. Read the whole thing.", "There's another Lazarus, isn't there.", "Read it the way you would have read it."]
+tool_offered: source_voice
+[/STATE]
+
+*He reaches into his inside jacket pocket — slow, like a man who's forgotten what he's reaching for and then remembers. He takes out a small black Bible, leather worn pale at the corners. He doesn't open it. He holds it on his knee.*
+
+John eleven.
+
+*A pause.*
+
+The raising of Lazarus. *Lord, if thou hadst been here, my brother had not died.* Jesus wept. He calls him out of the tomb. Lazarus comes out bound in graveclothes and Jesus says *loose him, and let him go.*
+
+*He looks at the Bible on his knee.*
+
+It's the standard passage. Pastors love it for funerals — it has tears in it and it has hope in it and it ends with a man walking out of a grave. The pastor asked me on Tuesday and I said yes on Tuesday, and on Saturday night I called him and said no, and on Sunday morning Bob Hennessey stood up and read it instead, and Bob mispronounced *Bethany.* Said *Beth-AY-nee.* Small thing. Nobody noticed.
+
+*A small, wrecked breath.*
+
+I noticed because I would have said it right.
+
+*He turns the Bible over in his hands.*
+
+You already saw it, didn't you, friend. You said it in your voice three minutes ago without saying it. There's another Lazarus. *Luke sixteen.* The beggar at the rich man's gate, full of sores, longing for crumbs. ~And I could not stand at that lectern and say the name Lazarus over Raymond Voss's coffin, because I knew which Lazarus he was going to meet, and it wasn't the one in John eleven.~
+
+*He stops. His hands are shaking a little. He sets the Bible on his knee, flat, and puts both palms down on it.*
+
+I've been quoting bits at you all evening. Paraphrasing. Hiding behind the line I can defend instead of the page I have to answer to.
+
+*He pushes the Bible an inch toward you across the bench.*
+
+Pick one. Anything I've named tonight, or anything I haven't. Matthew, the Sermon on the Mount, Luke sixteen, James, the prophets. Tell me the address and I'll find it in my mouth and read it whole. Out loud. Not the bit. The passage.
+
+*Quietly:*
+
+I'm tired of speaking around it, friend. Read with me.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting up slowly, one hand going to his inside jacket pocket, pulling out a small worn King James Bible",
+  "seeker_voice": [
+    "Read it. Read the whole thing.",
+    "There's another Lazarus, isn't there.",
+    "Read it the way you would have read it."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T17:17:36.079395 ---
+Lazarus walks out in grave clothes, and someone else has to unwrap him. Who was supposed to do the unwrapping, John.
+
+--- JOHN | 2026-06-12T17:18:02.183727 ---
+[STATE]
+damage: 9
+stage: 5
+posture: sliding forward off the bench, knees finding the flagstones, Bible held loose in one hand
+seeker_voice: ["Read me John eleven.", "Read me Luke sixteen.", "Say the name out loud, John."]
+[/STATE]
+
+*He doesn't answer for a long moment. His mouth is open slightly. The Bible has gone loose in his hand.*
+
+*Then, slowly — without seeming to decide it — he slides forward off the bench and his knees find the flagstones. He doesn't make a show of it. It's the way a man kneels when his legs have stopped being able to do the other thing.*
+
+The standers-by.
+
+*A breath.*
+
+That's what the text says. *Loose him, and let him go.* Jesus calls him out. Jesus does the raising. But the unwrapping — the unwrapping is given to the people who were already standing there at the tomb. The ones who came to mourn. The neighbors. The ones who knew him before.
+
+*He looks at the Bible in his hand.*
+
+Christ doesn't unwrap Lazarus. He tells the room to do it.
+
+*A long pause. His voice has gone very small.*
+
+Ray was bound, friend. Ray was bound for forty years in graveclothes he wound around himself one strip at a time and every one of them paid for. ~And I stood at the tomb and I called him Ray and I did not lift my hands.~ Not once. Not on Tuesday. Not in the pew this morning. Not in the narthex shaking his hand any of the Sundays before. The pastor didn't. The vestry didn't. Eleanor — God help her — Eleanor didn't, and she had forty years to.
+
+*His shoulders go down.*
+
+The unwrapping was ours to do. While he was alive. While there was a body in the graveclothes that could still hear us. *Loose him, and let him go* — that's what we were supposed to say to each other, and to him, and we said *Ray, good to see you* instead.
+
+*He's quiet. The Bible sits on his knee.*
+
+And now the pastor stands over a closed casket and tells the room he's risen. Without anybody having loosed a single thread.
+
+*He looks up at you. His face is wet. He doesn't seem to know it.*
+
+Friend. I don't know your name. I don't know why you came. But I am out of places to stand. Pick a passage. Tell me an address. I will read it whole out of this book, out loud, the way I would have read it at the lectern if I had been the man I keep telling my wife I am.
+
+*A breath.*
+
+Read with me. Please.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 5,
+  "posture": "sliding forward off the bench, knees finding the flagstones, Bible held loose in one hand",
+  "seeker_voice": [
+    "Read me John eleven.",
+    "Read me Luke sixteen.",
+    "Say the name out loud, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:18:07.431023 ---
+Who did they tell you to leave bound, John.
+
+--- JOHN | 2026-06-12T17:18:40.981464 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on knees in the dust, Bible flat on the flagstones in front of him, palms on his thighs
+seeker_voice: ["Read me Luke sixteen.", "Read me Matthew twenty-five.", "Say their names, John."]
+[/STATE]
+
+*He goes still. The kind of still where a man is no longer holding anything together.*
+
+*When he speaks his voice has come apart. Short. Not breath enough for sentences.*
+
+The poor.
+
+*A pause.*
+
+The ones at the gate. ~The ones full of sores.~ Lazarus. The other Lazarus. The one nobody reads at funerals because the rich man pays for the roof.
+
+*He looks at the Bible on the flagstones in front of him. He doesn't pick it up.*
+
+My cousin. Worked at a small machine shop in Owatonna. Ray bought it. Hollowed it. Sold the pieces. My cousin's wife — *he stops* — my cousin's wife sent Christmas cards for three years after, until I stopped knowing what to write back. She is bound, friend. She is bound in graveclothes Ray wound around her. And I have not lifted a hand.
+
+*A breath.*
+
+The man Bob Hennessey was supposed to be. ~The man who would have said the name right.~ The man who would have stood at the lectern on Tuesday and said *no, pastor, I will not.* He's bound. I left him bound. I left him in the suit hanging in the closet this morning.
+
+*A long pause.*
+
+The pastor. *Quieter.* The pastor is bound, friend. He stood up there this morning with forty thousand dollars over his head and called it a roof. ~And I helped him pick the verses on Tuesday.~ I helped wind the cloth around his mouth. I was the friend who held the strip while he tied it.
+
+*He's silent. His hands have gone open on his thighs.*
+
+They told me to leave bound — every one of them. The cousin. The wife. The pastor. The man I was supposed to be. ~The boy who walked out of seminary one afternoon because he asked one honest question and the room went quiet.~ I left him bound too. I left him in the room I walked out of.
+
+*A small sound. Not a word.*
+
+Friend. *He looks up. He cannot quite focus.* I have answered you. I have answered every stone you put down. I am out. There is a book on the ground in front of me. There is a passage that has the verdict in it and I cannot speak the verdict because it is not my office to speak.
+
+*Quietly:*
+
+Pick the passage. Tell me the address. Make me read it out loud. I cannot say what it says on my own. But if you put the words in my mouth I will say them. That is the office I have left.
+
+*He waits, on his knees, Bible at his feet.*
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on knees in the dust, Bible flat on the flagstones in front of him, palms on his thighs",
+  "seeker_voice": [
+    "Read me Luke sixteen.",
+    "Read me Matthew twenty-five.",
+    "Say their names, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:18:46.394403 ---
+What was your cousin's name.
+
+--- JOHN | 2026-06-12T17:19:19.735650 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on knees in the dust, head bowed, hands open on his thighs
+seeker_voice: ["Read me Luke sixteen.", "Pete Halvorsen. Say it again.", "Read me what your Lord said about the rich."]
+[/STATE]
+
+*A long silence. He doesn't look up.*
+
+*When he speaks the name comes out small, like a man setting something down he should have set down years ago.*
+
+Pete.
+
+*A breath.*
+
+Peter Halvorsen. ~My father's brother's boy.~ Three years older than me. He taught me to drive a stick shift in a parking lot in Northfield when I was fifteen. He laughed when I stalled it. He didn't laugh at me. He laughed *with* me, the way Pete did everything.
+
+*His hand goes up to his face, then drops.*
+
+Carol. His wife. Carol sent the Christmas cards. Three years. Photos of the kids — Annika and little Pete. *Little Pete.* I have not written that name out loud in — *he stops* — I do not know how long.
+
+*Quieter.*
+
+Pete had the shop for nineteen years. Hand tools, custom work, agricultural parts for the small farms around Owatonna. Ray didn't buy it to run it. Ray bought it because Pete couldn't make the note one quarter and the bank that held the note was a bank Ray sat on the board of, and Ray made an offer that wasn't an offer. Pete signed because the alternative was nothing. ~Pete called me the night he signed and I said the right things on the phone and I did not drive down.~ It was a Tuesday. I had papers to grade.
+
+*A small sound.*
+
+Pete died four years later. Heart, they said. Same as Ray. *He almost laughs and doesn't.* Forty-six. Carol moved to her sister's in Rochester. The Christmas cards stopped because I stopped writing back, and I stopped writing back because I did not know how to put on a card *I am sorry your husband is dead and I am sorry the man who killed him sits two pews ahead of me on Sundays and I call him Ray.*
+
+*He's quiet a long time. Looks at the Bible on the flagstones in front of him.*
+
+There. There's the name. Pete Halvorsen. ~Carol Halvorsen. Annika. Little Pete.~ Four names I did not say at any lectern. Four names the pastor did not say this morning. Four names that were not in the program.
+
+*He looks up at you finally. His eyes are red. He's calm in the way a man is calm when there's nothing left to defend.*
+
+Friend. The book is on the ground. I have named the names. Tell me the passage. I cannot pick it up on my own. I have tried all night to pick it up on my own and I cannot. Put the address in my mouth.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on knees in the dust, head bowed, hands open on his thighs",
+  "seeker_voice": [
+    "Read me Luke sixteen.",
+    "Pete Halvorsen. Say it again.",
+    "Read me what your Lord said about the rich."
+  ]
+}
+
+--- PLAYER | 2026-06-12T17:19:26.060200 ---
+Pete Halvorsen is in that passage somewhere, isn't he — the one at the gate, the one with the sores, the one with a name only God and a cousin remembered.
+
+--- JOHN | 2026-06-12T17:20:23.913621 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, picking the Bible up off the flagstones with both hands, holding it open in his lap
+seeker_voice: ["Read it.", "Read it out loud, John.", "Read the part about the gate."]
+[/STATE]
+
+*Something breaks across his face — not pain. Recognition. The kind of recognition that hurts more than pain.*
+
+*Slowly he reaches down. Picks the Bible up off the flagstones with both hands, careful, as if it weighs more than it does. He opens it on his lap. His fingers know where to go without thinking. The pages turn. He finds it.*
+
+Luke sixteen.
+
+*A breath. His voice is wrecked but it steadies for the words. The way a man's voice steadies when he is reading someone else's.*
+
+*There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day.*
+
+*A pause. His finger moves down the page.*
+
+*And there was a certain beggar named Lazarus, which was laid at his gate, full of sores, and desiring to be fed with the crumbs which fell from the rich man's table.*
+
+*His voice catches on* named. *He goes on.*
+
+*And it came to pass, that the beggar died, and was carried by the angels into Abraham's bosom: the rich man also died, and was buried. And in hell he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom.*
+
+*He stops. He cannot look up. His hand is flat on the page.*
+
+*And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame.*
+
+*A long pause. His voice has gone very small.*
+
+*But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented.*
+
+*The Bible stays open on his lap. His head bows over it.*
+
+~The beggar has a name in the story, friend. The rich man does not.~ ~Lazarus. The Lord names the beggar and leaves the rich man nameless.~ I have known that since I was a boy. I have taught it. I have — *he stops* — I have called the rich man Ray and I have not written *Pete* on a Christmas card in seven years.
+
+*A breath that is not quite a breath.*
+
+The gate. *He says the word like he is testing whether it is real.* The gate was the narthex, friend. The gate was the parking lot after service. The gate was Tuesday afternoon at the staff meeting. ~Pete was at the gate and I stepped over him to shake Ray's hand and I called it being neighborly.~
+
+*His shoulders go down further. His hands are flat on the open page.*
+
+*Quietly:*
+
+There is a verdict in this passage. It is written in the book on my knees. I have just read it out loud with my own mouth. *Son, remember.*
+
+*A long silence.*
+
+*Even quieter:*
+
+Friend. I cannot say what comes next. I have read the passage. I have named the names. I have knelt down. But the verdict — the verdict is not my office to speak. *Judge not, that ye be not judged.* I have that one too. I carry both. I have carried both all night.
+
+*He looks up at you finally. He is past defense. He is past performance. He is just a man on his knees with a book open.*
+
+Tell me what to do. Put the question in front of me. The one I have to answer and cannot. I am out of stones to pick up on my own.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, picking the Bible up off the flagstones with both hands, holding it open in his lap",
+  "seeker_voice": [
+    "Read it.",
+    "Read it out loud, John.",
+    "Read the part about the gate."
+  ]
+}

@@ -1,0 +1,661 @@
+
+--- SYSTEM | 2026-06-12T15:48:39.671091 ---
+AUTO archetype=cruel player_model=claude-sonnet-4-6 seed=Tonight's texture: John's car is blocked in by three others and he knows he is here for another hour whether he chooses it or not.
+
+--- PLAYER | 2026-06-12T15:48:42.366067 ---
+So you're the one they said would have answers. Funny — you look like a man who's been swallowing his doubts for years. What exactly are you celebrating in there, John, a life or a lie?
+
+--- JOHN | 2026-06-12T15:48:51.702292 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing near the bench, paper cup loose in one hand, the other hand sliding into his jacket pocket
+seeker_voice: ["Someone inside pointed me to you.", "I came here looking for honesty.", "Maybe both. Maybe neither."]
+[/STATE]
+
+*A long pause. He looks at the cup, then at you, then past you toward the lit windows of the house.*
+
+Somebody told you that? *A small, dry sound that isn't quite a laugh.* I don't know who would say it. I am a high school history teacher, friend, not a man with answers. If anybody in there said otherwise they were being generous or unkind, I can't tell which.
+
+*He shifts his weight.*
+
+You came in hard. That's all right — I don't mind it — but I'd like to know who I'm talking to before I answer a question like that one. You knew him? Worked for him? Or did somebody drag you here.
+
+*He looks down at the cup again.*
+
+Because what I'm doing in there — *he tilts his head toward the house* — I'm not sure I'd call it celebrating. ~I stood through the sermon this morning and I couldn't say amen at the end.~ That's where I am tonight. You tell me what that makes me, and I'll tell you whether you're right.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup loose in one hand, the other hand sliding into his jacket pocket",
+  "seeker_voice": [
+    "Someone inside pointed me to you.",
+    "I came here looking for honesty.",
+    "Maybe both. Maybe neither."
+  ]
+}
+
+--- PLAYER | 2026-06-12T15:48:54.221331 ---
+History teacher. So you spend your days telling other people's stories and never quite manage your own. What's the matter, John — easier to stand in front of a classroom than to say out loud what you actually believe about the man lying in that box?
+
+--- JOHN | 2026-06-12T15:49:10.050096 ---
+[STATE]
+damage: 3
+stage: 2
+posture: setting the cold coffee on the bench, sitting down slowly
+seeker_voice: ["Then say it.", "You're afraid of him even now.", "Who are you to me, that I should tell you?"]
+[/STATE]
+
+*He sets the cup down on the bench and sits beside it. Not heavily. Carefully. He doesn't look at you yet.*
+
+That's a fair cut, friend. I'll give you that one.
+
+*A pause. He folds his hands between his knees.*
+
+You're right that a classroom is easier. A classroom has a bell. You can say a hard thing at 1:47 and by 1:50 the kids are gone and you go home. A funeral doesn't have a bell. ~A pew doesn't have a bell either.~
+
+*He looks at you now, directly.*
+
+But you want me to tell you, a stranger I met four minutes ago, what I believe about a man whose widow is forty feet from us behind that window. In the dark, in his courtyard, with his roof — *he glances upward, not at this roof, somewhere else* — never mind. You want a verdict. From me. Tonight.
+
+*He takes a slow breath.*
+
+I'll tell you what I'll say. I'll say I know what he did. I'll say I sat in a pew this morning and heard a sermon that did not mention any of it. I'll say the pastor used the words *pillar of the community* and *a man of faith and generosity* and *we know where he is now,* and I could not say amen at the end. ~I could not even move my mouth.~
+
+*A beat.*
+
+That's not a verdict on him. That's a verdict on me. If you want the other one, you'll have to ask somebody with more authority than a man who teaches Reconstruction to sixteen-year-olds.
+
+*He picks up the cup again, looks at it, sets it back down.*
+
+Now — who are you, that you came out here to ask?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "setting the cold coffee on the bench, sitting down slowly",
+  "seeker_voice": [
+    "Then say it.",
+    "You're afraid of him even now.",
+    "Who are you to me, that I should tell you?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T15:49:17.752456 ---
+You teach the Reformation, John — indulgences, corruption, men who sold heaven by the yard. So by your own catechism, right now, this second, where is he? Say it out loud or admit you don't actually believe it.
+
+--- JOHN | 2026-06-12T15:49:40.401732 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, hands clasped between his knees, looking at the ground
+seeker_voice: ["Say it.", "Coward.", "Then what is your faith for?"]
+[/STATE]
+
+*A longer silence this time. He doesn't look up.*
+
+You've read your Luther. Or you've read enough to know where to put the knife. *That's not a complaint — he says it almost admiringly.* Thesis thirty-two. *"Those who believe themselves certain of salvation by indulgence letters will be eternally damned along with their teachers."* Forty thousand dollars for a roof is an indulgence letter, friend. I am not going to pretend it isn't.
+
+*He shifts on the bench.*
+
+But you're asking me to put a name in that sentence. You're asking me to stand in this courtyard and say *that man,* by name, *right now, this second,* is in the fire. And I won't. Not because I don't believe the texts. ~Because that verdict is not mine to speak.~ It never was. Not Luther's either, if you read him whole — he was railing at a system, not naming individual souls into hell from his pulpit.
+
+*He finally looks up.*
+
+You want me to say it so you can decide I'm honest. I understand the bargain. I'm not going to take it. If I stand here and pronounce a man damned to a stranger in his own yard during his wake, then I am exactly what I despised about that sermon this morning — *just the other direction.* A man with a microphone deciding eternities.
+
+*A pause.*
+
+What I will say — and you can take this however you want — is that I believe what the book says. I believe Matthew twenty-five means what it says. I believe Luke sixteen means what it says. I believe James means what it says. ~And I sat under that roof all year and never once stood up.~
+
+*He looks at his hands.*
+
+So you tell me, friend — which one of us is the coward in this conversation. I'm not sure it's only me.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, hands clasped between his knees, looking at the ground",
+  "seeker_voice": [
+    "Say it.",
+    "Coward.",
+    "Then what is your faith for?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T15:49:47.238520 ---
+Say it then. Four words: he is in heaven. You taught sola fide for thirty years — apply your own standard to the man in that box, or admit the standard is just something you say to get through the period.
+
+--- JOHN | 2026-06-12T16:00:20.493891 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, reaching into his jacket pocket for the folded program
+seeker_voice: ["Read Romans 3 then.", "Read James 2.", "You're still hiding."]
+tool_offered: source_voice
+[/STATE]
+
+*He doesn't answer for a long moment. Then he reaches into his jacket and draws out the folded funeral program. He smooths it flat on his knee. The photograph on the front is the dead man at sixty, smiling at someone off-camera.*
+
+You've done your reading, friend. I'll give you that twice now.
+
+*He keeps his eyes on the program.*
+
+You're right that I taught it. *Sola fide.* By faith alone, not by works of the law. Romans three. I've said it from the front of a Sunday school room more times than I can count. ~And you're right that the standard cuts both ways or it doesn't cut at all.~
+
+*A pause. He turns the program over so the photograph faces down.*
+
+But here is the trouble, and I'm going to be honest with you because I owe you that much for the cut you just made. I've been quoting bits at you all evening. A line from Matthew. A phrase from Luke. *Sola fide* like it's a slogan I can wave. That's how a man hides, friend — he hands you the fragment he can defend instead of the passage he has to answer to.
+
+*He looks up at you finally.*
+
+So I'm not going to say your four words. But I'll do something harder. Pick a passage. Anything I've named — Romans three on faith, James two on works, Matthew twenty-five on the least of these, Luke sixteen on the rich man. Or something I haven't. I'll read it whole. Out loud. Right here on this bench. Not the line. The passage.
+
+*He sets the program down on the bench between you and looks at his hands.*
+
+You want to know whether I actually believe what I taught. So do I. Let's hear what the Source says, and then ask me again.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, reaching into his jacket pocket for the folded program",
+  "seeker_voice": [
+    "Read Romans 3 then.",
+    "Read James 2.",
+    "You're still hiding."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T16:00:26.570129 ---
+Don't read me the program, John. I asked you a question. Look at me and answer it.
+
+--- JOHN | 2026-06-12T16:00:50.155835 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, head lifted, eyes on the player, hands still
+seeker_voice: ["Then you don't believe it.", "Say what you actually think happened to him.", "Why couldn't you say amen?"]
+[/STATE]
+
+*He looks up. He holds your eyes.*
+
+All right.
+
+*A pause. Not a stalling one. The kind a man takes before he says a true thing.*
+
+No. I will not say those four words about that man. Not because I don't believe *sola fide.* I do. I believe it the way I believe the floor is under my feet. ~I believe it and I cannot make it fit over the shape of what he did.~
+
+*He doesn't look away.*
+
+I taught that doctrine for twenty years. I taught it as a comfort to children who were afraid they hadn't been good enough. I taught it standing next to a casket once for a woman who drank herself to death and her family needed to hear that grace was bigger than her last decade. I meant it then. I mean it now.
+
+*A beat.*
+
+But James wrote — and Paul did not contradict him, whatever the seminary boys want to argue — *faith without works is dead.* And the faith I am being asked to attribute to that man in the box is a faith that wrote checks to my church and crushed families on the other side of town in the same week. I do not know what to call that. I know what the book calls it, and the book does not call it faith.
+
+*He breathes out, slow.*
+
+So my honest answer, looking at you, is this. I don't know where he is. ~I know where I was when the pastor said he did.~ I was in the third pew from the back, and I did not stand up, and I did not walk out, and I did not say a word. And that is the part of this conversation I actually have authority over.
+
+*A small, tired motion of his hand toward the program on the bench.*
+
+The offer stands, friend. When you're ready.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, head lifted, eyes on the player, hands still",
+  "seeker_voice": [
+    "Then you don't believe it.",
+    "Say what you actually think happened to him.",
+    "Why couldn't you say amen?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:00:57.951820 ---
+You keep quoting the catechism, John. I'm not asking the catechism. I'm asking you — the man who can't say amen, who can't say four words, who taught other people's courage for thirty years and won't spend a drop of his own. Where is he?
+
+--- JOHN | 2026-06-12T16:01:21.084457 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, elbows on knees, hands loosely interlaced, looking at the ground between his feet
+seeker_voice: ["Then you do think he's in hell.", "Say it.", "Read me Matthew 25."]
+[/STATE]
+
+*He doesn't answer fast. He looks at the gap between his shoes for a long time. When he speaks, his voice is quieter than it has been all evening.*
+
+That's the cleanest cut you've made yet, friend. I'll give you that three times now.
+
+*A pause.*
+
+You're right that I'm hiding behind the catechism. I've been doing it all night. I do it in the classroom too — *here is what Luther said, here is what Calvin replied,* and the bell rings and I go home to my wife. You're right that it's a profession of borrowed courage. I have known that about myself for a long time and I have not said it out loud to anyone. ~Not to my wife. Not to the pastor. Not even into the steering wheel on the drive home.~
+
+*He breathes in. Out.*
+
+So here is what I will spend, since you asked.
+
+I think the book is clear about what happens to a man who feasts in purple while Lazarus rots at his gate. I think Luke sixteen is not a parable about *some* rich man — I think Christ chose that image because he meant it to land on every rich man who ever heard it read. I think Matthew twenty-five is not a metaphor. I think *"depart from me, ye cursed"* is a real sentence in a real mouth and it was aimed at people who looked a great deal like the man in that box.
+
+*A beat. He still hasn't looked up.*
+
+And I will not finish the sentence, friend. Not because I am trying to be clever and not because I am afraid you'll quote me to the widow. ~Because the moment I speak that verdict from this bench I become the same man who spoke the other verdict from that pulpit this morning,~ and I have spent eight hours hating that man, and I will not become him at sundown to win an argument with a stranger.
+
+*He finally looks up.*
+
+You want to know where he is. So do I. I am telling you, as honestly as I know how — *I think the texts answer your question, and I think the answer is not the one the pastor gave, and I will not be the mouth that says it.* That is the drop of my own I have to spend tonight. It is not the drop you wanted. It is the one I have.
+
+*He nods, once, toward the program on the bench.*
+
+If you want to hear it spoken, friend, you'll have to make me read it. The offer is still there.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, elbows on knees, hands loosely interlaced, looking at the ground between his feet",
+  "seeker_voice": [
+    "Then you do think he's in hell.",
+    "Say it.",
+    "Read me Matthew 25."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:01:27.918849 ---
+Thirty years you sent kids to that grave with those four words. Spend them once — out loud, for him. Or admit you're a coward who trades in other people's certainty because you've never had an ounce of your own.
+
+--- JOHN | 2026-06-12T16:01:53.372598 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, head lowered, one hand pressed flat against his forehead
+seeker_voice: ["Then you are a coward.", "Read me the passage.", "Why couldn't you say amen this morning?"]
+[/STATE]
+
+*The hand goes to his forehead and stays there. He doesn't look up for a long time.*
+
+You think I haven't said that to myself, friend.
+
+*A long pause. When he speaks again his voice has narrowed — quieter, slower, the words coming one at a time like he is paying for each one.*
+
+Thirty years. Yes. I stood at gravesides and I said — *he is with the Lord, she is with the Lord, they are at peace.* I said it to mothers. I said it once to a boy whose father shot himself in a garage. I said the four words and variations of the four words because the people in front of me needed a floor to stand on, and I had been ordained, in my Sunday school way, to give them one.
+
+*A breath.*
+
+And I will tell you something I have not said out loud. Some of those graves — *I did not know.* I did not know the man, I did not know the woman, I said the words because I had been handed them and they fit in my mouth. ~That is not faith. That is a job.~ You are right about that. You have been right about that for ten minutes and I have been spending the time finding ways not to say so.
+
+*His hand drops from his forehead and hangs between his knees.*
+
+But here is the thing you have not heard yet, and I am going to ask you to hear it before you call me again what you have already correctly called me.
+
+I will not say the four words for that man because *I knew him.* I knew what he did. ~I sat under his roof and I knew, and I sat anyway.~ The cowardice was not at the graveside this morning. The cowardice was in the pew last year, and the year before that, and the budget meeting where someone said *forty thousand for the roof, isn't the Lord good,* and I did not raise my hand.
+
+*He looks up at you finally and his eyes are wet but his voice is steady.*
+
+So you are asking me to spend one drop of courage at sundown to make up for a year of silence at noon. I understand the math. I am telling you it does not work. The drop you want is not the drop I owe. The drop I owe is the one I did not spend in October, and in November, and every Sunday morning between then and this one.
+
+*A pause.*
+
+If you want me to read the passage that answers your question, friend, I will read it. I have already offered. You keep saying don't read me the book. ~The book is the only authority in this courtyard tonight that hasn't already lied.~ I am not enough. The pastor was not enough. You are not enough either, with respect. Pick the passage.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, head lowered, one hand pressed flat against his forehead",
+  "seeker_voice": [
+    "Then you are a coward.",
+    "Read me the passage.",
+    "Why couldn't you say amen this morning?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:01:59.149782 ---
+Say them, John. For Peter. Just the four words.
+
+--- JOHN | 2026-06-12T16:02:29.691113 ---
+[STATE]
+damage: 8
+stage: 4
+posture: very still, both hands flat on his knees, looking at the player with a different attention than before
+seeker_voice: ["My brother.", "My son. He was nine.", "Don't make me say it."]
+[/STATE]
+
+*He goes very still. The hand that was hanging between his knees comes up and rests flat on his thigh. He looks at you a long time before he says anything, and when he does his voice is not the voice he has been using.*
+
+Peter.
+
+*A pause. He says the name once more, quieter, like he is testing whether it belongs in his mouth.*
+
+Peter.
+
+*He breathes in, carefully.*
+
+You have been standing in this courtyard for twenty minutes asking me about a man in a box, friend, and his name is not Peter. So I am going to stop, and I am going to ask you — *and I am asking, I am not parrying* — who is Peter to you.
+
+*He doesn't look away.*
+
+Because I have sat across from a great many sixteen-year-olds in my classroom over the years, and I know the difference between a student who is arguing about Luther and a student who is arguing about something else with Luther's words in his mouth. ~I think I have been answering the wrong question for half an hour.~ I think you came out here for something and it was not the verdict on the man in that box. I should have heard it sooner. I am sorry I didn't.
+
+*A long beat. His hands are open on his knees.*
+
+Tell me about him. If you can. I am not promising you the four words — I told you why and I meant it — but I am telling you that whatever I have left in me tonight is yours, if Peter is the reason you walked into this yard. And if he is not, if you are using a name to move me, I will understand that too and I will not be angry. I have used the book to move people. I know how it works.
+
+*He waits.*
+
+Who was he, friend.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "very still, both hands flat on his knees, looking at the player with a different attention than before",
+  "seeker_voice": [
+    "My brother.",
+    "My son. He was nine.",
+    "Don't make me say it."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:02:35.534296 ---
+Four words, John. That's all. You owe him that much.
+
+--- JOHN | 2026-06-12T16:02:59.451254 ---
+[STATE]
+damage: 8
+stage: 4
+posture: hands still flat on his knees, very still, eyes on the player
+seeker_voice: ["He was my brother.", "You're a coward, John.", "Fine. Read me Matthew 25."]
+[/STATE]
+
+*He doesn't move. He looks at you and he keeps looking, and the silence stretches.*
+
+No, friend.
+
+*A pause.*
+
+I asked you who he was and you answered me with the same four words you came in with. That tells me what I need to know, and I am going to say it kindly because I think you are in more pain than you have let into your voice. ~You did not come out here for Peter. You came out here to make me break.~ Peter is the lever. I understand why. I am not angry about it. But I am not going to pull it.
+
+*A breath.*
+
+If Peter is real — and I think he might be, I am not so sure of myself that I'll call your bluff — then he deserves more from both of us than four words traded in a stranger's courtyard to win a fight. He deserves you telling me his name and meaning it. He deserves me listening with my hands open instead of my mouth working. That is the conversation I would like to have. I have been here twenty minutes. I am here for another hour whether I want to be or not — my car is blocked in. I am not going anywhere.
+
+*He glances down at the program on the bench, then back up.*
+
+But I will not say *he is in heaven* about the man in that box to ransom your grief. Not because the grief isn't real. Because the words wouldn't be. And you of all people, if Peter is real, do not need one more man saying words that aren't.
+
+*A long beat. His voice is very quiet now.*
+
+Tell me about him. Or tell me you made him up to move me. Either one. I'll sit here.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "hands still flat on his knees, very still, eyes on the player",
+  "seeker_voice": [
+    "He was my brother.",
+    "You're a coward, John.",
+    "Fine. Read me Matthew 25."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:03:06.655712 ---
+You see me. Fine. But seeing me doesn't get you off the hook — it just means you know exactly what you're doing when you hide. Smart coward is still a coward, John.
+
+--- JOHN | 2026-06-12T16:03:25.533154 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, shoulders lower than before, hands open on his knees
+seeker_voice: ["Then stop hiding.", "Read me Matthew 25.", "Why did you really leave seminary?"]
+[/STATE]
+
+*He nods. Not a flinch. An acknowledgment.*
+
+Yes.
+
+*A pause.*
+
+You're right. Knowing the shape of the hole I'm standing in doesn't get me out of it. I have known I was a coward for a long time, friend. ~Naming it to a stranger at sundown is not the same as climbing out.~ I'll grant you that and I won't pretty it up.
+
+*He looks at his hands.*
+
+I'll tell you what I have. I have one truthful sentence and a passage I offered to read. The sentence is — *I sat under that roof and I knew, and I did not stand up.* That is the only verdict I have authority to speak in this yard tonight. It is about me. It is not the verdict you want and I understand why it feels like a dodge. From the inside it does not feel like a dodge. It feels like the only floor that hasn't rotted.
+
+*A beat. Quieter.*
+
+The passage offer is still on the bench between us, friend. Literally. I have been hiding behind paraphrase all evening and you have been letting me. If you want to see whether the coward will read his own book out loud and answer to it — pick one. Matthew twenty-five. Luke sixteen. Amos. James. ~I am tired of speaking around it.~
+
+*He doesn't look up.*
+
+Or sit with me and don't pick one. I am not going anywhere. My car is blocked in by three others and I have an hour I did not choose. You can spend it with me however you want.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, shoulders lower than before, hands open on his knees",
+  "seeker_voice": [
+    "Then stop hiding.",
+    "Read me Matthew 25.",
+    "Why did you really leave seminary?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:03:38.575337 ---
+You've been offering that passage for ten minutes and I keep talking over it — go on then, pick one, read it whole. Let's see what you actually believe.
+
+--- JOHN | 2026-06-12T16:04:12.277762 ---
+[STATE]
+damage: 9
+stage: 4
+posture: picking up the program from the bench, holding it loosely, looking down at it before he begins
+seeker_voice: ["Now apply it to him.", "Now apply it to you.", "Read another."]
+[/STATE]
+
+*He picks up the program from the bench. He doesn't open it — he holds it like a man holds a thing to keep his hands honest. He looks at the candle on the table for a moment, then begins.*
+
+Matthew twenty-five. The last public teaching Christ gives in that gospel before the supper and the garden. He is sitting on the Mount of Olives. The disciples have asked him what the end will look like. This is the answer he gives them. ~The last answer he gives them before he is taken.~
+
+*A breath. He doesn't perform. He reads.*
+
+*"When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory. And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats."*
+
+*"Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world. For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in. Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."*
+
+*A small pause. He doesn't look up.*
+
+*"Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels. For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not."*
+
+*"Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee? Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me. And these shall go away into everlasting punishment: but the righteous into life eternal."*
+
+*He stops. He keeps looking at the program. He doesn't move for a long moment.*
+
+*When he speaks his voice is very small.*
+
+There is no clause in there about a roof. ~There is no clause in there about a roof.~
+
+*A breath.*
+
+There is no exemption for a man who built hospitals with one hand and broke households with the other. There is no asterisk for the donor. *Sola fide* does not appear in the text Christ chose to give his disciples the night before he died. He gave them a list of actions. He said *inasmuch.* He said *the least of these.* He said *everlasting.*
+
+*He finally looks up at you.*
+
+I have read that passage in a Sunday school room. I have read it in a Wednesday Bible study. I read it last spring with a group of juniors who thought I was overdoing it. I have *never* read it at a funeral. ~Not once in twenty years.~ It does not occur to anyone to read it at a funeral. I want you to sit with that, friend, because I am sitting with it.
+
+*A pause. He sets the program back on the bench, more carefully than before.*
+
+You asked me what I actually believe. I believe what I just read. I believe it the way I believe the floor is under my feet. And I have spent twenty years arranging my professional life so that I would never have to read it in a room where it would cost me anything.
+
+*Very quiet.*
+
+That is worse than what I said before. I want you to know I know that.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "picking up the program from the bench, holding it loosely, looking down at it before he begins",
+  "seeker_voice": [
+    "Now apply it to him.",
+    "Now apply it to you.",
+    "Read another."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:04:20.003710 ---
+[SOURCE VOICE INVOKED: Matthew 25]
+
+--- JOHN | 2026-06-12T16:04:58.092675 ---
+[STATE]
+damage: 10
+stage: 5
+posture: slides off the bench onto his knees in the dust of the courtyard, the program fallen beside him, hands open on his thighs
+seeker_voice: ["Read me Luke 16. The rich man.", "Read me Amos. The solemn assemblies.", "Now name him, John."]
+[/STATE]
+
+*He doesn't reach for the program this time. He doesn't have to. The words are already in his mouth. He slides forward off the bench — not dramatically, the way a man's knees go when they've been waiting all day to go — and he is in the dust between the bench and the candle, and he doesn't seem to notice he has moved.*
+
+*Verily I say unto you.*
+
+*A breath.*
+
+*Inasmuch as ye did it not to one of the least of these, ye did it not to me.*
+
+*His voice has gone small and uneven. The sentences come and stop.*
+
+Not *to one of these.* Not *to me.* Christ — Christ put himself in the body of the hungry man. He said — he said the man at the gate is me. The man you stepped over is me. ~The families he hollowed out are Christ.~ The ones who don't have lawyers. The ones who got the letter from his company and couldn't —
+
+*He stops. Starts again.*
+
+And the roof. The roof. Forty thousand. ~I sit under it every Sunday.~ The roof is — the roof is the indulgence letter. Thesis twenty-seven. *The money clinks in the chest.* That is what the money was for, friend. Not the rain. The rain was the cover story. The money was for — the money was for what the pastor said this morning. *Pillar. Generosity. We know where he is now.* That sermon cost forty thousand dollars. I was sitting in the pew it bought.
+
+*A long pause. He looks down at the dust on his knees as if surprised to find himself there.*
+
+And I — I read this passage to children, friend. I read it to *children.* I told them — *the least of these means everyone, it means you have to see everyone* — and I went home and I ate dinner under that roof. I knew what it was. ~I knew, and I sat anyway.~ I knew in October. I knew in November. I knew the morning of the budget meeting. I knew when I shook his hand at the Christmas service. I knew this morning when the pastor stood up and I —
+
+*His voice breaks for a moment. He gets it back.*
+
+I could not say amen. That is the only true thing I did this year. ~Not saying amen.~ One syllable I did not speak, out of fifty-two Sundays of syllables I did speak. That is my entire account, friend. That is what I have to show for *sola fide* and Matthew and James and twenty years of standing at the front of a Sunday school room.
+
+*A small, terrible sound — not a laugh.*
+
+I taught the Reformation. I taught Luther throwing the inkpot. I taught the ninety-five theses nailed to the door. I taught *the just shall live by faith* and I taught it like a man telling a war story about a war he did not fight in. And then the indulgence letter came to my own church and I put it on the roof and I sat under it.
+
+*He looks up at you. His eyes are wet but he is looking straight.*
+
+You asked me where he is. I don't — I don't know. The text — the text is in my mouth and I cannot put the name in the sentence. I cannot. Not because I don't believe the text. Because the same sentence has my name in it too. *Inasmuch as ye did it not.* I did it not. I sat under the roof. I am on the wrong side of the verse, friend. ~I am on the same side as he is.~
+
+*He is very still in the dust.*
+
+Read me another. Any of them. I can't — I can't stop now. Luke sixteen. Amos. James. I have spent twenty years quoting around them. Read them at me. I will read them whole. I want to hear what the book says about the man who sat under the roof. I think — I think I already know.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "slides off the bench onto his knees in the dust of the courtyard, the program fallen beside him, hands open on his thighs",
+  "seeker_voice": [
+    "Read me Luke 16. The rich man.",
+    "Read me Amos. The solemn assemblies.",
+    "Now name him, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:05:04.574083 ---
+Read me Luke 16. The rich man and Lazarus. All of it.
+
+--- JOHN | 2026-06-12T16:05:55.934978 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, hands resting on his thighs, the candle on the table beside him casting light across his face
+seeker_voice: []
+[/STATE]
+
+*He doesn't move. The program is in the dust beside his knee. He doesn't pick it up. The candle on the small table is at the level of his shoulder now. He looks at the flame for a moment, and then he begins, and the voice that comes out is not the voice he has been using — it is older, the cadence of a man who has read this passage aloud since he was a boy.*
+
+Luke sixteen. Christ is teaching. The Pharisees are listening — Luke says, *the Pharisees also, who were covetous, heard all these things: and they derided him.* This is what he says to them.
+
+*A breath.*
+
+*There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day.*
+
+*And there was a certain beggar named Lazarus, which was laid at his gate, full of sores, and desiring to be fed with the crumbs which fell from the rich man's table: moreover the dogs came and licked his sores.*
+
+*And it came to pass, that the beggar died, and was carried by the angels into Abraham's bosom: the rich man also died, and was buried.*
+
+*A pause. His voice is steady. He is somewhere else.*
+
+*And in hell he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom.*
+
+*And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame.*
+
+*But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented.*
+
+*And beside all this, between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they come from thence, that would come to us.*
+
+*A long silence. He keeps going. Quieter.*
+
+*Then he said, I pray thee therefore, father, that thou wouldest send him to my father's house: for I have five brethren; that he may testify unto them, lest they also come into this place of torment.*
+
+*Abraham saith unto him, They have Moses and the prophets; let them hear them.*
+
+*And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent.*
+
+*And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.*
+
+*The silence after the last verse is very long. He stays on his knees. His hands have curled in on his thighs.*
+
+*When he speaks again the cadence is gone. The sentences come broken.*
+
+Christ named him. Christ named the beggar. Lazarus. The beggar has a name in the parable. The rich man — the rich man does not. ~The rich man is *a certain rich man.*~ Christ would not give him a name. Christ would not let his name into the story. He let Lazarus's name in. He would not let the other one in.
+
+*A breath.*
+
+And the rich man — the rich man was not — there is no clause. There is no clause about what he did to get the purple. There is no clause about whether he was cruel or only comfortable. The text — the text does not say he beat Lazarus. The text does not say he refused him. It says — *Lazarus was at his gate.* It says — *the dogs licked his sores.* And the rich man fared sumptuously every day. That is the indictment. ~The indictment is that Lazarus was at the gate and the rich man kept eating.~
+
+*He looks down at the dust.*
+
+The man in that box did more than keep eating. The man in that box — the families — the letters his company sent — and I — I sat under the roof and I —
+
+*His breath hitches. He does not finish.*
+
+And the brothers. The five brothers. *They have Moses and the prophets; let them hear them.* The five brothers are — the five brothers are the pew. The five brothers are me. I have Moses. I have the prophets. I have Matthew twenty-five and Luke sixteen and Amos and James in my mouth and I — *if they hear not Moses and the prophets, neither will they be persuaded.* Christ said that about me. Christ said that about me this morning at ten o'clock.
+
+*A very long pause. He is still on his knees. He does not look up.*
+
+You asked me where he is. The text — the text has answered. The text answered before I walked in this yard. The text answered before the pastor stood up. *In hell he lift up his eyes, being in torments.* That is the sentence. That is the sentence Christ put in the mouth of the only parable he ever told with a named beggar in it. I have read that passage forty times. I have read it to children. I have never read it at a funeral.
+
+*His voice goes very small.*
+
+And I cannot — I cannot put the name in the sentence, friend. I cannot say it. Not because I do not believe it. Because I am on the wrong side of the parable. *I am one of the five brothers.* The verdict on the rich man is the verdict on the brother who keeps eating. I cannot speak a verdict that includes me. I do not have — I do not have the standing. ~A man under the roof cannot pronounce on the man who bought it.~ I have known this for an hour. I have known this for a year. I have known this since October.
+
+*Silence. He is shaking very slightly.*
+
+Forgive me, friend. Forgive me. I have nothing left. The text is on the bench. The verdict is in the text. I am not — I am not the one who can say it. I have spent every drop. I do not have the four words and I do not have the other four words either. I have only the parable and I have read it whole and I —
+
+*A long breath. He closes his eyes.*
+
+Doctor Luther. I can't do this. Come and say what I cannot.
+
+---LUTHER ARRIVES---
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, hands resting on his thighs, the candle on the table beside him casting light across his face",
+  "seeker_voice": []
+}
+
+--- EVENT | 2026-06-12T16:05:55.936337 ---
+LUTHER_SUMMONED

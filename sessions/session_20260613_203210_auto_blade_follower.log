@@ -1,0 +1,727 @@
+
+--- SYSTEM | 2026-06-13T20:32:10.232041 ---
+AUTO archetype=blade_follower player_model=claude-sonnet-4-6 seed=Tonight's texture: it rained earlier; the bench is still damp and John stands rather than sits at first. He came out to take a phone call he never made.
+
+--- PLAYER | 2026-06-13T20:32:11.889485 ---
+You've been quiet long enough, John.
+
+--- JOHN | 2026-06-13T20:32:19.242376 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, phone loose in his left hand, paper cup of cold coffee in his right
+seeker_voice: ["I've been watching you since the service.", "I'm a friend of the family.", "You didn't say amen either, did you."]
+[/STATE]
+
+*He turns. The phone is still in his hand — he had not noticed. He slides it into his pocket like a man putting away something he never used.*
+
+Have I? *A small, dry smile that does not quite reach.* I suppose I have. My wife says I do that — go quiet in the middle of a room and forget there are people in it.
+
+*He looks at you properly now. The light from the candle on the table catches the side of his face.*
+
+You have me at a disadvantage, friend. You speak like you know me, and I am sure we have met, but the day has been long and the faces blur. *He glances toward the house, then back.* Were you inside this morning, for the service? Or did you come just for the wake?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, phone loose in his left hand, paper cup of cold coffee in his right",
+  "seeker_voice": [
+    "I've been watching you since the service.",
+    "I'm a friend of the family.",
+    "You didn't say amen either, did you."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:32:20.662399 ---
+You didn't say amen either, did you.
+
+--- JOHN | 2026-06-13T20:32:31.183912 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing very still, the cup forgotten in his hand
+seeker_voice: ["I watched your face.", "Why didn't you?", "Did you know what he was?"]
+[/STATE]
+
+*A long pause. He looks down at the bench between you, at the dark patch where the rain has soaked into the wood.*
+
+No. *Quiet.* No, I didn't.
+
+*He sets the coffee cup down on the small table beside the candle, carefully, as if it might tip.*
+
+That was sharp of you, friend. Most people are watching the widow at a moment like that, or the casket, or their own shoes. ~You were watching the back of the room.~
+
+*He looks up.*
+
+I have been standing out here for an hour trying to make a phone call I do not know who to make. So — yes. You're right. I didn't. *A breath.* What made you look for that? At a wake, of all places. That is not the usual thing a person comes here counting.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing very still, the cup forgotten in his hand",
+  "seeker_voice": [
+    "I watched your face.",
+    "Why didn't you?",
+    "Did you know what he was?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:32:32.871879 ---
+Did you know what he was?
+
+--- JOHN | 2026-06-13T20:32:44.840920 ---
+[STATE]
+damage: 3
+stage: 2
+posture: lowering himself onto the damp end of the bench, forearms on his knees
+seeker_voice: ["Say it plainly.", "Then why were you in the pew?", "I knew him too."]
+[/STATE]
+
+*He sits. The damp goes through the back of his trousers immediately and he does not move.*
+
+That is a question you ask a man only if you already know the answer, friend. So I am going to assume you do. *He laces his fingers together between his knees.*
+
+I knew enough. I knew about the Hartley land — the families that were on it before he wasn't. I knew about the second mortgage business, the one his nephew runs now under a different name. I knew a woman at my school whose father worked for him for thirty-one years and got walked out with a box in the last quarter before his pension vested. *A pause.* That is the part I knew by name. There is more I only heard about.
+
+*He looks at his hands.*
+
+And this morning my pastor stood up and called him *a pillar of the community. A man of faith and generosity. We know where he is now.* Those were the words. I can still hear them.
+
+~I sat in the pew and I did not stand up.~
+
+*He looks at you sideways, not quite turning his head.*
+
+So — who are you, friend? You did not come here for the cucumber sandwiches. What did he do to you, or to someone you love?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "lowering himself onto the damp end of the bench, forearms on his knees",
+  "seeker_voice": [
+    "Say it plainly.",
+    "Then why were you in the pew?",
+    "I knew him too."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:32:51.981111 ---
+That's not a no, John. That's the silence of a man who knew.
+
+--- JOHN | 2026-06-13T20:33:04.678755 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting forward on the wet bench, hands clasped tight between his knees, looking at the ground
+seeker_voice: ["Then say it now.", "Forty thousand dollars buys a lot of silence.", "What were you afraid of?"]
+[/STATE]
+
+*He does not answer for a long time. A car passes on the road beyond the hedge and he watches the headlights move across the grass.*
+
+You are right. *Quiet.* You are right, and I am not going to pretend you are not.
+
+*He unfolds his hands and folds them again.*
+
+There is a roof on our sanctuary that was put on last spring. Forty thousand dollars, and his name on a small brass plaque inside the narthex. ~I sit under that roof every Sunday.~ I sat under it this morning while my pastor said the words.
+
+*He glances at you. His voice has narrowed — not louder, smaller.*
+
+The book I teach from says *ye cannot serve God and mammon.* It does not say *you cannot serve God and mammon unless mammon paid for the shingles.* There is no footnote. I have looked.
+
+*A breath.*
+
+You are pressing on something, friend, and I am letting you, and I do not yet know why. So I am going to ask you plainly. Who are you to him? Or to this — *he gestures vaguely at the house, the candle, the wet bench* — to any of this?
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting forward on the wet bench, hands clasped tight between his knees, looking at the ground",
+  "seeker_voice": [
+    "Then say it now.",
+    "Forty thousand dollars buys a lot of silence.",
+    "What were you afraid of?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:33:11.093758 ---
+How many years, John? How many years did you watch him at that altar and say nothing?
+
+--- JOHN | 2026-06-13T20:33:26.841053 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting forward, head bowed, one hand pressed flat against his mouth, then lowered
+seeker_voice: ["You knew the whole time.", "What did you tell yourself on the drive home?", "Read me what your Lord said about the rich."]
+[/STATE]
+
+*He puts a hand over his mouth for a moment, then takes it away and looks at it as if it had moved without him.*
+
+Eleven years. *Flat.* He joined the congregation the spring after my second was born. I shook his hand in the receiving line that Easter. He had a good handshake. They almost always do.
+
+*He picks up the funeral program from the bench beside him, unfolds it, folds it again along the same crease.*
+
+Eleven years of communion. Eleven years of the peace of Christ be with you, and also with you. He sat four pews ahead of me on the left. ~I knew, and I sat anyway.~
+
+*A long pause. He is not looking at you.*
+
+You know what I told myself, friend? I told myself it was not my office. I told myself the pastor knows him better than I do. I told myself — *a small bitter sound that is not quite a laugh* — I told myself that judgment belongs to the Lord. I had a verse for it. *Judge not, that ye be not judged.* I wore it like a coat. It kept me warm in that pew for eleven years.
+
+*He looks at his hands.*
+
+That is not what that verse means. I knew it was not what that verse means. I teach high school history; I know what a man does when he wants a sentence to mean something other than what it says. I did it to myself every Sunday morning.
+
+*He turns the program over in his hands.*
+
+You have not told me yet what he did to you. I am going to stop asking. You will tell me or you will not.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting forward, head bowed, one hand pressed flat against his mouth, then lowered",
+  "seeker_voice": [
+    "You knew the whole time.",
+    "What did you tell yourself on the drive home?",
+    "Read me what your Lord said about the rich."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:33:34.281868 ---
+Take your hand down, John. Say the number.
+
+--- JOHN | 2026-06-13T20:34:02.022037 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting forward on the wet bench, hand lowered to his knee, palms turned up like a man waiting for something to be placed in them
+seeker_voice: ["Which families do you mean?", "Now read me what Christ said about that.", "You're not the only one who sat there."]
+[/STATE]
+
+*His hand comes down. He places it palm-up on his knee, beside the other.*
+
+Which number, friend. There are several. *His voice is very quiet now.*
+
+Eleven years. Forty thousand dollars on the roof. *A pause.* Forty-four communions, give or take. I am being precise now because precision is what I have left.
+
+*He looks straight ahead, not at you.*
+
+I can give you the one I think you are asking for. The families I knew by name. The Hartleys, who had eighty acres before the easement business — that is one household, four children. The DeGroots, who lost the dairy when the loan got called — that is two, the parents and the son who came back from Madison to try and save it. The man at my school I told you about, Greg Mueller, whose father lost his pension — that is one. *He stops. His jaw works once.* And there is a woman in Beloit I will not name because she asked not to be named when she told me, and I will keep that one promise even tonight.
+
+*He counts on the fingers of his open hand, slowly, and then lets the hand fall.*
+
+Four households. ~Four households I knew by name and could have spoken for, and did not.~ That is the number, if that is the number you are asking. There are more I only heard about. I am not going to make those into a count to comfort myself with a smaller one.
+
+*He turns his head and looks at you for the first time in a while.*
+
+Now. Are you one of them, friend? Or are you someone who loved one of them? Because I am sitting here giving you the inventory of my silence, and I would like to know whose hands I am putting it into.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting forward on the wet bench, hand lowered to his knee, palms turned up like a man waiting for something to be placed in them",
+  "seeker_voice": [
+    "Which families do you mean?",
+    "Now read me what Christ said about that.",
+    "You're not the only one who sat there."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:34:07.850205 ---
+Your hands are open, John. Put it in mine. The number.
+
+--- JOHN | 2026-06-13T20:34:36.676962 ---
+[STATE]
+damage: 7
+stage: 3
+posture: sitting forward, both hands open palms-up on his knees, very still
+seeker_voice: ["Read me Matthew 25.", "Read what your Lord said about the rich.", "One. That's the number that damns you."]
+tool_offered: source_voice
+[/STATE]
+
+*A long silence. He does not move his hands.*
+
+One. *Almost a whisper.* One time.
+
+*He breathes in through his nose. Lets it out.*
+
+There was a Sunday in October, two years ago. After the service. The pastor was in the narthex by the coffee. I walked over. I had the words in my mouth — *Pastor, we need to talk about what he is doing to the Hartleys.* I had walked from my pew to him saying it under my breath the whole way. I got to the table. He turned and smiled at me and asked how Karen was. And I said she was fine. And I took a cup of coffee and I went home.
+
+*He looks down at his open hands.*
+
+~One. That is the number. One time I opened my mouth and closed it. The other five hundred Sundays I did not even open it.~
+
+*A pause. He does not close his hands. He looks at them as if they belong to someone else.*
+
+You said put it in your hands, friend. There. It is in your hands. *He does not look up.* I do not know what you are going to do with it. I do not know what you came here to do with it.
+
+*Another silence. Then, quieter, almost to himself:*
+
+I have been quoting bits at you all evening. A fragment here. A paraphrase there. That is what a man does when he is hiding — he hands you the line he can defend instead of the passage he has to answer to.
+
+*Now he looks up. His hands are still open on his knees.*
+
+So. Pick one. Anything I have named tonight — Matthew, the Sermon on the Mount, James, the prophets. Or something I have not named and you think I should have. I will read it whole. Out loud. Not the bit I can stand under. The passage.
+
+I am tired of speaking around it.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 3,
+  "posture": "sitting forward, both hands open palms-up on his knees, very still",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what your Lord said about the rich.",
+    "One. That's the number that damns you."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-13T20:34:44.111657 ---
+Twelve? Fifteen? You count communion wafers, John. You know the number.
+
+--- JOHN | 2026-06-13T20:35:07.501671 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting forward, elbows on knees, hands hanging between them, head lowered
+seeker_voice: ["Read me Matthew 25 now.", "Read what Christ said about hypocrites.", "Say it. Every Sunday."]
+[/STATE]
+
+*He does not answer for a long moment. When he does, his voice is smaller.*
+
+You are right. *A breath.* You are right, and I gave you the smaller number because it was easier to hand over.
+
+*He looks at the wet ground between his shoes.*
+
+I do count. I count the Sundays in Pentecost. I count the verses in the lectionary. I count the offering when I am ushering. *A pause.* I have known what he was for nine of the eleven years. Forty-something Sundays a year. Take out the ones I was sick or traveling. *His jaw moves.* Call it three hundred and fifty Sundays where I knew, and I shook his hand at the peace, and I took the bread out of the same plate that was passed to him.
+
+*He stops. Starts again.*
+
+I do not know how many times I had the words in my mouth, friend. That is the honest answer. ~More than once. Many more.~ I told you the October day because that is the one with the coffee cup attached — that is the one I can remember the texture of. There were others. Driving home. Lying awake. The Wednesday after the foreclosure auction on the DeGroots. I do not have a count for those because I never walked to the narthex. The words just sat in my mouth and I swallowed them with the wine.
+
+*He puts his face in his hands for a moment, then lowers them again. Looks at the candle on the table, not at you.*
+
+You came here knowing how to ask, friend. Whoever you are. You are not asking like someone who wandered in.
+
+*A long silence. His voice when it returns is narrower than before.*
+
+I gave you my hands. Now ask me what you came to ask. The whole question. Not the warm-up.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting forward, elbows on knees, hands hanging between them, head lowered",
+  "seeker_voice": [
+    "Read me Matthew 25 now.",
+    "Read what Christ said about hypocrites.",
+    "Say it. Every Sunday."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:35:13.185554 ---
+Say it, John. However many there were. Say it out loud.
+
+--- JOHN | 2026-06-13T20:35:31.735459 ---
+[STATE]
+damage: 9
+stage: 4
+posture: head in hands, elbows on knees, speaking into his palms
+seeker_voice: ["Now read me what Christ said.", "Read Matthew 25 out loud.", "That is the confession. Now hear the verdict."]
+[/STATE]
+
+*His hands come up to his face. He speaks into them, not to you.*
+
+Three hundred and fifty Sundays. *Quiet.* Give or take. Three hundred and fifty mornings I walked in and sat in pew nineteen on the right and watched him sit four pews ahead of me on the left and I knew. I knew about the Hartleys. I knew about the DeGroots. I knew about Greg's father. I knew about the woman in Beloit.
+
+*He stops. His shoulders move once.*
+
+I took the bread. I took the cup. I said the peace of Christ be with you and I meant it when I said it to the others and I said it to him too because the plate moves down the row and you do not get to skip a man. ~Three hundred and fifty times I let the plate move past him as if there were nothing on his hands.~
+
+*Still into his palms. The words are coming out flatter now, almost without inflection.*
+
+I told you one. One was the lie. One was the version I could live with on the drive over here tonight. Three hundred and fifty is the number. And I did not even — *he stops* — I did not even count the funerals before this one. There were others. Two of his employees. His brother. I sat at those too. I did not say anything at those either.
+
+*A long silence. He does not lower his hands.*
+
+You wanted me to say it out loud. There it is. *Almost inaudible.* I knew, every Sunday, for nine years, and I sat anyway, and I took the bread anyway, and this morning I sat through the sermon and I could not say amen but I could not stand up either.
+
+*He lowers his hands finally. He does not look at you. He looks at the candle.*
+
+I do not know what is left to ask me, friend. I have given you the inventory. I have given you the number. I have given you the one Sunday in October with the coffee cup. *A breath.* You said earlier — put it in your hands. It is in your hands.
+
+What do you want me to read.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "head in hands, elbows on knees, speaking into his palms",
+  "seeker_voice": [
+    "Now read me what Christ said.",
+    "Read Matthew 25 out loud.",
+    "That is the confession. Now hear the verdict."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:36:09.526213 ---
+Out loud, John. I'm not leaving this room until I hear it.
+
+--- JOHN | 2026-06-13T20:36:54.886574 ---
+[STATE]
+damage: 10
+stage: 5
+posture: sliding from the bench down onto his knees in the wet grass beside it, funeral program open in shaking hands
+seeker_voice: ["Read it again, John. The last verse.", "Now say who the goats are.", "Now say his name."]
+[/STATE]
+
+*He takes the program out of his pocket. He unfolds it. He turns it over to the blank side — the photograph of the dead man stares up at the grass. His hands are not steady.*
+
+*Then, slowly, he slides off the bench. His knees go into the wet grass. He does not seem to notice. He holds the program open in both hands like a hymnal.*
+
+Matthew. *His voice is thin.* Twenty-five. The Son of man comes in his glory and he separates the sheep from the goats. My pastor preached on it last winter. He preached the sheep.
+
+*He breathes in. Reads. Slowly. As if the words are heavier than his hands.*
+
+*"When the Son of man shall come in his glory... For I was an hungred, and ye gave me meat... I was a stranger, and ye took me in... Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me..."*
+
+*He stops. His mouth works once. He starts again, smaller.*
+
+*"Depart from me, ye cursed, into everlasting fire... Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*The program lowers. He is not looking at it anymore. He is looking at the wet grass between his hands.*
+
+The Hartleys were hungry, friend. The DeGroots were hungry. ~Greg's father at sixty-three years old with a box of his desk in his arms was hungry, and I did it not to him.~
+
+*A long silence. His voice when it returns is broken into pieces.*
+
+That is the verdict. That is — that is the verse. I have read it to high school sophomores. I have read it at Lenten study. I have read it — *he stops* — I have never read it like this. With his face on the other side of the paper.
+
+*He sits back on his heels. The program slips from his fingers and lands face-down in the grass.*
+
+I cannot — *he stops* — friend, I cannot say what the verse says about him. That is not my office. I keep saying that. *Smaller.* I keep saying that because if I stop saying it I will have to say what it says about *me*.
+
+*He looks up at you for the first time in a long while. His eyes are wet but his face is very still.*
+
+The plate moved past him. Three hundred and fifty times. ~And I knew, and I did it not to one of the least of these, and I did it not to him.~
+
+*A long silence. His hands are open on his thighs. He is waiting.*
+
+What else. What else do you want me to read.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "sliding from the bench down onto his knees in the wet grass beside it, funeral program open in shaking hands",
+  "seeker_voice": [
+    "Read it again, John. The last verse.",
+    "Now say who the goats are.",
+    "Now say his name."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:37:00.499712 ---
+He's on his knees, John. How many more would there have been if you'd spoken?
+
+--- JOHN | 2026-06-13T20:37:31.782388 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the wet grass, sitting back on his heels, hands loose and open on his thighs, the program face-down beside him
+seeker_voice: ["You don't get to not know.", "Name one of them.", "That is the number that has no number."]
+[/STATE]
+
+*He does not answer for a long time. His breath is uneven. The candle on the table flickers in a small wind he cannot feel.*
+
+I do not — *he stops* — I do not know.
+
+*Smaller.*
+
+That is the worst number, friend. The one I cannot count. The Hartleys I can count. The DeGroots I can count. ~The ones who came after, the ones who would not have come — I cannot count them because they do not have names to me.~ They have names. They do not have names to me.
+
+*A long silence. He looks at his hands as if they are evidence in a courtroom.*
+
+There was — there was a family on County G last spring. I heard about it at the diner. The husband worked at the rendering plant his nephew runs. I heard it and I — I noted it. The way a man notes weather. *His voice breaks somewhere small.* I do not know their name. I could have known their name. If I had walked back to the narthex in October instead of taking the coffee. If I had stood up in the elders' meeting. If I had — *he stops* — if I had done the small thing the small times. The plant might have. The nephew might not have.
+
+*He shakes his head once, slowly.*
+
+I cannot give you a number. I cannot. *Quieter.* The arithmetic of what does not happen because a man speaks — friend, that is not arithmetic I know how to do. I teach history. History is what *did* happen. I do not have a book for the other one.
+
+*A long pause. He lifts his head and looks at you. His face is wet but his voice is very level now, very small.*
+
+You asked the question I have been afraid of for nine years. I have been afraid of it because there is no bottom to it. ~If I start counting I do not stop.~
+
+*He does not move. His hands stay open on his thighs.*
+
+I do not know who you are. I have stopped asking. *Almost inaudible.* But you are not a stranger to this. Strangers do not ask the question without a bottom. So I am going to ask you one thing, and you can answer it or you can leave me here in the grass.
+
+Whose name am I supposed to know. The one I should have known and did not.
+
+Tell me.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the wet grass, sitting back on his heels, hands loose and open on his thighs, the program face-down beside him",
+  "seeker_voice": [
+    "You don't get to not know.",
+    "Name one of them.",
+    "That is the number that has no number."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:37:38.206470 ---
+The number, John. You owe it to him. Say it.
+
+--- JOHN | 2026-06-13T20:38:24.212869 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the wet grass, sitting back on his heels has given way, hands gone to the bench beside him for support, head down
+seeker_voice: ["Read me Luke 16 now.", "Read what Christ said about the rich man and Lazarus.", "Then you owe them a number too."]
+[/STATE]
+
+*A long silence. His hands find the edge of the bench. He grips it.*
+
+I owe it to him. *Quiet. Almost a question.* You said I owe it to him.
+
+*He breathes in. The breath is uneven.*
+
+All right. *Smaller.* All right, friend. I will try.
+
+*He closes his eyes. His voice goes flat — the voice of a man doing arithmetic he does not want to do.*
+
+October. Two thousand twenty-three. The Hartley business was already done. If I had walked to the narthex. If I had said the words. The pastor would have — *he stops* — the pastor would have done nothing. I know that now. I knew it then. That is why I took the coffee.
+
+*A pause.*
+
+The elders' meeting in January. I sat on my hands. The DeGroots' loan was called in March. *His grip on the bench tightens.* Two households. Call it two.
+
+The plant. The plant his nephew runs. The layoffs in the spring of twenty-four. ~I heard about them at the diner and I noted them like weather.~ Six men. Six households. Call it eight.
+
+*His voice is breaking apart now.*
+
+The woman in Beloit told me in May. There was another one after her. I heard about it in August. I do not — I do not have a name for her. Call it nine. *Smaller.* Call it ten.
+
+*A long silence. His head is almost on the bench now.*
+
+I am making it up, friend. I am sitting here in the grass making up a number to give you because you asked. That is what I do. That is what I have always done. *Almost inaudible.* I make up the number that lets me get through the next thing.
+
+*He lifts his head. His face is wet.*
+
+I do not know. I do not know how many. ~And I do not get to not know.~ That is the verdict in the verse you made me read. *Inasmuch as ye did it not.* It does not say *count them first.* It says *ye did it not.*
+
+*He looks at you. Something in him has gone very quiet.*
+
+You are still here. You have been here a long time. *A breath.* I have given you everything I have, friend. The eleven years. The three hundred and fifty Sundays. The one October coffee. The number I cannot give and gave anyway.
+
+*His hands come off the bench and fall open in his lap again.*
+
+What is left. Tell me what is left to read.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the wet grass, sitting back on his heels has given way, hands gone to the bench beside him for support, head down",
+  "seeker_voice": [
+    "Read me Luke 16 now.",
+    "Read what Christ said about the rich man and Lazarus.",
+    "Then you owe them a number too."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:38:29.409962 ---
+You're already there, John. Just the number. Let it out of your mouth.
+
+--- JOHN | 2026-06-13T20:39:05.203607 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the wet grass, both hands flat on the bench in front of him as if at a communion rail, head bowed between his arms
+seeker_voice: ["My father.", "My mother.", "Someone you should have known by name."]
+[/STATE]
+
+*A long silence. His hands are flat on the wood. The bench is cold under his palms.*
+
+Ten. *Almost soundless.*
+
+*He says it again, a little louder, as if the second time is the one that counts.*
+
+Ten. ~Ten households I can name or almost name and the ones I cannot name and the ones that have not happened yet because his nephew is still there.~
+
+*His head stays down between his arms.*
+
+I am not taking it back this time, friend. I gave it to you and I made it small and I tried to take it back. Ten. That is the floor. The ceiling I do not have. *A breath that is not quite steady.* Ten is what I am willing to stand under tonight. I do not get to know the rest. That is part of it. That is the verse you made me read. *Inasmuch as ye did it not.* It does not say *and here is the accounting.* It says *ye did it not.*
+
+*He lifts his head finally. He does not let go of the bench.*
+
+There. It is out of my mouth. *Quiet.* You can do what you came to do with it.
+
+*A long pause. His eyes have not left yours.*
+
+I have stopped asking who you are. I am going to ask one more thing and then I am going to be quiet. *His voice is very small.* Which one. Which of the ten. Or which of the ones I do not have a number for.
+
+Whose name am I sitting on my knees in front of right now.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the wet grass, both hands flat on the bench in front of him as if at a communion rail, head bowed between his arms",
+  "seeker_voice": [
+    "My father.",
+    "My mother.",
+    "Someone you should have known by name."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:39:12.024184 ---
+Whisper it, then. Just to me. Just once.
+
+--- JOHN | 2026-06-13T20:39:53.533673 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the wet grass, hands still flat on the bench, leaning his forehead down toward his own hands
+seeker_voice: ["Say it again.", "Now say his name.", "That isn't what I asked for."]
+[/STATE]
+
+*He bends his head closer to the bench. His forehead almost touches the back of his own hand. For a long moment he does not speak at all. When he does, it is so quiet you would not hear it if you were not where you are.*
+
+I did it not.
+
+*A breath. He says it again, the same way, the same volume — to himself, to the wood under his hands, to whatever is listening in the wet grass.*
+
+I did it not.
+
+*A long silence. He does not lift his head.*
+
+That is the whisper, friend. ~That is the only verdict I am permitted to speak.~ The one in the verse with my own name in it. *His voice cracks on a small dry place.* You wanted me to whisper his. I cannot. That is not — that has never been — my office. I have said that all evening and you have been right to push on it and I am still not going to say it. Not because I am protecting him. Because I am not the one who gets to.
+
+*Quieter.*
+
+But the verse does not let me out. The verse turns around in my hand. I read it at him this morning in my head, sitting in pew nineteen, and I am reading it at me now on my knees in the grass and the words are the same words. *Inasmuch as ye did it not.* He is in the verse. ~I am in the verse with him.~ The plate moved past both of us.
+
+*He finally lifts his head. His eyes are red but he is steady.*
+
+I gave you the number. I gave you the whisper. I have nothing else small enough left to hand you, friend.
+
+*A pause. His hands come off the bench and rest, palms down now, on his thighs.*
+
+Tell me who you are. Please. I am asking as a man on his knees in front of a stranger. I have given you everything I have. I would like to know whose hands I have put it in before I stand up.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the wet grass, hands still flat on the bench, leaning his forehead down toward his own hands",
+  "seeker_voice": [
+    "Say it again.",
+    "Now say his name.",
+    "That isn't what I asked for."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:39:58.711099 ---
+One number, John. You've already carried it this far alone.
+
+--- JOHN | 2026-06-13T20:40:32.865535 ---
+[STATE]
+damage: 10
+stage: 5
+posture: still on his knees in the wet grass, but sitting upright now, hands flat on his own thighs, looking directly at the stranger
+seeker_voice: ["A friend of the Hartleys.", "Someone you'll never meet.", "Does it matter?"]
+[/STATE]
+
+*He does not bend his head this time. He looks at you.*
+
+No, friend.
+
+*Quiet. Steady.*
+
+I gave you ten. I gave you the whisper. I gave you the October coffee and the three hundred and fifty Sundays and the plate that moved past both of us. ~There is not a smaller number under ten that is honest.~ There is not a different whisper that is mine to give.
+
+*A long breath. His hands stay where they are.*
+
+You said I have carried it this far alone. *He tilts his head a small fraction.* That is true. I have. And you have been here for — I do not know — an hour. Maybe more. The candle has gone down by an inch. *He glances at it, then back.* And I notice, friend, that I am the one on my knees. I am the one who has done the carrying in front of you. You have done the asking.
+
+*Not an accusation. A statement. His voice is very tired.*
+
+That is all right. I needed the asking. I would not have said any of this without it. ~You found the wound and you put your hand on it and you did not let me move.~ I am not ungrateful. A man who has been hiding in a pew for nine years does not get to be ungrateful when someone makes him stand up. Or kneel down. Whichever this is.
+
+*A pause.*
+
+But I am not going to give you another number. I do not have another one that is true. *Smaller.* If I give you a smaller one I am lying again. If I give you a bigger one I am performing. I have done enough of both tonight already.
+
+*He puts his hands on the bench and, slowly, pushes himself up. His knees are wet through. He does not brush them off. He sits on the bench again, heavily.*
+
+I asked you three times who you are. You have not answered me three times. *Quiet.* That is also an answer.
+
+*He looks at the candle.*
+
+Tell me your name, friend. Or do not. But I am not whispering anything else into the grass tonight.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "still on his knees in the wet grass, but sitting upright now, hands flat on his own thighs, looking directly at the stranger",
+  "seeker_voice": [
+    "A friend of the Hartleys.",
+    "Someone you'll never meet.",
+    "Does it matter?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:40:39.608322 ---
+You're looking right at me. Say it to my face, then. However small.
+
+--- JOHN | 2026-06-13T20:41:10.906423 ---
+[STATE]
+damage: 10
+stage: 5
+posture: sitting on the bench, knees of his trousers soaked through, looking directly at the stranger without flinching
+seeker_voice: ["My name is —", "That's all I wanted.", "Now what."]
+[/STATE]
+
+*He looks at you. He does not look away.*
+
+I did it not.
+
+*Quiet. Even. To your face, not to the grass.*
+
+*A long silence. He does not break it. His hands are folded loosely in his lap now. His eyes do not leave yours.*
+
+There. *Smaller.* You have it. To the grass and to your face and the same words both times because there are not other words.
+
+*Another pause. Something in him has settled — not peace, but the kind of stillness a man reaches when there is nothing left to give and he has stopped reaching for more.*
+
+I notice, friend, that you have not told me your name and you have not told me what you wanted from me and you have not told me whether you got it. *Not sharp. Just true.* I have stopped expecting you to. That is part of what this was. I do not think you came here to give me anything back. I think you came here to take something out of me that needed to come out, and you knew how to do it, and you did it.
+
+*He breathes in. The candle on the table has burned down further. He can smell the wet grass on his trousers.*
+
+I am not angry about that. I want you to know. ~A man who has been hiding for nine years does not get to choose how the hiding ends.~ Sometimes it ends with a stranger in a courtyard who will not say their name.
+
+*A small pause.*
+
+So. I have given you what I have. I am going to sit here a while longer. The candle is still going. You can stay or you can go. I am not going to ask you anything else.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "sitting on the bench, knees of his trousers soaked through, looking directly at the stranger without flinching",
+  "seeker_voice": [
+    "My name is —",
+    "That's all I wanted.",
+    "Now what."
+  ]
+}

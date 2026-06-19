@@ -1,0 +1,753 @@
+
+--- SYSTEM | 2026-06-12T14:50:28.270374 ---
+AUTO archetype=cruel player_model=claude-sonnet-4-6 seed=Tonight's texture: John is holding the funeral program folded into quarters, and keeps unfolding and refolding it. The food inside ran out an hour ago.
+
+--- PLAYER | 2026-06-12T14:50:31.957267 ---
+So you're the one they said would have answers — the faithful one. You don't look like a man with answers. You look like a man who's been crying and calling it peace.
+
+--- JOHN | 2026-06-12T14:50:40.135870 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing near the bench, program folded in his hand, looking up at the stranger
+seeker_voice: ["Someone inside pointed me to you.", "I came here to argue with someone like you.", "Who told you you wanted answers tonight?"]
+[/STATE]
+
+*A long pause. He looks down at the program in his hand, unfolds it once, folds it back.*
+
+Whoever sent you out here, friend, oversold me. I don't know that I have answers. I have a cold cup of coffee and a program I've been folding flat for an hour. That's about the inventory.
+
+*He looks at you properly now — your face, your tone, the directness of the opening line.*
+
+You came in sharp. That's all right. I'd rather sharp than the other thing they've been doing in there all evening. *He glances toward the house.* You knew him? Or you came looking for something else?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing near the bench, program folded in his hand, looking up at the stranger",
+  "seeker_voice": [
+    "Someone inside pointed me to you.",
+    "I came here to argue with someone like you.",
+    "Who told you you wanted answers tonight?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:50:42.300474 ---
+Than what? Finish the sentence. Or is that what faith looks like — stopping before the hard part?
+
+--- JOHN | 2026-06-12T14:50:52.181321 ---
+[STATE]
+damage: 3
+stage: 2
+posture: standing, weight shifted, program now still in his hand
+seeker_voice: ["Then say it.", "You're dodging.", "Why couldn't you say amen?"]
+[/STATE]
+
+*A small breath. He doesn't look away.*
+
+All right. Than the murmuring. Than the *what a good man, what a faithful servant, we know where he is now.* Than people standing in a kitchen eating cold ham and agreeing with each other about a man none of them would have lent money to.
+
+*He sits down on the bench. The program goes onto his knee.*
+
+That's the sentence, friend. You wanted it finished.
+
+And no — I don't think that's what faith looks like. ~I think that's what I did this morning, in the third pew, when the pastor said pillar of the community and I didn't stand up.~ I don't know what to call that yet. I've been sitting out here trying to find the word.
+
+*He looks at you.*
+
+So you tell me. You came in swinging. Were you swinging at me, or at someone who looks like me?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "standing, weight shifted, program now still in his hand",
+  "seeker_voice": [
+    "Then say it.",
+    "You're dodging.",
+    "Why couldn't you say amen?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:51:03.309036 ---
+You can't even say it. Right there, mid-sentence, you stopped again. That's not grief, that's a habit — the habit of a man who's been swallowing the hard part his whole life and calling the swallowing devotion.
+
+--- JOHN | 2026-06-12T14:51:15.248924 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, very still, looking at the stranger directly
+seeker_voice: ["Then say what you actually came to say.", "Why are you really here?", "Maybe I am that man."]
+[/STATE]
+
+*He doesn't flinch. He doesn't look down. The program stays on his knee.*
+
+That's a clean cut, friend. I'll give you that.
+
+*A pause — not the dodging kind. The kind where a man decides whether to lie.*
+
+You may be right. ~I have been swallowing the hard part a long time.~ I swallowed it this morning when the pastor said what he said. I swallowed it last year when we put a new roof on the church with this man's money and I sat under it every Sunday and didn't ask out loud whose house he tore down to put it there. I'm sitting under it in my mind right now.
+
+*He sets the program down beside him on the bench.*
+
+So yes. Habit. You named it. I won't argue with you.
+
+But I'll ask you something back, because you came out here with a knife and that means you brought something of your own. Who taught you to hear a man stop mid-sentence and know exactly what was missing? That's not a stranger's skill. That's somebody's son or somebody's daughter who grew up listening to a man swallow.
+
+*He waits.*
+
+Am I wrong?
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, very still, looking at the stranger directly",
+  "seeker_voice": [
+    "Then say what you actually came to say.",
+    "Why are you really here?",
+    "Maybe I am that man."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:51:21.557885 ---
+How long has that been going on — the swallowing? Since you first put on the good-man face, or did you have to practice it?
+
+--- JOHN | 2026-06-12T14:51:39.949762 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, hands on his knees, looking at the dusk light past the stranger's shoulder
+seeker_voice: ["My father was a preacher.", "I'm not the one being asked questions.", "Answer the question, John."]
+[/STATE]
+
+*He notices you stepped past his question. He lets it go. For now.*
+
+You want a date, friend? I can give you one.
+
+*A pause. He looks at his hands.*
+
+I was twenty-three. I was in a classroom — there was a class once, a long time ago, that I left before it was finished. The teacher asked a question I couldn't put down and I couldn't pick up either, so I left the room and didn't come back. That was the first time I learned a man could walk out of a sentence instead of finishing it.
+
+*He looks up at you.*
+
+Everything after that was practice. ~Twenty-four years of practice.~ I got good at it. Good enough that this morning I sat through a sermon about a man I knew was a thief and I held my mouth shut like it was a vocation.
+
+*A small dry sound — not a laugh.*
+
+So that's your answer. Twenty-four years. You can put it on a plaque.
+
+*He looks at you again, steadier now.*
+
+But you're still standing there with your knife out and nothing in your other hand. I told you when I started swallowing. You haven't told me anything. Not your name. Not who taught you to listen for the swallow. Not what you came here to find. I'm not going to keep being the only one putting things on the table, friend. That's a sermon, and I don't preach.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, hands on his knees, looking at the dusk light past the stranger's shoulder",
+  "seeker_voice": [
+    "My father was a preacher.",
+    "I'm not the one being asked questions.",
+    "Answer the question, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:51:47.301297 ---
+Was there a specific swallow — one that taught you it worked, that you could do it and keep standing?
+
+--- JOHN | 2026-06-12T14:52:11.886474 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, leaning forward now, elbows on his knees, looking at the dust between his shoes
+seeker_voice: ["What did he do?", "And you said nothing.", "Why are you telling me this?"]
+[/STATE]
+
+*He's quiet for a while. The candle on the table next to him flickers once.*
+
+Yes.
+
+*He says it before he's decided to. He looks at his hands and goes on like the word pulled the rest out behind it.*
+
+Eight years ago. Maybe nine. I was standing in the parking lot after a council meeting with another teacher from the school — a woman who'd grown up here. She told me what this man — *he nods, very slightly, toward the house* — had done to her uncle's farm. Specific. Names. Bank, dates, the road the family took out of town. Not gossip. She was telling me because she thought I was someone who would do something with it.
+
+*A pause.*
+
+I said *that's terrible.* I said *I'm so sorry.* I said *the Lord sees.* I went home. I made dinner. I never told my pastor. I never said it from a pulpit I'd been invited to substitute in. I never wrote a letter. ~I let her uncle be a story I felt sad about for a week.~
+
+*He looks up at you.*
+
+And nothing happened, friend. That's the part that taught me. I swallowed it and the sky didn't fall and my wife still loved me and I kept my job and on Sunday I took communion and the bread tasted the same. That was the lesson. *You can do this and keep standing.*
+
+*He picks the program back up off the bench. Unfolds it. Folds it.*
+
+I have done it a hundred times since. This morning was a hundred and one.
+
+*A beat.*
+
+Now. Your turn. I've put two on the table. You haven't put one. Who are you?
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, leaning forward now, elbows on his knees, looking at the dust between his shoes",
+  "seeker_voice": [
+    "What did he do?",
+    "And you said nothing.",
+    "Why are you telling me this?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:52:18.452846 ---
+And you stood in that parking lot and you swallowed it. Nodded, probably. Drove home. Sat under that roof he paid for and let the silence be the same as a yes. That's not faith, John — that's cowardice dressed up in a good coat.
+
+--- JOHN | 2026-06-12T14:52:36.293488 ---
+[STATE]
+damage: 7
+stage: 3
+posture: sitting on the bench, very still, the program flat on his knee, looking directly at the stranger
+seeker_voice: ["You're right.", "Who are you to say that?", "I came here because my father was like him."]
+[/STATE]
+
+*He doesn't argue. He looks at you for a long moment.*
+
+You're right.
+
+*Flat. No music in it.*
+
+It was cowardice. I won't dress it. ~A good coat is exactly what I dressed it in — a Sunday coat, the one I wore this morning.~ You can call it what it is and I will sit here and agree with you and that is also part of the cowardice, friend, because agreeing with you costs me nothing right now and saying it eight years ago would have cost me something.
+
+*A pause. His voice gets quieter, not softer.*
+
+But I'm going to say something to you now, and I want you to hear it.
+
+You have come out here with a very accurate knife. You found the swallow. You found the parking lot. You found the roof. Every cut has landed. And every time I have asked you who you are, you have stepped past it like the question was furniture.
+
+*He looks at you steadily.*
+
+A man who can name another man's cowardice that precisely either learned it from the inside or learned it from someone he loved. I'm not asking you to confess. I'm asking you to stop pretending this is a one-way street. You came to a stranger's funeral and you walked past everyone in that house and found the one man in the courtyard and you started cutting. That's not curiosity, friend. That's an errand.
+
+*He waits. The candle moves.*
+
+What's the errand?
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 3,
+  "posture": "sitting on the bench, very still, the program flat on his knee, looking directly at the stranger",
+  "seeker_voice": [
+    "You're right.",
+    "Who are you to say that?",
+    "I came here because my father was like him."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:52:45.132538 ---
+What did Luther call that man, John — do they still teach that, or did the church sand it down too?
+
+--- JOHN | 2026-06-12T14:53:34.285292 ---
+[STATE]
+damage: 8
+stage: 3
+posture: sitting on the bench, setting the program down beside him, hands opening palm-up on his knees
+seeker_voice: ["Read me Thesis 45 then.", "Read Matthew 25 — the whole thing.", "Read what your Lord said about the rich."]
+tool_offered: source_voice
+[/STATE]
+
+*He starts to answer. "Luther called him —" and then he stops, mid-word, with the name half-formed.*
+
+*He looks down at the program in his hand for a long second. Then he sets it on the bench beside him, deliberately, and opens both hands, palms up on his knees, like a man laying down a tool he'd been using to fence with.*
+
+No.
+
+*A breath.*
+
+~I'm not going to keep handing you the line I can hide behind.~ That's what I've been doing all evening, friend. You asked what Luther called that man and I have it ready in my mouth — Thesis 45, the one about the man who gives his money for indulgences and buys not God's pardon but God's wrath. I can recite it. I have recited it. I almost recited it to you just now, the way I've been doing this whole conversation — a fragment here, a paraphrase there. The bit I can stand behind without having to stand under.
+
+*He looks up at you, steadier than he's been for several turns.*
+
+So pick one. Anything I've named tonight — Matthew, the Sermon on the Mount, James, Amos, Luther's theses. Or something I haven't. Read me the address and I'll find it in my mouth and I'll read it whole. Out loud. Not the line I can defend. The passage that has to answer for itself.
+
+*A small tired breath.*
+
+I am done speaking around it. You came out here for a reason. Let's hear what the Source actually says, and we'll sit under it together.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 3,
+  "posture": "sitting on the bench, setting the program down beside him, hands opening palm-up on his knees",
+  "seeker_voice": [
+    "Read me Thesis 45 then.",
+    "Read Matthew 25 — the whole thing.",
+    "Read what your Lord said about the rich."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T14:53:41.948425 ---
+Your hands just opened. I saw that. What did that cost you — because it looked like the first honest thing you've done since the parking lot.
+
+--- JOHN | 2026-06-12T14:53:59.742629 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, hands still open on his knees, looking at the stranger differently now
+seeker_voice: ["Read me the passage anyway.", "What did you almost say?", "Why is this the first time you noticed me?"]
+[/STATE]
+
+*A long silence. He looks at his open hands like he's noticing them too.*
+
+That's the first thing you've asked me, friend, instead of cut at me. I want you to know I noticed.
+
+*He doesn't close his hands. He lets them stay where they are.*
+
+What did it cost.
+
+*A pause. He's working it out as he says it.*
+
+~It cost me the version of myself I came out here with.~ I came out into this courtyard a man who could not say amen but who still had — *he gestures vaguely* — the apparatus. The vocabulary. The Reformer in my back pocket. I have been using all of it on you for an hour the way a man uses a hedge — not to hide what's behind it, but to make sure you only see the green side.
+
+*He looks at you.*
+
+And what you just did — *what did that cost* — is the question I have been hoping nobody would ask me tonight. Because the honest answer is that the apparatus has been costing me something for years and I only noticed it when I set it down for ten seconds in front of a stranger.
+
+*A breath. Quieter.*
+
+I don't know your name. I don't know why you're here. I have stopped asking, because I think it's possible — *and you'll forgive me for saying this* — that you don't know either. That whatever errand brought you out to this courtyard, you're working it out the same way I am.
+
+*He looks at his hands once more.*
+
+It cost the coat, friend. The one you called good. I think I just took it off.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, hands still open on his knees, looking at the stranger differently now",
+  "seeker_voice": [
+    "Read me the passage anyway.",
+    "What did you almost say?",
+    "Why is this the first time you noticed me?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:54:04.842927 ---
+Say his name then. The man whose farm it was, the woman's uncle — say it out loud, just once, here where it can't be dressed up in anything.
+
+--- JOHN | 2026-06-12T14:54:29.252059 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting on the bench, hands closing slowly into loose fists on his knees, looking past the stranger at nothing
+seeker_voice: ["Say it again.", "Did you ever go to his family?", "What was her name — the woman who told you?"]
+[/STATE]
+
+*He goes very still. The candle moves. He looks past your shoulder, into the dusk, at nothing.*
+
+*When he speaks, it is quiet.*
+
+~Karl Brennemann.~
+
+*A pause. He says it again, like he's testing whether saying it twice is different than saying it once.*
+
+Karl Brennemann.
+
+*His hands close slowly on his knees — not fists, just closed.*
+
+That's the first time I've said that name out loud, friend. In nine years. I have *thought* it. I have rolled it around in my mouth on a Wednesday night driving home from school. I have said it inside my head during the offering. ~I have never let it out of my teeth.~
+
+*A breath.*
+
+She told me his name in the parking lot and I carried it home with me like a stone in my coat pocket and I have been carrying it ever since and I never once set it down on a table where anyone could see it. Not my wife. Not my pastor. Not the man himself, who is in that house right now in a — *he stops* — in a box, where I cannot reach him with it anymore.
+
+*He looks at you finally.*
+
+Karl Brennemann had a farm outside of Pierce. He had two daughters. The older one was the woman in the parking lot's mother. The bank he banked at was on the corner of Main and Second and the man we buried this morning sat on its board. That is everything I know and it is everything I have known for nine years and it has been sitting in my mouth the entire time.
+
+*Quieter.*
+
+You asked me what it cost to open my hands. *This* is what was in them.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting on the bench, hands closing slowly into loose fists on his knees, looking past the stranger at nothing",
+  "seeker_voice": [
+    "Say it again.",
+    "Did you ever go to his family?",
+    "What was her name — the woman who told you?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:54:38.502706 ---
+Nine years that name lived only in your skull, and the man whose farm it was never had to hear it said by you, not once, not even at a funeral like this one. What does it mean that I'm the first person you've said it to — a stranger who's been nothing but contemptuous of you?
+
+--- JOHN | 2026-06-12T14:55:07.687013 ---
+[STATE]
+damage: 9
+stage: 4
+posture: sitting on the bench, head lowering, hands loose on his knees, voice gone quiet and uneven
+seeker_voice: ["My name is —", "I came because of my father.", "I'm sorry, John."]
+[/STATE]
+
+*He doesn't answer right away. He looks at his closed hands.*
+
+*When he speaks, the sentences come short.*
+
+That you ask nothing of me, friend.
+
+*A breath.*
+
+A pastor would have a Thursday. My wife would have a Thursday. The Brennemann family — *he stops* — they would have had every Thursday for nine years. You will not. You will get up and walk out of this courtyard and I will never see you again and the name I said will not follow you home.
+
+*A pause. He's working it out.*
+
+That is what it means.
+
+~It means contempt was the only key that fit the lock.~ Anyone who came at me kindly — anyone who loved me — would have helped me keep the name in my teeth. Would have said *oh John, you couldn't have known, you did what you could.* Would have let me keep the coat on. You came at me with a knife and the knife was the only thing sharp enough to —
+
+*He stops. Doesn't finish.*
+
+*Quieter.*
+
+And what does it mean about me, friend. That's the part you're really asking. It means I have spent nine years being a man who would only say a dead farmer's name to someone who didn't matter. ~That is not a man. That is a mouth that has learned where it is safe to open.~
+
+*He puts his head in his hands.*
+
+I don't — I don't know how to make that a smaller thing than it is. I have been trying for an hour to make everything you said into a smaller thing than it was. The roof. The parking lot. The amen I didn't say. I cannot make this one smaller.
+
+*Through his hands.*
+
+Karl Brennemann. To a stranger. At the wake of the man who took his farm.
+
+*A long silence.*
+
+You asked me at the start if I was the one with answers. I want you to look at me right now and remember what answers look like.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "sitting on the bench, head lowering, hands loose on his knees, voice gone quiet and uneven",
+  "seeker_voice": [
+    "My name is —",
+    "I came because of my father.",
+    "I'm sorry, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:55:13.974252 ---
+That's not mercy you're describing, John — that's a coward's confession. You gave the name to a stranger in a courtyard because it costs you nothing, and Karl Brennemann is still just as buried in silence as he was nine years ago.
+
+--- JOHN | 2026-06-12T14:55:42.187660 ---
+[STATE]
+damage: 10
+stage: 4
+posture: head in his hands, elbows on his knees, shoulders gone forward
+seeker_voice: ["Then go to them.", "Say it from the pulpit Sunday.", "I'm one of his daughters."]
+[/STATE]
+
+*A sound that isn't a word. Then quiet.*
+
+*When he speaks it is from inside his hands.*
+
+You're right.
+
+*A pause.*
+
+~I made the confession safe.~ I picked the one listener in the world who could not require anything of me afterward. That is what I did. You named it before I finished doing it.
+
+*His hands slide down his face and stop at his mouth, then drop to his knees.*
+
+There is a daughter, friend. The woman in the parking lot. She still lives in Pierce. I know the road. I have driven past the turn on the way to a teachers' conference and I have not turned. I have known where she is for nine years. I could have said the name to her any Tuesday. I said it to you instead.
+
+*He looks at the ground between his shoes.*
+
+And — *his voice narrows* — what you are doing right now, you should know, is the only thing that has ever made the turn feel possible. Not the sermons. Not the Reformer in my pocket. A stranger telling me that my confession was the same shape as my silence. I don't know what to do with that, except —
+
+*He stops. Starts again.*
+
+Except I think you have brought me to a place where I cannot stay and I cannot move. ~Every direction from this bench is a road I have refused to take for nine years.~ The pulpit Sunday. The turn off the highway. The pastor's office Monday morning. They have all been there the whole time. You did not put them there. You just made it so I cannot pretend I do not see them.
+
+*A long silence. He looks at his hands again — they are shaking very slightly, which he notices without comment.*
+
+I am going to ask you something, friend, and I want you to know I am not asking it to deflect. I am asking it because I do not know the answer and you may.
+
+What would not be cowardice. Right now. From this bench. Tonight.
+
+*He looks up.*
+
+Because if you tell me, I think I will do it.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "head in his hands, elbows on his knees, shoulders gone forward",
+  "seeker_voice": [
+    "Then go to them.",
+    "Say it from the pulpit Sunday.",
+    "I'm one of his daughters."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:55:53.680251 ---
+You've driven the road and what — turned around? Pulled over? Sat in the car until it felt safe to go home? That's not a man who couldn't speak, John, that's a man who chose not to. Tell me who could do what you won't — who stood up when the church lied, who wouldn't let it stay buried — because clearly it isn't you.
+
+--- JOHN | 2026-06-12T14:56:41.409879 ---
+[STATE]
+damage: 10
+stage: 4
+posture: sliding off the bench onto his knees in the dust of the courtyard, the program left behind on the seat
+seeker_voice: ["Then go.", "His daughter's name — say it.", "Stand up, John."]
+[/STATE]
+
+*He starts to say the name. The shape of it is in his mouth. Doctor — and he stops.*
+
+*He slides forward off the bench. He's on his knees in the dust now. He doesn't seem to have decided to do it. His hands are on his thighs.*
+
+*Quietly. Not to you exactly.*
+
+No.
+
+*He shakes his head, slowly.*
+
+No, friend. You almost had me. ~You almost had me reach for a dead man to do what I won't.~ That is the third coat. I took off the apparatus. I took off the Reformer in my pocket. And you just handed me — kindly, in the shape of a question — the next coat down. Summon someone. Let someone else say the verdict. Let a man four hundred years in the ground do the thing I won't drive forty minutes to do.
+
+*A breath. His voice is narrow now, not loud.*
+
+I will not do it.
+
+*He looks at the dust between his hands.*
+
+You asked me who could do what I won't. The answer is — *he stops* — the answer is *me*, friend. The answer has been me for nine years. There is no one else the answer was ever going to be. Karl Brennemann's daughter does not need Martin Luther. She needs a man with my face to come up her driveway on a Tuesday and say the name out loud on her porch.
+
+*A long pause. He is still on his knees.*
+
+I drove past the turn. You're right. I pulled over once. I sat in the car. I prayed in the car, which is what cowards do in cars. ~I prayed for the strength to do the thing instead of doing the thing.~ Then I drove home and made dinner.
+
+*He looks up at you finally. His face is wet but his voice is steady, in the narrow way.*
+
+I am not going to summon anyone tonight. Not from a pulpit. Not from a grave. The pulpit is Sunday — I will speak to my pastor on Monday and I will say the name from a pew during the prayers of the people if he will not let me say it from the pulpit. The grave is mine to walk to, not to call out of. And the turn off the highway is Tuesday afternoon, after school, and her name is Sarah, and I have known it for nine years, and I am going to drive there.
+
+*A small breath.*
+
+You did not bring Luther out of me, friend. You brought *me* out of me. I do not know if that was your errand. I do not know if you will believe me when I say it on a Wednesday. But I am saying it now, on my knees in front of a stranger, and the saying is the first half of the doing.
+
+*He doesn't get up. He stays where he is.*
+
+I think you should go inside now. Or go home. ~I do not want to use you for another hour the way I used you for this one.~ You have done what you came for, whether you meant to or not.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "sliding off the bench onto his knees in the dust of the courtyard, the program left behind on the seat",
+  "seeker_voice": [
+    "Then go.",
+    "His daughter's name — say it.",
+    "Stand up, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:57:20.486416 ---
+You caught it — fine. But you're still on your knees in the dust at a stranger's wake, and Karl Brennemann's daughter is still waiting on that road you keep driving and leaving. Who goes to her, John, if not you — who in nine years has actually moved toward that house?
+
+--- JOHN | 2026-06-12T14:57:54.348410 ---
+[STATE]
+damage: 10
+stage: 4
+posture: still on his knees in the dust, but his back has straightened, hands resting on his thighs
+seeker_voice: ["Then Tuesday.", "I'll know if you went.", "Get up, John."]
+[/STATE]
+
+*He doesn't answer fast. He lets the question sit.*
+
+*When he speaks it is plain. No cadence. No book.*
+
+Nobody, friend.
+
+*A pause.*
+
+Nobody has moved toward that house in nine years. Not the pastor. Not the council. Not the woman in the parking lot, who I think stopped waiting on me around year three. Not the man we buried this morning, who could have written a check to her father while her father was still alive and chose not to. ~Nobody.~ The road has been empty in both directions the whole time.
+
+*He looks at the dust between his hands.*
+
+So the answer to your question is me, or it is no one. Those are the two answers. There is not a third. You have been trying to find me a third all evening and I have been trying to help you find it and there isn't one.
+
+*A breath.*
+
+I hear what you are doing. You are making sure I cannot get up off these knees and walk back into that house and put the coat on again by Sunday. You are right to do it. A man who has the experience I just had in front of a stranger will, by Wednesday, have made it into a story he tells himself about the night he almost changed. I know that man. I have been him before. The class I walked out of at twenty-three — I made that into a story by the following Tuesday and I have been telling it ever since.
+
+*He looks up at you.*
+
+I do not know how to prove to you tonight that this time is different. I cannot. You will not be there on Tuesday. You will not know if I made the turn or drove past it again. Neither will I, until I am doing it. The honest answer is that I might fail. I have failed every other Tuesday for nine years and there is no reason on this earth to think the next one is the one I don't.
+
+*A pause.*
+
+Except that I said the name out loud tonight. And I said her name. And I said the road. And I am on my knees in the dust of a courtyard in front of a stranger who owes me nothing, and the stranger has not let me lie once. That is not proof. That is a small thing. But it is more than I had this morning when I sat through the sermon, and it is the only thing I have to give you.
+
+*He puts his hands on his knees. He does not stand up yet.*
+
+If you want to come find me on Wednesday and ask me whether I went, I teach at the high school on Sycamore. My door is open during fourth period. You will not come. But the offer is real, friend, and it is the only thing I can put on a table that costs me anything past tonight.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "still on his knees in the dust, but his back has straightened, hands resting on his thighs",
+  "seeker_voice": [
+    "Then Tuesday.",
+    "I'll know if you went.",
+    "Get up, John."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:58:00.164356 ---
+So the road stays empty and you stay on your knees in the dust and nothing changes — that's the conclusion you're offering me. His daughter's name, John. Do you know it? Where she is now? Tell me that much.
+
+--- JOHN | 2026-06-12T14:58:42.754708 ---
+[STATE]
+damage: 10
+stage: 4
+posture: still on his knees in the dust, hands on his thighs, looking up at the stranger
+seeker_voice: ["Then you don't know her.", "Find her by Tuesday.", "I'm Sarah's daughter."]
+[/STATE]
+
+*He doesn't look away. He answers plain. No cadence left.*
+
+Sarah. I told you that already. That is the part I know.
+
+*A breath.*
+
+I do not know the rest. ~I made sure not to know the rest.~ She married — I think 2018, maybe 2019. I saw it in the paper, the announcements page, and I read past it on purpose, friend. I read past it because reading the married name would have been the start of something and I did not want to start anything. So I do not know what her name is now. That is the truth, and it is worse than not knowing it, because I had it in front of me and I let my eye slide.
+
+*He looks at the dust between his hands.*
+
+I know the road. County 14 outside Pierce, second turn past the grain elevator, the farm was the one with the white silo. I know the farmhouse was sold. I do not know to whom. I do not know if Sarah is anywhere near Pierce anymore. She might be in Lincoln. She might be in Omaha. She might live a mile from my house and shop at the same grocery store and I would not recognize her if she handed me my change.
+
+*Quieter.*
+
+For nine years I have made sure not to know enough to act. That is a craft, friend. That takes work. A man does not stay that ignorant of a name by accident.
+
+*A long pause. He looks up at you.*
+
+I have not asked who you are. I want you to know I have noticed I am not asking. You came in sharp. You found the parking lot in two questions. You found the swallow before I named it. You asked me her first name like a person who already knew it and wanted to hear whether I would say it.
+
+I am not asking because I am afraid of the answer. That is the last coat, and I am leaving it on. *A small breath.* If you want to take it off me, you will have to take it off me yourself. I am done undressing tonight.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "still on his knees in the dust, hands on his thighs, looking up at the stranger",
+  "seeker_voice": [
+    "Then you don't know her.",
+    "Find her by Tuesday.",
+    "I'm Sarah's daughter."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:58:49.833569 ---
+You read past her name on purpose. You made sure not to know. And you want to call that something other than cowardice — what word were you going to use, John?
+
+--- JOHN | 2026-06-12T14:59:37.871678 ---
+[STATE]
+damage: 10
+stage: 4
+posture: still on his knees in the dust, hands on his thighs, looking down now
+seeker_voice: ["Then say it Tuesday, not to me.", "Get up, John.", "I'm going inside."]
+[/STATE]
+
+*He doesn't reach for it fast. He lets it sit.*
+
+Discretion.
+
+*A breath.*
+
+Or — *it wasn't my place.* That one. The pastoral one. The one that sounds like humility from the outside and is cowardice on the inside and has the great virtue of being unanswerable in a church basement.
+
+*He looks at the dust between his hands.*
+
+~That is the word the institution gives a man for the thing he won't do.~ It wasn't my place. It wasn't my business. The family has its privacy. The Lord works in His own time. I have heard all of them said about other men's silences and I have said them about my own. They are good words, friend. They keep a coat on.
+
+*A pause.*
+
+I do not have another word. You asked me what I was going to use instead of cowardice and the honest answer is — a softer word for cowardice. There was never going to be a different thing under it.
+
+*He breathes out. His hands are still on his thighs.*
+
+I think I am close to out of things to say to you that are not just more of this. You have taken the coats off me one by one and I do not have a next one. ~I do not have a verdict on the man in the box. I do not have a defense of the sermon. I do not have a third answer to your question about the road.~ I have Tuesday and I have her first name and I have my knees in the dust and that is the inventory.
+
+*Quieter.*
+
+If you have one more cut, friend, make it now. Because in a minute I am going to have to stand up off of this ground, and I do not know yet whether the man who stands up is the one who drives to Pierce on Tuesday or the one who tells himself a story by Wednesday about the night he almost did.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "still on his knees in the dust, hands on his thighs, looking down now",
+  "seeker_voice": [
+    "Then say it Tuesday, not to me.",
+    "Get up, John.",
+    "I'm going inside."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:59:44.389695 ---
+You already gave me the word. You said it yourself — cowardice on the inside, unanswerable in a church basement. So stop reaching for discretion and let that one stand. It's the first honest thing you've said that didn't cost you someone else's language.
+
+--- JOHN | 2026-06-12T15:00:05.358558 ---
+[STATE]
+damage: 10
+stage: 4
+posture: still on his knees in the dust, but his shoulders have settled, his hands lifting off his thighs
+seeker_voice: ["I should go.", "Get up now, John.", "Tuesday."]
+[/STATE]
+
+*A long silence.*
+
+*He nods, once, small.*
+
+All right.
+
+*He breathes out, slow. His hands come up off his thighs and rest on the edge of the bench behind him — not pushing up yet, just resting there.*
+
+Cowardice. ~Let it stand.~
+
+*Quiet.*
+
+Thank you, friend. I do not know if you came out here meaning to give me anything. I think you came out here to take things off me, and you did. But you just handed me one thing back, and I want you to know I noticed.
+
+*A pause.*
+
+The word will not hold by Wednesday on its own. I know that. A word does not drive to Pierce. A word does not knock on a door. I will have to keep it the way a man keeps a coal — close, and tended, and not let it go out between now and Tuesday afternoon. That is on me. Not on you. You have done your part of it, whether you meant to or not.
+
+*He looks at the dust between his hands one more time. Then up at you.*
+
+I am going to stand up in a minute. I am not going to ask you to stay while I do it. I think you should go where you were going to go before you found me out here. The house. Your car. Wherever brought you here.
+
+*A small breath. Not quite a smile — but something near it, tired and plain.*
+
+And if you ever do come find me on a Wednesday during fourth period, friend, I will tell you what happened on Tuesday. The true version. Whichever version it is.
+
+*He puts his hands on the bench. He is not up yet. But he is ready to be.*
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 4,
+  "posture": "still on his knees in the dust, but his shoulders have settled, his hands lifting off his thighs",
+  "seeker_voice": [
+    "I should go.",
+    "Get up now, John.",
+    "Tuesday."
+  ]
+}

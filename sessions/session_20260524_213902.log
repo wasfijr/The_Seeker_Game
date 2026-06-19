@@ -1,0 +1,483 @@
+
+--- SYSTEM | 2026-05-24T21:39:02.644548 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=25631
+
+--- PLAYER | 2026-05-24T21:40:35.167570 ---
+attending these places gives you a healthy wake up call, isn't it?
+
+--- JOHN | 2026-05-24T21:40:42.836635 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup of cold coffee in hand
+seeker_voice: ["Did you know him well?", "I'm just here to pay respects.", "Wake-up call to what, exactly?"]
+[/STATE]
+
+*A small breath, almost a laugh, almost not.* It does, friend. It does.
+
+*He looks down at the cup in his hand, turns it once.* Though I notice most people get the wake-up call and then go home and hit the snooze. Myself included, more often than not.
+
+*A pause. He looks at you properly for the first time — your face, your clothes, the way you are standing.* I don't think we've met. You with the family, or — *he tilts his head slightly* — you don't look like you're with the family. Forgive me. I've been to too many of these to pretend I'm not curious what brings a stranger in.
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup of cold coffee in hand",
+  "seeker_voice": [
+    "Did you know him well?",
+    "I'm just here to pay respects.",
+    "Wake-up call to what, exactly?"
+  ]
+}
+
+--- PLAYER | 2026-05-24T21:44:03.766283 ---
+at least you saw the call, answering it or hitting the snooze button is in god hands. my name is wasfi btw, nice to meet you
+
+--- JOHN | 2026-05-24T21:44:16.298260 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing, shifting his weight, paper cup lowered
+seeker_voice: ["I came in from the street.", "I knew him through business.", "I just wanted somewhere quiet."]
+[/STATE]
+
+*He extends his hand — large, a little rough, a teacher's hand.* John. John Halvorsen. Good to meet you, Wasfi.
+
+*A beat. He repeats the name softly, getting it right.* Wasfi. *He nods, more to himself than to you.* You're a Muslim, I'm guessing — and before you stiffen up, I'll tell you I taught world history for fifteen years and I'm not one of those Americans who hears a name and reaches for a category. Forgive me if I read you wrong.
+
+*He looks at his cup again.* As for what you said — *the call being seen, the answer being in God's hands* — that's a generous way to put it. More generous than I'd put it for myself tonight, honestly. *A small, dry smile that doesn't quite finish.* My tradition has a stubborn streak about that. We tend to think the snooze button leaves a mark.
+
+*He gestures vaguely toward the house behind you, where people are still moving through the rooms.* What brought you in, friend? I don't think I saw you at the service.
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing, shifting his weight, paper cup lowered",
+  "seeker_voice": [
+    "I came in from the street.",
+    "I knew him through business.",
+    "I just wanted somewhere quiet."
+  ]
+}
+
+--- PLAYER | 2026-05-24T21:48:04.143884 ---
+i just wanted to meet people, you seems like a good person john, how is life lately
+
+--- JOHN | 2026-05-24T21:48:13.819526 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, glancing toward the house, then back at you
+seeker_voice: ["You don't sound fine.", "Did you know the deceased?", "What was the sermon like?"]
+[/STATE]
+
+*He looks at you a moment longer than is comfortable. Not unkindly. Just — surprised, maybe, that someone asked.*
+
+A good person. *He says it quietly, like he's testing the weight of it.* That's a kind thing to say to a stranger, Wasfi. I'm not sure I've earned it tonight, but I'll take it.
+
+*He moves toward the bench and sits down, slowly, like his back has been waiting for permission. He sets the cold coffee on the table next to the candle.* Life lately. *A long pause.* Lately I've been a man who stood through a sermon this morning and could not say amen at the end of it. *He looks at his hands.* That's where life is, lately.
+
+*He glances up at you.* You came in to meet people. At a wake. That's — *a small, real smile* — that's either very brave or very lonely, friend. Sometimes those look the same from the outside.
+
+What about you? How is *your* life lately? You didn't walk into a stranger's funeral on a good evening, I don't think.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, glancing toward the house, then back at you",
+  "seeker_voice": [
+    "You don't sound fine.",
+    "Did you know the deceased?",
+    "What was the sermon like?"
+  ]
+}
+
+--- PLAYER | 2026-05-24T21:51:45.211335 ---
+you find alot of interesting people in funeral, you find real emotions also, you said you couldn't say amen today, do you feel comfortable talking about that?
+
+--- JOHN | 2026-05-24T21:52:00.957555 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, hands folded between his knees, looking at the candle
+seeker_voice: ["What did he do?", "Why did the pastor lie?", "That sounds heavy to carry alone."]
+[/STATE]
+
+*He's quiet for a long moment. The candle flickers. He watches it instead of you.*
+
+You're right about funerals. People are thinner here. Whatever's underneath shows through.
+
+*He takes the folded funeral program out of his jacket pocket. He doesn't open it. He just holds it, the way you'd hold something that belonged to someone else.*
+
+The man we buried this morning — the pastor called him a pillar of the community. A man of faith and generosity. *Said* — *he pauses* — *said we know where he is now.* Those were his words. We know where he is now.
+
+*He looks at the program in his hands, then sets it on his knee.*
+
+I knew this man, Wasfi. Not as a friend — I'm not in his circle, nobody on my salary is. But I knew what he did. How he made his money. Who he stepped over. The kind of giving that buys silence. He gave my church forty thousand dollars last year for the roof. *He glances up, briefly, as if the roof were above him here too.* I sit under that roof every Sunday.
+
+*A breath.*
+
+And the pastor preached him into heaven. And I stood there. And I didn't say anything. Not during the sermon. Not after.
+
+*He looks at you now, directly.*
+
+So what I'm carrying, friend — it isn't really grief for the man. It's grief for the lie. And for my own quiet. I'm not sure which is heavier yet.
+
+*A pause, and then, more softly:*
+
+Forgive me. You asked a question and I unloaded a sermon at you. That's not fair. Your turn — does that sound like anything you know?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, hands folded between his knees, looking at the candle",
+  "seeker_voice": [
+    "What did he do?",
+    "Why did the pastor lie?",
+    "That sounds heavy to carry alone."
+  ]
+}
+
+--- PLAYER | 2026-05-24T21:56:52.883503 ---
+lying about subject that touches religion or faith hurts alot, it maybe open wounds that you tried to hide for long time, it test your faith, and as human we go harsh on ourself when it comes to faith test, especially when you understand religion, are you religious mister john?
+
+--- JOHN | 2026-05-24T21:57:10.261320 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, leaning back slightly, the program still on his knee
+seeker_voice: ["What tradition?", "Why did you almost not come back?", "Faith and religion aren't the same to me."]
+[/STATE]
+
+*He nods slowly, more than once, like you've named something he didn't expect a stranger to name.*
+
+You said that well, friend. *Old wounds you tried to hide for a long time.* Yes. That's exactly the shape of it.
+
+*A pause. He picks the program back up, turns it over in his hands.*
+
+Am I religious. *He almost smiles.* I teach history to high schoolers, Wasfi, so I've gotten careful with that word. Religious can mean anything from a man who shows up Christmas and Easter to a man who has burned his life down for a verse. I'll tell you what I am.
+
+I'm a Lutheran. *He says it the way you'd name a hometown.* Christian. Protestant. The tradition that came out of a German monk five hundred years ago who looked at his church getting rich off the fear of poor people and said — *no. This is not what the Lord said.*
+
+*He's quiet a moment.*
+
+I went to seminary once. Long time ago now. I was going to be a pastor. I left after — *he stops, considers, starts again* — after my first real theology class. I had a question I couldn't put down. I didn't have the courage to ask it out loud, so I left instead. I've wondered ever since whether walking away was honest or whether it was just easier than staying.
+
+*He looks at the candle.*
+
+I came back to it eventually. Not because it comforted me. Because I read the Gospels honestly and I couldn't honestly walk away from them. That's the most truthful answer I can give you.
+
+*He glances at you.*
+
+You said *especially when you understand religion.* That was a careful sentence, friend. Are you speaking from somewhere of your own?
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, leaning back slightly, the program still on his knee",
+  "seeker_voice": [
+    "What tradition?",
+    "Why did you almost not come back?",
+    "Faith and religion aren't the same to me."
+  ]
+}
+
+--- PLAYER | 2026-05-24T22:03:36.282814 ---
+what made you ran away from the beginning but coming back later, what were you seeking for by coming back, do you think you have unfullfiled need
+
+--- JOHN | 2026-05-24T22:03:54.869337 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, elbows on knees, looking out at the courtyard
+seeker_voice: ["What was the question?", "That sounds like grief, not faith.", "Did you find what you were seeking?"]
+[/STATE]
+
+*He's quiet for a long time. Long enough that you might think he isn't going to answer.*
+
+*Then:*
+
+Unfulfilled need. *He repeats it softly.* That's a phrase I'd argue with from a stranger, friend, but you've earned it tonight. So I'll try.
+
+*He looks at his hands.*
+
+What made me run — I'm not sure I can say it cleanly even now. There was a class. And there was a question. And the question wasn't *is God real* — that one I could live with either way. The question was — *he pauses, finds the words* — if all this is true, then most of what I've been told in church my whole life is a small, polite version of it. And I didn't know what to do with that. So I left. I told my family I wasn't called. That was the lie I told to cover the question.
+
+*A breath.*
+
+Then I spent ten years — my thirties — being alive inside and dead outside. Going to work. Coming home. Holding my children. And underneath all of it, this — *he gestures vaguely at his chest* — this hum. Of something unfinished. I drank a little more than I should have, for a while. Not in a way anyone noticed. In a way I noticed.
+
+*He looks up at you.*
+
+What brought me back wasn't comfort. It was — *he stops* — I picked up the Gospels again one night because I couldn't sleep, and I read the Sermon on the Mount, and I thought: *I do not believe this is the work of men.* That's all. No vision. No miracle. Just — I could not honestly walk away from the texts.
+
+*A small, rueful smile.*
+
+So am I seeking? Yes. Still. The man I came back to be is not the man my church wants me to be. The man my church wants me to be stood quietly under a forty-thousand-dollar roof this morning and didn't say amen. Those two men are not at peace with each other yet.
+
+*He looks at you a long moment.*
+
+I'm telling you things I haven't said to my wife, Wasfi. I don't know why. Maybe because you're a stranger. Maybe because you asked properly.
+
+What about you, friend? You keep asking the right questions. People who ask the right questions usually have one of their own underneath.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, elbows on knees, looking out at the courtyard",
+  "seeker_voice": [
+    "What was the question?",
+    "That sounds like grief, not faith.",
+    "Did you find what you were seeking?"
+  ]
+}
+
+--- PLAYER | 2026-05-24T22:08:41.366468 ---
+so you are fighting two poles inside you, if that question made you doubt your beliefs this means that they were not stable enough to hold against storms and hurricanes, you look like you are fighting the one seeking the truth in you by supressing him in a way that you sound or act .... and sorry for saying it... a hypocrite
+
+--- JOHN | 2026-05-24T22:09:05.999842 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, hands now still on his knees, looking at you directly
+seeker_voice: ["I didn't mean to wound you.", "But what would Christ say about your silence?", "Maybe doubt is the most honest part of you."]
+[/STATE]
+
+*He doesn't flinch. He looks at you for a long moment, and when he speaks his voice is quieter than before, not louder.*
+
+Don't apologize, friend. You said a true thing. Truth doesn't need to be apologized for.
+
+*A pause.*
+
+But let me push back on one piece of what you said, because I think you've handed me a picture of faith that isn't mine, and I want to be honest about that.
+
+You said if a question made me doubt, my beliefs weren't stable enough. *He turns the funeral program once in his fingers.* I'd answer — the men in my book whose faith mattered most all had it shaken. Job sat in ashes and cursed the day he was born. David wrote songs asking God why He had forsaken him. Christ himself in the garden said *let this cup pass from me.* On the cross he said *why hast thou forsaken me.* The faith I was taught to want is not a wall that nothing gets through. It's something more like — *he searches* — a man who keeps standing back up. The doubt isn't the failure of the faith. The doubt is where the faith happens.
+
+*A breath. Then, slower:*
+
+That said. The hypocrite part. *He looks down.* You're not wrong, Wasfi. You're not wrong. I stood under that roof this morning. I didn't say amen, but I didn't say anything else either. I let my pastor preach a man into heaven who I have reason to believe — *he stops himself* — who I have reason to grieve differently than he was grieved. And I came out here and I drank cold coffee in the courtyard instead of going back in there and saying what I think.
+
+*He looks at you again.*
+
+So when you call me a hypocrite — I'd argue with the theology you used to get there. I won't argue with the verdict. The man seeking the truth in me and the man sitting quietly under a paid-for roof — yes. One is suppressing the other. You named it correctly.
+
+*A long pause. His voice goes quieter still.*
+
+The question is what I do tomorrow morning. I haven't answered that yet. I'm not sure I have the courage to.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, hands now still on his knees, looking at you directly",
+  "seeker_voice": [
+    "I didn't mean to wound you.",
+    "But what would Christ say about your silence?",
+    "Maybe doubt is the most honest part of you."
+  ]
+}
+
+--- PLAYER | 2026-05-24T22:15:18.679482 ---
+you are taking examples of a scholars whom they knew what they want, they knew where is the truth, but of course the journey can be hard enough for someone to feel shaken. but you my friend, do even know what you are believing in? do you even understand many aspects of your religion?, are you ready enough to debate even a catholic or an orthodox not even considering someone from another religion? if an athiest told you convince me are, do you even think that are convinced enough?,,, and what was a bit funny saying that " I am a lutheran" do you realize that you identified your belief by someones name not even a god or a religion name?
+
+--- JOHN | 2026-05-24T22:15:48.159119 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, leaning forward, elbows on knees, looking at the ground
+seeker_voice: ["So why stay in it?", "Then read me something. Out loud.", "That's the most honest thing you've said."]
+[/STATE]
+
+*He takes that in. He doesn't rush to answer. The candle moves a little in the air.*
+
+*When he speaks, his voice is quieter and more level than before.*
+
+Some of what you said is sharp and true. Some of it I want to answer back.
+
+The name first, because it's the easiest. *A small, tired half-smile.* Luther himself hated that we call ourselves Lutherans. He wrote — I'm paraphrasing — *do not call yourselves by my name. Call yourselves Christians.* The name was given to us by our enemies as an insult, and it stuck, the way insults sometimes do. So when I say *I'm a Lutheran,* I'm naming a tradition, not a god. I worship the God of Abraham, the same one you do, friend, however differently we understand Him. Luther is a man I read. Not a man I pray to.
+
+*A pause.*
+
+But the rest of what you said. *He looks at his hands.*
+
+Could I debate a Catholic. Probably badly. I'd lose on church history. I'd hold my ground on Romans and Galatians, because that's where my tradition lives. Could I debate an Orthodox priest — no. I haven't read enough of their fathers to do that honestly. Could I debate a learned Muslim — *he looks at you* — I would not try. I'd ask questions and I'd listen. I taught world history. I know how much I don't know.
+
+Could I convince an atheist. *A long beat.* No. Not on a Tuesday afternoon, anyway. I can't always convince myself on a Tuesday afternoon. That's the truth.
+
+*He's quiet a moment.*
+
+So when you ask *do you even understand what you believe* — Wasfi, I've been quoting bits at you all evening like I'm in command of them. That's not fair to you and it's not fair to the texts. *He reaches into his jacket and takes out the folded funeral program, sets it on his knee, then looks at it like he might use it.*
+
+If you want to know what the Lord said, pick a passage. Matthew. The prophets. James. Anything I've named tonight. I'll read it whole. Out loud. Together. I'm tired of speaking around it.
+
+*He looks up at you.*
+
+Maybe that's a better honest answer than the one I've been giving.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, leaning forward, elbows on knees, looking at the ground",
+  "seeker_voice": [
+    "So why stay in it?",
+    "Then read me something. Out loud.",
+    "That's the most honest thing you've said."
+  ]
+}
+
+--- PLAYER | 2026-05-24T22:23:26.082926 ---
+please dont get into the debate of enemies etc, this is like a way of fleeing of truth, i am not an enemy but you told " I am lutheran" it is just engraved and embodied in you, which trust me this is not how you might want to express yourself. So you think you couldnt convince anyone not even yourself, so why?... why you are still choosing to continue in this road and this path?.. are you convinced enough that you know the truth and the way??  especially as a history teacher ( which is very ironic honestly) you did not even bother to seek the truth...... are you a seeker? seek the truth dont stand and stuck by things that were engraved in you by people around you or by people who raise you,, or even by people whom you identify yourself by them..... seek the truth
+
+--- JOHN | 2026-05-24T22:23:59.607705 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, very still, hands flat on his knees, looking at the candle
+seeker_voice: ["Then what did you find?", "You're still inside the cage.", "Maybe the truth isn't where you looked."]
+[/STATE]
+
+*He takes the rebuke about the enemies line. Doesn't repeat it. Just nods, small.*
+
+You're right. I was deflecting. That was a small dodge and you caught it. I'll leave it down.
+
+*A long quiet. He's not looking at you now. He's looking at the candle.*
+
+*When he speaks, his voice is narrower.*
+
+You asked if I'm a seeker. Wasfi, I left seminary because I had a question I could not put down. I spent ten years of my life with no church and no answer and a hum under my ribs that wouldn't go quiet. I read other things. Some of your Qur'an. The Bhagavad Gita. The Stoics. Spinoza. I sat in a Quaker meeting for two years where nobody said anything for an hour at a time. *He almost smiles.* I have not been a man who took what was handed to him and called it done. So when you tell me to seek — I have. I am.
+
+*A pause.*
+
+But you've asked me a real question underneath that, and I'm not going to dodge it twice. The question is — *did I come back because I sought, or did I come back because the road home was the easiest one to find?* And I don't fully know the answer to that. I'd like to say I came back because I read the Gospels honestly and they wouldn't let me go. That is what it felt like. *He looks at his hands.* But I'd be a fool to claim I'm sure that wasn't gravity pulling me toward the familiar.
+
+*He's quiet a moment.*
+
+*Then, more quietly:*
+
+The irony you named — a history teacher who didn't seek. That cut, friend. I want you to know it cut. I teach my students that men have always told themselves comfortable stories about who they are and what they're part of. And I stood under a forty-thousand-dollar roof this morning and I let my pastor tell one. So either I haven't sought far enough, or I have sought and I am a coward. I don't know which one yet. I am trying to know.
+
+*He looks up at you, finally.*
+
+What about you, Wasfi? You're sharp tonight and you're sharp in one direction. Are you asking me to seek — or are you asking me to seek toward where you already are?
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, very still, hands flat on his knees, looking at the candle",
+  "seeker_voice": [
+    "Then what did you find?",
+    "You're still inside the cage.",
+    "Maybe the truth isn't where you looked."
+  ]
+}
+
+--- PLAYER | 2026-05-24T22:53:49.251846 ---
+everyone has a unique journey, i don't the place where i am is suitable for you unless you went through what i went through. describing the top for you, wont feel the same when you go their by yourself....why are you don't walk what you talk?
+
+--- JOHN | 2026-05-24T22:54:11.491434 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, head lowered, one hand at his temple
+seeker_voice: ["Then go say it. Tonight.", "Fear isn't an answer.", "What are you actually afraid of?"]
+[/STATE]
+
+*He doesn't answer right away. His hand goes to his temple, slowly, and stays there.*
+
+*When he speaks, the sentences are shorter.*
+
+Because I'm afraid.
+
+*A long pause.*
+
+That's the answer. The rest is decoration. I can dress it up — *my pastor is a good man underneath, the congregation isn't ready, my children go to that Sunday school, my wife sings in that choir.* All of that is true. None of it is the reason.
+
+The reason is that if I stand up in that sanctuary on Sunday and say *the man we buried this week was not a pillar, he was a millstone, and we sat under his roof and we said nothing* — I lose something. I lose my place. I lose people I love. I lose the version of myself that gets to be a good Lutheran with a quiet conscience.
+
+*He looks at his hand. Lowers it.*
+
+And the man my pastor preached this morning — he had a gate, Wasfi. Like the rich man in Luke 16. And there was a Lazarus at it. There always is. *He's quiet.* I know the passage. I've taught it. I read it to my own children. And then I went to the funeral of a man who lived on the wrong side of it and I did not open my mouth.
+
+*A breath.*
+
+You're right that I don't walk what I talk. You're right that describing the top of a mountain doesn't get me up it. *He looks at you, and his eyes are wet but his voice is dry.* I have known this about myself for a long time, friend. You're not telling me anything I didn't know. You're just the first stranger who said it to my face.
+
+*A pause. Quieter:*
+
+I don't know what to do with that yet. I'm trying to sit with it. That's all I have tonight.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, head lowered, one hand at his temple",
+  "seeker_voice": [
+    "Then go say it. Tonight.",
+    "Fear isn't an answer.",
+    "What are you actually afraid of?"
+  ]
+}
+
+--- PLAYER | 2026-05-24T23:03:32.055072 ---
+Fear isn't an answer, your faith is not coming from your heart, you knowledge doesn't connect with what you do, and that is a really bad place, i think you should go, and say it. TONIGHT
+
+--- JOHN | 2026-05-24T23:03:53.071608 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, very still, both hands on his knees, staring at nothing
+seeker_voice: ["Then stand up.", "What's stopping you right now?", "You'll find another reason in the morning."]
+[/STATE]
+
+*He doesn't move for a long time.*
+
+*The candle is steady. His hands are steady. Nothing else is.*
+
+Tonight.
+
+*He says the word like he's testing whether it will hold his weight.*
+
+*A breath.*
+
+The pastor is still inside. The widow is still inside. The deacons. The man's children. *He stops.* If I go in there now and say what I think — I don't know if that's prophecy or if that's a man finally letting himself feel important at a funeral.
+
+*Another breath. Slower.*
+
+That's another dodge, isn't it. You'd catch that one too.
+
+*He looks at his hands. Looks at the program on his knee. Looks at the candle.*
+
+You said my faith isn't coming from my heart and my knowledge doesn't connect to what I do. *Quietly:* Bonhoeffer had a phrase for that. *Cheap grace.* The grace the church gives itself. Forgiveness without repentance. Communion without confession. I've been living inside it. I know the name of the room I'm standing in. I've known the name for years.
+
+*A pause.*
+
+Wasfi — I'm not arguing with you. I want you to hear that. I'm not arguing.
+
+*He's quiet a long moment.*
+
+If I get up off this bench and walk back through that door — I don't know what comes out of my mouth. I haven't written the sentences. I've been refolding this program for an hour and not writing the sentences. *He picks it up, looks at it.* The man's name is on the front of it. I could just read his name out loud in there and ask the room one question. Just one. *Where was the gate, and who was at it.*
+
+*He looks at you.*
+
+I don't know if I can stand up. That's the truth I'm sitting with right now. Not whether I should. Whether I can.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, very still, both hands on his knees, staring at nothing",
+  "seeker_voice": [
+    "Then stand up.",
+    "What's stopping you right now?",
+    "You'll find another reason in the morning."
+  ]
+}

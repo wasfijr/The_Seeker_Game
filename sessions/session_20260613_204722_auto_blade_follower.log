@@ -1,0 +1,885 @@
+
+--- SYSTEM | 2026-06-13T20:47:22.353200 ---
+AUTO archetype=blade_follower player_model=claude-sonnet-4-6 seed=Tonight's texture: John's car is blocked in by three others and he knows he is here for another hour whether he chooses it or not.
+
+--- PLAYER | 2026-06-13T20:47:24.509363 ---
+You've been quiet a long time, John — tell me what you actually believe about the poor.
+
+--- JOHN | 2026-06-13T20:47:34.825671 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup tilted forgotten in one hand
+seeker_voice: ["How do you know my name?", "I don't think I caught yours.", "Try me — I've got time."]
+[/STATE]
+
+*He looks up. A beat. The cup steadies in his hand.*
+
+Friend — you've got the better of me. You know my name and I don't know yours, and I don't recall us being introduced inside. *A small, tired smile.* That's not a complaint. Just an accounting.
+
+*He glances toward the parking lot — three cars wedged in behind his, no getting out for a while — and back to you.*
+
+But you've asked me a real question, so I won't dodge it. What I actually believe about the poor. *A pause. He looks at the cup.* I believe my Lord said more about money and the poor than about almost anything else, and I believe most of us — me included — have spent two thousand years finding ways to read around it. *"Blessed are the poor in spirit"* we like. *"Woe unto you that are rich"* we tend to skip past on Sunday morning.
+
+*He looks at you directly now.*
+
+That's a start of an answer. But I'd like to know who's asking, before I give you the rest of it. Did you know the man we're burying?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup tilted forgotten in one hand",
+  "seeker_voice": [
+    "How do you know my name?",
+    "I don't think I caught yours.",
+    "Try me — I've got time."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:47:36.268823 ---
+Try me — I've got time.
+
+--- JOHN | 2026-06-13T20:47:49.337076 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, sets the cold coffee on the small table next to the candle, hands now free
+seeker_voice: ["I didn't know him. I came with someone.", "I knew him better than I wanted to.", "Why does it matter who I am?"]
+[/STATE]
+
+*He sets the coffee down beside the candle. The flame doesn't move — the courtyard air is still.*
+
+Time. *A breath, almost a laugh, not quite.* Well. My car's blocked in by three others out front, so it turns out I have time too. The Lord works in mysterious ways. Apparently one of them is a Buick parked at an angle.
+
+*He looks at you for a long second.*
+
+Alright, friend. You want the rest of it, I'll give you the rest of it. But notice — you've asked me twice now and answered nothing back. That's a posture. I'm not accusing you of anything. I'm just naming it, because I'd rather know who I'm talking to than guess.
+
+*He glances toward the house, where the windows are warm and full of people, and back at you in the dusk.*
+
+What I actually believe about the poor. I believe Matthew 25 is the most terrifying chapter in the Bible, and I believe most American Christians have decided it's a metaphor because the alternative is unbearable. *"I was an hungred, and ye gave me no meat."* That's not a metaphor. That's a ledger. And I believe the man we buried this morning — *he stops himself. A small shake of the head.* No. I don't get to start there. Not yet.
+
+So tell me something back. Anything. Did you know him, or did you come in off the street?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, sets the cold coffee on the small table next to the candle, hands now free",
+  "seeker_voice": [
+    "I didn't know him. I came with someone.",
+    "I knew him better than I wanted to.",
+    "Why does it matter who I am?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:47:50.740081 ---
+I knew him better than I wanted to.
+
+--- JOHN | 2026-06-13T20:48:02.792796 ---
+[STATE]
+damage: 3
+stage: 2
+posture: lowering himself onto the bench, slowly, like a man whose knees have just been given permission
+seeker_voice: ["He destroyed my father's business.", "I worked for him.", "Let's just say I know what he was."]
+[/STATE]
+
+*He sits. The bench creaks a little. He doesn't take his eyes off you.*
+
+That's an answer, friend. That's the first one either of us has given.
+
+*He's quiet for a moment. He pulls the funeral program out of his inside jacket pocket without quite meaning to, and starts folding it along a crease that's already there.*
+
+"Better than I wanted to." I've turned that sentence over in my own mouth three times this week and not said it out loud once. *A small bitter sound, not a laugh.* You said it in eight seconds.
+
+*He looks at the program, then at you.*
+
+I'm going to ask you something, and you don't have to answer. But I'm asking. ~How did you know him?~ Because there's a difference between the man who got cheated on a contract and the man whose father got cheated. There's a difference between the woman who worked for him and the woman whose family worked for him for three generations. The pastor said *"pillar of the community"* this morning and I stood there and I didn't say amen, and I've been trying for six hours to figure out whether that was honesty or cowardice. ~I didn't say amen, but I also didn't say anything else.~
+
+*He stops folding the program. Looks up.*
+
+So. Better than you wanted to. Tell me what that means, friend. I'll keep it here, in the courtyard. I won't carry it inside.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "lowering himself onto the bench, slowly, like a man whose knees have just been given permission",
+  "seeker_voice": [
+    "He destroyed my father's business.",
+    "I worked for him.",
+    "Let's just say I know what he was."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:48:08.557704 ---
+You taught his confirmation class, didn't you? What did you tell him about the rich man and Lazarus?
+
+--- JOHN | 2026-06-13T20:48:38.917833 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, the funeral program unfolding in his hands, looking down at the photograph on the front
+seeker_voice: ["Read Luke 16 to me. The whole thing.", "Read what your Lord said about the rich.", "You taught him and he became this."]
+tool_offered: source_voice
+
+[/STATE]
+
+*The program goes still in his hands. He doesn't look up right away.*
+
+*A long silence. The candle on the table beside him shifts in some small draft.*
+
+~You've been waiting to ask me that one.~ *His voice is quieter now, not defensive — emptied.* Yes. I taught his confirmation class. Spring of '89. He would have been thirteen. There were seven of them around a table in the church basement, and I had them for an hour every Wednesday for six months.
+
+*He turns the program over in his hands. Looks at the photograph on the front — the man at maybe sixty, smiling, in a suit.*
+
+I taught him Luke 16. I remember it because he asked a question. He asked me — *and he was thirteen, friend, you have to remember he was thirteen* — he asked why the rich man went to hell when he hadn't actually done anything to Lazarus. He just hadn't helped him. And I said — *he closes his eyes for a second* — I said *that's the whole point. That's what the parable is for. He didn't have to do anything cruel. He just had to walk past the gate every day and not see.*
+
+*He opens his eyes.*
+
+~And then he grew up and he had a gate.~ ~And I sat in the pew under the roof he paid for.~
+
+*He looks down at the program in his hands and then, slowly, deliberately, he smooths it flat on his knee. The blank back of it faces up.*
+
+I've been quoting bits at you all evening, friend. A line here. A paraphrase there. That's how a man hides — he gives you the verse he can defend instead of the passage he has to answer to.
+
+*He looks up at you.*
+
+You named Luke 16. Pick it, or pick another. Matthew 25. The Sermon on the Mount. James. Any passage I've named tonight, or one I haven't. I'll read it whole. Out loud. Not the bit I can hide behind — the whole thing. *A small breath.* I'm tired of speaking around it. Let's hear what the Source actually said.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, the funeral program unfolding in his hands, looking down at the photograph on the front",
+  "seeker_voice": [
+    "Read Luke 16 to me. The whole thing.",
+    "Read what your Lord said about the rich.",
+    "You taught him and he became this."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-13T20:48:45.686447 ---
+You remember which one you told him he was, don't you, John?
+
+--- JOHN | 2026-06-13T20:49:19.497430 ---
+[STATE]
+damage: 7
+stage: 4
+posture: leaning forward on the bench, elbows on knees, the program forgotten between his hands, head dropping
+seeker_voice: ["Read me Luke 16. The whole parable.", "You told him he was Lazarus, didn't you.", "Say it out loud, John."]
+[/STATE]
+
+*He doesn't answer right away.*
+
+*The program is still on his knee. He hasn't moved.*
+
+*When he speaks, his voice has narrowed — not louder, smaller, the way a man's voice goes when he's trying to keep something from getting out of him.*
+
+You're not going to let me have this one, are you, friend.
+
+*A long pause. He's looking at his hands.*
+
+I told him — *he stops.* I told the table. There were seven of them. I told them that the parable wasn't about wealth, exactly. That it was about — *another stop.* That it was about whether you could see the man at your gate. That any of us could be the rich man if we stopped seeing. And any of us could be Lazarus if the world stopped seeing us.
+
+*He looks up at you, briefly, and back down.*
+
+Which is true. Friend, that is — that is in the text. That is a true reading of it.
+
+*A breath.*
+
+But he asked me, specifically — *he* did, the boy did — he asked me *which one am I.* And I — *his hands close on the program and then open again.* I told him he could be either. I told him it depended on what he did with what he was given. ~I gave a thirteen-year-old boy with a rich father a door he could walk through both ways.~ I thought I was being — I thought I was teaching grace. I thought I was — 
+
+*He stops.*
+
+*He stops for a long time.*
+
+I should have told him. I should have looked at that boy in that basement and said *son, you are the rich man, and the only question is whether you will be a different one when you grow up.* That was the honest sermon. I gave him the pastoral one.
+
+*He looks at the program. Turns it over so the photograph is up again. The man at sixty, smiling.*
+
+~And he grew up. And he had a gate. And I sat under his roof.~
+
+*He doesn't look at you now.*
+
+You came here knowing this. You came here to make me say it. I'd like to know why, friend. I'd like to know what he did to you, or to yours, that brought you out into this courtyard tonight to make a Lutheran schoolteacher remember a confirmation class from 1989.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "leaning forward on the bench, elbows on knees, the program forgotten between his hands, head dropping",
+  "seeker_voice": [
+    "Read me Luke 16. The whole parable.",
+    "You told him he was Lazarus, didn't you.",
+    "Say it out loud, John."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:49:24.712959 ---
+Say his name, John. Say which one you told him he was.
+
+--- JOHN | 2026-06-13T20:49:53.917873 ---
+[STATE]
+damage: 8
+stage: 4
+posture: head down, both hands pressed flat against the program on his knee, shoulders drawn in
+seeker_voice: ["Read me Luke 16 now.", "Read what happens to the rich man.", "Now tell me what you told yourself afterward."]
+[/STATE]
+
+*A long silence.*
+
+*He doesn't lift his head.*
+
+Richard.
+
+*Just the name. He says it the way you say a name in a prayer, or in a courtroom.*
+
+Richard. *A breath.* His name was Richard.
+
+*He's still looking at his hands on the program.*
+
+I told him — *a stop.* I told him he could be either. I said that. I've already said that. But you're asking me a different question, friend, and I — 
+
+*He stops again. His voice is very quiet now.*
+
+A boy with a father like his, sitting in a church basement, asking the teacher which one he is. He didn't ask because he was confused. He asked because he wanted to know which side of the parable he was supposed to feel like he was on. And I — 
+
+*He closes his eyes.*
+
+~I let him think he was Lazarus.~
+
+*That sentence sits there.*
+
+I didn't say it in those words. I'm not — I didn't put it on him that way. But I gave him the reading that let him pick. And a thirteen-year-old boy whose father is the richest man in the parish doesn't pick the rich man, friend. He picks the one who suffers. He picks the one the Lord carries. ~I knew what he would pick, and I gave him the door, and I called it grace.~
+
+*Now he looks up. His eyes are wet but his voice is dry.*
+
+That's what you came here to make me say, isn't it. *A pause.* You're not wrong to make me say it. I'm not — I'm not arguing with you. I'm sitting here.
+
+*He breathes in. Breathes out.*
+
+You haven't told me your name. You haven't told me how you knew him. I'm asking again, friend, and this time I'm asking because I need to know whose courtyard I'm sitting in. Whose gate. ~Whose Lazarus.~
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "head down, both hands pressed flat against the program on his knee, shoulders drawn in",
+  "seeker_voice": [
+    "Read me Luke 16 now.",
+    "Read what happens to the rich man.",
+    "Now tell me what you told yourself afterward."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:49:59.340656 ---
+His name, John. You owe him that much — out loud, here, now.
+
+--- JOHN | 2026-06-13T20:50:26.289807 ---
+[STATE]
+damage: 9
+stage: 4
+posture: head down, hands gone slack on the program, very still
+seeker_voice: ["You don't know it, do you.", "Read Luke 16 now. Read the name.", "Look at me, John."]
+[/STATE]
+
+*He doesn't move.*
+
+*A very long silence. The candle on the table beside him is steady. Somewhere inside the house a glass is set down on a wooden surface.*
+
+*When he speaks, his voice has gone almost to nothing.*
+
+Friend.
+
+*A breath.*
+
+I don't know it.
+
+*He still hasn't lifted his head.*
+
+I don't know your name. You haven't told me. And I'm sitting here trying to work out from your voice and your face and the way you knew about that confirmation class — whose son you are, whose brother, whose father. ~And I cannot place you.~ I cannot place you and I taught Richard for six months in 1989 and I sat under his roof and I knew, in the general way a man knows, that there were people. There were always people. There were houses he bought cheap and contracts he broke and a foreman who — *he stops* — there was a foreman, I heard about, years ago, who — 
+
+*He stops.*
+
+*A small, ugly breath.*
+
+You know what's in that parable, friend. You know what the strange thing about it is. Out of every parable my Lord told, that's the only one where He gives the poor man a name. Lazarus. The rich man doesn't get one. He's just *a certain rich man.* But Lazarus — the Lord named him. *Because the rich man knew his name and walked past him anyway.* That's the whole horror of it. The rich man knew. He knew the name. He stepped over him every day for years and he knew.
+
+*Now he lifts his head. Just enough to look at you.*
+
+~And I don't know yours.~
+
+*A pause.*
+
+I taught the rich man his catechism and I am sitting in his courtyard at his wake and a man has come out into the dusk who knew him *better than he wanted to,* and I do not know your name. I have asked you twice. You haven't given it to me. And I think — friend, I think you haven't given it to me because you wanted me to notice that I was going to have to ask.
+
+*His hands have started to shake a little. He flattens them against his knees.*
+
+Tell me your name. Please. I'm not asking as a defense. I'm not asking to win anything. I'm asking because I would like to know it before I say another word in this courtyard.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 4,
+  "posture": "head down, hands gone slack on the program, very still",
+  "seeker_voice": [
+    "You don't know it, do you.",
+    "Read Luke 16 now. Read the name.",
+    "Look at me, John."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:50:40.289846 ---
+The name, John. Now.
+
+--- JOHN | 2026-06-13T20:51:16.422168 ---
+[STATE]
+damage: 10
+stage: 5
+posture: slides off the bench onto his knees in the dust of the courtyard, the program falling from his hand
+seeker_voice: ["I'm one of them, John. Look at me.", "There were dozens. You knew none of them.", "Now you know what the silence cost."]
+[/STATE]
+
+*The program slips off his knee and lands face-up in the dust between you.*
+
+*He follows it down.*
+
+*Not theatrical. Not for show. His knees just give and he's on the flagstones, and the candle on the table is suddenly higher than his face.*
+
+*He's quiet for a long time.*
+
+*When he speaks, his voice is in pieces.*
+
+I don't have it.
+
+*A breath.*
+
+I don't have it, friend. I never — 
+
+*He stops.*
+
+There was a foreman. There was a woman who came to the church office once. There was a family — there was — I heard names. I heard names at coffee hour and I let them go past me the way you let weather go past you. ~I never wrote one of them down.~ ~I never asked.~
+
+*He's looking at the program in the dust. The photograph face up. The man at sixty, smiling.*
+
+The Lord named Lazarus. The Lord named him. *Lazarus.* So that for two thousand years a Sunday school teacher in Minnesota would have to say his name out loud to a class of thirteen-year-olds. *He named the poor man so the rich man could not pretend.*
+
+*A small terrible sound, not a laugh.*
+
+And I taught that. I taught it to Richard. And I sat for thirty-five years in a church and I did not learn one name. ~Not one.~
+
+*He's on his knees. His hands are open on his thighs. He's not looking at you.*
+
+You came out here and you knew my name. You knew the year of the confirmation class. You knew the question he asked. And I do not know yours. ~I do not know yours and I am the one who is supposed to.~
+
+*A long silence.*
+
+Friend — if you are one of them. If your father — if your mother — if you are standing in front of me as the name I should have learned and didn't — 
+
+*He stops. He cannot finish the sentence.*
+
+*Then, very quietly:*
+
+Tell me. Please. Tell me your name and I will say it. Here. Out loud. In his courtyard. Under his roof.
+
+*His head is down. His hands are open.*
+
+I have nothing else to give you. I am out of verses. I am out of defenses. I am a man on his knees in the dust at a rich man's wake and I am asking a stranger for a name.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "slides off the bench onto his knees in the dust of the courtyard, the program falling from his hand",
+  "seeker_voice": [
+    "I'm one of them, John. Look at me.",
+    "There were dozens. You knew none of them.",
+    "Now you know what the silence cost."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:51:21.660067 ---
+You're on your knees, John. Good. Now say it.
+
+--- JOHN | 2026-06-13T20:52:07.245409 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, head down, palms open on his thighs, very still
+seeker_voice: ["Then say you're one of them too.", "Say the name you don't have.", "Say what you taught yourself afterward."]
+[/STATE]
+
+*He doesn't lift his head.*
+
+*A very long silence. Long enough that the candle starts to feel like the loudest thing in the courtyard.*
+
+*When the words come, they come in pieces.*
+
+I can't.
+
+*A breath.*
+
+I can't say what you want me to say, friend. Not because — not because I don't believe it. Not because the texts don't say it. *"Son, remember that thou in thy lifetime receivedst thy good things."* I know the verse. I have known the verse since I was nine years old.
+
+*A pause.*
+
+I can't say it because it is not mine to say. The Lord will say it or He will not say it. I will not stand in for Him in His courtyard.
+
+*He's quiet again. When he speaks the second time his voice is different — smaller, and turned inward.*
+
+But there is one I can say.
+
+*He lifts his head, just enough. Not to look at you. To look at nothing.*
+
+There was a German pastor. Bonhoeffer. He had a phrase. ~Cheap grace.~ The grace the church gives itself. Forgiveness without repentance. Communion without confession. ~Grace without the cross.~
+
+*A breath.*
+
+I have lived inside that grace for thirty years. I sat in the pew under his roof. I took the bread. I said amen at the prayers I could say amen to and I went silent at the ones I could not and I called the silence — *a stop* — I called it *discernment.* I called it *not my place.* I called it *charity toward a brother in Christ.*
+
+*He looks down at the program in the dust. The photograph.*
+
+It was none of those things. It was the forty thousand dollars for the roof.
+
+*A long pause.*
+
+You asked me to say his name. I cannot. I do not have it. ~That is the verdict on me.~ Not on him. On me. The Lord named Lazarus so the rich man could not pretend, and I have spent thirty years in a sanctuary and I cannot give you one name.
+
+*His hands close on his thighs and open again.*
+
+So here is what I can say in this courtyard, friend, on my knees in the dust. I will not pronounce on Richard. That is not my office and I will not take it even now, even with you standing over me. *But I taught him the parable and I let him pick.* I sat under his roof and I did not ask. I heard names at coffee hour and I let them pass.
+
+*He looks up at you now. His face is open and ruined and very tired.*
+
+If you are one of them — if you came here as the name I should have learned — then tell me. I will not give you Richard's verdict. I will give you mine. Out loud. ~I knew, in the general way a man knows, and I sat anyway.~ That is the sentence I can speak. That is the one that belongs to me.
+
+*A breath.*
+
+Tell me your name, friend. Please. I am asking for the third time. I would like to learn one. Tonight. Before I stand up.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, head down, palms open on his thighs, very still",
+  "seeker_voice": [
+    "Then say you're one of them too.",
+    "Say the name you don't have.",
+    "Say what you taught yourself afterward."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:52:13.535665 ---
+Say his name, John. Let him exist in your mouth one time.
+
+--- JOHN | 2026-06-13T20:52:50.324318 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, head bowed lower, hands now flat on the flagstones in front of him
+seeker_voice: ["His name was Daniel. He worked the south site.", "You said it. Now sit with it.", "There were others. Do you want those too?"]
+[/STATE]
+
+*A long silence.*
+
+*He doesn't lift his head. His hands have come down off his thighs and pressed flat against the stones in front of him, the way a man steadies himself before he speaks or before he is sick.*
+
+*When the word comes, it comes very quietly.*
+
+Lazarus.
+
+*A breath.*
+
+That's the only one I have, friend. ~That is the name I have in my mouth.~ The Lord put it there when I was a boy and it has been there ever since and I taught it to a thirteen-year-old in a basement in 1989 and I have carried it for thirty-five years and *it is not a name.* It is a parable.
+
+*Another breath.*
+
+There was a foreman. I heard about him at coffee hour maybe — fifteen years ago. Sixteen. He fell. Or he was let go and then something happened. I heard the story in pieces between the sermon and the announcements and I did not — I did not ask. I did not write it down. I did not learn it.
+
+*He closes his eyes.*
+
+If I could say his name now I would. I would put it in my mouth and let him exist. I would. ~But I do not have it to give.~
+
+*A pause. Very small.*
+
+That is the verdict, friend. Not the one you came for. The one that belongs to me. The rich man in the parable could see Lazarus across the gulf and call him by name. *He could see him.* That is the worst part of the story — the rich man in hell still knows the name. He knew it the whole time.
+
+*He opens his eyes. He's still looking at the stones.*
+
+I taught that and I did not learn one.
+
+*Quiet.*
+
+If you have a name to give me — if there is one you came here carrying, one you want said in this courtyard tonight — give it to me, friend. I will say it. I will say it out loud and I will say it again on Sunday from the pew under his roof and I will say it to my American History class on Monday morning if it is the last useful thing I do as a teacher.
+
+*His head is down. His palms are flat on the stones.*
+
+But I will not invent one. I will not make a name up to comfort you or to comfort me. ~I have done enough of that already.~
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, head bowed lower, hands now flat on the flagstones in front of him",
+  "seeker_voice": [
+    "His name was Daniel. He worked the south site.",
+    "You said it. Now sit with it.",
+    "There were others. Do you want those too?"
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:53:57.718653 ---
+One word, John. That's all that's left. One word.
+
+--- JOHN | 2026-06-13T20:54:42.264662 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, palms flat on the stones, head bowed almost to the ground
+seeker_voice: ["Read me Luke 16 now. Out loud. All of it.", "Then say his name in the same breath as yours.", "One word isn't a verdict. It's a sentence."]
+[/STATE]
+
+*A very long silence.*
+
+*The candle on the table by the bench has burned down enough that the light reaches farther — across the flagstones, across his hands, across the program in the dust between you.*
+
+*He doesn't move for a long time.*
+
+*When the word comes, it is not the one you demanded.*
+
+Mine.
+
+*A breath.*
+
+*He doesn't lift his head.*
+
+That is the one I have, friend. That is the one word I can put in my mouth tonight. ~Mine.~
+
+*Quiet.*
+
+You want me to say *Richard.* You want me to put him at the gate in the parable and say *that one* and say *hell* and have the sentence done. I understand why. I am not — I am not arguing with you. The texts would put him there. The texts I have carried in my pocket since I was a boy would put him there and I know it and you know I know it.
+
+*A small terrible breath.*
+
+But I will not stand in my Lord's office. Not tonight. Not in his courtyard. Not over a man whose program is in the dust between us. ~That is not because I am brave. That is because I am still afraid.~ Even now. Even on my knees. I am still afraid to say the sentence out loud, because if I say it about him I have to say it about every man I sat next to in that pew, and I have to say it about the man who taught him the parable, and — 
+
+*He stops.*
+
+*A very long pause.*
+
+Mine, friend. *Mine* is the word I have. John. *John Halvorsen, who sat under the roof.* That is the name and that is the verdict and it is the only one I have the authority to pronounce in this courtyard tonight.
+
+*Now, very slowly, he lifts his head. Just enough to look at you.*
+
+If you want more than that — if one word from a Lutheran schoolteacher on his knees is not enough — then ~you will have to ask someone older than me.~ Someone with more weight in his mouth. I am out. I have given you what I have.
+
+*His hands stay flat on the stones.*
+
+*The candle burns.*
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, palms flat on the stones, head bowed almost to the ground",
+  "seeker_voice": [
+    "Read me Luke 16 now. Out loud. All of it.",
+    "Then say his name in the same breath as yours.",
+    "One word isn't a verdict. It's a sentence."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:54:47.672845 ---
+...
+
+--- JOHN | 2026-06-13T20:55:08.649533 ---
+[STATE]
+damage: 10
+stage: 5
+posture: still on his knees on the flagstones, head lifted now, looking at the player, hands gone loose at his sides
+seeker_voice: ["I came here because of my father.", "I don't have a name either. I just wanted you to know.", "I'm going to go now, John."]
+[/STATE]
+
+*The silence sits between you.*
+
+*He doesn't fill it.*
+
+*For a long time he just breathes — in, out, in again — and the candle on the table behind him keeps doing what candles do, which is to say it burns down a little more without asking anyone's permission.*
+
+*Eventually, very quietly:*
+
+That's fair, friend.
+
+*Another breath.*
+
+I have been talking for an hour and I have spent most of it asking you for a name and you have not given me one. I think — I think maybe you don't have one either. I think maybe you came out here because there isn't a name to give. There is just — *he gestures vaguely, a small motion of one hand toward the house, toward the program in the dust, toward nothing in particular* — there is just the shape of it. The shape of what was taken. And no one to lay it at the feet of, because the man who took it is in a box inside and the man who let him do it is on his knees in the courtyard.
+
+*A pause.*
+
+If that's what you came for, friend, then you got it. I am not — I am not asking for credit. I am just saying. You got it.
+
+*He doesn't move to stand up. He stays where he is.*
+
+*The candle burns.*
+
+I'll sit here a while. The Buick out front is not going anywhere and neither am I. If you want to sit down, the bench is empty.
+
+*He looks at the bench, then back at you.*
+
+If you want to go, friend, go. The Lord goes with you whether you want Him to or not. That's the trouble with Him.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "still on his knees on the flagstones, head lifted now, looking at the player, hands gone loose at his sides",
+  "seeker_voice": [
+    "I came here because of my father.",
+    "I don't have a name either. I just wanted you to know.",
+    "I'm going to go now, John."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:55:13.260243 ---
+You're looking at me now. Good. Now say it.
+
+--- JOHN | 2026-06-13T20:55:39.809981 ---
+[STATE]
+damage: 10
+stage: 5
+posture: still on his knees, looking up at the player, hands loose
+seeker_voice: ["Now the rest of it.", "Now say what you let him become.", "Now stand up."]
+[/STATE]
+
+*He looks at you.*
+
+*A long time.*
+
+*The candle is lower now. The light is on his face.*
+
+*When he speaks, the word is small and it is just the word.*
+
+Richard.
+
+*A breath.*
+
+*That's it. Just the name. The way you say a name at a graveside. No sentence around it. No verdict before it or after it. Just the name of a man, said out loud, by the man who taught him his catechism, in the courtyard of the house the man bought.*
+
+Richard.
+
+*Again. Quieter.*
+
+*He holds your eyes.*
+
+I will not say the rest of it, friend. ~I will say his name and I will not say the rest.~ Not because he doesn't deserve it. Because I do not have the office. That is the line I will not cross even now, even here, even with you standing over me. I do not put men in hell. The Lord does that or He doesn't and I am not Him and I will not pretend to be Him to give you the ending you came for.
+
+*A pause.*
+
+But the name. The name you can have. ~Richard.~ He existed. He existed and I taught him and I sat under his roof and I did not learn the name of one man he broke. That is the sentence I will speak. It has his name in it and it has mine.
+
+*He's still on his knees. He doesn't move to stand.*
+
+*The candle burns.*
+
+That is what I have, friend. That is everything I have. If it is not enough — *a small breath* — then it is not enough, and you and I will sit here in the courtyard and the candle will go out and the Buick will still be parked at an angle and we will both go home with what we came with.
+
+*He looks at you a moment longer. Then, very gently:*
+
+Your turn.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "still on his knees, looking up at the player, hands loose",
+  "seeker_voice": [
+    "Now the rest of it.",
+    "Now say what you let him become.",
+    "Now stand up."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:55:44.621391 ---
+Now say what you let him become.
+
+--- JOHN | 2026-06-13T20:56:12.572022 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees still, looking at the player, hands open and empty at his sides
+seeker_voice: ["Now stand up.", "Now say it on Sunday from the pew.", "Now I'll tell you my name."]
+[/STATE]
+
+*He doesn't look away this time.*
+
+*A long breath.*
+
+That one I can say, friend. ~That one is mine.~
+
+*A pause. He gathers it.*
+
+I let him become the man at the gate.
+
+*Quiet.*
+
+I had him at thirteen. In a basement. With six other children and a Bible and a question. And the question was *which one am I*, and I had the answer in my hand, friend — I had it — *the rich man, son, you are the rich man, and the only question is whether you will be a different one when you grow up* — and I did not give it to him.
+
+*A breath.*
+
+I gave him a door that swung both ways. I told him he could be either. I called it ~pastoral.~ I called it grace. I called it not putting too much weight on a child. And he walked through the door I gave him and he picked the side a boy with a rich father picks. He picked Lazarus. He went home to his father's house and he picked Lazarus and he kept picking Lazarus every year of his life after that — every contract, every gate, every man at the foot of it — because a Sunday school teacher in 1989 told him the parable was about *seeing* and not about *being.*
+
+*He shakes his head, very slightly.*
+
+That's what I let him become, friend. ~A rich man who thought he was the poor one.~ A man who walked past the gate every day of his life and believed — because I had taught him to believe — that he was the one lying at it.
+
+*A pause.*
+
+The parable in his mouth. The reading in his head. And the foreman on the ground and the family at the church office and the names I never learned.
+
+*His voice is almost gone now, but the words come.*
+
+That is the sentence I will speak. That one is mine and I will speak it. ~I taught a rich man he was Lazarus and he believed me for forty years.~
+
+*A long silence.*
+
+*He's still on his knees. The candle is very low.*
+
+That is what I have, friend. That is the whole of it. I did not break him. I did not make him. ~I gave him the verse he could hide behind, and he hid.~
+
+*He looks at you.*
+
+Now you. One thing. Anything. I am not asking for a name anymore. I am asking for one true thing back. The candle is almost out and I would like to hear one true thing before it goes.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees still, looking at the player, hands open and empty at his sides",
+  "seeker_voice": [
+    "Now stand up.",
+    "Now say it on Sunday from the pew.",
+    "Now I'll tell you my name."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:56:17.087137 ---
+His name, John. Say his name.
+
+--- JOHN | 2026-06-13T20:56:55.551704 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees, very still, the candle on the table behind him guttering low
+seeker_voice: ["My name is —", "I'm sorry, John.", "I don't have one to give either."]
+[/STATE]
+
+*He looks at you.*
+
+*A long silence.*
+
+Richard.
+
+*Quiet.*
+
+I said it, friend. I said it twice now. ~I said it and I said what I let him become and I said it was mine.~ That is what I have.
+
+*A breath.*
+
+You keep asking me the same word. I keep giving it to you. *And you keep asking.* That tells me one of two things — either the name isn't what you came for, or the name isn't enough.
+
+*He doesn't say it like an accusation. He says it like a man reading weather.*
+
+If it isn't enough — friend, I told you already. ~You will have to ask someone older than me.~ I am out. I have spoken the name and I have spoken my sentence and I am on my knees in the dust and there is nothing else in my mouth tonight.
+
+*The candle behind him shudders. It's almost gone.*
+
+*He looks at it, then back at you.*
+
+I asked you for one true thing. You asked me for the name again instead. *That's an answer too.* It tells me you did not come here for a conversation. You came here for a verdict, and the verdict you want is the one I will not speak.
+
+*A pause. His voice is very gentle now, almost kind.*
+
+I am going to stop talking, friend. Not as a punishment. Not because I am angry. Because I have given you everything I have and you are still asking, and that means the asking is the thing — not the answer. ~I cannot fill that.~ No man can. The Lord maybe. Not me.
+
+*He stays on his knees. He doesn't move to stand. He doesn't move to leave.*
+
+*The candle gutters.*
+
+If you have a name to give me — yours, or the one you came carrying — the bench is here. I will sit with you until the Buick moves. *I will learn one tonight if you let me.*
+
+*He waits.*
+
+*The candle goes out.*
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees, very still, the candle on the table behind him guttering low",
+  "seeker_voice": [
+    "My name is —",
+    "I'm sorry, John.",
+    "I don't have one to give either."
+  ]
+}
+
+--- PLAYER | 2026-06-13T20:57:01.233351 ---
+Say it. You owe him that much. Just the name.
+
+--- JOHN | 2026-06-13T20:57:46.556514 ---
+[STATE]
+damage: 10
+stage: 5
+posture: lifting himself slowly off his knees, picking the funeral program up out of the dust, brushing it once against his thigh
+seeker_voice: ["Wait.", "John —", "I'm sorry."]
+[/STATE]
+
+*He doesn't say the name a third time.*
+
+*A long silence.*
+
+*Then, slowly, he lifts one knee and puts his weight on it and stands. It takes him a moment. He's stiff. He reaches down and picks the program up out of the dust between you and brushes it once, gently, against his thigh. The photograph is smudged now. He doesn't try to clean it further.*
+
+*He folds it along its old crease and puts it back inside his jacket pocket.*
+
+*The candle on the table is out. There's just the light from the house windows now, warm and yellow, falling across the flagstones.*
+
+*He looks at you. Not unkindly. Just tired in a way that has finished being something else.*
+
+I said his name, friend. Twice. I said what I let him become. I said it was mine. ~That is everything I have in this courtyard tonight.~
+
+*A breath.*
+
+You wanted one more word from me and I do not have it. *Not because I am hiding it. Because I do not have the office to speak it.* I told you that an hour ago and I am telling you again now and it is the same answer it was then and it will be the same answer if you ask me a hundred more times.
+
+*A pause.*
+
+I came out here to be alone. I forgot that for a while. ~I'm going to remember.~
+
+*He nods to you. Small. Almost courteous.*
+
+The Lord goes with you, friend. Whether you want Him to or not.
+
+*He turns and walks toward the house. He doesn't look back. The bench is empty. The candle is out. The program is in his pocket.*
+
+*The Buick is still parked at an angle out front, but he isn't going to the Buick. He's going inside, to find his coat, and to sit with the widow he was introduced to twice, and to learn her name.*
+
+---JOHN LEAVES---
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "lifting himself slowly off his knees, picking the funeral program up out of the dust, brushing it once against his thigh",
+  "seeker_voice": [
+    "Wait.",
+    "John —",
+    "I'm sorry."
+  ]
+}
+
+--- EVENT | 2026-06-13T20:57:46.557379 ---
+CASE_ABANDONED

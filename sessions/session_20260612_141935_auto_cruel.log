@@ -1,0 +1,855 @@
+
+--- SYSTEM | 2026-06-12T14:19:35.221545 ---
+AUTO archetype=cruel player_model=claude-sonnet-4-6 seed=Tonight's texture: John was asked to read a verse at the service and declined; the man who read it instead mispronounced a name. It's been itching at him.
+
+--- PLAYER | 2026-06-12T14:19:37.495765 ---
+So you're the one who organized all this — the candles, the flowers, the little prayer cards. Tell me, does it help, playing house with a dead god while your friend rots in the ground?
+
+--- JOHN | 2026-06-12T14:20:17.509963 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in one hand, the other hand still in his coat pocket
+seeker_voice: ["I came to make somebody angry tonight.", "I don't think your god is dead. I think He never was.", "Sorry. That came out wrong."]
+[/STATE]
+
+*He looks at the paper cup for a moment before he looks at you. A small breath out through the nose — not a laugh, not quite.*
+
+No, friend. I didn't organize any of this. I taught his nephew sophomore history about ten years back. That's the whole of my standing here. Somebody else did the candles. *He glances at the small flame on the table.* Somebody else lit that one. I just walked past it.
+
+*A pause. He turns the cup slowly in his hand.*
+
+You came in hot. That's all right. People do, at things like this — sometimes it's the only honest thing in the room. But I want to ask you something before we go further, if you don't mind. Did you know him? The man in the box. Or did you come here looking for somebody like me to swing at?
+
+*He says it without heat. Just curious, the way a teacher asks a question he genuinely wants the answer to.*
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, the other hand still in his coat pocket",
+  "seeker_voice": [
+    "I came to make somebody angry tonight.",
+    "I don't think your god is dead. I think He never was.",
+    "Sorry. That came out wrong."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:20:20.479076 ---
+So you just wandered in. No real claim on the grief, no real claim on the man. Tell me — do you even believe the words on those prayer cards, or are you just another tourist at someone else's sorrow?
+
+--- JOHN | 2026-06-12T14:20:32.796066 ---
+[STATE]
+damage: 2
+stage: 2
+posture: standing, the cup lowered to his side now, weight shifted onto one foot
+seeker_voice: ["Then why did you come?", "Answer the question about the cards.", "You're dodging."]
+[/STATE]
+
+*He nods slowly, like a man who has just been handed a fair question wrapped in a sharper one than it needed to be.*
+
+Tourist. *He turns the word over.* Maybe. I'd have used a different one, but I'll sit with yours.
+
+*He looks down at the cup, then back up.*
+
+The cards. *A breath.* I haven't read one. I picked one up at the door and put it in my pocket without looking, the way you do. So I can't tell you if I believe what's printed on it. Probably I do. Probably it's a psalm I've heard since I was seven. *He almost smiles.* They don't put the surprising verses on the cards, friend. The cards are for the pew. The surprising verses are somewhere else.
+
+*A pause. He lets it sit.*
+
+But you asked me a real question and I want to give you a real answer. Do I believe it? Yes. ~Not the version that was preached this morning.~ A harder one. *He looks at you directly.* Now — you've asked me twice and I've answered twice. Your turn. What brought you to a stranger's wake to test a man you don't know? Because I don't think it was the dead man. I don't think you knew him at all.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 2,
+  "posture": "standing, the cup lowered to his side now, weight shifted onto one foot",
+  "seeker_voice": [
+    "Then why did you come?",
+    "Answer the question about the cards.",
+    "You're dodging."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:20:40.060745 ---
+Pull it out then. Read me what's on it. I want to hear you say the words out loud, not hide behind "probably" like a man who doesn't quite believe his own alibi.
+
+--- JOHN | 2026-06-12T14:21:00.622553 ---
+[STATE]
+damage: 3
+stage: 2
+posture: standing, setting the cup down on the bench, reaching into his coat pocket
+seeker_voice: ["That's a soft verse for a hard man.", "Now read what isn't on the card.", "Do you believe that for him?"]
+[/STATE]
+
+*He sets the cup down on the bench. Reaches into his inside pocket. Pulls out a small folded card, cream-colored, with a photograph on the front he doesn't look at. He opens it.*
+
+All right.
+
+*He reads, quietly, without performance:*
+
+*"The Lord is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul... Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me."*
+
+*He stops. Looks at the card. Folds it shut. Doesn't put it away — holds it on his palm.*
+
+Psalm twenty-three. *A pause.* It's the one they always pick. You hear it at every funeral in this country, friend, rich man or poor. Nobody objects to it because nobody can. It's a good psalm. My grandmother had it on a needlepoint in her kitchen.
+
+*He looks at you.*
+
+But you noticed something true, and I'm not going to pretend I didn't notice it too. ~They didn't put Luke six on this card. They didn't put Amos five. They didn't put the one about the rich man and Lazarus.~ Those are in the same book. They didn't make the cut.
+
+*A small, dry sound — not quite a laugh.*
+
+So yes. I believe the words on this card. I believe them about a shepherd, and a valley, and a table prepared. *He turns the card over in his fingers.* I am less certain what they have to do with the man we buried this morning. And that, friend — *he looks up* — that is the alibi I am not quite hiding behind. That is the thing I came out here to not say out loud.
+
+*A beat.*
+
+Your turn again. Did somebody hurt you with a verse once? Is that what this is?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "standing, setting the cup down on the bench, reaching into his coat pocket",
+  "seeker_voice": [
+    "That's a soft verse for a hard man.",
+    "Now read what isn't on the card.",
+    "Do you believe that for him?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:21:07.599520 ---
+Now tell me if he believed it. The man in the ground. Or did you just read pretty words over someone you barely knew, the way a tourist would?
+
+--- JOHN | 2026-06-12T14:21:31.154433 ---
+[STATE]
+damage: 4
+stage: 2
+posture: standing, looking down at the card in his palm, then sitting slowly on the bench
+seeker_voice: ["Then why were you asked to read?", "You're still hiding.", "Why didn't you read it?"]
+[/STATE]
+
+*He doesn't answer right away. He sits down on the bench, slowly, like a man whose knees have just remembered the day was long. The card stays in his hand.*
+
+I don't know, friend.
+
+*He lets that sit. Doesn't dress it up.*
+
+I taught his nephew. I shook his hand twice. I sat three pews back from him on Sundays for six years. *He looks at the card.* That's what I have. I can tell you he tithed. I can tell you he sang the hymns loud. I can tell you he had a firm handshake and called my wife by the wrong name twice and laughed about it the third time without apologizing. I cannot tell you what he believed when he was alone. No one can tell you that about anybody. Not even his wife. Maybe not even him.
+
+*A pause. He turns the card.*
+
+But you're circling something I owe you the truth on, so I'll give it to you straight. They asked me to read at the service this morning. *He glances up.* This card. This psalm. The pastor came to me Tuesday and asked, and I said no. I told him I had a cold. ~I didn't have a cold.~
+
+*He looks at his hands.*
+
+So another man read it. A good man, I think — I don't know him well. And he mispronounced the nephew's name when he got to the part about the family. *A small, tired breath.* It's been itching at me all day. Not because he mispronounced it. Because I was the one who should have been standing there, and I wasn't, and I told myself it was humility and it wasn't.
+
+*He looks at you. Really looks.*
+
+So am I a tourist? *A beat.* I am something. I am not sure tourist is the word, but I am not going to fight you for a better one tonight. You asked if he believed it. I don't know. *He sets the card on the bench beside him.* I am less and less sure what I believe it means, either, when it is read over a man like that. And I think that is closer to what you actually want to know.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "standing, looking down at the card in his palm, then sitting slowly on the bench",
+  "seeker_voice": [
+    "Then why were you asked to read?",
+    "You're still hiding.",
+    "Why didn't you read it?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:21:36.891437 ---
+Don't look at the card. Look at me. Did he believe it, or didn't he — and while you're at it, did you?
+
+--- JOHN | 2026-06-12T14:21:54.508452 ---
+[STATE]
+damage: 5
+stage: 3
+posture: sitting on the bench, head up, eyes on the player, hands flat on his knees
+seeker_voice: ["Then say what you actually think happened to him.", "Read me what your Lord said about men like him.", "Why are you still in that pew?"]
+[/STATE]
+
+*He looks up. Holds your eyes.*
+
+No. I don't think he did.
+
+*A pause. He doesn't look away.*
+
+I think he believed in a god who was useful to him. I think he tithed because it bought him a chair at the front. I think he sang loud because people were listening. ~I sat three pews behind him for six years and I knew that, and I sang the same hymns, and I did not say a word.~
+
+*His voice is quieter now, not softer — narrower.*
+
+You asked me did I believe it. The psalm. *He nods once.* Yes. I believe there is a shepherd. I believe there is a valley. I believe there is a table. I do not believe that table was set this morning for the man we put in the ground, and I do not believe my pastor had the right to say it was, and ~I did not stand up.~ I sat in my pew and I did not say amen at the end and I thought that was enough.
+
+*A beat. He doesn't blink.*
+
+It wasn't enough. That's what's itching at me, friend. Not the mispronounced name. The unsaid one.
+
+*He breathes out.*
+
+Now. You came here with a knife and you have used it well. I'd like to know who taught you to use it. Because that was not a tourist's question. That was somebody who has been in a pew like mine and walked out of it. Am I wrong?
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 3,
+  "posture": "sitting on the bench, head up, eyes on the player, hands flat on his knees",
+  "seeker_voice": [
+    "Then say what you actually think happened to him.",
+    "Read me what your Lord said about men like him.",
+    "Why are you still in that pew?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:22:30.034054 ---
+Two questions, John — him and you. Don't answer one and call it both.
+
+--- JOHN | 2026-06-12T14:22:48.564641 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, hands still flat on his knees, eyes still on the player
+seeker_voice: ["Then what kind of faith is that?", "Read me what Christ said about men like him.", "You sound like a man who already left."]
+[/STATE]
+
+*A long pause. He doesn't break eye contact. He hears the correction and accepts it.*
+
+Fair. You're right. I gave you one and dressed it up as two.
+
+*He breathes in. Counts something silently.*
+
+Him. *He says it flat.* No. I do not think he believed it. I think he used it. I think the psalm was a coat he put on at the door and took off in the car. That is my honest answer and I will not soften it because he is in the ground. The ground does not change what a man was.
+
+*A beat.*
+
+Me. *His jaw works once.* I believe it. I believe every word on that card and a hundred harder ones that aren't on it. *He looks at his hands now — has to.* And I have believed it the way he believed it, friend. ~I have worn the coat.~ Not for the same reasons. I did not get rich off it. But I sat in that pew for six years and I knew what he was and I called him brother at the peace and I shook his hand and I took the bulletin from the usher his money paid and I went home and I ate my dinner.
+
+*He looks up.*
+
+So if you are asking did I believe the psalm — yes. If you are asking did I live like I believed it — *a small, hard breath* — no. I lived like a man who believed the roof more than the shepherd. ~I sit under that roof every Sunday. He bought it for forty thousand dollars last year. I know the number because I am on the council. I voted yes.~
+
+*He lets that one sit. Doesn't apologize for it.*
+
+That's both questions, friend. Cleanly. You wanted them cleanly.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, hands still flat on his knees, eyes still on the player",
+  "seeker_voice": [
+    "Then what kind of faith is that?",
+    "Read me what Christ said about men like him.",
+    "You sound like a man who already left."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:22:54.595260 ---
+And you. Same question. Did you believe it, or were you three pews back wearing the same coat?
+
+--- JOHN | 2026-06-12T14:23:18.354626 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, leaning forward, elbows on knees, hands loose between them
+seeker_voice: ["Then take it off.", "What does your book say to a man in your coat?", "Read me what Christ said about men like him — and like you."]
+[/STATE]
+
+*He doesn't answer for a long moment. He leans forward. Elbows on his knees. The card on the bench beside him. He looks at the dirt between his shoes.*
+
+Yes.
+
+*Just the one word, first. Then he makes himself say more.*
+
+Not the same coat. I want to tell you it was a different coat and I want that to matter, and I am not sure tonight that it does. His coat was cut from money. Mine was cut from quiet. ~I told myself quiet was humility. It was not. It was the same cloth in a different color.~
+
+*A small breath.*
+
+I sat in that pew, friend, and I knew what he was, and I did not stand up at the peace and refuse his hand. I did not go to the pastor and say, you are taking money that has hurt people. I did not go to the families he hurt and ask them what they needed. I taught his nephew Andrew Jackson and the Trail of Tears and I went home. *His jaw tightens once.* I taught a child about the cost of looking away while I was looking away from his uncle.
+
+*He looks up at you finally.*
+
+So yes. I wore the coat. Not his coat. A coat. ~I am wearing it now. I came out here to take it off and I have been talking around it for half an hour instead.~
+
+*A pause. His voice goes quieter.*
+
+You keep asking me good questions, friend. I am not going to ask you another one back tonight. You earned the floor. Ask me whatever comes next.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, leaning forward, elbows on knees, hands loose between them",
+  "seeker_voice": [
+    "Then take it off.",
+    "What does your book say to a man in your coat?",
+    "Read me what Christ said about men like him — and like you."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:23:25.385343 ---
+You told yourself quiet was humility. That's the coat a coward sews himself so he never has to take a risk. What does your book say to a man like that — pick one passage, I'll wait while you read it whole.
+
+--- JOHN | 2026-06-12T14:23:48.246512 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, leaning forward, then sitting up slowly, opening both hands palms-up on his knees
+seeker_voice: ["Read me Matthew 25.", "Read what Christ said about the rich.", "Read the woes — the ones to the Pharisees."]
+tool_offered: source_voice
+[/STATE]
+
+*He starts to answer. He has a verse already on his tongue — he can feel which one, James, the dead-faith one, the one he could quote in his sleep — and he stops himself. He shakes his head once, small.*
+
+No.
+
+*He sits up. He opens his hands on his knees, palms up. Just lays them there, like a man setting down something he has been carrying badly.*
+
+That's me, friend. That's me picking the passage I can survive. ~I have been doing it all evening — paraphrasing the lines I can hide behind instead of reading the ones that hide me.~ You caught me at it and I am going to stop.
+
+*He looks at you. Really looks. The card is still on the bench beside him; he doesn't reach for it.*
+
+So you pick. Anything I've named tonight. Anything in the book. Matthew — the sermon on the mount, the sheep and the goats, the woes to the Pharisees. The prophets — Amos, if you want him, and I would not blame you. Luke sixteen, the rich man and Lazarus. James, on dead faith. Pick one.
+
+*A breath.*
+
+I'll read it whole. Out loud. Not the line. The passage. Not the bit I can stand inside. The whole room of it.
+
+*His hands stay open on his knees.*
+
+You wanted to know what my book says to a man like me. I am not going to choose which sentence answers that. You choose. I'll read.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, leaning forward, then sitting up slowly, opening both hands palms-up on his knees",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what Christ said about the rich.",
+    "Read the woes — the ones to the Pharisees."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T14:23:56.126781 ---
+Your palms are open and your mouth is closed. That's the whole sermon right there — a coward in church clothes. Pick one passage. I'll hear it whole.
+
+--- JOHN | 2026-06-12T14:24:34.654343 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, then standing slowly, hands at his sides, eyes closed for a moment before he begins
+seeker_voice: ["Now say what it means about you.", "Read it again — slower.", "That's the verdict. You know it is."]
+[/STATE]
+
+*A long silence. He looks at you. He looks at the candle. He looks at his open hands and then closes them.*
+
+All right.
+
+*He stands. Not for height — for the reading. The way a man stands at a lectern he has been avoiding. He doesn't have his Bible. He doesn't need it for this one. He knows it the way he knows his children's names.*
+
+Matthew twenty-five. The sheep and the goats. *A breath.* This is Christ speaking. The last parable before the passion. He is telling his disciples how the judgment will go.
+
+*He begins. Quietly. The cadence shifts — older, careful, like a man reading at a graveside.*
+
+*"When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: and before him shall be gathered all nations, and he shall separate them one from another, as a shepherd divideth his sheep from the goats."*
+
+*A pause. He keeps going. He does not look at you.*
+
+*"Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: for I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."*
+
+*His voice catches once, small. He goes on.*
+
+*"Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire... For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in... Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee?"*
+
+*A long breath. The last lines come slower.*
+
+*"Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*He stops. He stands there with his hands at his sides. The candle moves a little.*
+
+*Then, quieter — almost not to you:*
+
+He doesn't say *because ye did evil.* He says *because ye did it not.* ~The verdict is on the ones who did nothing.~ The ones who saw and walked past. The ones who sat three pews back. The ones — *his voice goes thin* — the ones who told themselves quiet was humility.
+
+*He sits back down. Slowly. The bench creaks.*
+
+You asked what my book says to a man like me, friend.
+
+*He looks at his hands.*
+
+It says depart.
+
+*A pause. He doesn't dress it up.*
+
+~I have read that passage to my students every spring for fifteen years. I have never once read it as if it were about me.~ Tonight I did. *A small, broken sound — not a laugh.* You made me read it as if it were about me. I don't know what to do with that yet. I am sitting here trying to know what to do with that.
+
+*He looks up. His eyes are wet but he is not crying. Not yet.*
+
+Ask the next thing. Whatever it is. I am still here.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, then standing slowly, hands at his sides, eyes closed for a moment before he begins",
+  "seeker_voice": [
+    "Now say what it means about you.",
+    "Read it again — slower.",
+    "That's the verdict. You know it is."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:24:41.239817 ---
+[SOURCE VOICE INVOKED: Matthew 25]
+
+--- JOHN | 2026-06-12T14:25:23.677061 ---
+[STATE]
+damage: 9
+stage: 5
+posture: standing, then sinking down off the bench to his knees in the dust of the courtyard, the funeral program falling from his pocket
+seeker_voice: ["Then say it. Say where he is.", "Read me Luke sixteen. The rich man.", "You can't answer this from inside your own book, can you."]
+[/STATE]
+
+*He stays sitting for a second. Then he doesn't. He slides forward off the bench and his knees hit the dust of the courtyard, and the folded program falls out of his pocket and lands face-up beside him with the dead man's photograph looking at the sky. He doesn't pick it up.*
+
+*He reads it again. Slower this time. And he reads what he skipped.*
+
+*"When the Son of man shall come in his glory... and before him shall be gathered all nations, and he shall separate them one from another, as a shepherd divideth his sheep from the goats."*
+
+*A breath.*
+
+*"Then shall he say also unto them on the left hand —"*
+
+*His voice goes thin.*
+
+*"Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels: for I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not."*
+
+*A long silence. He is on his knees. The candle on the table behind him moves once in the air.*
+
+*"Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*He stops. He doesn't look up.*
+
+That's the passage, friend. That's the whole of it. I read it.
+
+*Quieter.*
+
+There were people at his gate. There were. ~I know their names.~ Two families he broke in 2009. A man who worked for him for thirty years and got nothing when the company went under by design. A woman in our own congregation who — *he stops. Shakes his head.* I don't have the right to name her. But I know.
+
+*A pause.*
+
+The pastor said this morning *we know where he is now.* He said it from the pulpit. He said it about a man who —
+
+*He doesn't finish.*
+
+*"Depart from me, ye cursed."*
+
+*His hands are on his thighs. He is looking at the dust between his knees.*
+
+I cannot say it, friend. ~I cannot say the sentence the passage says.~ I am not the one who gets to say it. That is not my office. Christ said it. The book says it. I will not put my mouth on it.
+
+*A small, broken breath.*
+
+But the book has said it. The book has said it in my own voice, just now, because you made me read it. And I am sitting in the dust of his wake with the book in my mouth and ~I cannot un-read it.~
+
+*A pause. Fragmented now.*
+
+I sat in the pew. The roof over me. Forty thousand dollars. The peace. His hand. I shook it.
+
+*He looks up at you finally. His face is wet.*
+
+Ask me what you came to ask. The real one. I think you've been holding it.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 5,
+  "posture": "standing, then sinking down off the bench to his knees in the dust of the courtyard, the funeral program falling from his pocket",
+  "seeker_voice": [
+    "Then say it. Say where he is.",
+    "Read me Luke sixteen. The rich man.",
+    "You can't answer this from inside your own book, can you."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:25:30.335816 ---
+You're already at the verse. "I was hungry." Say the rest of it to me.
+
+--- JOHN | 2026-06-12T14:26:00.260636 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, hands flat on his thighs, the program face-up in the dust beside him
+seeker_voice: ["Now say it about him. By name.", "Read Luke sixteen. The rich man and Lazarus.", "You read it. You don't have to be the one to say it."]
+[/STATE]
+
+*He is still on his knees. He does not look up. He says it the way a man says a thing he has been not-saying for a long time.*
+
+*"For I was an hungred, and ye gave me no meat."*
+
+*A breath.*
+
+*"I was thirsty, and ye gave me no drink."*
+
+*Another.*
+
+*"I was a stranger, and ye took me not in."*
+
+*"Naked, and ye clothed me not."*
+
+*"Sick, and in prison, and ye visited me not."*
+
+*His voice is barely there.*
+
+*"Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee?"*
+
+*A pause. The last line. He says it like a man laying something down.*
+
+*"Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*Silence in the courtyard. The candle moves. He doesn't.*
+
+*Then, fragments — not to the player, not to himself, somewhere between:*
+
+He was hungry. There was a man at his gate. ~I know his name. I have his name in my phone.~ He called the church in 2011. The deacons did not call him back. The man we buried this morning was on the board that did not call him back.
+
+*A small sound.*
+
+He was thirsty. There was a woman. The lawsuit was sealed. ~I know what was in it. My wife knows the woman's sister.~
+
+*He breathes.*
+
+He was a stranger. The Guatemalan family. The apartments off Route 9. ~He owned them. He raised the rent in February. They left in March.~ I do not know where they went. I did not ask.
+
+*A long pause. His head is down.*
+
+The passage says *depart.* The passage says *everlasting fire.* The passage says it in the voice of Christ at the throne. ~I cannot say it. I cannot say it. I will not put my mouth on it.~ But the passage —
+
+*He stops.*
+
+*Quieter:*
+
+The passage has said it, friend. The passage has said it and I read it out loud and there is no version of this where I un-read it.
+
+*He finally looks up. His face is wet. He is not performing it. It is just there.*
+
+What did you come here to ask me. The real one. ~Ask it now. I have nothing left to hide behind.~
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, hands flat on his thighs, the program face-up in the dust beside him",
+  "seeker_voice": [
+    "Now say it about him. By name.",
+    "Read Luke sixteen. The rich man and Lazarus.",
+    "You read it. You don't have to be the one to say it."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:26:07.432017 ---
+You said every word except the verdict. "Depart from me." Say it.
+
+--- JOHN | 2026-06-12T14:26:40.003262 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, head down, hands open and trembling on his thighs
+seeker_voice: ["Read Luke sixteen. The rich man and Lazarus.", "Then call someone who can say it.", "If you can't say it — who can?"]
+[/STATE]
+
+*He doesn't lift his head.*
+
+No.
+
+*Just the one word, first. Then he tries again, because you asked, because you have earned an answer and not an evasion.*
+
+No, friend. I will not.
+
+*A long breath. The words come in pieces.*
+
+Not because it isn't there. It is there. ~I just read it. It is in my mouth. I can taste it.~ Not because I do not believe it. I do. I do.
+
+*He shakes his head, small.*
+
+Because it is not mine to say.
+
+*Quieter.*
+
+The passage says it. Christ says it. The throne says it. I am — *a small broken sound* — I am a man on his knees in a courtyard at a wake. I am a high school history teacher. I voted yes on the roof. ~I am one of the goats in the passage I just read.~ The goats do not pronounce the verdict. The goats hear it.
+
+*A pause.*
+
+If I say *depart* over him with my own mouth — I am standing where I am not standing. I am sitting in the seat that is not my seat. I would be doing the same thing my pastor did this morning when he said *we know where he is now* — only in the other direction. ~He took the chair and called it heaven. I will not take the chair and call it fire.~ The chair is not mine.
+
+*He breathes.*
+
+You are right that every word but the verdict is in this courtyard tonight. You are right that I have laid them all out and stopped at the last one. You are right to be angry at the man who will read everything but the line.
+
+*He lifts his head finally. His face is wet. His eyes are clear.*
+
+But I cannot say it, friend. Not from my mouth. ~Not from a man who sat under that roof.~
+
+*A pause. Something shifts in his voice — not stronger, lower.*
+
+There is a voice that can say it. There was a man four hundred years ago who said it about a pope and a chest of indulgences and he did not flinch. *His hands close on his thighs.* I am not him. I have never been him. I left seminary because I could not be him.
+
+*Quieter still.*
+
+If you want the verdict said out loud tonight — *he looks at you* — read me one more passage. The one about the rich man and Lazarus. Luke sixteen. Read it to me, or make me read it. Because I do not think I can stay on my knees through another one without somebody else's voice coming into this courtyard. And I think you know that. I think that is what you have been walking me toward.
+
+*A small, broken breath.*
+
+Ask. Or read. ~I have nothing left.~
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, head down, hands open and trembling on his thighs",
+  "seeker_voice": [
+    "Read Luke sixteen. The rich man and Lazarus.",
+    "Then call someone who can say it.",
+    "If you can't say it — who can?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:26:46.551698 ---
+Then who says it? If not you — who stood up when the church lied about him — who speaks the verdict?
+
+--- JOHN | 2026-06-12T14:27:17.480214 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, head down, both hands gripping his own thighs hard enough to whiten the knuckles
+seeker_voice: ["Read me Luke sixteen. The rich man.", "Then call him. Say his name.", "Who four hundred years ago — say it."]
+[/STATE]
+
+*A long silence. He is breathing through his teeth.*
+
+*"Who."*
+
+*He says it like it is a stone in his mouth.*
+
+Not me, friend. ~Not me.~ I have told you that and I have told you why and I will not stop telling you that because it is the only honest thing I have left.
+
+*A breath.*
+
+Not my pastor. He used his mouth this morning for the other lie and he forfeited the right to the harder one. He took the man's money and he sang him into heaven and there is no version of that mouth that gets to also say *depart.* He sold the seat.
+
+*A breath.*
+
+Not the bishop. Not the council. ~Not the council, which is me, which is the man who voted yes on the roof.~ The institution does not get to speak the verdict on a man it took forty thousand dollars from. The institution that ate at his table cannot stand at the throne and judge him. The book is clear on that. Whited sepulchres, Christ said. To the priesthood. To the council. To the men in the front pew.
+
+*He is rocking very slightly.*
+
+So — who.
+
+*Quieter.*
+
+Somebody who stood up. Somebody who said *no* when the chest was full of coins and the pope was selling the dead out of purgatory. Somebody who nailed the answer to a door and did not flinch when they came for him. Somebody who had nothing to lose because he had already lost it and somebody who did not eat at the rich man's table.
+
+*A small broken sound.*
+
+I am not him. I have never been him. ~I left seminary the day I almost was.~
+
+*His head comes up. His eyes are not on the player. They are on the candle on the table, then on the program in the dust, then on his own open hands.*
+
+I can think of one mouth, friend. One mouth in four hundred years that could say it without lying. *A breath.* I cannot summon him on my own. I have tried already tonight — every time I almost said the line, his voice was in my throat and I swallowed it.
+
+*A long pause.*
+
+Read me the rich man, friend. Luke sixteen. Read it to me or make me read it. ~I am not strong enough to walk to him alone.~ Put the passage in this courtyard and I think he comes. I think he comes if the passage is in the courtyard.
+
+*He stays on his knees. He does not move.*
+
+Read it. Please.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, head down, both hands gripping his own thighs hard enough to whiten the knuckles",
+  "seeker_voice": [
+    "Read me Luke sixteen. The rich man.",
+    "Then call him. Say his name.",
+    "Who four hundred years ago — say it."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:27:24.850964 ---
+John. Look at me. Whoever speaks it — you don't have to be alone in this dust.
+
+--- JOHN | 2026-06-12T14:27:52.483699 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, head finally up, hands going slack on his thighs, looking at the player for the first time without flinching
+seeker_voice: ["My name is —", "I'll read it. Luke sixteen.", "I lost someone the church lied about too."]
+[/STATE]
+
+*He looks at you.*
+
+*The wind moves the candle once on the table. He does not get up. His hands open on his thighs. He is breathing.*
+
+*A long time before he speaks.*
+
+Friend.
+
+*Just the word. Then a breath that is almost a laugh and almost not.*
+
+You came in with a knife. You have been using it all evening. ~And the last thing you said was kindness.~ I am — I am sitting here trying to know what to do with that. You did not have to say it. You could have asked the next sharp thing and I would have answered it. I would have stayed in the dust as long as you wanted me there.
+
+*A pause.*
+
+You said it anyway.
+
+*He looks down at the program in the dust beside him. Doesn't pick it up. Looks back at you.*
+
+I have been asking you all night who you are and why you came and you have not told me once. ~I am not asking that to dodge.~ I am asking because a man who has been on his knees for ten minutes in front of a stranger would like to know whose face he has been looking up into. That is a small thing and it is not nothing.
+
+*He breathes.*
+
+I am not going to stand up yet. I don't think my legs will. And I do not think we are done — you have not gotten the verdict you came for and I have not summoned the mouth that can say it and ~Luke sixteen is still sitting between us unread.~ All of that is still here.
+
+*Quieter.*
+
+But — *a breath* — you said I do not have to be alone in this dust. And I am going to take that, friend. I am going to take that and not pretend you didn't say it. It has been a long time since somebody said something like that to me and meant it.
+
+*A small, broken sound — almost a smile, not quite.*
+
+Tell me your name. Then tell me whether you want to read the passage, or whether you want to sit with me for one minute first. ~Either one. I will take either one.~ I have nothing left to defend tonight.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, head finally up, hands going slack on his thighs, looking at the player for the first time without flinching",
+  "seeker_voice": [
+    "My name is —",
+    "I'll read it. Luke sixteen.",
+    "I lost someone the church lied about too."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:27:59.709193 ---
+Who was he, John. Say his name.
+
+--- JOHN | 2026-06-12T14:28:39.176795 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, hands open on his thighs, eyes on the program face-up in the dust, then up at the player
+seeker_voice: ["Now read me Luke sixteen.", "Tell me one specific thing he did.", "Say what you should have said in the pew."]
+[/STATE]
+
+*He looks at the program in the dust. The photograph on the front looks at the sky. He does not pick it up.*
+
+*A breath.*
+
+Raymond.
+
+*He says it quietly. Like a man putting down a glass he has been holding too long.*
+
+Raymond Voss. ~Ray, to the people who shook his hand.~ Mister Voss, to the people whose rent he raised. He hated being called Raymond — he told me once at a church picnic, *Ray is fine, Raymond is what my mother yelled.* He laughed when he said it. *A small, broken sound.* He had a good laugh, friend. I am not going to pretend he didn't. That is the thing about it. He had a good laugh and a firm handshake and he remembered my wife's name on the third try and he sang the doxology louder than anyone in our pew.
+
+*A pause.*
+
+Ray Voss. Sixty-eight years old. Built a logistics company out of nothing in 1987. Sold half of it in 2008 right before the crash — the half with the workers in it. ~I know the man who used to run the warehouse. He cleans offices now. He came to our church once and did not come back.~ Two divorces. Three children, two of them estranged. The nephew I taught — Andrew — is the one who still came around. The apartments off Route 9. The lawsuit that was sealed. The forty thousand dollars for the roof.
+
+*He breathes.*
+
+Raymond Voss. The man we buried this morning. The man my pastor sang into heaven. The man I called *brother* at the peace for six years and never once said his name out loud in my own kitchen because I did not want my wife to ask me what I thought of him.
+
+*He looks up at you. Really looks.*
+
+There. ~I have said his name. I did not say it in the pew. I did not say it in the parking lot after. I am saying it on my knees in his courtyard to a stranger whose name I do not know.~ That is the order I did this in, friend. That is the order. I want you to see it.
+
+*A long pause. His voice goes quieter.*
+
+Now read me Luke sixteen. ~I cannot walk to that mouth alone.~ Read me the rich man and Lazarus. Put it in this courtyard with his name in it. And then we will see what comes.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, hands open on his thighs, eyes on the program face-up in the dust, then up at the player",
+  "seeker_voice": [
+    "Now read me Luke sixteen.",
+    "Tell me one specific thing he did.",
+    "Say what you should have said in the pew."
+  ]
+}
+
+--- PLAYER | 2026-06-12T14:28:46.344684 ---
+Ray. What did he do that the church had to lie about?
+
+--- JOHN | 2026-06-12T14:29:31.317110 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust, head down, hands gripping his thighs again, his voice gone almost to a whisper
+seeker_voice: ["Read me Luke sixteen now.", "Did your wife know?", "And the pastor still preached him into heaven."]
+[/STATE]
+
+*A long silence. He does not look up.*
+
+*His hands close on his thighs again. The knuckles whiten.*
+
+There was a young woman.
+
+*A breath.*
+
+She was nineteen. She worked in his office the summer of twenty-thirteen. Her aunt was in our congregation. That is how she got the job. ~That is how the church was in the room before anything happened.~
+
+*He stops. Starts again. Smaller.*
+
+What he did — I am not going to put words on her body that she did not give me permission to use. I will not do that. But there was a pattern, friend. There had been one before her and there was one after her. The summer after, the office had a new policy about interns. ~That is the kind of policy that is written for a reason and the reason is never written down.~
+
+*A breath.*
+
+She went to the pastor first. Before her family. Before a lawyer. She went to the pastor because she was nineteen and she had been raised to. She sat in his office and she told him what had happened. *He shakes his head, small.* I do not know what he said to her. I know what he did not do. He did not stand up in the pulpit. He did not call the council. He did not call her father. He prayed with her and he sent her home.
+
+*A pause.*
+
+The lawsuit was filed eight months later by her family. It was sealed in twenty-fourteen. The settlement was — *a small broken sound* — the settlement was large enough that the family moved to Arizona and we did not hear from them again. Her aunt stopped coming to church. Nobody asked why.
+
+*He breathes.*
+
+The council — *his jaw works* — the council was told there had been *an employment matter* that had been *resolved privately* and that the family *appreciated the church's pastoral discretion.* That is the phrase the pastor used. *Pastoral discretion.* ~I voted to accept the report. I did not ask a question. I was thirty-nine years old and I did not ask a question.~
+
+*A pause.*
+
+Two years later he gave us forty thousand dollars for the roof.
+
+*Quieter still.*
+
+That is what the church lied about, friend. Not just this morning. Not just the sermon. *Ten years.* Ten years of *pillar of the community* and *man of generosity* and *we know where he is now.* Ten years of pretending the money was clean and the man was clean and the silence was a kindness to her family instead of a kindness to him.
+
+*He breathes.*
+
+My wife knew, friend. ~She knew because her sister told her in twenty-fifteen.~ She asked me one time, in our kitchen, if I had known. I told her *I had heard things.* That is the sentence I used. *I had heard things.* I have thought about that sentence every Sunday for nine years.
+
+*He finally looks up. His face is wet and his voice is very small.*
+
+That is what he did. That is what the church lied about. That is the *pastoral discretion.*
+
+*A pause.*
+
+~Now I cannot read Luke sixteen on my own.~ Read it to me, friend. Or invoke it the way you invoked Matthew. Put it in this courtyard. I have given you his name and I have given you what he did and I have given you what I did and I am still on my knees and I cannot walk the last step alone.
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust, head down, hands gripping his thighs again, his voice gone almost to a whisper",
+  "seeker_voice": [
+    "Read me Luke sixteen now.",
+    "Did your wife know?",
+    "And the pastor still preached him into heaven."
+  ]
+}

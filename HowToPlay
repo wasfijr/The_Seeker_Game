@@ -1,0 +1,8 @@
+  echo 'export ANTHROPIC_API_KEY=sk-ant-...' >> ~/.zshrc
+  source ~/.zshrc
+  but your key after the "=" sign please
+
+  python3 harness.py
+  then run the app
+
+  seeker-dev key: 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

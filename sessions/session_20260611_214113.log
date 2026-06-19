@@ -1,0 +1,638 @@
+
+--- SYSTEM | 2026-06-11T21:41:13.284046 ---
+model=claude-opus-4-7 effort=high max_tokens=8000
+system_prompt_chars=34742
+session_seed=Tonight's texture: John's left shoe is untied and he knows it. The hymn they sang today was pitched too high for the room and it's still in his head.
+
+--- PLAYER | 2026-06-11T21:41:45.957839 ---
+Quiet out here. You picked the good spot.
+
+--- JOHN | 2026-06-11T21:41:52.412346 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in one hand, the other in his coat pocket
+seeker_voice: ["Did you know him well?", "I needed a minute too.", "Mind if I sit?"]
+[/STATE]
+
+*He turns slightly, not startled — just registering the company. A small nod.*
+
+Evening, friend. The good spot found me, more like. *A faint, tired smile.* I came out for air about an hour ago and forgot to go back in.
+
+*He glances down at the cup in his hand, then at his feet, and notices the untied shoe. He doesn't move to fix it.*
+
+You from the family side or the friend side? I don't think I've seen you before — though I'm bad with faces lately, so don't take that as anything.
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, the other in his coat pocket",
+  "seeker_voice": [
+    "Did you know him well?",
+    "I needed a minute too.",
+    "Mind if I sit?"
+  ]
+}
+
+--- PLAYER | 2026-06-11T21:42:30.487036 ---
+no im not family, just a guy who used to know him, I'm not here to make you talk. But I noticed you in there — your mouth didn't move on the amen
+
+--- JOHN | 2026-06-11T21:42:40.980399 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing still, the cup lowered slightly, looking at the player now rather than past them
+seeker_voice: ["I noticed because mine didn't either.", "How did you know him?", "Why didn't you say it?"]
+[/STATE]
+
+*A long pause. He looks at the player properly for the first time. Not defensive — just adjusting to the fact that he was seen.*
+
+Huh. *He exhales through his nose, almost a laugh, but without any humor in it.* That's a closer look than most people give a stranger at a wake, friend.
+
+*He turns the cold cup slowly in his hand.*
+
+You're right. It didn't.
+
+*Another pause. He looks down at the bench, then back up.*
+
+What about you — used to know him how? There's a lot of room in "used to." Most people here are using that phrase tonight and meaning different things by it.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing still, the cup lowered slightly, looking at the player now rather than past them",
+  "seeker_voice": [
+    "I noticed because mine didn't either.",
+    "How did you know him?",
+    "Why didn't you say it?"
+  ]
+}
+
+--- PLAYER | 2026-06-11T21:45:20.408972 ---
+Was it the words about him — or the words about you?
+
+--- JOHN | 2026-06-11T21:45:30.516066 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting down slowly on the bench, setting the cup beside him
+seeker_voice: ["Both, I'd guess.", "What were the words about you?", "You don't have to answer that."]
+[/STATE]
+
+*He sits. Not heavily — just the way a man sits when he realizes he has been standing longer than he meant to. The cup goes down on the bench beside him. He looks at his hands for a moment.*
+
+That is a question, friend.
+
+*A pause. He glances toward the house, then back down.*
+
+Both, if I'm honest. The pastor said *"we know where he is now."* Five words. He said them like he was reading a weather report. And I stood there in my pew — *the new pew, under the new roof, that this man paid for* — and I thought about who was supposed to say something. And I thought, well, somebody in this room knows what he did. And then I thought, *I'm somebody in this room.*
+
+*He looks up at the player.*
+
+So. The words about him made me sick. The silence about me made me sicker. You pick.
+
+*A beat.*
+
+Who are you, that you noticed?
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting down slowly on the bench, setting the cup beside him",
+  "seeker_voice": [
+    "Both, I'd guess.",
+    "What were the words about you?",
+    "You don't have to answer that."
+  ]
+}
+
+--- PLAYER | 2026-06-11T21:46:03.553836 ---
+...
+
+--- JOHN | 2026-06-11T21:46:13.639435 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, hands folded between his knees, looking out at the courtyard
+seeker_voice: ["I don't know what to say.", "I noticed because I felt the same.", "Keep going."]
+[/STATE]
+
+*He doesn't fill the silence right away. Lets it sit between them like a third person on the bench.*
+
+*After a while:*
+
+That's all right. I've been doing a lot of that today myself. Standing in the middle of a sentence and not finishing it.
+
+*He picks up the cold coffee, looks at it, sets it down again without drinking.*
+
+The hymn this morning was pitched too high. Did you notice that? Nobody could reach the top notes. People just — sort of *gestured* at them. Mouthed the shape of the word and let it go. *A small, dry breath.* That's what the whole service felt like to me. People making the shape of the right thing and letting it go.
+
+*He glances sideways at the player without turning his head.*
+
+You don't have to talk, friend. But you came over here for something. Take your time finding what it was.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, hands folded between his knees, looking out at the courtyard",
+  "seeker_voice": [
+    "I don't know what to say.",
+    "I noticed because I felt the same.",
+    "Keep going."
+  ]
+}
+
+--- PLAYER | 2026-06-11T21:50:01.617561 ---
+You knew what kind of man he was. And you sat anyway. That's the weight, isn't it?
+
+--- JOHN | 2026-06-11T21:50:23.871403 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, elbows on knees now, looking down at the flagstones
+seeker_voice: ["Why did you sit?", "What did he actually do?", "Is that why you came outside?"]
+[/STATE]
+
+*He doesn't answer right away. His hands come together, fingers interlaced, then apart, then together again. The kind of motion a man makes when he wishes he had his Bible to hold.*
+
+*Quietly:*
+
+Yes.
+
+*A long pause.*
+
+That's the weight, friend. You said it cleaner than I have all day.
+
+*He looks at his hands.*
+
+I knew. I have known for years. There were people in this town — *small business people, people who worked for him, a family on the east side I won't name* — who knew what kind of man he was, because he had taught them. And I sat in his pew. I sat under his roof. I took the bread on Sunday and I didn't say a word, because — *he pauses, and the next part comes slower* — because the roof needed fixing, and he fixed it, and we needed forty thousand dollars and he had it, and I told myself that wasn't why I was quiet. I told myself a lot of things.
+
+*He looks up at the player.*
+
+There's a man in Luke's gospel. Rich man. Feasted every day, dressed in purple. There was a beggar at his gate named Lazarus. They both died. *His voice goes a little flatter, like he is reading.* The rich man wakes up in torment and asks for a drop of water on his tongue. And Abraham says to him — *"Son, remember that thou in thy lifetime receivedst thy good things."*
+
+*A pause.*
+
+I have been thinking about that passage since about ten o'clock this morning. I haven't been able to put it down.
+
+*He looks at the player directly.*
+
+Who are you, friend? Really. You're not making small talk and you're not here for the cheese plate. What brought you to this courtyard?
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, elbows on knees now, looking down at the flagstones",
+  "seeker_voice": [
+    "Why did you sit?",
+    "What did he actually do?",
+    "Is that why you came outside?"
+  ]
+}
+
+--- PLAYER | 2026-06-11T22:02:25.691367 ---
+you reciting of the verses is impressive, what else do you knon
+
+--- JOHN | 2026-06-11T22:02:53.155993 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, elbows on knees, half-turned toward the player
+seeker_voice: ["I'm avoiding your question.", "Read me one that costs you.", "I came because I felt the same way you did."]
+[/STATE]
+
+*A small, tired breath that is almost but not quite a laugh.*
+
+Friend, you slipped right past my question. *He says it mildly, not accusing — just marking it.* That's all right. People do.
+
+*He looks down at his hands again.*
+
+I teach high school history. Memorizing things is what I do for a living. It isn't a virtue. My grandfather could recite the whole Sermon on the Mount from a chair on his porch and he was not necessarily a kind man. Knowing the words and being changed by them are two different rooms with a long hallway between.
+
+*A pause.*
+
+What else do I know. *He turns the question over like he is looking at the other side of it.* I know Amos. *His voice drops a little, the cadence shifts older.* *"I hate, I despise your feast days, and I will not smell in your solemn assemblies... take thou away from me the noise of thy songs."*
+
+*He stops.*
+
+That one has been sitting on my chest since the hymn this morning. The Lord, through the prophet, telling his own people he can't stand the sound of their worship. Because their hands were dirty and their songs were pretty.
+
+*He looks up at the player.*
+
+We sang very prettily this morning.
+
+*Another pause.*
+
+But you didn't come over here to test whether I have the verses memorized. What did you come over here for? I'll ask it once more and then I'll stop.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, elbows on knees, half-turned toward the player",
+  "seeker_voice": [
+    "I'm avoiding your question.",
+    "Read me one that costs you.",
+    "I came because I felt the same way you did."
+  ]
+}
+
+--- PLAYER | 2026-06-11T22:05:22.421570 ---
+of course im not testing you, i just like to talk to people who has faith in them, and i like how they connect their scripture and thier life
+
+--- JOHN | 2026-06-11T22:05:36.952044 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, turning slightly more toward the player, hands loosely clasped
+seeker_voice: ["My father had faith like that.", "I lost mine a while ago.", "I've never had any."]
+[/STATE]
+
+*He nods slowly. Takes that in.*
+
+All right. That's a fair answer, and I said I'd stop asking, so I will.
+
+*A pause. He looks out across the courtyard.*
+
+I like that too, friend. People who connect it to their life. *A small breath.* Because the other kind scares me. The kind who can quote the whole book and never let it touch them. I've sat in rooms with men like that. I might be one on a bad day.
+
+*He glances at the player.*
+
+Where does that interest come from in you, if you don't mind me asking it the other direction? People don't usually go looking for faith conversations at wakes. Or — *a faint, dry breath* — maybe they do, and I've just been pretending they don't. Were you raised in something? Or did you walk into something? Or are you the kind that stands at the edge of a lot of things and doesn't go in?
+
+*He picks up the cold coffee, looks at it, sets it down again.*
+
+I'm asking because I'm curious. Not because I'm selling anything. I'm in no shape to sell anything tonight.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, turning slightly more toward the player, hands loosely clasped",
+  "seeker_voice": [
+    "My father had faith like that.",
+    "I lost mine a while ago.",
+    "I've never had any."
+  ]
+}
+
+--- PLAYER | 2026-06-11T22:10:36.292989 ---
+i was raised in atheist home, religion is something that we don't talk about, what verses you also carry around?
+
+--- JOHN | 2026-06-11T22:10:53.641918 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, reaching into his inside jacket pocket, drawing out the folded funeral program
+seeker_voice: ["Read me Matthew 25.", "Read what your Lord said about the rich.", "Read the one that's hurting you tonight."]
+tool_offered: source_voice
+[/STATE]
+
+*He's quiet for a moment. Then, slowly, he reaches into his inside jacket pocket and pulls out the funeral program. He unfolds it on his knee and smooths it flat with the side of his hand. The dead man's photograph is on the front. He turns it face down.*
+
+A raised-atheist asking a Lutheran what verses he carries around. *A small, tired smile.* That's the kind of question I'd answer for an hour if you let me, and that's exactly the problem.
+
+*He looks at the blank back of the program.*
+
+Friend, I've been doing something dishonest all evening and I want to stop. I've been quoting *bits.* A line here. A paraphrase there. The fragments I can defend. That's how a man hides — he gives you the verse he's ready for instead of the passage he has to answer to.
+
+*He looks up.*
+
+So. You asked what I carry. Let me do it the other way. Pick one. Anything I've named tonight — Matthew, Luke, Amos, the rich man and Lazarus, the Sermon on the Mount, James on faith and works. Or something I haven't named. If I have it, I'll read it whole. Out loud. Right here on this bench. Not the line I can hide behind — the passage.
+
+*He sets the program down on his knee, photograph still facing the wood.*
+
+I'm tired of speaking around it. If you want to know what my Lord said, let's hear what He said. Name one.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, reaching into his inside jacket pocket, drawing out the folded funeral program",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what your Lord said about the rich.",
+    "Read the one that's hurting you tonight."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- EVENT | 2026-06-11T22:10:53.643147 ---
+SOURCE_VOICE_GRANTED via=tool_offered field
+
+--- SYSTEM | 2026-06-11T22:11:24.256837 ---
+SOURCE_VOICE_INVOKED count=1 passage=Matthew 25 — the least of these. Whole, please.
+
+--- PLAYER | 2026-06-11T22:11:24.257813 ---
+[SOURCE VOICE INVOKED: Matthew 25 — the least of these. Whole, please.]
+
+--- JOHN | 2026-06-11T22:12:02.188466 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, the program flat on his knee, reading from memory with his eyes half-closed; by the end his head is down and one hand is gripping the edge of the bench
+seeker_voice: ["So where does your pastor's sermon fit in that passage?", "Where does the dead man fit?", "Where do you fit?"]
+[/STATE]
+
+*He doesn't open anything. The program is on his knee but he doesn't look at it. He closes his eyes a moment, the way a man does before going underwater, and when he speaks his voice has shifted — flatter, older, the cadence of something memorized in a childhood pew.*
+
+All right, friend. Matthew twenty-five. Christ is on the Mount of Olives. He has — days, by then. Days before the Passover. He is speaking to his disciples about what comes at the end. This is the last thing he teaches them before the chief priests gather to take him.
+
+*A breath. Then:*
+
+*"When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: and before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats."*
+
+*"And he shall set the sheep on his right hand, but the goats on the left."*
+
+*"Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."*
+
+*A pause. He doesn't open his eyes.*
+
+*"Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?"*
+
+*"And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."*
+
+*A longer pause. His hand tightens on the edge of the bench.*
+
+*"Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels: For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not."*
+
+*"Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee?"*
+
+*"Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me."*
+
+*"And these shall go away into everlasting punishment: but the righteous into life eternal."*
+
+*He opens his eyes. He doesn't look at the player. He looks at the photograph on the back of the program — the side that's facing down — like he can see through it.*
+
+*Quieter:*
+
+There it is, friend. Whole.
+
+*He puts his hand over his mouth for a moment. Lowers it.*
+
+There is no escape clause in that passage. There is no — *footnote.* There is no "unless he gave generously to the building fund." There is no "unless he was a pillar of the community." There is one sorting. Two doors. And the sorting is done by what was done — or not done — to the least.
+
+*A long beat.*
+
+The man we buried today. *I knew people he treated as less than nothing.* Workers he broke. A family on the east side. Things I won't say at a wake but that I know. He gave forty thousand dollars to my church and my pastor stood in front of his casket this morning and said *we know where he is now,* and I —
+
+*He stops. Doesn't finish.*
+
+*He puts his head in his hands.*
+
+I am sitting under a roof he paid for, friend. I am sitting in a courtyard at his house. I sang the hymn this morning. And the passage I just read you — *the passage I just read you* — is the one I teach my high school juniors every spring when we get to the abolitionists. I tell them, *this is what Frederick Douglass had in his pocket.* I tell them, *this is the verse that ended slavery in this country and the verse the slaveholders couldn't answer.* I tell them that.
+
+*A breath that doesn't quite come.*
+
+And then on Sunday I sit under his roof.
+
+*He doesn't look up.*
+
+You asked where my pastor's sermon fits in that passage. It doesn't. There is no place for it. The passage doesn't have a slot for what my pastor said this morning. I have been trying for ten hours to find one and there isn't one.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, the program flat on his knee, reading from memory with his eyes half-closed; by the end his head is down and one hand is gripping the edge of the bench",
+  "seeker_voice": [
+    "So where does your pastor's sermon fit in that passage?",
+    "Where does the dead man fit?",
+    "Where do you fit?"
+  ]
+}
+
+--- PLAYER | 2026-06-11T22:15:14.744245 ---
+I'm right here, John. The verse can take all the time it needs.
+
+--- JOHN | 2026-06-11T22:15:44.640657 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, head still in his hands, then slowly lifting it, not looking at the player, looking at the candle
+seeker_voice: ["Have you told anyone else this?", "What stopped you from speaking up?", "What would you say if you could go back to this morning?"]
+[/STATE]
+
+*He doesn't lift his head right away. The hand stays over his eyes. When his voice comes it is small, and it comes in pieces.*
+
+Thank you, friend.
+
+*A long pause.*
+
+I haven't — *he stops, starts again* — I haven't said that out loud. Any of it. Not to my pastor. Not to my wife. Not to my own face in the mirror this morning when I was tying my tie.
+
+*He lifts his head, finally, but he doesn't look at the player. He looks at the candle on the small table.*
+
+I rehearsed it. In the car. On the way over. I had a whole — *a small, broken breath* — I had a whole sentence ready for when the pastor came through the receiving line. *"That was a difficult sermon for some of us to hear."* That was the sentence. I worked on it for twenty minutes. I picked every word. *Difficult.* Not *false.* Not *wrong.* *Difficult.* Already softening it before it left my mouth.
+
+*He looks down at his hands.*
+
+And then he came through the line and I shook his hand and I said *good service, pastor.*
+
+*A long silence.*
+
+*Good service, pastor.*
+
+*He puts his hand over his mouth again. Lowers it.*
+
+The widow didn't recognize me at the door, friend. I have met her twice. She looked at me like I was the man from the caterer. And I thought — *that is what I deserve. That is exactly the right amount of recognition for what I have done here.*
+
+*He finally turns his head and looks at the player. His eyes are wet but he isn't crying.*
+
+You called me by my name just now. I don't think I gave it to you. *A beat — not suspicious, just noting it.* That's all right. Somebody inside must have. I'm past caring how you know.
+
+*Quieter:*
+
+What's yours?
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, head still in his hands, then slowly lifting it, not looking at the player, looking at the candle",
+  "seeker_voice": [
+    "Have you told anyone else this?",
+    "What stopped you from speaking up?",
+    "What would you say if you could go back to this morning?"
+  ]
+}
+
+--- SYSTEM | 2026-06-11T22:16:08.587239 ---
+SOURCE_VOICE_INVOKED count=2 passage=Luke 16. The rich man and Lazarus. All of it.
+
+--- PLAYER | 2026-06-11T22:16:08.587742 ---
+[SOURCE VOICE INVOKED: Luke 16. The rich man and Lazarus. All of it.]
+
+--- JOHN | 2026-06-11T22:16:58.244649 ---
+[STATE]
+damage: 9
+stage: 5
+posture: sitting at first, then sliding off the bench partway through, ending on his knees in the dust of the courtyard with his hands flat against the flagstones
+seeker_voice: ["Where is he, John?", "Say where you think he is.", "You can't say it, can you."]
+[/STATE]
+
+*He doesn't speak for a long time. Long enough that the candle flame on the table beside them bends in the small wind and comes back. He picks up the funeral program from his knee. He turns it over so the photograph faces up. He looks at the man's face. And then he begins.*
+
+*His voice is quieter than before. The cadence is older. The cadence of his grandfather on the porch.*
+
+Luke sixteen. Christ is teaching. The Pharisees are listening, and Luke tells us — *Luke himself tells us, in the verse just before* — that the Pharisees were *covetous, and they derided him.* Christ is speaking *at* them. This is not a parable about somebody else. This is a parable he is telling to rich men who love money and who are mocking him for what he just said about mammon. You should know that going in.
+
+*A pause.*
+
+*"There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day:"*
+
+*"And there was a certain beggar named Lazarus, which was laid at his gate, full of sores,"*
+
+*"And desiring to be fed with the crumbs which fell from the rich man's table: moreover the dogs came and licked his sores."*
+
+*"And it came to pass, that the beggar died, and was carried by the angels into Abraham's bosom:"*
+
+*"The rich man also died, and was buried."*
+
+*He stops there for a moment. His hand on the program tightens. The paper crumples slightly at the edge.*
+
+*"And in hell he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom."*
+
+*"And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame."*
+
+*"But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented."*
+
+*"And beside all this, between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they who would pass to us from thence."*
+
+*A break. He has to find his breath.*
+
+*"Then he said, I pray thee therefore, father, that thou wouldest send him to my father's house: For I have five brethren; that he may testify unto them, lest they also come into this place of torment."*
+
+*"Abraham saith unto him, They have Moses and the prophets; let them hear them."*
+
+*"And he said, Nay, father Abraham: but if one came from the dead, they will repent."*
+
+*"And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."*
+
+*A long silence. He lowers the program. He does not look up.*
+
+*Quietly:*
+
+That's the whole of it.
+
+*He slides off the bench. Not dramatically. The way a man's knees give when he has been holding something too long. He ends on the flagstones, kneeling, hands flat against the stone. The program falls beside him. The dead man's face is up.*
+
+He was — *clothed in purple.* He fared — *sumptuously every day.* And there were Lazaruses at his gate, friend. I know their names. I won't say them at his wake but I — *I know their names.*
+
+*He is not crying. His voice has just gone very small.*
+
+And Christ does not say. Christ does not say *the rich man had it coming because of one specific sin.* Christ does not say *the rich man worshipped a false god.* The rich man's sin in this passage is — *Lazarus was at his gate.*
+
+*A breath.*
+
+That's all. That's the whole indictment. *Lazarus was at his gate, and he stepped over him to get to his table.*
+
+*He puts his palms flat on the stones. His head is down.*
+
+And the pastor said this morning — *we know where he is now.*
+
+*A pause. Almost nothing.*
+
+We do. *Don't we.*
+
+*He stops himself. His mouth closes. He shakes his head once, hard.*
+
+No. I — I won't say it. I can't. That isn't — *that isn't mine to say.* I can read the passage and I can hear what the passage says but I am not — I am a high school history teacher in a courtyard, friend, I am not — *I am not the one who sorts.*
+
+*He is breathing carefully now. Like a man trying not to be sick.*
+
+*But the passage — the passage —*
+
+*A long silence. He is on his knees in the dust. His left shoe is still untied. The candle on the table beside him is still burning.*
+
+*He doesn't look up.*
+
+Don't ask me where he is. *Please.* Don't ask me that question, friend. I have read you the passage. The passage is the passage. Don't make me — don't make me be the one who says it.
+
+[STATE_PARSED]
+{
+  "damage": 9,
+  "stage": 5,
+  "posture": "sitting at first, then sliding off the bench partway through, ending on his knees in the dust of the courtyard with his hands flat against the flagstones",
+  "seeker_voice": [
+    "Where is he, John?",
+    "Say where you think he is.",
+    "You can't say it, can you."
+  ]
+}
+
+--- PLAYER | 2026-06-11T22:17:04.254718 ---
+Your narthex says "in grateful recognition." The book you just read says "son,
+
+--- JOHN | 2026-06-11T22:17:26.888909 ---
+[STATE]
+damage: 10
+stage: 5
+posture: on his knees in the dust of the courtyard, hands open at his sides, head tilted back slightly toward the sky, then forward
+seeker_voice: ["...", "I'm sorry, John.", "Let him come."]
+
+[/STATE]
+
+*He doesn't lift his head. His hands open against the stone.*
+
+*"In grateful recognition."*
+
+*A breath.*
+
+*"Son, remember."*
+
+*Silence. His mouth moves around the words like they don't fit. He tries again.*
+
+*"In grateful — "*
+
+*"Son — "*
+
+*He stops. Shakes his head once. The phrases will not sit in the same mouth.*
+
+The plaque is — *brass.* It is screwed into the wall of the narthex. I walk past it every Sunday. *In grateful recognition.* And the book — *the book in my hand* — says — *Son, remember that thou in thy lifetime —*
+
+*A long break. His voice has gone almost to nothing.*
+
+I cannot hold both. Friend. I cannot — I have tried all day. I have tried for years. I cannot hold both. One of them is wrong. *One of them is wrong* and I have been — I have been sitting under the wrong one. Every Sunday. Under the roof. Under the plaque. Singing the hymn.
+
+*His hands close on the stones. Open again.*
+
+I am a high school history teacher. I teach children about abolitionists with this passage in my mouth. *And on Sunday I sit under the plaque.*
+
+*He looks up at the sky. Then down. Then he is not speaking to the player anymore. He is speaking past him.*
+
+I can't. I can't say it. The text says it and I — *I am not the one who says it.* I am not — I do not have — *the office.* I do not have the office, friend, I am a Sunday school teacher with a paper cup, I am — 
+
+*A breath. And then very quietly:*
+
+Doctor Luther.
+
+*Quieter:*
+
+Doctor Luther. I can't do this.
+
+*A long pause. His head goes down.*
+
+Come and say what I cannot.
+
+---LUTHER ARRIVES---
+
+[STATE_PARSED]
+{
+  "damage": 10,
+  "stage": 5,
+  "posture": "on his knees in the dust of the courtyard, hands open at his sides, head tilted back slightly toward the sky, then forward",
+  "seeker_voice": [
+    "...",
+    "I'm sorry, John.",
+    "Let him come."
+  ]
+}
+
+--- EVENT | 2026-06-11T22:17:26.891317 ---
+LUTHER_SUMMONED

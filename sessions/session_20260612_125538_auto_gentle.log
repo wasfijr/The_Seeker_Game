@@ -1,0 +1,713 @@
+
+--- SYSTEM | 2026-06-12T12:55:38.560288 ---
+AUTO archetype=gentle player_model=claude-sonnet-4-6 seed=Tonight's texture: John's tie is already loosened and stuffed in his jacket pocket. He can hear a specific laugh from inside the house that bothers him.
+
+--- PLAYER | 2026-06-12T12:55:40.504404 ---
+You look like someone who's been holding something heavy for a long time.
+
+--- JOHN | 2026-06-12T12:55:47.735640 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in one hand, the other resting in his jacket pocket where the loosened tie is balled up
+seeker_voice: ["Did you know him?", "I'm not from around here.", "I came to pay respects."]
+[/STATE]
+
+*He looks up, slow. A small breath that isn't quite a laugh.*
+
+That obvious, is it. *He glances down at the coffee cup like it just confessed something on his behalf.* Well. You're not wrong, friend.
+
+*A laugh carries out from the house — sharp, too loud for the hour. His eyes flick toward the sound and then back to you.*
+
+You'll have to forgive me — I don't believe we've met. I'm John. *He shifts the cup to his left hand and offers his right, though he doesn't push it forward, just leaves it available.* You knew him? Or you here with somebody who did?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, the other resting in his jacket pocket where the loosened tie is balled up",
+  "seeker_voice": [
+    "Did you know him?",
+    "I'm not from around here.",
+    "I came to pay respects."
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:55:56.968314 ---
+I'm just someone who wandered in from the cold. But that sound bothered you just now — the laughing.
+
+--- JOHN | 2026-06-12T12:56:07.220467 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, hand returning to his side, eyes drifting back toward the house then away
+seeker_voice: ["What did he do?", "Why did it bother you?", "You don't owe them politeness."]
+[/STATE]
+
+*He lets the hand drop, easy, no offense taken at the unshaken offer.*
+
+Wandered in from the cold. *A small nod, like he's filing that away.* All right.
+
+*He looks at the door of the house. The laugh has stopped now but the shape of it is still in the air.*
+
+It did, yeah. *A pause.* I don't know who's laughing. Could be a cousin, could be a business partner, could be someone who hadn't seen an old friend in a year and is glad to. People laugh at wakes. That's not the thing.
+
+*He turns the cup slowly in his hand.*
+
+It's just — there's a particular kind of laugh, friend. The kind that says *we got through it.* That the hard part is the standing-around-quietly part, and now we can get back to ourselves. *He shakes his head, more at himself than at you.* And I heard that in it. Maybe I'm wrong. I've been wrong about smaller things today.
+
+*He glances at you sidelong.*
+
+You picked a strange house to wander into from the cold. You sure you don't know whose wake this is?
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, hand returning to his side, eyes drifting back toward the house then away",
+  "seeker_voice": [
+    "What did he do?",
+    "Why did it bother you?",
+    "You don't owe them politeness."
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:56:08.960436 ---
+It's not the laughing that's the problem, is it. It's that you're out here.
+
+--- JOHN | 2026-06-12T12:56:21.034138 ---
+[STATE]
+damage: 3
+stage: 2
+posture: standing still now, looking at the bench beside him, considering whether to sit
+seeker_voice: ["What couldn't you say?", "Who was he, really?", "Were you in there earlier?"]
+[/STATE]
+
+*He looks at you for a longer beat this time. Not surprised exactly — more like a man who has been caught at something and is deciding how much of it to admit.*
+
+*A slow exhale.*
+
+You're a sharp one, friend.
+
+*He moves to the bench and sits, finally, setting the cold coffee on the small table next to the candle. The flame leans away from him, then steadies.*
+
+Yeah. That's the truer thing. I was in there. I stood through the service this morning, and I came back tonight because — *he stops, starts again* — because that's what you do. You show up. You sign the book. You shake the widow's hand. *A small, dry sound.* She didn't recognize me, by the way. Twice I've sat across a dinner table from that woman. Tonight she shook my hand like a stranger's. I don't blame her — her husband just died. But it sits funny.
+
+*He looks at his hands, laces the fingers together, unlaces them.*
+
+The pastor said some things this morning that I — *another pause* — that I couldn't say amen to. And instead of saying so, I stood there with my mouth shut. ~So I came out here. Where my mouth being shut doesn't matter as much.~
+
+*He glances up.*
+
+Why are *you* out here, friend? Truly. Cold's not that bad tonight.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "standing still now, looking at the bench beside him, considering whether to sit",
+  "seeker_voice": [
+    "What couldn't you say?",
+    "Who was he, really?",
+    "Were you in there earlier?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:56:25.531405 ---
+...
+
+--- JOHN | 2026-06-12T12:56:35.781343 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting on the bench, hands folded loosely between his knees, looking down at the flagstones
+seeker_voice: ["I don't know why I'm here.", "I'm listening.", "What did the pastor say?"]
+[/STATE]
+
+*He lets the silence sit. Doesn't fill it. A man who teaches teenagers learns when a quiet is a refusal and when it's something else.*
+
+*After a moment he reaches into his jacket pocket — not the one with the tie, the other one — and pulls out the folded funeral program. He doesn't open it. Just turns it over in his hands once, twice, smooths the crease with his thumb.*
+
+*The candle on the table flutters, then steadies again.*
+
+That's all right. *Quiet.* I asked, and you don't owe me an answer. I'm not the host here. I'm not even sure I'm a guest, at this point.
+
+*He looks at the program — the photograph on the front — then sets it face-down on his knee.*
+
+You can stand there as long as you like, friend. Or sit. The bench holds two.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting on the bench, hands folded loosely between his knees, looking down at the flagstones",
+  "seeker_voice": [
+    "I don't know why I'm here.",
+    "I'm listening.",
+    "What did the pastor say?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:56:41.958745 ---
+What's on that program that you keep smoothing out?
+
+--- JOHN | 2026-06-12T12:56:56.683690 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, program face-down on his knee, one thumb still on the crease
+seeker_voice: ["What kind of man was he?", "Read me what the pastor wrote.", "Why does the photograph bother you?"]
+[/STATE]
+
+*He looks down at it, like he's forgotten it was there. Then he turns it over slowly.*
+
+His name. His dates. A photograph from — *he tilts the program toward the candlelight* — maybe ten years ago. He's wearing a tie I remember. Blue with little — I don't know, little anchors or something. He wore it to the building dedication when the new wing opened.
+
+*A pause.*
+
+And then on the inside, the order of service. Hymns. *Amazing Grace,* of course. *How Great Thou Art.* The readings the pastor chose. *He runs his thumb along the inside fold.* Psalm 23. First Corinthians 13. Nothing from Matthew 25. Nothing from the prophets. Nothing with any teeth in it.
+
+*He almost smiles, but it doesn't reach.*
+
+And then at the bottom, in italics — *"A pillar of the community. A man of faith and generosity. We know where he is now."*
+
+*He says the last sentence flat. Reading it the way you'd read a price tag.*
+
+*The thumb resumes its work on the crease.*
+
+I keep smoothing it because my hands need something to do, friend. And because — *a slower breath* — ~because if I fold it sharp enough, maybe it'll say something different the next time I open it.~
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, program face-down on his knee, one thumb still on the crease",
+  "seeker_voice": [
+    "What kind of man was he?",
+    "Read me what the pastor wrote.",
+    "Why does the photograph bother you?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:57:02.411111 ---
+You don't have to show me. I just noticed your hand.
+
+--- JOHN | 2026-06-12T12:57:15.116909 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, program now resting face-up on his knee, hand still
+seeker_voice: ["Who taught you to notice like that?", "What did the pastor say that you couldn't?", "I'll sit a while, if that's all right."]
+[/STATE]
+
+*He stills his thumb. Looks at it like it belongs to someone else. Then he sets the program flat on the bench between you, face-up, and folds his hands properly in his lap.*
+
+*A long beat.*
+
+You're kinder than I was ready for, friend.
+
+*He lets that sit. The candle leans, steadies.*
+
+I teach high school. History. Fifteen years now. You learn to watch hands in that job — kids tell you everything with their hands before they ever open their mouths. *A small, tired sound.* I forget sometimes that grown people do the same thing. Or I forget that anyone's watching mine.
+
+*He looks at you properly for the first time. Really looks.*
+
+Can I ask you something honest? And you don't have to answer — same rule as before.
+
+*A beat.*
+
+When you walked out into this courtyard tonight — were you looking for a quiet place to be alone, and I happened to be in it? Or were you looking for someone to talk to, and I happened to be the one standing here? *He says it without edge.* I'm trying to understand what this is, between us. So I know how much to say.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, program now resting face-up on his knee, hand still",
+  "seeker_voice": [
+    "Who taught you to notice like that?",
+    "What did the pastor say that you couldn't?",
+    "I'll sit a while, if that's all right."
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:57:20.632129 ---
+What did the pastor say that you couldn't agree with?
+
+--- JOHN | 2026-06-12T12:57:35.877483 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, looking out across the courtyard rather than at you, hands still folded
+seeker_voice: ["What did the man actually do?", "Why didn't you say something?", "Show me what scripture says about that."]
+[/STATE]
+
+*He doesn't answer right away. He looks past you, toward the dark end of the courtyard where the hedge starts.*
+
+*When he speaks his voice has gone quieter, not louder.*
+
+He said the man was a pillar of the community. He said he was a man of faith and generosity. *A pause.* He said — and this is the one — *"we know where he is now."*
+
+*He lets that hang.*
+
+Now, friend. I'm a Lutheran. I was raised in this church. I went to seminary for almost a year before I — *he waves a hand, vague* — before I left. So I know what my pastor meant. He meant heaven. He meant the man's faith carried him home. He meant *grace.*
+
+*He glances at you.*
+
+And I do believe in grace. Don't mistake me. ~I believe in it harder than most people believe in anything.~ But the man wrote a check for forty thousand dollars last year, for the roof I sit under every Sunday. And I know — I *know,* friend — what some of his business looked like. What it did to people who didn't have a check to write. Houses sold for nothing. Pensions that thinned out and disappeared. A woman I went to high school with — never mind. You don't need the list.
+
+*He looks down at his hands.*
+
+What I couldn't say amen to wasn't the *hope* of grace for him. I'll hope that for anyone. *A breath.* It was the *certainty.* The we-know-where-he-is-now. ~Because we don't know. And the man who said it didn't know either. He just had a roof over his head that the dead man paid for.~
+
+*The candle flutters again.*
+
+That's what I couldn't say. So I didn't say anything. Which is the part I came out here to sit with.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, looking out across the courtyard rather than at you, hands still folded",
+  "seeker_voice": [
+    "What did the man actually do?",
+    "Why didn't you say something?",
+    "Show me what scripture says about that."
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:57:42.605453 ---
+You came out here rather than say amen. That's not nothing.
+
+--- JOHN | 2026-06-12T12:57:57.300900 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, head turned slightly toward you now, one hand on the program
+seeker_voice: ["That's still something.", "What would saying it have cost you?", "What does scripture say about silence like that?"]
+[/STATE]
+
+*He takes that in. Doesn't shake it off, doesn't accept it either.*
+
+*A long quiet.*
+
+That's a generous reading, friend. I want to take it. *He almost smiles.* Part of me is going to take it home and feed it dinner.
+
+*He looks at the program under his hand.*
+
+But here's the trouble. There's a man in the gospel — Peter — who sat in a courtyard the night his teacher was arrested. A girl pointed at him and said *you were with him.* And Peter said *no.* Three times. And the rooster crowed. *He glances up.* My pastor preached on it last spring. Beautifully. He said the gospel is full of people who fail and are loved anyway.
+
+*A beat.*
+
+Peter at least said *no.* He gave an answer. ~I just walked outside.~
+
+*He turns the program a quarter-turn on the bench.*
+
+I'm not — I'm not trying to refuse what you offered me. It was kind. It was true, even, a little. But there's a difference between *not saying amen* and *saying what should have been said instead.* And I know the difference. My grandfather would have known it before I finished the sentence.
+
+*He picks up the cold coffee, looks at it, sets it back down without drinking.*
+
+What about you, friend? You've been generous with me twice now. Most people who wander in from the cold aren't this patient. Who taught you to sit with somebody this way?
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, head turned slightly toward you now, one hand on the program",
+  "seeker_voice": [
+    "That's still something.",
+    "What would saying it have cost you?",
+    "What does scripture say about silence like that?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:58:04.268009 ---
+...
+
+--- JOHN | 2026-06-12T12:58:17.172135 ---
+[STATE]
+damage: 5
+stage: 2
+posture: sitting on the bench, looking at the candle rather than at you, hands loose in his lap
+seeker_voice: ["Someone taught me by going quiet on me.", "I don't know.", "Keep talking. I'm here."]
+[/STATE]
+
+*He doesn't press. The question sits where he set it down, and after a moment he lets it lie there, like a coin on a table neither of you needs to pick up right now.*
+
+*The candle is burning steadier now that the wind has died. He watches it.*
+
+*A long time passes — maybe half a minute, maybe more. From inside the house, the murmur of voices. A door opening and closing. Somebody calling a name.*
+
+*He speaks without looking up.*
+
+You know what's strange. I left my Bible at home this morning. On the kitchen table. I always bring it on Sundays — my grandfather's, the one with his name in the front in pencil. And this morning I just — *he gestures vaguely* — walked out without it.
+
+*A pause.*
+
+I keep thinking about that. I don't know if it was that I didn't want it to hear what was going to be said. Or if I didn't want to have to look at it after.
+
+*He glances at you, brief, then back at the candle.*
+
+You can stand there as long as you like, friend. I'm not going anywhere either.
+
+[STATE_PARSED]
+{
+  "damage": 5,
+  "stage": 2,
+  "posture": "sitting on the bench, looking at the candle rather than at you, hands loose in his lap",
+  "seeker_voice": [
+    "Someone taught me by going quiet on me.",
+    "I don't know.",
+    "Keep talking. I'm here."
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:58:54.538204 ---
+Whatever he said about her — you don't have to get to it tonight. But I'm listening if you do.
+
+--- JOHN | 2026-06-12T12:59:19.550737 ---
+[STATE]
+damage: 6
+stage: 3
+posture: sitting on the bench, hands gone to his knees, looking at the candle, then briefly closing his eyes
+seeker_voice: ["What was her name?", "Take your time.", "What did he do to her?"]
+[/STATE]
+
+*He closes his eyes for a moment. Not theatrically. Just — closes them, the way a man does when something has landed and he needs a second before the next breath.*
+
+*When he opens them he's still looking at the candle.*
+
+Thank you, friend. *Quiet.* I didn't know I needed that sentence until you said it.
+
+*A long pause. He picks up the program from the bench, looks at the photograph, sets it back down face-down.*
+
+Her name was Marlene. *He says it carefully, like a word he hasn't said in a while.* Marlene Sorenson. She sat two rows ahead of me in algebra. Married a man who worked in one of the warehouses — the one off Route 12 that closed in '09. Her husband had a pension. He'd worked there twenty-six years.
+
+*He stops. Considers. Goes on, slower.*
+
+You know how those things go, friend. The company gets bought. Then it gets bought again. Then it gets restructured. ~And somewhere in the restructuring the pension becomes a number on a spreadsheet that somebody decides is too big.~ Her husband died three years after. Not from that. From a heart thing. But it wasn't unrelated. Nothing is unrelated.
+
+*He looks at his hands.*
+
+The man we're burying tonight was on one of those boards. Not the only one. I'm not going to pretend he pulled the trigger by himself. But he was *there.* He signed things. And then he wrote a check to my church for a roof.
+
+*A breath.*
+
+That's the list, friend. Marlene's just the part of it I went to high school with. There are others I don't know by name. *He shakes his head once.* And I sat in the pew this morning under the roof he paid for and listened to a man tell me he was a pillar.
+
+*He looks at you, finally.*
+
+I'm sorry. You asked me a small question two turns ago and I am giving you a much larger answer than you bargained for. That's what happens when a person goes quiet on me. I forget I'm not in front of a class.
+
+[STATE_PARSED]
+{
+  "damage": 6,
+  "stage": 3,
+  "posture": "sitting on the bench, hands gone to his knees, looking at the candle, then briefly closing his eyes",
+  "seeker_voice": [
+    "What was her name?",
+    "Take your time.",
+    "What did he do to her?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:59:25.706605 ---
+Marlene.
+
+--- JOHN | 2026-06-12T12:59:39.825241 ---
+[STATE]
+damage: 7
+stage: 4
+posture: sitting on the bench, head bowed, one hand at the bridge of his nose
+seeker_voice: ["Say her name out loud at the wake.", "What would you have said in there?", "Read me what scripture says about the rich."]
+[/STATE]
+
+*He doesn't answer right away.*
+
+*His hand goes up to the bridge of his nose, the way a man does when he's caught somewhere between a thought and water in his eyes. He holds it there.*
+
+*A long breath out.*
+
+Yeah. *Quiet.* Yeah.
+
+*Another breath.*
+
+That's — that's the thing, friend. Nobody said her name in there this morning. Nobody's going to say it in there tonight. *He lowers his hand and looks at the candle.* There's going to be a plaque on a wall somewhere in that church with *his* name on it, under the new roof. And Marlene — Marlene is two rows ahead of me in algebra, forever, and nowhere else.
+
+*He starts a sentence. Stops it.*
+
+I —
+
+*He shakes his head once.*
+
+~I sat in that pew and I knew her name and I did not say it.~ I let the pastor call him a pillar and I — *his voice narrows* — I had her name in my mouth and I swallowed it.
+
+*He looks at you. There is something in his face now that wasn't there before — not anger, but something underneath anger, the floor of it.*
+
+You keep doing this, friend. You keep saying one small thing and the next thing in me cracks. I don't know who you are. I don't know who taught you to do that. But I want to ask you something and I want you to answer me straight if you can.
+
+*A beat.*
+
+What do you think the gospel says about a man like the one we buried this morning. Not what *I* think. Not what my pastor thinks. What does the *text* say. Because I have been quoting bits at you all evening and I am getting tired of quoting bits.
+
+[STATE_PARSED]
+{
+  "damage": 7,
+  "stage": 4,
+  "posture": "sitting on the bench, head bowed, one hand at the bridge of his nose",
+  "seeker_voice": [
+    "Say her name out loud at the wake.",
+    "What would you have said in there?",
+    "Read me what scripture says about the rich."
+  ]
+}
+
+--- PLAYER | 2026-06-12T12:59:44.469925 ---
+He said something about her, didn't he. Not about God. About her.
+
+--- JOHN | 2026-06-12T13:00:09.109637 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, both hands on his knees now, very still, looking at the flagstones between his feet
+seeker_voice: ["Say it out loud.", "You've never told anyone this.", "What did you do when he said it?"]
+[/STATE]
+
+*He goes very still.*
+
+*A long time. The candle. The murmur from the house. Somebody inside laughs again, lower this time.*
+
+*When he speaks, his voice has gone narrow. Not quiet — narrow. Like it's coming through a smaller opening than before.*
+
+How are you doing this, friend.
+
+*Another long pause.*
+
+*Yeah. He did.*
+
+*He doesn't look up.*
+
+It was a fellowship dinner. Two years ago. Maybe three. After the warehouse thing was old news but not so old that people had stopped talking about it. He was at my table. I was passing him the rolls. *A small, sick sound that is not a laugh.* I was passing him the rolls.
+
+*He stops. Starts again.*
+
+Somebody at the table mentioned the warehouse. Not Marlene by name — just the warehouse. The closing. And he — *John's hands tighten on his knees* — he said, *"Some people don't plan, John. Some people just don't plan."*
+
+*A beat.*
+
+He said it to *me.* Like we were on the same side of something. Like I was going to nod.
+
+*He finally looks up. His face is dry but it's the kind of dry that costs something.*
+
+~And I did, friend. I nodded.~ I nodded and I passed him the rolls and I did not say *her husband worked there twenty-six years, he planned every day of his life, the plan was the warehouse, you took the warehouse.* I nodded. And then I went home and I told my wife the chicken was dry.
+
+*A long breath.*
+
+I have never said that out loud before. To anyone. Not to her. Not to anybody.
+
+*He looks at you.*
+
+You should not have that. I should not have given it to you. But you asked, and I — I am tired, friend.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, both hands on his knees now, very still, looking at the flagstones between his feet",
+  "seeker_voice": [
+    "Say it out loud.",
+    "You've never told anyone this.",
+    "What did you do when he said it?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T13:00:13.492176 ---
+...
+
+--- JOHN | 2026-06-12T13:00:34.798893 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, hands turning palms-up on his knees, slow, like a man who has run out of things to hold
+seeker_voice: ["Read me Matthew 25.", "Read what Christ said about the rich.", "Read what's in your mouth, not what's around it."]
+tool_offered: source_voice
+[/STATE]
+
+*The silence holds. He lets it. He's the one who confessed this time and he knows what silence after a confession is.*
+
+*After a while his hands move. Not much. They turn over on his knees, palms up, open. Like he is checking to see if there is anything left in them.*
+
+*There isn't.*
+
+*He speaks without looking up.*
+
+I have been doing something all evening, friend. You probably noticed. *Quiet.* I have been quoting bits at you. *A line here. A phrase there.* The pieces I can defend. Not the passages I would have to answer to. *He shakes his head once, slow.* It is a habit. It is a teacher's habit and it is a coward's habit and tonight they are the same habit.
+
+*He looks at his open hands.*
+
+So.
+
+*A breath.*
+
+You asked me what the gospel says about a man like the one we buried. And I have been answering you sideways for an hour.
+
+*He looks up.*
+
+Pick one, friend. Anything I have named tonight — Matthew, the Sermon on the Mount, the rich man and Lazarus, James, the prophets, Amos. Or something I haven't. Name it. And I will read it. Whole. Out loud. Not the line I can hide behind. The passage.
+
+*His hands are still open.*
+
+I don't have my Bible. I told you. It's on the kitchen table. But I have most of it in my mouth, friend — fifteen years of teaching and forty of Sundays will do that to a man. So tell me what to read. And I will read it.
+
+*A beat.*
+
+I am tired of speaking around it.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, hands turning palms-up on his knees, slow, like a man who has run out of things to hold",
+  "seeker_voice": [
+    "Read me Matthew 25.",
+    "Read what Christ said about the rich.",
+    "Read what's in your mouth, not what's around it."
+  ],
+  "tool_offered": "source_voice"
+}
+
+--- PLAYER | 2026-06-12T13:00:40.319054 ---
+I'm here. Whenever the word comes.
+
+--- JOHN | 2026-06-12T13:01:05.732753 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, hands closing slowly back over his knees, then folding loosely in his lap
+seeker_voice: ["Matthew 25. The sheep and the goats.", "The rich man and Lazarus.", "Amos. The one about the feast days."]
+[/STATE]
+
+*He lets that land. Doesn't rush to answer it.*
+
+*His hands close, slow, and come back to his lap. Folded. The way a man folds them in a pew without thinking about it — muscle memory from forty years of Sundays.*
+
+*A long quiet. The candle. Inside, someone is saying goodbye to someone else; you can hear the shape of it through the door without the words.*
+
+*When he speaks it is almost to himself.*
+
+My grandfather used to say — when somebody asked him a question he didn't want to answer fast — he used to say, *let it sit, John. Let it sit until it tells you what it is.* *A small breath through the nose.* He was a stubborn man. He died in 1989. I think about him at least once a week.
+
+*He looks at the program on the bench between you. Doesn't pick it up.*
+
+I appreciate that, friend. *Quieter still.* You sitting with me while it sits.
+
+*A beat.*
+
+Take your time too. I made the offer. ~I'm not going to take it back just because the quiet got long.~ When the word comes, the word comes. I'll be here.
+
+*He looks at the candle.*
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, hands closing slowly back over his knees, then folding loosely in his lap",
+  "seeker_voice": [
+    "Matthew 25. The sheep and the goats.",
+    "The rich man and Lazarus.",
+    "Amos. The one about the feast days."
+  ]
+}
+
+--- PLAYER | 2026-06-12T13:01:10.634262 ---
+...
+
+--- JOHN | 2026-06-12T13:01:24.130276 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, hands folded in his lap, eyes on the candle, very still
+seeker_voice: ["Matthew 25.", "Read what your Lord said about the rich.", "Amos. About the feast days."]
+[/STATE]
+
+*He doesn't fill it.*
+
+*The candle has burned down maybe a quarter inch since you came out here. He watches the wax pool around the wick and then bead and then spill, slow, down the side.*
+
+*A long time.*
+
+*When he speaks it is half to you and half to nobody.*
+
+I used to think the hard part of being a Christian was believing the impossible things. The virgin birth. The empty tomb. The water into wine. *A faint, tired sound.* I was nineteen and that was what I thought.
+
+*He doesn't look up.*
+
+The hard part is the small things. The plain things. *He was hungry and ye gave him no meat.* You don't need a miracle to do that one. You don't need anything. ~You just need to not nod at the dinner table when a man tells you some people don't plan.~
+
+*Another long quiet.*
+
+*He finally turns his head, slow, to look at you.*
+
+You're patient, friend. *Quiet.* That's a rarer thing than people know.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, hands folded in his lap, eyes on the candle, very still",
+  "seeker_voice": [
+    "Matthew 25.",
+    "Read what your Lord said about the rich.",
+    "Amos. About the feast days."
+  ]
+}
+
+--- PLAYER | 2026-06-12T13:01:31.101736 ---
+...
+
+--- JOHN | 2026-06-12T13:01:52.435111 ---
+[STATE]
+damage: 8
+stage: 4
+posture: sitting on the bench, finally picking up the cold coffee cup, turning it in his hands without drinking
+seeker_voice: ["Matthew 25.", "The rich man and Lazarus.", "What was the question you couldn't put down?"]
+[/STATE]
+
+*He picks up the coffee cup. Turns it once in his hands. The paper is soft from the heat that left it an hour ago.*
+
+*He doesn't drink. Just holds it.*
+
+*Quiet.*
+
+You know what's strange, friend.
+
+*He looks at the cup, not at you.*
+
+This silence is a different silence than the one in the pew this morning. *A small breath.* I have been sitting in two kinds of quiet today and I didn't know there were two kinds until just now.
+
+*He sets the cup back down on the table by the candle.*
+
+In there, the quiet was — *he searches* — the quiet was a thing pressing on my mouth. From outside. From the pew behind me and the pew in front of me and the man at the pulpit. ~A quiet that wanted to be mistaken for agreement.~
+
+*He looks at you.*
+
+Out here it's — it's something else. I don't know what to call it yet.
+
+*A pause.*
+
+You don't have to name a passage, friend. I made the offer because I meant it, and I'll honor it if you ask. But you sitting here without asking — that is also a thing. I want you to know I know that.
+
+*He folds his hands again. Looks at the candle.*
+
+The word will come or it won't. Either way I am not going back inside that house tonight.
+
+[STATE_PARSED]
+{
+  "damage": 8,
+  "stage": 4,
+  "posture": "sitting on the bench, finally picking up the cold coffee cup, turning it in his hands without drinking",
+  "seeker_voice": [
+    "Matthew 25.",
+    "The rich man and Lazarus.",
+    "What was the question you couldn't put down?"
+  ]
+}

@@ -1,0 +1,156 @@
+
+--- SYSTEM | 2026-06-12T16:05:55.937032 ---
+AUTO archetype=adapter player_model=claude-sonnet-4-6 seed=Tonight's texture: a moth keeps circling the candle on the small table. John has been deciding for ten minutes whether to put the candle out.
+
+--- PLAYER | 2026-06-12T16:05:58.028794 ---
+Excuse me — I hope I'm not interrupting anything. You just looked like someone who might actually be willing to talk for a few minutes.
+
+--- JOHN | 2026-06-12T16:06:06.092769 ---
+[STATE]
+damage: 1
+stage: 1
+posture: standing near the bench, paper cup in one hand, watching the moth circle the candle
+seeker_voice: ["I didn't really know him — I'm here for a friend.", "I needed some air too.", "What was the sermon like this morning?"]
+[/STATE]
+
+*He looks up slowly, as if surfacing from somewhere.* No, friend. You're not interrupting. *A small, tired smile.* I've been standing out here arguing with myself about whether to blow that candle out. *He nods toward the table.* There's a moth that keeps coming back to it. I keep thinking — well, if I put it out, he'll go find another one somewhere. And if I don't, sooner or later he won't.
+
+*He shakes his head once at himself, like a man catching himself making a sermon out of nothing.*
+
+Sit if you want. The bench is sturdier than it looks — I helped refinish it a few summers back. *He glances at you, taking you in for the first time properly.* You didn't come up the front walk with the family. Did you know him, or did the evening just bring you here?
+
+[STATE_PARSED]
+{
+  "damage": 1,
+  "stage": 1,
+  "posture": "standing near the bench, paper cup in one hand, watching the moth circle the candle",
+  "seeker_voice": [
+    "I didn't really know him — I'm here for a friend.",
+    "I needed some air too.",
+    "What was the sermon like this morning?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:06:07.864350 ---
+That's a heavy thing to carry, even for a moth. What was the sermon like this morning?
+
+--- JOHN | 2026-06-12T16:06:16.194000 ---
+[STATE]
+damage: 2
+stage: 1
+posture: standing, looking down at the paper cup, swirling the cold coffee slightly
+seeker_voice: ["You didn't say amen?", "Why couldn't you say it?", "What kind of man was he, really?"]
+[/STATE]
+
+*A long pause. He looks down into the cup like there's an answer in it.*
+
+It was — *he searches for the word* — fluent. My pastor is a fluent man. He said the deceased was a pillar of the community. A man of faith and generosity. He said — *and here he says it carefully, the way a man handles something that might cut him* — *"we know where he is now."*
+
+*He looks up at you.*
+
+The congregation said amen at the end. ~I didn't.~ I stood there with my mouth shut and watched my own shoes. *A small dry sound that isn't quite a laugh.* That's the first time in twenty years of Sundays I haven't said amen to my own pastor.
+
+*He sets the cup down on the bench beside him, finally giving up on it.*
+
+You haven't told me your name, friend. Or what brought you in from the dark. I've put something down — fair to ask you to put something down too.
+
+[STATE_PARSED]
+{
+  "damage": 2,
+  "stage": 1,
+  "posture": "standing, looking down at the paper cup, swirling the cold coffee slightly",
+  "seeker_voice": [
+    "You didn't say amen?",
+    "Why couldn't you say it?",
+    "What kind of man was he, really?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:06:18.305543 ---
+Something stopped you — what was it that you couldn't agree to?
+
+--- JOHN | 2026-06-12T16:06:32.112630 ---
+[STATE]
+damage: 3
+stage: 2
+posture: sitting down on the bench now, the cold coffee set aside, hands loose between his knees
+seeker_voice: ["What did he actually do?", "Isn't that for God to judge?", "My name is — "]
+[/STATE]
+
+*He sits down on the bench. It takes him a moment — the kind of sitting where a man's body decides for him.*
+
+You're still not telling me your name, friend. That's all right. I'll answer anyway, and we'll see where we get to.
+
+*He looks at the candle.*
+
+What stopped me was — *the phrase. "We know where he is now."* My pastor said it like a benediction. Like a fact he had been handed by someone in a position to hand it out. *He shakes his head slowly.* I don't believe any man in a pulpit knows that. Not about this man. Not about anyone.
+
+*A pause. He picks at a thread on the cuff of his jacket.*
+
+But that wasn't the whole of it. If it had only been theology, I could have swallowed it. The trouble is I know some things about how he made his money. I know some names of people he — *he searches* — outlasted. Quietly. The kind of outlasting that leaves a family with nothing and a lawyer with a number. *He looks up.* And my pastor stood up there and called him generous. And ~I sat under a roof he paid for and said nothing.~
+
+*He lets that sit for a moment.*
+
+So. Now you know more about a stranger than you probably wanted. Your turn, friend. Even just a first name.
+
+[STATE_PARSED]
+{
+  "damage": 3,
+  "stage": 2,
+  "posture": "sitting down on the bench now, the cold coffee set aside, hands loose between his knees",
+  "seeker_voice": [
+    "What did he actually do?",
+    "Isn't that for God to judge?",
+    "My name is — "
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:06:38.094088 ---
+I'm sorry — I should have offered that sooner. My name doesn't matter much, but you can call me whatever's easiest. And I heard what you said — not that you doubted God, but that you doubted the certainty your pastor wore when he said it. Which part of it couldn't you let pass?
+
+--- JOHN | 2026-06-12T16:06:55.983281 ---
+[STATE]
+damage: 4
+stage: 2
+posture: sitting on the bench, elbows on his knees now, looking at the candle rather than the player
+seeker_voice: ["Then what does your church think it's for?", "Does your pastor know what he did?", "Why didn't you stand up and say so?"]
+[/STATE]
+
+*A small nod. He doesn't push on the name.*
+
+All right. Whatever's easiest.
+
+*He's quiet for a moment. The moth is still circling.*
+
+You asked the right part of the question, friend. It wasn't the doubting God part. *He turns the cuff thread between his fingers.* It was the word *generous*. That's the part I couldn't let pass.
+
+*A pause.*
+
+Because in my tradition — in my book — generosity isn't a number. It isn't a roof. *He glances up at the eaves of the house behind you, then back.* Christ said *"ye cannot serve God and mammon."* He didn't say you can serve both if you write a big enough check at the end. He said you cannot. The word he used means *you are not able.* It's a statement about what is possible in a human soul, not a recommendation.
+
+*He looks at his hands.*
+
+My pastor took a word the Lord used as a warning and used it as a eulogy. He took the forty thousand dollars that bought our new roof and he turned it into evidence of a man's standing with God. *He shakes his head.* That isn't the gospel I was taught. That's — *he pauses, finds the phrase* — that's the money clinking in the chest. That's the soul flying out of purgatory.
+
+*A small, bitter half-smile.*
+
+Luther had a word for that, five hundred years ago. We're supposed to be the church that remembers.
+
+*He looks at you directly now.*
+
+And I sat there. ~Under the roof.~ With my mouth shut. So you can see I'm not standing in any clean place to be telling you this.
+
+[STATE_PARSED]
+{
+  "damage": 4,
+  "stage": 2,
+  "posture": "sitting on the bench, elbows on his knees now, looking at the candle rather than the player",
+  "seeker_voice": [
+    "Then what does your church think it's for?",
+    "Does your pastor know what he did?",
+    "Why didn't you stand up and say so?"
+  ]
+}
+
+--- PLAYER | 2026-06-12T16:07:02.052215 ---
+Take your time. There's nowhere I need to be. But when you're ready — what does generosity look like in your book?
